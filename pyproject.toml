@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geometor-lemoine"
+authors = [{name = "phi ARCHITECT", email = "phi@geometor.com"}]
+description = "Scholarly 4-track Book Codex and Dual Minimal-Instrument Constructibility Concordance for Émile Lemoine's Géométrographie, ou Art des constructions géométriques (1902), paired with Mascheroni (1797) and Steiner (1833)."
+readme = "README.rst"
+requires-python = ">=3.13"
+license = {text = "MIT"}
+dynamic = ["version"]
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+]
+
+[project.scripts]
+geometor-lemoine = "geometor.lemoine.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["geometor*"]
+namespaces = true
+
+[tool.setuptools.dynamic]
+version = {attr = "geometor.lemoine.__version__"}
+
+[project.urls]
+"Website" = "https://geometor.github.io/lemoine"
+"Repository" = "https://github.com/geometor/lemoine"
+"Issues" = "https://github.com/geometor/lemoine/issues"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"

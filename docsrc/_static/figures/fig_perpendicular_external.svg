@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 255" width="620" height="255" class="euclid-graphic" data-graphic-id="fig_perpendicular_external" data-proposition="XX">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-2 -6 4 12" markerWidth="4" markerHeight="12" orient="auto">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+    </marker>
+    <marker id="geom-tick-2" viewBox="-4 -6 8 12" markerWidth="8" markerHeight="12" orient="auto">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" markerWidth="12" markerHeight="12" orient="auto">
+      <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+      <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+    </marker>
+  </defs>
+  <style>
+    :root {
+      --geom-fg: #18181b;
+      --geom-bg: #ffffff;
+      --geom-point-stroke: #ffffff;
+      --geom-poly-fill: #000000;
+      --geom-accent: #c88a1e;
+      --geom-assert: #16a34a;
+    }
+    .euclid-graphic {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      background-color: var(--geom-bg);
+    }
+    .geom-line { stroke: var(--geom-fg); stroke-width: 1.8; stroke-linecap: round; fill: none; }
+    .geom-bold { stroke: var(--geom-fg); stroke-width: 2.3; stroke-linecap: round; fill: none; }
+    .geom-dashed { stroke: var(--geom-fg); stroke-width: 1.35; stroke-dasharray: 5, 3.5; stroke-linecap: round; fill: none; opacity: 0.78; }
+    .geom-accent-line { stroke: var(--geom-accent); stroke-width: 2.15; stroke-linecap: round; fill: none; }
+    .geom-assert-line { stroke: var(--geom-assert); stroke-width: 2.25; stroke-linecap: round; fill: none; }
+    .geom-circle { stroke: var(--geom-fg); stroke-width: 1.55; fill: none; }
+    .geom-arc { stroke: var(--geom-accent); stroke-width: 1.75; stroke-dasharray: 4.5, 3; stroke-linecap: round; fill: none; }
+    .geom-ang-arc { stroke: var(--geom-assert); stroke-width: 1.7; stroke-linecap: round; fill: none; }
+    .geom-polygon { fill: var(--geom-poly-fill); fill-opacity: 0.05; stroke: none; }
+    .geom-polygon-accent { fill: var(--geom-accent); fill-opacity: 0.12; stroke: none; }
+    .geom-point { fill: var(--geom-fg); stroke: var(--geom-point-stroke); stroke-width: 1.15; }
+    .geom-point-accent { fill: var(--geom-accent); stroke: var(--geom-point-stroke); stroke-width: 1.15; }
+    .geom-point-assert { fill: var(--geom-assert); stroke: var(--geom-point-stroke); stroke-width: 1.25; }
+    .geom-label { font-size: 13px; font-weight: 700; fill: var(--geom-fg); user-select: none; }
+    .geom-label-sm { font-size: 10.2px; font-weight: 700; fill: var(--geom-fg); opacity: 0.88; user-select: none; }
+    .is-active { stroke-width: 3.1 !important; filter: drop-shadow(0 0 3px var(--geom-accent)); }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --geom-fg: #d6cfc5;
+        --geom-bg: #1e1e20;
+        --geom-point-stroke: #1e1e20;
+        --geom-poly-fill: #d6cfc5;
+        --geom-accent: #e8b85a;
+        --geom-assert: #5ec27e;
+      }
+    }
+  </style>
+  <g id="elements">
+    <path d="M 35.00 138.00 L 150.00 138.00 L 265.00 138.00" fill="none" class="geom-bold" data-ref="BC" />
+    <path d="M 154.00 48.00 L 154.00 137.00 L 154.00 226.00" fill="none" class="geom-assert-line" data-ref="AA&#x27;" />
+    <circle cx="458.00" cy="141.00" r="75.00" fill="none" class="geom-arc" data-ref="O(OA)" />
+    <path d="M 518.00 186.00 L 458.00 141.00 L 398.00 96.00" fill="none" class="geom-line" data-ref="BD" />
+    <path d="M 398.00 54.00 L 398.00 133.00 L 398.00 212.00" fill="none" class="geom-assert-line" data-ref="AD" />
+  </g>
+  <g id="graphics">
+    <path d="M 141.30 55.41 A 107.81 107.81 0 0 1 141.30 220.59" fill="none" class="geom-arc" />
+    <path d="M 163.83 215.09 A 90.91 90.91 0 0 1 163.83 60.91" fill="none" class="geom-arc" />
+    <path d="M 298.00 20.00 L 298.00 127.50 L 298.00 235.00" fill="none" class="geom-dashed" />
+    <path d="M 332.00 186.00 L 454.00 186.00 L 576.00 186.00" fill="none" class="geom-bold" />
+  </g>
+  <g id="highlights" style="pointer-events: none;">
+    <path d="M 162.50 138.00 L 162.50 129.50 L 154.00 129.50" fill="none" class="geom-ang-arc" />
+    <path d="M 407.00 186.00 L 407.00 177.00 L 398.00 177.00" fill="none" class="geom-ang-arc" />
+  </g>
+  <g id="points">
+    <circle cx="154.00" cy="68.00" r="3.30" class="geom-point-accent" data-ref="A" />
+    <circle cx="154.00" cy="208.00" r="3.30" class="geom-point-accent" data-ref="A&#x27;" />
+    <circle cx="72.00" cy="138.00" r="3.30" class="geom-point" data-ref="B" />
+    <circle cx="212.00" cy="138.00" r="3.30" class="geom-point" data-ref="C" />
+    <circle cx="154.00" cy="138.00" r="3.30" class="geom-point-assert" data-ref="H" />
+    <circle cx="398.00" cy="186.00" r="3.30" class="geom-point-assert" data-ref="A" />
+    <circle cx="458.00" cy="141.00" r="3.30" class="geom-point-accent" data-ref="O" />
+    <circle cx="518.00" cy="186.00" r="3.30" class="geom-point" data-ref="B" />
+    <circle cx="398.00" cy="96.00" r="3.30" class="geom-point-assert" data-ref="D" />
+  </g>
+  <g id="labels">
+    <text x="166.00" y="63.00" text-anchor="middle" class="geom-label" data-ref="A">A</text>
+    <text x="168.00" y="221.00" text-anchor="middle" class="geom-label" data-ref="A&#x27;">A&#x27;</text>
+    <text x="64.00" y="155.00" text-anchor="middle" class="geom-label" data-ref="B">B</text>
+    <text x="222.00" y="155.00" text-anchor="middle" class="geom-label" data-ref="C">C</text>
+    <text x="143.00" y="131.00" text-anchor="middle" class="geom-label" data-ref="H">H</text>
+    <text x="150.00" y="24.00" text-anchor="middle" class="geom-label-sm">XX.1 Off Line (I.12): 2 Circles, S = 9</text>
+    <text x="387.00" y="204.00" text-anchor="middle" class="geom-label" data-ref="A">A</text>
+    <text x="470.00" y="136.00" text-anchor="middle" class="geom-label" data-ref="O">O</text>
+    <text x="528.00" y="204.00" text-anchor="middle" class="geom-label" data-ref="B">B</text>
+    <text x="385.00" y="92.00" text-anchor="middle" class="geom-label" data-ref="D">D</text>
+    <text x="458.00" y="24.00" text-anchor="middle" class="geom-label-sm">XX.2 On Line (Thales): 1 Circle, 4R₁ + 2R₂ + C₁ + C₃ (S = 8)</text>
+  </g>
+</svg>

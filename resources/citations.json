@@ -1,0 +1,162 @@
+{
+  "lemoine-1873": {
+    "author": "Émile Lemoine",
+    "work": "Sur quelques propriétés d'un point remarquable du triangle",
+    "locus": "Association Française pour l'Avancement des Sciences (Congrès de Lyon), Comptes Rendus, pp. 90–95",
+    "year": "1873",
+    "publisher": "Secrétariat de l'AFAS, Paris",
+    "note": "Foundational memoir introducing the symmedian point K = X(6), the Lemoine line, and the first Lemoine circle."
+  },
+  "lemoine-1888": {
+    "author": "Émile Lemoine",
+    "work": "De la mesure de la simplicité dans les sciences mathématiques (Note sur une manière d'évaluer la simplicité des constructions géométriques)",
+    "locus": "AFAS, Compte Rendu de la 17e Session (Congrès d'Oran, 30 mars 1888), Première Partie, p. 161; tirage à part pp. 1–12",
+    "year": "1888",
+    "publisher": "Masson / AFAS, Paris",
+    "note": "First public announcement of quantitative construction measurement, initially employing an eight-symbol notation (ρ_1..γ'_2) and introducing the set-square (équerre) operations."
+  },
+  "lemoine-1892": {
+    "author": "Émile Lemoine",
+    "work": "La Géométrographie ou l'Art des constructions géométriques",
+    "locus": "AFAS, Compte Rendu de la 21e Session (Congrès de Pau, septembre 1892), Seconde Partie, pp. 36–100; tirage à part pp. 1–66",
+    "year": "1892 / 1893",
+    "publisher": "Gauthier-Villars et Fils / Secrétariat de l'AFAS, Paris",
+    "note": "Canonical Pau memoir establishing the five elementary operations R_1, R_2, C_1, C_2, C_3, the coefficients S and E, and Problems I–LXIII."
+  },
+  "lemoine-1895": {
+    "author": "Émile Lemoine",
+    "work": "Étude sur le triangle et sur certains points de Géométrographie",
+    "locus": "Proceedings of the Edinburgh Mathematical Society, Vol. 13, pp. 2–25",
+    "year": "1895",
+    "publisher": "Williams & Norgate, Edinburgh",
+    "note": "Extends Géométrographie to continuous families of triangle configurations and restricted-instrument comparisons."
+  },
+  "lemoine-1902": {
+    "author": "Émile Lemoine",
+    "work": "Géométrographie, ou Art des constructions géométriques",
+    "locus": "Collection Scientia, Série Physico-Mathématique, n° 18, 88 pp.",
+    "year": "1902",
+    "publisher": "C. Naud, Éditeur, Paris",
+    "note": "Definitive monograph synthesizing the Pau ruler-and-compass canon with Géométrographie de l'équerre, Géométrographie Mascheronienne (compass alone), and Géométrographie Steinerienne (straightedge with fixed circle)."
+  },
+  "mascheroni-1797": {
+    "author": "Lorenzo Mascheroni",
+    "work": "La Geometria del Compasso",
+    "locus": "Libri I–XII, §§ 1–213, 18 plates (Figs. 1–108)",
+    "year": "1797 (Anno V della Repubblica Francese)",
+    "publisher": "Eredi di Pietro Galeazzi, Pavia",
+    "note": "Classic compass-only treatise proving constructively that every ruler-and-compass point determination can be carried out with the compass alone."
+  },
+  "carette-1798": {
+    "author": "Antoine-Michel Carette (trans.)",
+    "work": "Géométrie du compas, par L. Mascheroni",
+    "locus": "xvi + 263 pp., 14 folding plates",
+    "year": "1798",
+    "publisher": "Duprat, Libraire pour les Mathématiques, Paris",
+    "note": "French translation through which Lemoine and French geometers cited Mascheroni's problem numbering and compass-only methods."
+  },
+  "fazzari-1901": {
+    "author": "Lorenzo Mascheroni (ed. Gaetano Fazzari)",
+    "work": "La Geometria del Compasso: Nuova edizione con prefazione e note",
+    "locus": "Prefazione pp. v–xvi; Testo pp. 1–152",
+    "year": "1901",
+    "publisher": "Casa Editrice 'Era Nova', Palermo",
+    "note": "Scholarly Italian edition whose preface (p. xi) explicitly compares Mascheroni's constructions with Euclidean methods via 'il metodo della Geometrografia del Lemoine'."
+  },
+  "mohr-1672": {
+    "author": "Georg Mohr",
+    "work": "Euclides Danicus, Bestaende udi Too Deele",
+    "locus": "Parts I–II, 36 pp. (republished with German translation by J. Hjelmslev, Copenhagen: Høst & Søn, 1928)",
+    "year": "1672",
+    "publisher": "Jacob van Velsen, Amsterdam",
+    "note": "Earliest complete proof of compass-only Euclidean constructibility, anticipating Mascheroni by 125 years."
+  },
+  "poncelet-1822": {
+    "author": "Jean-Victor Poncelet",
+    "work": "Traité des propriétés projectives des figures",
+    "locus": "Tome I, Section III, Chapitre III, §§ 351–358",
+    "year": "1822",
+    "publisher": "Bachelier, Paris",
+    "note": "First statement of the theorem that a single circle traced with its center suffices for all ruler-and-compass constructions using the straightedge alone."
+  },
+  "steiner-1833": {
+    "author": "Jakob Steiner",
+    "work": "Die geometrischen Constructionen, ausgeführt mittelst der geraden Linie und Eines festen Kreises, als Lehrgegenstand auf höheren Unterrichts-Anstalten und zur praktischen Benutzung",
+    "locus": "§§ 1–22, [1]–[110]; Ostwald's Klassiker der exakten Wissenschaften Nr. 60, ed. A. J. von Oettingen (1895)",
+    "year": "1833",
+    "publisher": "Ferdinand Dümmler, Berlin (Wilhelm Engelmann, Leipzig, 1895)",
+    "note": "Systematic demonstration of straightedge-only constructibility with one fixed circle and its center across eight canonical fundamental problems (§ 18, [68]–[85])."
+  },
+  "adler-1890": {
+    "author": "August Adler",
+    "work": "Zur Theorie der Mascheronischen Constructionen / Theorie der geometrischen Konstruktionen",
+    "locus": "Sitzungsberichte der Kaiserlichen Akademie der Wissenschaften in Wien, Math.-Naturwiss. Classe, Bd. 99, Abt. IIa, pp. 910–916; Sammlung Göschen Nr. 301",
+    "year": "1890 / 1906",
+    "publisher": "K.-K. Hof- und Staatsdruckerei, Vienna / G. J. Göschen, Leipzig",
+    "note": "Unified proof of Mascheroni's theorem via circle inversion (5C_1 + 3C_3) alongside comparative expositions of Steiner's constructions and Lemoine's Géométrographie."
+  },
+  "euclid-heath": {
+    "author": "Euclid (trans. Sir Thomas L. Heath)",
+    "work": "The Thirteen Books of Euclid's Elements",
+    "locus": "3 vols. (Books I–XIII); GEOMETOR Digital Scriptorium Edition (geometor/euclid & geometor/elements)",
+    "year": "1908 / 1926",
+    "publisher": "Cambridge University Press",
+    "note": "Standard English philological reference and axiomatic proposition benchmark for Lemoine's Euclidean comparisons."
+  },
+  "pappus-synagoge": {
+    "author": "Pappus of Alexandria",
+    "work": "Synagoge (Mathematical Collection), Book VII: On the Domain of Analysis",
+    "locus": "ed. Friedrich Hultsch (1876–1878); ed. & trans. Alexander Jones (Springer, 1986)",
+    "year": "c. 340 CE",
+    "publisher": "Weidmann, Berlin / Springer, New York",
+    "note": "Source of complete-quadrilateral harmonic division and projective incidence lemmas underlying Lemoine's zero-circle constructions."
+  },
+  "proclus-in-euclidem": {
+    "author": "Proclus Diadochus",
+    "work": "In primum Euclidis Elementorum librum commentarii",
+    "locus": "ed. Gottfried Friedlein (1873); trans. Glenn R. Morrow (Princeton University Press, 1970)",
+    "year": "c. 470 CE",
+    "publisher": "B. G. Teubner, Leipzig",
+    "note": "Classical philosophical commentary on postulates, instruments, and the problem/theorem distinction."
+  },
+  "hilbert-1899": {
+    "author": "David Hilbert",
+    "work": "Grundlagen der Geometrie",
+    "locus": "Siebentes Kapitel: Die geometrischen Konstruktionen auf Grund der Axiome I–IV (§§ 36–39)",
+    "year": "1899",
+    "publisher": "B. G. Teubner, Leipzig",
+    "note": "Algebraic characterization (pythagorean vs. euclidean quadratic fields) of constructions executable with straightedge and unit-segment transferrer."
+  },
+  "hoenen-1954": {
+    "author": "Peter H. J. Hoenen, S.J.",
+    "work": "De Noetica Geometriae: Origine Theoriae Cognitionis",
+    "locus": "Analecta Gregoriana, Vol. 63",
+    "year": "1954",
+    "publisher": "Pontificia Università Gregoriana, Rome",
+    "note": "Epistemological investigation of geometric phantasia, intelligible matter, and constructive intuition."
+  },
+  "kimberling-etc": {
+    "author": "Clark Kimberling",
+    "work": "Encyclopedia of Triangle Centers (ETC)",
+    "locus": "X(1) Incenter, X(2) Centroid, X(3) Circumcenter, X(6) Symmedian/Lemoine Point, X(7) Gergonne, X(8) Nagel, X(10) Spieker, X(98) Tarry, X(99) Steiner",
+    "year": "1998–",
+    "publisher": "University of Evansville / GEOMETOR ETC Codex",
+    "note": "Canonical trilinear/barycentric indexing of the triangle centers benchmarked in Lemoine Problems XXI, XXVII, and L–LXIII."
+  },
+  "altshiller-court-1952": {
+    "author": "Nathan Altshiller-Court",
+    "work": "College Geometry: An Introduction to the Modern Geometry of the Triangle and the Circle",
+    "locus": "2nd ed., Chapters IV–X (Similitude, Harmonic Division, Inversion, Recent Geometry of the Triangle)",
+    "year": "1952",
+    "publisher": "Barnes & Noble, New York",
+    "note": "Modern synthetic reference connecting antiparallels, symmedians, Brocard geometry, radical axes, and circle inversion."
+  },
+  "mackay-1893": {
+    "author": "John Sturgeon Mackay",
+    "work": "The Geometrography of Euclid's Problems",
+    "locus": "Proceedings of the Edinburgh Mathematical Society, Vol. 12, pp. 2–16",
+    "year": "1893 / 1894",
+    "publisher": "Williams & Norgate, Edinburgh",
+    "note": "First systematic English-language exposition of Lemoine's Pau memoir applied across Euclid's Elements."
+  }
+}

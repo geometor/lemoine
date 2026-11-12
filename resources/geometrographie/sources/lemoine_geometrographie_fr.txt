@@ -1,0 +1,207 @@
+# Émile Lemoine — La Géométrographie ou l'Art des constructions géométriques
+# Primary Archival Witness (French, visually transcribed from 300 DPI scans)
+#
+# Textual Stemma:
+#   1. Note d'Oran (AFAS Congrès d'Oran, 30 mars 1888): "De la mesure de la
+#      simplicité dans les sciences mathématiques", Tome I, p. 161; tirage à part p. 9.
+#   2. Mémoire de Pau (AFAS Congrès de Pau, 1892 / Paris: Gauthier-Villars, 1893, pp. 1–66):
+#      "La Géométrographie ou l'Art des constructions géométriques".
+#   3. Definitive Monograph (Paris: C. Naud, Collection Scientia, Série Phys.-Math.
+#      No. 18, 1902, 88 pp.): "Géométrographie, ou Art des constructions géométriques".
+#
+# All transcripts below were verified page-by-page via 300 DPI multimodal scan vision
+# (page-13.png .. page-82.png = printed pp. 1–66).
+
+[p. 1–3] PRÉLIMINAIRES ET OPÉRATIONS ÉLÉMENTAIRES
+
+La Géométrographie a pour but d'évaluer d'une façon précise la simplicité et
+l'exactitude des constructions géométriques, et de substituer aux constructions
+spéculatives habituelles — faciles à énoncer et à démontrer, mais souvent très
+compliquées lorsqu'on les exécute réellement — des constructions véritablement
+géométrographiques.
+
+Toute construction exécutée avec la règle et le compas se ramène aux cinq
+opérations élémentaires suivantes :
+
+  R1 : Mettre le bord de la règle en coïncidence avec un point placé (op. : R1).
+       Faire passer le bord de la règle par deux points placés compte pour 2R1.
+  R2 : Tracer la ligne droite suivant le bord de la règle (op. : R2).
+  C1 : Mettre une pointe du compas en un point déterminé (op. : C1).
+       Prendre avec le compas la distance AB de deux points placés compte pour 2C1.
+  C2 : Mettre une pointe du compas en un point indéterminé d'une ligne tracée (op. : C2).
+  C3 : Tracer le cercle (op. : C3).
+
+Symbole d'une construction :
+  Op. : (l1 R1 + l2 R2 + m1 C1 + m2 C2 + m3 C3)
+
+  Coefficient de simplicité :  S = l1 + l2 + m1 + m2 + m3
+  Coefficient d'exactitude :   E = l1 + m1 + m2
+  Nombre de droites tracées :  l2
+  Nombre de cercles tracés :   m3
+
+Notation des cercles :
+  O(AB) désigne le cercle de centre O et de rayon égal à la longueur AB.
+  O(R)  désigne le cercle de centre O passant par le point R (ou de rayon R donné).
+
+[p. 4–5] OPÉRATIONS FONDAMENTALES (I–X)
+
+I.   Tracer une droite quelconque : Op. : (R2) ; S = 1 ; E = 0 ; 1 droite.
+II.  Tracer une droite passant par un point donné A : Op. : (R1 + R2) ; S = 2 ; E = 1 ; 1 droite.
+III. Tracer la droite joignant deux points donnés A et B : Op. : (2R1 + R2) ; S = 3 ; E = 2 ; 1 droite.
+IV.  Tracer un cercle quelconque : Op. : (C3) ; S = 1 ; E = 0 ; 1 cercle.
+V.   Tracer un cercle quelconque de centre donné O : Op. : (C1 + C3) ; S = 2 ; E = 1 ; 1 cercle.
+VI.  Tracer un cercle de centre quelconque et de rayon donné AB : Op. : (2C1 + C3) ; S = 3 ; E = 2 ; 1 cercle.
+VII. Tracer le cercle O(A) de centre donné O passant par un point donné A : Op. : (2C1 + C3) ; S = 3 ; E = 2 ; 1 cercle.
+VIII. Porter sur une droite tracée, à partir d'un point quelconque de cette droite, une longueur donnée AB :
+      Op. : (2C1 + C2 + C3) ; S = 4 ; E = 3 ; 1 cercle.
+      Si l'origine M est un point déterminé de la droite : Op. : (3C1 + C3) ; S = 4 ; E = 3 ; 1 cercle.
+IX–X. Porter bout à bout plusieurs segments ou somme/différence de deux segments sur une droite tracée.
+
+[p. 6–14] CONSTRUCTIONS ÉLÉMENTAIRES D'EUCLIDE (XI–XXIV)
+
+XI.  Sur une droite tracée, construire en un point donné A un angle égal à un angle donné O (Euclide I.23) :
+     Op. : (2R1 + R2 + 5C1 + 3C3) ; S = 11 ; E = 7 ; 1 droite, 3 cercles.
+     (En un point indéterminé d'une droite : 2R1 + R2 + 4C1 + C2 + 3C3 ; S = 11 ; E = 7.)
+
+XVI. Construire un triangle connaissant les trois côtés a, b, c (Euclide I.22) :
+     Op. : (4R1 + 3R2 + 8C1 + C2 + 3C3) ; S = 19 ; E = 13 ; 3 droites, 3 cercles.
+
+XVII. Par un point donné A hors d'une droite BC, mener une parallèle à BC (Euclide I.31) :
+      Construction classique (angle alterne-interne égal) :
+        Op. : (2R1 + R2 + 5C1 + 3C3) ; S = 11 ; E = 7 ; 1 droite, 3 cercles.
+      1re construction géométrographique (Gaston Tarry, deux cercles de même rayon passant par A) :
+        Op. : (2R1 + R2 + 4C1 + 2C3) ; S = 9 ; E = 6 ; 1 droite, 2 cercles.
+      2e construction géométrographique (Gaston Tarry, losange de rayon unique R) :
+        Op. : (2R1 + R2 + 3C1 + 3C3) ; S = 9 ; E = 5 ; 1 droite, 3 cercles.
+
+XVIII. Tracer la perpendiculaire au milieu de la distance de deux points A, B ; ou trouver le milieu M de AB tracée (Euclide I.10) :
+       Op. : (2R1 + R2 + 2C1 + 2C3) ; S = 7 ; E = 4 ; 1 droite, 2 cercles.
+       (En prenant AB même comme rayon commun : 2R1 + R2 + 3C1 + 2C3 ; S = 8 ; E = 5.)
+
+XVIII bis. Construire le symétrique A' d'un point A par rapport à une droite tracée BC :
+           Avec deux centres pris sur BC : Op. : (2C1 + 2C2 + 2C3) ; S = 6 ; E = 4 ; 2 cercles.
+           Si B et C sont deux points déjà marqués sur la droite : Op. : (3C1 + 3C3) ou (4C1 + 2C3) ; S = 6.
+
+XIX. Décrire le cercle ayant pour diamètre deux points donnés A et B :
+     Op. : (2R1 + R2 + 4C1 + 3C3) ; S = 10 ; E = 6 ; 1 droite, 3 cercles.
+
+XX.  Mener par un point donné A la perpendiculaire à une droite tracée BC :
+     1er cas — A est hors de BC (Euclide I.12) :
+       Avec un point B marqué sur la droite : Op. : (2R1 + R2 + 3C1 + 3C3) ; S = 9 ; E = 5 ; 1 droite, 3 cercles.
+       Sans point marqué d'avance sur BC : Op. : (2R1 + R2 + 3C1 + C2 + 2C3) ; S = 9 ; E = 6 ; 1 droite, 2 cercles.
+     2e cas — A est situé sur BC (Euclide I.11) :
+       Construction classique : Op. : (2R1 + R2 + 3C1 + C2 + 3C3) ; S = 10 ; ou (2R1 + R2 + 3C1 + 3C3), S = 9.
+       Construction géométrographique par le cercle de Thalès O(OA) d'un seul cercle :
+         Placer O quelconque hors de BC, tracer O(OA) coupant BC en B, mener le diamètre BO coupant O(OA) en D, joindre AD :
+         Op. : (4R1 + 2R2 + C1 + C3) ; S = 8 ; E = 5 ; 2 droites, 1 cercle.
+
+XXI. Circonscrire un cercle à un triangle donné ABC, ou faire passer un cercle par trois points A, B, C (Euclide IV.5, X(3)) :
+     Op. : (4R1 + 2R2 + 5C1 + 4C3) ; S = 15 ; E = 9 ; 2 droites, 4 cercles.
+     (Avec rayon arbitraire commun aux deux médiatrices : 4R1 + 2R2 + 5C1 + 4C3, S = 15.)
+
+XXII. Diviser un angle donné BAC en deux parties égales (Euclide I.9) :
+      Op. : (2R1 + R2 + 3C1 + 3C3) ; S = 9 ; E = 5 ; 1 droite, 3 cercles.
+
+[p. 15–35] CERCLES, TANGENTES, PROPORTIONS, MOYENNE ET EXTRÊME RAISON, GÉOMÉTRIE PROJECTIVE (XXV–XLVIII)
+
+XXV. Mener la tangente en un point donné A d'un cercle O tracé (Euclide III.16 Por.) :
+     Par cercle auxiliaire P(PA) (un seul cercle !) :
+       Op. : (4R1 + 2R2 + C1 + C3) ; S = 8 ; E = 5 ; 2 droites, 1 cercle (identique au cercle de Thalès lorsque O est connu) ;
+       ou construction usuelle : Op. : (2R1 + R2 + 4C1 + 3C3) ; S = 10 ; E = 6.
+
+XXVI. Mener d'un point extérieur A les tangentes à un cercle donné O (Euclide III.17) :
+      Construction classique d'Euclide III.17 : Op. : (8R1 + 4R2 + 4C1 + 3C3) ; S = 19 ; E = 12 ; 4 droites, 3 cercles.
+      1re construction géométrographique de Lemoine : Op. : (5R1 + 3R2 + 7C1 + 3C3) ; S = 18 ; E = 12 ; 3 droites, 3 cercles.
+      2e construction géométrographique (par le cercle de diamètre OA) : Op. : (5R1 + 3R2 + 6C1 + 4C3) ; S = 18 ; E = 11 ; 3 droites, 4 cercles.
+
+XXVII. Inscrire un cercle dans un triangle donné ABC (Euclide IV.4, centre X(1)) :
+       Construction classique (deux bissectrices + perpendiculaire abaissée de I sur BC) :
+         Op. : (6R1 + 3R2 + 11C1 + 10C3) ; S = 30 ; E = 17 ; 3 droites, 10 cercles.
+       Construction géométrographique de Lemoine (réutilisation des cercles et détermination directe du rayon sans abaisser la perpendiculaire complète) :
+         Op. : (4R1 + 2R2 + 11C1 + 6C3) ; S = 23 ; E = 15 ; 2 droites, 6 cercles.
+
+XXXIII. Construire la quatrième proportionnelle x = bc/a à trois longueurs données a, b, c (Euclide VI.12) :
+        Construction classique : S = 25.
+        Construction géométrographique : Op. : (2R1 + 2R2 + 11C1 + C2 + 6C3) ; S = 22 ; E = 14 ; 2 droites, 6 cercles.
+
+XXXIV. Construire la troisième proportionnelle x = b^2/a à deux longueurs données a, b (Euclide VI.11) :
+       Construction classique : S = 22.
+       Construction géométrographique : Op. : (4R1 + 2R2 + 5C1 + C2 + 3C3) ; S = 15 ; E = 10 ; 2 droites, 3 cercles.
+
+XXXV. Construire la moyenne proportionnelle x = sqrt(ab) entre deux longueurs données a, b (Euclide II.14 / VI.13) :
+      Construction classique : Op. : (4R1 + 3R2 + 10C1 + C2 + 6C3) ; S = 24 ; E = 15 ; 3 droites, 6 cercles.
+      Construction géométrographique (Lemoine–Gouzy) : Op. : (2R1 + 2R2 + 6C1 + C2 + 3C3) ; S = 14 ; E = 9 ; 2 droites, 3 cercles.
+
+XXXVI. Diviser une droite donnée AB en moyenne et extrême raison — Section d'or phi (Euclide II.11 / VI.30) :
+       Construction classique : Op. : (6R1 + 3R2 + 9C1 + 7C3) ; S = 25 ; E = 15 ; 3 droites, 7 cercles.
+       Construction géométrographique de Lemoine : Op. : (2R1 + R2 + 9C1 + 6C3) ; S = 18 ; E = 11 ; 1 droite, 6 cercles.
+
+XXXVIII. Construire l'inverse A' d'un point A par rapport à un cercle donné O(R) :
+         Lorsque OA > R/2 (compas seul, sans aucune droite !) : Op. : (5C1 + 3C3) ; S = 8 ; E = 5 ; 0 droite, 3 cercles.
+         Cas général (OA quelconque) : Op. : (4R1 + 2R2 + 4C1 + 2C3) ; S = 12 ; E = 8 ; 2 droites, 2 cercles.
+
+XXXIX. Construire la polaire d'un point donné A par rapport à un cercle tracé O (règle seule !) :
+       Par le quadrilatère complet inscrit : Op. : (12R1 + 7R2) ; S = 19 ; E = 12 ; 7 droites, 0 cercle.
+
+XL.    Construire le pôle d'une droite donnée par rapport à un cercle tracé O :
+       Op. : (4R1 + 2R2 + 5C1 + 4C3) ; S = 15 ; E = 9 ; 2 droites, 4 cercles.
+
+XLI.   Construire l'axe radical de deux cercles tracés O et O' non sécants :
+       Construction géométrographique par deux cercles auxiliaires sécants quelconques :
+         Op. : (10R1 + 5R2 + 2C3) ; S = 17 ; E = 10 ; 5 droites, 2 cercles.
+       Construction de Mannheim par les milieux de deux tangentes communes (discutée p. 57–58) :
+         Op. : (18R1 + 9R2 + 19C1 + 12C3) ; S = 58 ; E = 37 ; 9 droites, 12 cercles !
+
+XLVI.  Construire le conjugué harmonique D d'un point C par rapport à deux points A et B d'une droite tracée (règle seule !) :
+       Par le quadrilatère complet : Op. : (9R1 + 6R2) ; S = 15 ; E = 9 ; 6 droites, 0 cercle.
+
+XLVII. Sur un segment donné AB comme côté, construire un carré ABCD (Euclide I.46, construction d'Eugène Catalan) :
+       Sommets C, D seuls : Op. : (2R1 + R2 + 6C1 + 4C3) ; S = 13 ; E = 8.
+       Carré entièrement tracé : Op. : (6R1 + 3R2 + 6C1 + 4C3) ; S = 19 ; E = 12 ; 3 droites, 4 cercles (contre S = 21 classique).
+
+[p. 42–51] GÉOMÉTRIE DU TRIANGLE ET CENTRES REMARQUABLES (L–LXIII)
+
+L.    Centre de gravité G = X(2) d'un triangle ABC :
+      Construction classique (deux médianes) : Op. : (8R1 + 4R2 + 3C1 + 3C3) ; S = 18 ; E = 11 ; 4 droites, 3 cercles.
+      Construction géométrographique par parallélogramme : Op. : (6R1 + 3R2 + 6C1 + 2C3) ; S = 17 ; E = 12 ; 3 droites, 2 cercles.
+
+LI.   Point de Lemoine (point symédian) K = X(6) d'un triangle ABC :
+      Par coordonnées trilinéaires (XLIX) : S = 54.
+      Construction géométrographique directe par réflexion antiparallèle :
+        Une symédiane seule : Op. : (2R1 + R2 + 7C1 + 4C3) ; S = 14 ; E = 9.
+        Point de Lemoine K : Op. : (4R1 + 2R2 + 13C1 + 8C3) ; S = 27 ; E = 17 ; 2 droites, 8 cercles.
+
+LII.  Droite de Lemoine du triangle ABC :
+      Op. : (6R1 + 3R2 + 6C1 + 4C3) ; S = 19 ; E = 12 ; 3 droites, 4 cercles.
+
+LIII. Construction simultanée du centre de gravité G = X(2) et du point de Lemoine K = X(6) :
+      Op. : (12R1 + 6R2 + 9C1 + 5C3) ; S = 32 ; E = 21 ; 6 droites, 5 cercles.
+
+LIV–LV. Points de Brocard omega et omega' d'un triangle ABC :
+        Un seul point de Brocard : Op. : (8R1 + 4R2 + 10C1 + 6C3) ; S = 28 ; E = 18 ; 4 droites, 6 cercles.
+        Les deux points de Brocard simultanément : Op. : (12R1 + 6R2 + 12C1 + 8C3) ; S = 38 ; E = 24 ; 6 droites, 8 cercles.
+        (Lettre d'Henri Brocard discutée p. 58–59 : sa construction spéculative donnait 22R1 + 11R2 + 24C1 + 17C3, soit S = 74, E = 46 !)
+
+LVI.  Point de Steiner X(99) sur le cercle circonscrit (d'après Casey / Mathesis 1889) :
+      Op. : (8R1 + 4R2 + 9C1 + 3C3) ; S = 24 ; E = 17 ; 4 droites, 3 cercles.
+
+LVII. Point de Tarry X(98) antipodal du point de Steiner :
+      Op. : (10R1 + 5R2 + 8C1 + 5C3) ; S = 28 ; E = 18 ; 5 droites, 5 cercles.
+
+LIX.  Point de Gergonne X(7) d'un triangle ABC :
+      Op. : (10R1 + 5R2 + 9C1 + 3C3) ; S = 27 ; E = 19 ; 5 droites, 3 cercles.
+
+LX.   Centre de Spieker X(10) (centre de gravité du périmètre) :
+      Op. : (8R1 + 4R2 + 10C1 + 7C3) ; S = 29 ; E = 18 ; 4 droites, 7 cercles.
+
+LXI.  Point de Nagel X(8) d'un triangle ABC :
+      Op. : (4R1 + 2R2 + 7C1 + 3C3) ; S = 16 ; E = 11 ; 2 droites, 3 cercles.
+
+LXII–LXIII. Centre radical Phi de Neuberg (S = 37) et point W (par coordonnées S = 148 ; par synthèse géométrographique S = 62).
+
+[p. 52–65] CONSIDÉRATIONS GÉNÉRALES, L'ÉQUERRE, L'ANCIENNE NOTATION ET OBJECTIONS
+
+- Feuille supposée infinie, règle de longueur illimitée, compas d'ouverture illimitée : séparation nette entre les difficultés d'épure accidentelles (limites de la feuille) et la complexité intrinsèque du tracé.
+- L'équerre (p. 55, note renvoyant à la Note d'Oran 1888, p. 9, développée dans Scientia n° 18, 1902 sous le nom de Géométrographie de l'équerre avec les opérations E1, E2 de glissement de l'équerre contre la règle).
+- Abandon de la première notation à huit symboles (rho1, rho2, rho3, gamma1, gamma'1, gamma''1, gamma2, gamma'2) au profit des cinq opérations canoniques R1, R2, C1, C2, C3 (p. 55–56).
+- Réponses aux remarques d'Amédée Mannheim (p. 57–58), d'Henri Brocard (p. 58–59), de Maurice d'Ocagne, C.-A. Laisant, Dunesme et Auguste Choisy (p. 60–65) : pourquoi les géomètres grecs traçaient à main levée sur le sable des figures schématiques favorisant la brièveté du discours démonstratif plutôt que l'économie opératoire de l'exécution réelle.

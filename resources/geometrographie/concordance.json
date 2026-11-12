@@ -1,0 +1,828 @@
+{
+  "metadata": {
+    "title": "Géométrographie & Dual Minimal-Instrument Constructibility Concordance",
+    "treatises": [
+      "Émile Lemoine, Géométrographie, ou Art des constructions géométriques (1892 / 1902)",
+      "Lorenzo Mascheroni, La Geometria del Compasso (1797)",
+      "Jakob Steiner, Die geometrischen Constructionen, ausgeführt mittelst der geraden Linie und Eines festen Kreises (1833)"
+    ],
+    "sister_repositories": [
+      "geometor/euclid",
+      "geometor/elements",
+      "geometor/etc",
+      "geometor/pappus",
+      "geometor/altshiller-court",
+      "geometor/hilbert",
+      "geometor/proclus",
+      "geometor/hoenen"
+    ]
+  },
+  "entries": [
+    {
+      "id": "line-two-points",
+      "problem_number": "III",
+      "title_en": "Straight Line Joining Two Given Points",
+      "title_fr": "Tracer la droite joignant deux points donnés A et B",
+      "unit_id": "unit-1-operations",
+      "folio_page": "4",
+      "euclid_ref": "I.Post.1",
+      "elements_ref": "G.1 (Postulate 1)",
+      "etc_ref": null,
+      "pappus_ref": "Projective incidence join AB",
+      "classical_ops": {
+        "r1": 2, "r2": 1, "c1": 0, "c2": 0, "c3": 0,
+        "s": 3, "e": 2, "lines": 1, "circles": 0,
+        "symbol": "2R_1 + R_2"
+      },
+      "lemoine_ops": {
+        "r1": 2, "r2": 1, "c1": 0, "c2": 0, "c3": 0,
+        "s": 3, "e": 2, "lines": 1, "circles": 0,
+        "symbol": "2R_1 + R_2"
+      },
+      "mascheroni": {
+        "locus": "Libro VIII, § 113; Libro VII, §§ 110–112 (pp. 60–63)",
+        "method": "A straight line cannot be continuously traced without a straightedge; Mascheroni represents line AB implicitly by its point-pair (A, B) and constructs collinear multiples (§ 64) or intersections (§ 112) by compass arcs alone."
+      },
+      "steiner": {
+        "locus": "Einleitung § 1; Drittes Kapitel § 18, II ([68], p. 50)",
+        "method": "Primitive straightedge operation (2R_1 + R_2): joining two given points with the ruler is immediately permitted without consulting the fixed circle M."
+      },
+      "notes": "Establishes the fundamental ruler cost 2R_1 + R_2 (S = 3, E = 2) against which all straightedge alignments are measured."
+    },
+    {
+      "id": "transfer-segment",
+      "problem_number": "VIII",
+      "title_en": "Laying Off a Given Segment Along a Traced Line",
+      "title_fr": "Porter sur une droite tracée une longueur donnée AB",
+      "unit_id": "unit-1-operations",
+      "folio_page": "4–5",
+      "euclid_ref": "I.2, I.3",
+      "elements_ref": "G.3, G.4 (I.2, I.3)",
+      "etc_ref": null,
+      "pappus_ref": "Metric gauge / Hilbert § 36 Streckenübertrager",
+      "classical_ops": {
+        "r1": 4, "r2": 2, "c1": 5, "c2": 0, "c3": 5,
+        "s": 16, "e": 9, "lines": 2, "circles": 5,
+        "symbol": "4R_1 + 2R_2 + 5C_1 + 5C_3"
+      },
+      "lemoine_ops": {
+        "r1": 0, "r2": 0, "c1": 2, "c2": 1, "c3": 1,
+        "s": 4, "e": 3, "lines": 0, "circles": 1,
+        "symbol": "2C_1 + C_2 + C_3"
+      },
+      "mascheroni": {
+        "locus": "Libro I, §§ 10–11 (pp. 12–13); Libro IV, §§ 72–74 (pp. 40–42)",
+        "method": "Modern divider-compass transfer (3C_1 + C_3 from a given origin M, or 5-circle reflection/parallelogram when transferring onto an un-drawn line defined by two points)."
+      },
+      "steiner": {
+        "locus": "Drittes Kapitel, § 18, Sechste Aufgabe ([76]–[78], pp. 56–57)",
+        "method": "Pure straightedge transfer of segment M_1 a_1 to a given origin M_2 by constructing the centers of similitude A_1, I_1 of the fixed circle M and the virtual circle (M_2, M_1 a_1)."
+      },
+      "notes": "Euclid I.2–I.3 avoids assuming a divider compass that retains its opening when lifted (S = 16); Lemoine's modern compass takes AB in 2C_1 and lays it off in C_2 + C_3 (or C_1 + C_3 from a fixed point, S = 4, E = 3)."
+    },
+    {
+      "id": "copy-angle",
+      "problem_number": "XI",
+      "title_en": "Constructing at a Given Point an Angle Equal to a Given Angle",
+      "title_fr": "Construire en un point donné d'une droite un angle égal à un angle donné",
+      "unit_id": "unit-2-euclid-benchmarks",
+      "folio_page": "6",
+      "euclid_ref": "I.23",
+      "elements_ref": "G.24 (I.23)",
+      "etc_ref": null,
+      "pappus_ref": null,
+      "classical_ops": {
+        "r1": 4, "r2": 2, "c1": 8, "c2": 1, "c3": 4,
+        "s": 19, "e": 13, "lines": 2, "circles": 4,
+        "symbol": "4R_1 + 2R_2 + 8C_1 + C_2 + 4C_3"
+      },
+      "lemoine_ops": {
+        "r1": 2, "r2": 1, "c1": 5, "c2": 0, "c3": 3,
+        "s": 11, "e": 7, "lines": 1, "circles": 3,
+        "symbol": "2R_1 + R_2 + 5C_1 + 3C_3"
+      },
+      "mascheroni": {
+        "locus": "Libro VIII, § 114 (pp. 63–64, Fig. 51)",
+        "method": "Given angle ABC by three points and target ray ba, constructs fourth proportionals (§ 93) or equal-radius chord transfer (5C_1 + 3C_3 when radii AB = ab are chosen equal) to locate c."
+      },
+      "steiner": {
+        "locus": "Drittes Kapitel, § 18, Vierte Aufgabe ([75], p. 55, Fig. 21)",
+        "method": "Draws diameters ab, cd of the fixed circle M parallel to the sides of angle AmC and ef parallel to EF, transfers the central angle via parallel chords ce and ag, and draws pq parallel to diameter gMh."
+      },
+      "notes": "Euclid's reduction of I.23 to I.22 joins a speculative auxiliary chord across the given angle; equal-radius arc transfer cuts S from 19 to 11."
+    },
+    {
+      "id": "triangle-sss",
+      "problem_number": "XVI",
+      "title_en": "Triangle from Three Given Sides",
+      "title_fr": "Construire un triangle connaissant les trois côtés a, b, c",
+      "unit_id": "unit-2-euclid-benchmarks",
+      "folio_page": "7–8",
+      "euclid_ref": "I.22",
+      "elements_ref": "G.23 (I.22)",
+      "etc_ref": null,
+      "pappus_ref": null,
+      "classical_ops": {
+        "r1": 6, "r2": 3, "c1": 9, "c2": 1, "c3": 3,
+        "s": 22, "e": 16, "lines": 3, "circles": 3,
+        "symbol": "6R_1 + 3R_2 + 9C_1 + C_2 + 3C_3"
+      },
+      "lemoine_ops": {
+        "r1": 4, "r2": 3, "c1": 8, "c2": 1, "c3": 3,
+        "s": 19, "e": 13, "lines": 3, "circles": 3,
+        "symbol": "4R_1 + 3R_2 + 8C_1 + C_2 + 3C_3"
+      },
+      "mascheroni": {
+        "locus": "Libro I, § 11 (pp. 12–13); Libro VIII, § 115 (p. 64)",
+        "method": "Once base endpoints B, C are separated by a, two compass arcs of radii b and c (6C_1 + 2C_3) determine the third vertex A directly without tracing the three side lines."
+      },
+      "steiner": {
+        "locus": "Drittes Kapitel, § 18, Sechste & Achte Aufgabe ([76]–[85], pp. 56–62)",
+        "method": "Transfers lengths a, b, c via Sixth Problem and intersects the two virtual circles (B, c) and (C, b) via their radical axis (Eighth Problem) using straightedge alone."
+      },
+      "notes": "Drawing the initial carrier line as an arbitrary line R_2 (rather than joining two pre-placed points) saves 2R_1 + C_1 over textbook execution."
+    },
+    {
+      "id": "parallel-external",
+      "problem_number": "XVII",
+      "title_en": "Parallel Through an External Point to a Given Line",
+      "title_fr": "Par un point donné A hors d'une droite BC, mener une parallèle à BC",
+      "unit_id": "unit-2-euclid-benchmarks",
+      "folio_page": "8–9",
+      "euclid_ref": "I.31",
+      "elements_ref": "G.32 (I.31)",
+      "etc_ref": null,
+      "pappus_ref": "Harmonic point at infinity",
+      "classical_ops": {
+        "r1": 2, "r2": 1, "c1": 5, "c2": 0, "c3": 3,
+        "s": 11, "e": 7, "lines": 1, "circles": 3,
+        "symbol": "2R_1 + R_2 + 5C_1 + 3C_3"
+      },
+      "lemoine_ops": {
+        "r1": 2, "r2": 1, "c1": 3, "c2": 0, "c3": 3,
+        "s": 9, "e": 5, "lines": 1, "circles": 3,
+        "symbol": "2R_1 + R_2 + 3C_1 + 3C_3"
+      },
+      "mascheroni": {
+        "locus": "Libro IV, § 80 (p. 43, Fig. 29)",
+        "method": "Opposite-side parallelogram: with A, B on the given line and external point C, draw B(CA) and C(BA) meeting at D (5C_1 + 2C_3, S = 7, E = 5 for point D alone!)."
+      },
+      "steiner": {
+        "locus": "Drittes Kapitel, § 18, Erste Aufgabe ([68]–[71], pp. 50–52, Fig. 19)",
+        "method": "Pure straightedge parallel via a diameter aMb of the fixed circle (providing midpoint M of ab) and complete-quadrangle harmonic construction (11R_1 + 6R_2 when line passes through M)."
+      },
+      "notes": "Gaston Tarry discovered two S = 9 constructions: 1° two equal-radius circles passing through A (2R_1 + R_2 + 4C_1 + 2C_3, E = 6, 2 circles), and 2° single-aperture rhombus (2R_1 + R_2 + 3C_1 + 3C_3, E = 5, 3 circles)."
+    },
+    {
+      "id": "perpendicular-bisector",
+      "problem_number": "XVIII",
+      "title_en": "Perpendicular Bisector and Midpoint of a Segment",
+      "title_fr": "Tracer la perpendiculaire au milieu de AB, ou trouver le milieu de AB",
+      "unit_id": "unit-2-euclid-benchmarks",
+      "folio_page": "9–10",
+      "euclid_ref": "I.10",
+      "elements_ref": "G.11 (I.10)",
+      "etc_ref": null,
+      "pappus_ref": "Harmonic conjugate of point at infinity",
+      "classical_ops": {
+        "r1": 2, "r2": 1, "c1": 3, "c2": 0, "c3": 2,
+        "s": 8, "e": 5, "lines": 1, "circles": 2,
+        "symbol": "2R_1 + R_2 + 3C_1 + 2C_3"
+      },
+      "lemoine_ops": {
+        "r1": 2, "r2": 1, "c1": 2, "c2": 0, "c3": 2,
+        "s": 7, "e": 4, "lines": 1, "circles": 2,
+        "symbol": "2R_1 + R_2 + 2C_1 + 2C_3"
+      },
+      "mascheroni": {
+        "locus": "Libro III, § 66 Sol. I–V (pp. 32–33, Figs. 14–17); Libro IV, § 79 (p. 43)",
+        "method": "Bisecting AB without a drawn line takes 7 circles in Sol. V (10C_1 + 7C_3, S = 17): double AB to E via 4 unit-radius arcs, draw E(EB) cutting B(BA) at P, p, then P(PB) and p(PB) meet at midpoint M."
+      },
+      "steiner": {
+        "locus": "Drittes Kapitel, § 18, Zweite & Dritte Aufgabe ([71]–[75], pp. 52–55)",
+        "method": "Draws a line parallel to AB (First Problem) to bisect AB harmonically via a complete quadrangle (Second Problem, b), then erects the perpendicular via Third Problem."
+      },
+      "notes": "Keeping an arbitrary compass opening > AB/2 avoids setting the compass on B to measure AB, saving 1 C_1 (S = 7 vs. Euclid's equilateral-triangle S = 8)."
+    },
+    {
+      "id": "point-reflection",
+      "problem_number": "XVIII bis",
+      "title_en": "Symmetric Reflection of a Point Across a Traced Line",
+      "title_fr": "Construire le symétrique A' d'un point A par rapport à une droite tracée BC",
+      "unit_id": "unit-2-euclid-benchmarks",
+      "folio_page": "10",
+      "euclid_ref": "I.12 (cor.)",
+      "elements_ref": "G.13 (reflection lemma)",
+      "etc_ref": null,
+      "pappus_ref": "Orthogonal involution",
+      "classical_ops": {
+        "r1": 4, "r2": 2, "c1": 5, "c2": 1, "c3": 3,
+        "s": 15, "e": 10, "lines": 2, "circles": 3,
+        "symbol": "4R_1 + 2R_2 + 5C_1 + C_2 + 3C_3"
+      },
+      "lemoine_ops": {
+        "r1": 0, "r2": 0, "c1": 2, "c2": 2, "c3": 2,
+        "s": 6, "e": 4, "lines": 0, "circles": 2,
+        "symbol": "2C_1 + 2C_2 + 2C_3"
+      },
+      "mascheroni": {
+        "locus": "Libro I, § 14 (p. 14); Libro IV, § 78 (p. 43, Fig. 28)",
+        "method": "Identical two-circle compass-only reflection! When B and C are given points on the mirror line, B(BA) and C(CA) intersect at A' in 4C_1 + 2C_3 (or 3C_1 + 3C_3 if radii share opening), S = 6."
+      },
+      "steiner": {
+        "locus": "Drittes Kapitel, § 18, Dritte & Sechste Aufgabe ([71]–[78], pp. 52–57)",
+        "method": "Drops the perpendicular from A to BC meeting BC at foot M (Third Problem), then doubles AM harmonically to A' via a parallel line (Second Problem)."
+      },
+      "notes": "Crucial géométrographique primitive: Lemoine uses compass-only reflection (0 lines, 2 circles, S = 6) inside his symmedian X(6) and tangent constructions."
+    },
+    {
+      "id": "perpendicular-external",
+      "problem_number": "XX.1",
+      "title_en": "Perpendicular to a Traced Line from an External Point",
+      "title_fr": "Mener par un point extérieur A la perpendiculaire à une droite tracée BC",
+      "unit_id": "unit-2-euclid-benchmarks",
+      "folio_page": "11",
+      "euclid_ref": "I.12",
+      "elements_ref": "G.13 (I.12)",
+      "etc_ref": null,
+      "pappus_ref": null,
+      "classical_ops": {
+        "r1": 2, "r2": 1, "c1": 3, "c2": 1, "c3": 3,
+        "s": 10, "e": 6, "lines": 1, "circles": 3,
+        "symbol": "2R_1 + R_2 + 3C_1 + C_2 + 3C_3"
+      },
+      "lemoine_ops": {
+        "r1": 2, "r2": 1, "c1": 3, "c2": 1, "c3": 2,
+        "s": 9, "e": 6, "lines": 1, "circles": 2,
+        "symbol": "2R_1 + R_2 + 3C_1 + C_2 + 2C_3"
+      },
+      "mascheroni": {
+        "locus": "Libro IV, § 78 (p. 43, Fig. 28)",
+        "method": "Reflects D across AB to E in 2 arcs B(BD), A(AD) (determining the perpendicular line DE in S = 6!), and if foot M is required, bisects DE by § 66."
+      },
+      "steiner": {
+        "locus": "Drittes Kapitel, § 18, Dritte Aufgabe A & B ([71]–[75], pp. 52–55, Fig. 20)",
+        "method": "When BC is a diameter ab of the fixed circle, joins Pa, Pb meeting the circle at c, d; lines ad and bc meet at orthocenter p_1, and Pp_1 is perpendicular to ab (10R_1 + 5R_2, S = 15!)."
+      },
+      "notes": "Instead of drawing a circle centered at A cutting BC twice and then bisecting the chord (3 circles, S = 10), Lemoine reflects A across two centres on BC (2 circles, S = 9)."
+    },
+    {
+      "id": "perpendicular-on-line",
+      "problem_number": "XX.2",
+      "title_en": "Perpendicular Erected at a Given Point on a Traced Line",
+      "title_fr": "Élever en un point donné A d'une droite BC la perpendiculaire à BC",
+      "unit_id": "unit-2-euclid-benchmarks",
+      "folio_page": "11–12",
+      "euclid_ref": "I.11, III.31",
+      "elements_ref": "G.12 (I.11), G.105 (III.31)",
+      "etc_ref": null,
+      "pappus_ref": null,
+      "classical_ops": {
+        "r1": 2, "r2": 1, "c1": 3, "c2": 0, "c3": 3,
+        "s": 9, "e": 5, "lines": 1, "circles": 3,
+        "symbol": "2R_1 + R_2 + 3C_1 + 3C_3"
+      },
+      "lemoine_ops": {
+        "r1": 4, "r2": 2, "c1": 1, "c2": 0, "c3": 1,
+        "s": 8, "e": 5, "lines": 2, "circles": 1,
+        "symbol": "4R_1 + 2R_2 + C_1 + C_3"
+      },
+      "mascheroni": {
+        "locus": "Libro IV, §§ 76–77 (pp. 42–43, Figs. 26–27)",
+        "method": "3-circle Thales semicircle (§ 77): with arbitrary radius r, draw A(r) and B(r) meeting at C, then trace semicircle C(r) stepping two chords from B to D; AD is perpendicular to AB (3C_1 + 5C_3 or 4C_1 + 3C_3 + stepping)."
+      },
+      "steiner": {
+        "locus": "Drittes Kapitel, § 18, Dritte Aufgabe A ([71]–[72], pp. 52–53)",
+        "method": "Constructs orthogonal chords in the fixed circle via diameters (Euclid III.31) and draws the parallel through A on BC."
+      },
+      "notes": "Thales single-circle construction: place compass at an arbitrary point O off BC, draw O(OA) (C_1 + C_3) cutting BC again at B, draw diameter BO cutting O(OA) at D (2R_1 + R_2), and join AD (2R_1 + R_2) — only 1 circle and S = 8!"
+    },
+    {
+      "id": "angle-bisector",
+      "problem_number": "XXII",
+      "title_en": "Bisecting a Given Rectilinear Angle",
+      "title_fr": "Diviser un angle donné BAC en deux parties égales",
+      "unit_id": "unit-2-euclid-benchmarks",
+      "folio_page": "13",
+      "euclid_ref": "I.9",
+      "elements_ref": "G.10 (I.9)",
+      "etc_ref": null,
+      "pappus_ref": null,
+      "classical_ops": {
+        "r1": 2, "r2": 1, "c1": 4, "c2": 0, "c3": 3,
+        "s": 10, "e": 6, "lines": 1, "circles": 3,
+        "symbol": "2R_1 + R_2 + 4C_1 + 3C_3"
+      },
+      "lemoine_ops": {
+        "r1": 2, "r2": 1, "c1": 3, "c2": 0, "c3": 3,
+        "s": 9, "e": 5, "lines": 1, "circles": 3,
+        "symbol": "2R_1 + R_2 + 3C_1 + 3C_3"
+      },
+      "mascheroni": {
+        "locus": "Libro II, § 60 (p. 29); Libro VIII, § 118 (p. 65)",
+        "method": "Bisects the subtended arc BD of circle A(AB) via Mascheroni's arc-bisection parallelogram (§ 60) using compass arcs alone."
+      },
+      "steiner": {
+        "locus": "Drittes Kapitel, § 18, Fünfte Aufgabe, Fall a ([75]–[76], pp. 55–56, Fig. 21)",
+        "method": "Draws diameters ab, cd of fixed circle M parallel to sides mA, mC so central angle aMc = AmC; the line through vertex m parallel to chord ad (or cb) bisects angle AmC!"
+      },
+      "notes": "Retaining the same sufficient radius R for the initial arc at A and the two intersecting arcs from B and D avoids resetting the compass, reducing S from 10 to 9."
+    },
+    {
+      "id": "circumcircle",
+      "problem_number": "XXI",
+      "title_en": "Circumcircle and Circumcenter X(3) Through Three Given Points",
+      "title_fr": "Circonscrire un cercle à un triangle donné ABC, ou faire passer un cercle par A, B, C",
+      "unit_id": "unit-3-circles-tangency-golden",
+      "folio_page": "12–13",
+      "euclid_ref": "IV.5",
+      "elements_ref": "G.117 (IV.5)",
+      "etc_ref": "X(3) Circumcenter",
+      "pappus_ref": null,
+      "classical_ops": {
+        "r1": 4, "r2": 2, "c1": 6, "c2": 0, "c3": 5,
+        "s": 17, "e": 10, "lines": 2, "circles": 5,
+        "symbol": "4R_1 + 2R_2 + 6C_1 + 5C_3"
+      },
+      "lemoine_ops": {
+        "r1": 4, "r2": 2, "c1": 5, "c2": 0, "c3": 4,
+        "s": 15, "e": 9, "lines": 2, "circles": 4,
+        "symbol": "4R_1 + 2R_2 + 5C_1 + 4C_3"
+      },
+      "mascheroni": {
+        "locus": "Libro X, §§ 143–144 (pp. 82–84, Fig. 71)",
+        "method": "Paired with Napoleon's Problem (§ 143, center of a drawn circle in 6 arcs): § 144 finds circumcenter O of three non-collinear points M, A, B by compass inversion/third-proportional arcs alone."
+      },
+      "steiner": {
+        "locus": "Drittes Kapitel, § 18, Zweite & Dritte Aufgabe ([71]–[75], pp. 52–55)",
+        "method": "Constructs the perpendicular bisectors of AB and AC by straightedge via fixed circle M; their intersection is X(3) (while the circle itself remains represented by center O and radius OA)."
+      },
+      "notes": "Sharing circle B(R) across both perpendicular bisectors AB and BC cuts the circle count from 5 to 4 (3 mediatrix circles + circumcircle O(OA), S = 15)."
+    },
+    {
+      "id": "external-tangents",
+      "problem_number": "XXVI",
+      "title_en": "Tangents to a Given Circle from an External Point",
+      "title_fr": "Mener d'un point extérieur A les tangentes à un cercle donné O",
+      "unit_id": "unit-3-circles-tangency-golden",
+      "folio_page": "15–16",
+      "euclid_ref": "III.17",
+      "elements_ref": "G.91 (III.17)",
+      "etc_ref": null,
+      "pappus_ref": "Pole-polar contact chord",
+      "classical_ops": {
+        "r1": 8, "r2": 4, "c1": 4, "c2": 0, "c3": 3,
+        "s": 19, "e": 12, "lines": 4, "circles": 3,
+        "symbol": "8R_1 + 4R_2 + 4C_1 + 3C_3"
+      },
+      "lemoine_ops": {
+        "r1": 5, "r2": 3, "c1": 6, "c2": 0, "c3": 4,
+        "s": 18, "e": 11, "lines": 3, "circles": 4,
+        "symbol": "5R_1 + 3R_2 + 6C_1 + 4C_3"
+      },
+      "mascheroni": {
+        "locus": "Libro XI, § 161 (pp. 92–93)",
+        "method": "Finds midpoint M of OA (§ 66) or uses concentric radius 2R arc and circle A(OA) to determine contact points T, T' on O(R) by compass alone."
+      },
+      "steiner": {
+        "locus": "Erstes Kapitel, § 10 ([26]–[30], pp. 20–23)",
+        "method": "Pure straightedge construction! Draw two arbitrary secants from A cutting the drawn circle O, construct the polar of A via the complete inscribed quadrangle (Lemoine XXXIX, 12R_1 + 7R_2), and join A to its two intersections T, T' with circle O."
+      },
+      "notes": "Highlights instrument duality: when circle O is already drawn, Steiner's projective polar method needs ZERO circles (16R_1 + 9R_2 for both tangents), whereas Lemoine optimizes the metric ruler-and-compass construction to S = 18."
+    },
+    {
+      "id": "incircle-x1",
+      "problem_number": "XXVII",
+      "title_en": "Incircle and Incenter X(1) of a Given Triangle",
+      "title_fr": "Inscrire un cercle dans un triangle donné ABC",
+      "unit_id": "unit-3-circles-tangency-golden",
+      "folio_page": "16–18",
+      "euclid_ref": "IV.4",
+      "elements_ref": "G.116 (IV.4)",
+      "etc_ref": "X(1) Incenter",
+      "pappus_ref": null,
+      "classical_ops": {
+        "r1": 6, "r2": 3, "c1": 11, "c2": 0, "c3": 10,
+        "s": 30, "e": 17, "lines": 3, "circles": 10,
+        "symbol": "6R_1 + 3R_2 + 11C_1 + 10C_3"
+      },
+      "lemoine_ops": {
+        "r1": 4, "r2": 2, "c1": 11, "c2": 0, "c3": 6,
+        "s": 23, "e": 15, "lines": 2, "circles": 6,
+        "symbol": "4R_1 + 2R_2 + 11C_1 + 6C_3"
+      },
+      "mascheroni": {
+        "locus": "Libro X, § 149 (p. 85)",
+        "method": "Determines incenter X(1) and inradius by compass-only angle bisections (§ 118) and line intersection (§ 112) + reflection (§ 78)."
+      },
+      "steiner": {
+        "locus": "Drittes Kapitel, § 18, Dritte & Fünfte Aufgabe ([71]–[76], pp. 52–56)",
+        "method": "Bisects angles B and C via parallel diameters of fixed circle M (Fifth Problem) to meet at incenter I = X(1), then drops perpendicular from I to BC (Third Problem) to obtain touchpoint D."
+      },
+      "notes": "One of Lemoine's signature triumphs: eliminates 4 circles and 1 line (S: 30 -> 23) by reusing a single compass radius across vertices and measuring the perpendicular distance from I to BC without tracing the altitude line!"
+    },
+    {
+      "id": "fourth-proportional",
+      "problem_number": "XXXIII",
+      "title_en": "Fourth Proportional to Three Given Segments",
+      "title_fr": "Construire la quatrième proportionnelle x = bc/a à trois longueurs a, b, c",
+      "unit_id": "unit-3-circles-tangency-golden",
+      "folio_page": "24–25",
+      "euclid_ref": "VI.12",
+      "elements_ref": "G.167 (VI.12)",
+      "etc_ref": null,
+      "pappus_ref": "Thales intercept / Hilbert § 15 segment product",
+      "classical_ops": {
+        "r1": 4, "r2": 3, "c1": 11, "c2": 1, "c3": 6,
+        "s": 25, "e": 16, "lines": 3, "circles": 6,
+        "symbol": "4R_1 + 3R_2 + 11C_1 + C_2 + 6C_3"
+      },
+      "lemoine_ops": {
+        "r1": 2, "r2": 2, "c1": 11, "c2": 1, "c3": 6,
+        "s": 22, "e": 14, "lines": 2, "circles": 6,
+        "symbol": "2R_1 + 2R_2 + 11C_1 + C_2 + 6C_3"
+      },
+      "mascheroni": {
+        "locus": "Libro V, §§ 93–95 (pp. 48–49)",
+        "method": "Remarkably compact concentric-circle construction! Draw concentric circles O(a) and O(b); place chord BC = c in O(a), then step equal arcs BD = CE on O(b) from B and C to read chord DE = bc/a directly in 4 circles!"
+      },
+      "steiner": {
+        "locus": "Drittes Kapitel, § 18, Erste & Sechste Aufgabe ([68]–[78], pp. 50–57)",
+        "method": "Transfers segments onto two intersecting rays from O (Sixth Problem) and draws the Thales parallel via fixed circle M (First Problem)."
+      },
+      "notes": "Fazzari's 1901 Palermo preface (p. xi) singles out Mascheroni's concentric-circle fourth proportional (§ 93, S = 14 when a <= 2c!) as simpler even than standard ruler-and-compass Thales constructions."
+    },
+    {
+      "id": "mean-proportional",
+      "problem_number": "XXXV",
+      "title_en": "Mean Proportional (Geometric Mean) of Two Segments",
+      "title_fr": "Construire la moyenne proportionnelle entre deux longueurs données a et b",
+      "unit_id": "unit-3-circles-tangency-golden",
+      "folio_page": "26–27",
+      "euclid_ref": "II.14, VI.13",
+      "elements_ref": "G.63 (II.14), G.168 (VI.13)",
+      "etc_ref": null,
+      "pappus_ref": "Pappus Book III three-means configuration",
+      "classical_ops": {
+        "r1": 4, "r2": 3, "c1": 10, "c2": 1, "c3": 6,
+        "s": 24, "e": 15, "lines": 3, "circles": 6,
+        "symbol": "4R_1 + 3R_2 + 10C_1 + C_2 + 6C_3"
+      },
+      "lemoine_ops": {
+        "r1": 2, "r2": 2, "c1": 6, "c2": 1, "c3": 3,
+        "s": 14, "e": 9, "lines": 2, "circles": 3,
+        "symbol": "2R_1 + 2R_2 + 6C_1 + C_2 + 3C_3"
+      },
+      "mascheroni": {
+        "locus": "Libro VI, §§ 99–103 (pp. 51–54)",
+        "method": "Extracts sqrt(ab) by compass arcs alone using power-of-a-point / semicircle chord relations without drawing the diameter line."
+      },
+      "steiner": {
+        "locus": "Drittes Kapitel, § 18, Dritte & Siebente Aufgabe ([71]–[82], pp. 52–60)",
+        "method": "Intersects the altitude at the junction of a and b with the virtual semicircle on diameter a + b via Seventh Problem (line-circle intersection with fixed circle M)."
+      },
+      "notes": "The Lemoine–Gouzy construction cuts S by 42% (24 -> 14), halving the circle count from 6 to 3."
+    },
+    {
+      "id": "golden-section",
+      "problem_number": "XXXVI",
+      "title_en": "Division in Extreme and Mean Ratio (Golden Section phi)",
+      "title_fr": "Diviser une droite donnée AB en moyenne et extrême raison",
+      "unit_id": "unit-3-circles-tangency-golden",
+      "folio_page": "27–28",
+      "euclid_ref": "II.11, VI.30",
+      "elements_ref": "G.60 (II.11), G.185 (VI.30)",
+      "etc_ref": null,
+      "pappus_ref": "Q(phi) harmonic/golden range",
+      "classical_ops": {
+        "r1": 6, "r2": 3, "c1": 9, "c2": 0, "c3": 7,
+        "s": 25, "e": 15, "lines": 3, "circles": 7,
+        "symbol": "6R_1 + 3R_2 + 9C_1 + 7C_3"
+      },
+      "lemoine_ops": {
+        "r1": 2, "r2": 1, "c1": 9, "c2": 0, "c3": 6,
+        "s": 18, "e": 11, "lines": 1, "circles": 6,
+        "symbol": "2R_1 + R_2 + 9C_1 + 6C_3"
+      },
+      "mascheroni": {
+        "locus": "Libro II, §§ 38–42 (pp. 22–24); Libro IX, § 128 (p. 70)",
+        "method": "Mascheroni's 5-circle regular decagon/pentagon division: stepping three hexagon chords B, C, D of radius r = AB around O(r) gives AC = BD = r*sqrt(3); intersecting A(AC) and D(BD) at E gives OE = r*sqrt(2), whence the decagon chord AB/phi and extreme-and-mean section (§ 128) follow by compass alone."
+      },
+      "steiner": {
+        "locus": "Drittes Kapitel, § 18, Dritte, Sechste & Siebente Aufgabe ([71]–[82], pp. 52–60)",
+        "method": "Erects perpendicular BC = AB/2 at B by straightedge (Second & Third Problems) and intersects line AC with virtual circle C(CB) via Seventh Problem, then transfers segment to AB via Sixth Problem."
+      },
+      "notes": "Lemoine traces ONLY ONE straight line (the perpendicular at B obtained simultaneously with the midpoint arc) instead of three lines in classical II.11/VI.30, cutting S from 25 to 18."
+    },
+    {
+      "id": "circle-inversion",
+      "problem_number": "XXXVIII",
+      "title_en": "Inverse of a Given Point with Respect to a Given Circle",
+      "title_fr": "Construire l'inverse A' d'un point A par rapport à un cercle O(R)",
+      "unit_id": "unit-3-circles-tangency-golden",
+      "folio_page": "29–30",
+      "euclid_ref": "III.36, VI.8",
+      "elements_ref": "G.110 (III.36)",
+      "etc_ref": null,
+      "pappus_ref": "Inversive duality",
+      "classical_ops": {
+        "r1": 4, "r2": 2, "c1": 4, "c2": 0, "c3": 2,
+        "s": 12, "e": 8, "lines": 2, "circles": 2,
+        "symbol": "4R_1 + 2R_2 + 4C_1 + 2C_3"
+      },
+      "lemoine_ops": {
+        "r1": 0, "r2": 0, "c1": 5, "c2": 0, "c3": 3,
+        "s": 8, "e": 5, "lines": 0, "circles": 3,
+        "symbol": "5C_1 + 3C_3"
+      },
+      "mascheroni": {
+        "locus": "Libro V, § 86 (p. 46, Fig. 35); August Adler (1890) inversion proof of Mohr–Mascheroni",
+        "method": "Identical 3-circle compass-only inversion (when OA > R/2): draw A(AO) cutting O(R) at M, N; then M(MO) and N(NO) intersect at A' with OA * OA' = R^2! (When OA <= R/2, double OA k times first.)"
+      },
+      "steiner": {
+        "locus": "Erstes Kapitel, § 10 ([26]–[30], pp. 20–23)",
+        "method": "Pure straightedge inversion! Construct the polar p of A with respect to the fixed circle O via an inscribed quadrangle, join OA, and intersect OA with p at A'."
+      },
+      "notes": "August Adler (1890) proved the entire Mohr–Mascheroni theorem at a stroke by observing that Lemoine's 5C_1 + 3C_3 inversion maps lines and circles into circles and lines using the compass alone."
+    },
+    {
+      "id": "polar-of-point",
+      "problem_number": "XXXIX",
+      "title_en": "Polar Line of a Given Point with Respect to a Traced Circle",
+      "title_fr": "Construire la polaire d'un point donné A par rapport à un cercle tracé O",
+      "unit_id": "unit-3-circles-tangency-golden",
+      "folio_page": "30–31",
+      "euclid_ref": "III.17, III.36",
+      "elements_ref": "G.91 (III.17)",
+      "etc_ref": null,
+      "pappus_ref": "Pappus Book VII harmonic polarity",
+      "classical_ops": {
+        "r1": 10, "r2": 5, "c1": 6, "c2": 0, "c3": 4,
+        "s": 25, "e": 16, "lines": 5, "circles": 4,
+        "symbol": "10R_1 + 5R_2 + 6C_1 + 4C_3"
+      },
+      "lemoine_ops": {
+        "r1": 12, "r2": 7, "c1": 0, "c2": 0, "c3": 0,
+        "s": 19, "e": 12, "lines": 7, "circles": 0,
+        "symbol": "12R_1 + 7R_2"
+      },
+      "mascheroni": {
+        "locus": "Libro V, § 86; Libro IV, § 77 (pp. 42–46)",
+        "method": "Constructs the inverse A' of A in circle O (5C_1 + 3C_3) and a second point on the perpendicular to OA at A' (§ 77)."
+      },
+      "steiner": {
+        "locus": "Erstes Kapitel, § 10, III–IV ([27]–[29], pp. 21–22)",
+        "method": "Exact same pure-straightedge inscribed quadrangle construction (12R_1 + 7R_2, S = 19, 0 circles), which works whether A lies outside or inside the circle and without needing the center O!"
+      },
+      "notes": "Demonstrates that even inside standard ruler-and-compass Géométrographie, pure projective straightedge synthesis beats metric compass-and-ruler constructions (S = 19 vs. S = 25)."
+    },
+    {
+      "id": "radical-axis",
+      "problem_number": "XLI",
+      "title_en": "Radical Axis of Two Non-Intersecting Traced Circles",
+      "title_fr": "Construire l'axe radical de deux cercles tracés non sécants",
+      "unit_id": "unit-3-circles-tangency-golden",
+      "folio_page": "31–32, 57–58",
+      "euclid_ref": "III.35, III.36",
+      "elements_ref": "G.109, G.110 (III.35–36)",
+      "etc_ref": null,
+      "pappus_ref": "Coaxal pencil of circles",
+      "classical_ops": {
+        "r1": 18, "r2": 9, "c1": 19, "c2": 0, "c3": 12,
+        "s": 58, "e": 37, "lines": 9, "circles": 12,
+        "symbol": "18R_1 + 9R_2 + 19C_1 + 12C_3"
+      },
+      "lemoine_ops": {
+        "r1": 10, "r2": 5, "c1": 0, "c2": 0, "c3": 2,
+        "s": 17, "e": 10, "lines": 5, "circles": 2,
+        "symbol": "10R_1 + 5R_2 + 2C_3"
+      },
+      "mascheroni": {
+        "locus": "Libro VI–VII, §§ 103, 112 (pp. 54, 61–62)",
+        "method": "Divides line of centers OO' at M where OM^2 - O'M^2 = R^2 - R'^2 via compass-only fourth proportional and erects a perpendicular point (§ 77)."
+      },
+      "steiner": {
+        "locus": "Zweites Kapitel, §§ 15–17 ([61]–[67], pp. 45–50); Achte Aufgabe ([82]–[85], pp. 60–62)",
+        "method": "Steiner coins the term 'Linie der gleichen Potenzen' and constructs the radical axis of two arbitrary circles by straightedge alone via their centers of similitude with the fixed circle M!"
+      },
+      "notes": "In his famous reply to Amédée Mannheim (pp. 57–58), Lemoine contrasts Mannheim's midpoint-of-common-tangents construction (S = 58!) against two arbitrary secant circles C_3 + C_3 yielding radical center and axis in S = 17."
+    },
+    {
+      "id": "harmonic-conjugate",
+      "problem_number": "XLVI",
+      "title_en": "Harmonic Conjugate of a Point with Respect to a Segment",
+      "title_fr": "Construire le conjugué harmonique D d'un point C par rapport à A et B",
+      "unit_id": "unit-3-circles-tangency-golden",
+      "folio_page": "34–35",
+      "euclid_ref": "VI.3 (harmonic angle bisector)",
+      "elements_ref": "G.158 (VI.3)",
+      "etc_ref": null,
+      "pappus_ref": "Pappus Book VII Prop. 131 complete quadrilateral",
+      "classical_ops": {
+        "r1": 10, "r2": 6, "c1": 4, "c2": 0, "c3": 2,
+        "s": 22, "e": 14, "lines": 6, "circles": 2,
+        "symbol": "10R_1 + 6R_2 + 4C_1 + 2C_3"
+      },
+      "lemoine_ops": {
+        "r1": 9, "r2": 6, "c1": 0, "c2": 0, "c3": 0,
+        "s": 15, "e": 9, "lines": 6, "circles": 0,
+        "symbol": "9R_1 + 6R_2"
+      },
+      "mascheroni": {
+        "locus": "Libro V, §§ 93, 96 (pp. 48–49)",
+        "method": "Computes BD from AD : BD = AC : BC via proportional segment division (§ 96) with compass arcs alone."
+      },
+      "steiner": {
+        "locus": "Erstes Kapitel, §§ 4–6 ([10]–[16], pp. 9–13)",
+        "method": "Identical pure-straightedge complete quadrilateral construction (9R_1 + 6R_2, S = 15, 0 circles) — didn't even require the fixed circle M!"
+      },
+      "notes": "Projective invariant cross-ratio (A, B; C, D) = -1 constructed with zero compass operations; choosing the first auxiliary ray as R_1 + R_2 through A saves 3R_1 over naive alignment."
+    },
+    {
+      "id": "centroid-x2",
+      "problem_number": "L",
+      "title_en": "Centroid G = X(2) of a Given Triangle",
+      "title_fr": "Construire le centre de gravité G d'un triangle donné ABC",
+      "unit_id": "unit-3-circles-tangency-golden",
+      "folio_page": "42–43",
+      "euclid_ref": "I.10, I.34",
+      "elements_ref": "G.11 (I.10), G.35 (I.34)",
+      "etc_ref": "X(2) Centroid",
+      "pappus_ref": "Pappus centroidal median concurrency",
+      "classical_ops": {
+        "r1": 8, "r2": 4, "c1": 3, "c2": 0, "c3": 3,
+        "s": 18, "e": 11, "lines": 4, "circles": 3,
+        "symbol": "8R_1 + 4R_2 + 3C_1 + 3C_3"
+      },
+      "lemoine_ops": {
+        "r1": 6, "r2": 3, "c1": 6, "c2": 0, "c3": 2,
+        "s": 17, "e": 12, "lines": 3, "circles": 2,
+        "symbol": "6R_1 + 3R_2 + 6C_1 + 2C_3"
+      },
+      "mascheroni": {
+        "locus": "Libro X, § 150 (p. 85); Libro III, § 68 (p. 36)",
+        "method": "Finds midpoint M_a of BC (§ 66) and trisects median AM_a at G via compass-only trisection (§ 68)."
+      },
+      "steiner": {
+        "locus": "Drittes Kapitel, § 18, Erste & Zweite Aufgabe ([68]–[71], pp. 50–52)",
+        "method": "Draws parallels to two sides via fixed circle M to bisect them harmonically, then intersects two medians by straightedge."
+      },
+      "notes": "Lemoine forms parallelogram ABDC with only 2 circles B(AC) and C(AB) so AD bisects BC without drawing BC's perpendicular bisector, cutting S from 18 to 17 (2 circles instead of 3)."
+    },
+    {
+      "id": "lemoine-point-x6",
+      "problem_number": "LI",
+      "title_en": "Lemoine Symmedian Point K = X(6) of a Given Triangle",
+      "title_fr": "Construire le point de Lemoine K d'un triangle donné ABC",
+      "unit_id": "unit-3-circles-tangency-golden",
+      "folio_page": "43–45",
+      "euclid_ref": "VI.4, III.21–22",
+      "elements_ref": "G.159 (VI.4)",
+      "etc_ref": "X(6) Symmedian / Lemoine Point",
+      "pappus_ref": "Harmonic pole of Lemoine line / Gergonne-symmedian duality",
+      "classical_ops": {
+        "r1": 14, "r2": 7, "c1": 21, "c2": 0, "c3": 12,
+        "s": 54, "e": 35, "lines": 7, "circles": 12,
+        "symbol": "14R_1 + 7R_2 + 21C_1 + 12C_3"
+      },
+      "lemoine_ops": {
+        "r1": 4, "r2": 2, "c1": 13, "c2": 0, "c3": 8,
+        "s": 27, "e": 17, "lines": 2, "circles": 8,
+        "symbol": "4R_1 + 2R_2 + 13C_1 + 8C_3"
+      },
+      "mascheroni": {
+        "locus": "Libro IV, § 78; Libro VII, § 112 (pp. 43, 61–62)",
+        "method": "Lemoine's antiparallel-reflection construction is already nearly compass-pure (8 circles, only 2 symmedian lines)! Intersecting those two symmedian point-pairs via Mascheroni § 112 yields X(6) by compass alone."
+      },
+      "steiner": {
+        "locus": "Erstes Kapitel, § 10; Drittes Kapitel, § 18 ([26]–[30], [68]–[75])",
+        "method": "Once circumcircle (ABC) is drawn, X(6) is constructed by PURE STRAIGHTEDGE without a single compass operation: construct the tangents at A, B, C via polars and join each vertex to the pole of its opposite side!"
+      },
+      "notes": "Lemoine discovered X(6) in 1873 (AFAS Lyon, 'Sur quelques propriétés d'un point remarquable du triangle'). In Problem LI he halves the trilinear-coordinate cost (S: 54 -> 27) by reflecting antiparallel midpoints using only 2 traced lines!"
+    },
+    {
+      "id": "brocard-points",
+      "problem_number": "LIV–LV",
+      "title_en": "First and Second Brocard Points omega and omega' of a Triangle",
+      "title_fr": "Construire les points de Brocard ω et ω' d'un triangle donné ABC",
+      "unit_id": "unit-3-circles-tangency-golden",
+      "folio_page": "46–48, 58–59",
+      "euclid_ref": "III.21, III.32",
+      "elements_ref": "G.95 (III.21), G.106 (III.32)",
+      "etc_ref": "Bicentric Brocard pair (Ω, Ω')",
+      "pappus_ref": "Harmonic/isogonal Brocard circle on diameter OK",
+      "classical_ops": {
+        "r1": 22, "r2": 11, "c1": 24, "c2": 0, "c3": 17,
+        "s": 74, "e": 46, "lines": 11, "circles": 17,
+        "symbol": "22R_1 + 11R_2 + 24C_1 + 17C_3"
+      },
+      "lemoine_ops": {
+        "r1": 12, "r2": 6, "c1": 12, "c2": 0, "c3": 8,
+        "s": 38, "e": 24, "lines": 6, "circles": 8,
+        "symbol": "12R_1 + 6R_2 + 12C_1 + 8C_3"
+      },
+      "mascheroni": {
+        "locus": "Libro VII, §§ 110–112; Libro X, § 144 (pp. 60–63, 83–84)",
+        "method": "Constructs the centers of the adjoint tangent circles by compass-only perpendiculars and circumcenter arcs, locating ω and ω' as second intersections of the adjoint circles."
+      },
+      "steiner": {
+        "locus": "Drittes Kapitel, § 18, Erste, Dritte & Achte Aufgabe ([68]–[85], pp. 50–62)",
+        "method": "Constructs parallels and perpendiculars at A, B, C via fixed circle M to locate the adjoint circle centers, then intersects the virtual adjoint circles via their radical axes (Eighth Problem)."
+      },
+      "notes": "In his reply to Henri Brocard (pp. 58–59), Lemoine dissects Brocard's own classical three-adjoint-circle trace (S = 74) and cuts the simultaneous cost nearly in half (S = 38; single Brocard point LIV takes 8R_1 + 4R_2 + 10C_1 + 6C_3, S = 28)."
+    },
+    {
+      "id": "nagel-point-x8",
+      "problem_number": "LXI",
+      "title_en": "Nagel Point X(8) of a Given Triangle",
+      "title_fr": "Construire le point de Nagel X(8) d'un triangle donné ABC",
+      "unit_id": "unit-3-circles-tangency-golden",
+      "folio_page": "50",
+      "euclid_ref": "IV.4 (excircle touchpoints)",
+      "elements_ref": "G.116 (IV.4)",
+      "etc_ref": "X(8) Nagel Point",
+      "pappus_ref": "Isotomic/cevian concurrency",
+      "classical_ops": {
+        "r1": 6, "r2": 3, "c1": 15, "c2": 0, "c3": 10,
+        "s": 34, "e": 21, "lines": 3, "circles": 10,
+        "symbol": "6R_1 + 3R_2 + 15C_1 + 10C_3"
+      },
+      "lemoine_ops": {
+        "r1": 4, "r2": 2, "c1": 7, "c2": 0, "c3": 3,
+        "s": 16, "e": 11, "lines": 2, "circles": 3,
+        "symbol": "4R_1 + 2R_2 + 7C_1 + 3C_3"
+      },
+      "mascheroni": {
+        "locus": "Libro I, §§ 10–11; Libro VII, § 112 (pp. 12–13, 61–62)",
+        "method": "Transfers side lengths along the extended sides by three compass arcs to mark two excircle touchpoints T_b, T_c, then intersects cevians AT_b and BT_c by § 112."
+      },
+      "steiner": {
+        "locus": "Drittes Kapitel, § 18, Sechste Aufgabe ([76]–[78], pp. 56–57)",
+        "method": "Transfers side lengths along the triangle's sides via centers of similitude with fixed circle M to locate T_b, T_c, then joins AT_b and BT_c by straightedge."
+      },
+      "notes": "Instead of constructing two excircles via exterior angle bisectors (S = 34), Lemoine lays off semiperimeter differences directly with 3 circles and joins two Nagel cevians in S = 16!"
+    },
+    {
+      "id": "mascheroni-midpoint-line-intersection",
+      "problem_number": "Masch. §§ 66, 112",
+      "title_en": "Mascheroni Compass-Only Midpoint & Intersection of Two Lines",
+      "title_fr": "Géométrographie Mascheronienne : milieu de AB et intersection de deux droites au compas seul",
+      "unit_id": "unit-4-minimal-instruments",
+      "folio_page": "Scientia 1902; Mascheroni pp. 33, 61–63",
+      "euclid_ref": "I.Post.3, I.10",
+      "elements_ref": "G.2 (Postulate 3), G.11 (I.10)",
+      "etc_ref": null,
+      "pappus_ref": "Mohr–Mascheroni / Adler inversive completeness",
+      "classical_ops": {
+        "r1": 2, "r2": 1, "c1": 2, "c2": 0, "c3": 2,
+        "s": 7, "e": 4, "lines": 1, "circles": 2,
+        "symbol": "2R_1 + R_2 + 2C_1 + 2C_3"
+      },
+      "lemoine_ops": {
+        "r1": 0, "r2": 0, "c1": 10, "c2": 0, "c3": 7,
+        "s": 17, "e": 10, "lines": 0, "circles": 7,
+        "symbol": "10C_1 + 7C_3"
+      },
+      "mascheroni": {
+        "locus": "Libro III, § 66 Sol. V (p. 33, Fig. 14); Libro VII, §§ 110–112 (pp. 60–63, Figs. 46–50)",
+        "method": "Proves compass-only completeness: line-circle intersection (§§ 110–111) and line-line intersection (§ 112, via symmetric points c, d across AB, parallelogram CDd-delta, and fourth proportional c-delta : CD = Cc : CS) reduce all Euclidean constructions to C_1, C_2, C_3."
+      },
+      "steiner": {
+        "locus": "Einleitung § 2 ([2]–[4], pp. 4–5)",
+        "method": "Steiner opens his 1833 treatise by contrasting Mascheroni's exclusion of the straightedge with the dual projective program of excluding the compass altogether."
+      },
+      "notes": "In Géométrographie Mascheronienne (r1 = r2 = 0), bisecting an un-drawn segment AB takes 10C_1 + 7C_3 (S = 17, 7 circles), whereas reflecting a point takes 4C_1 + 2C_3 (S = 6) and constructing a parallel point takes 5C_1 + 2C_3 (S = 7)."
+    },
+    {
+      "id": "steiner-parallel-circle-meet",
+      "problem_number": "Steiner § 18 Aufg. 1–8",
+      "title_en": "Poncelet–Steiner Straightedge-Only Parallel & Virtual Circle Intersections",
+      "title_fr": "Géométrographie Steinerienne : parallèle et intersections de cercles à la règle seule avec un cercle fixe",
+      "unit_id": "unit-4-minimal-instruments",
+      "folio_page": "Scientia 1902; Steiner [68]–[85] (pp. 50–62)",
+      "euclid_ref": "I.Post.1–2, I.31",
+      "elements_ref": "G.1 (Postulate 1), G.32 (I.31)",
+      "etc_ref": null,
+      "pappus_ref": "Poncelet–Steiner Theorem (complete quadrangle + centers of similitude + radical axis)",
+      "classical_ops": {
+        "r1": 2, "r2": 1, "c1": 3, "c2": 0, "c3": 3,
+        "s": 9, "e": 5, "lines": 1, "circles": 3,
+        "symbol": "2R_1 + R_2 + 3C_1 + 3C_3"
+      },
+      "lemoine_ops": {
+        "r1": 11, "r2": 6, "c1": 0, "c2": 0, "c3": 0,
+        "s": 17, "e": 11, "lines": 6, "circles": 0,
+        "symbol": "11R_1 + 6R_2"
+      },
+      "mascheroni": {
+        "locus": "Libro VII, §§ 110–112 (pp. 60–63)",
+        "method": "Dual counterpart: where Mascheroni simulates straight lines via pairs of points and fourth-proportional arcs, Steiner simulates un-drawn circles via centers of similitude and radical axes."
+      },
+      "steiner": {
+        "locus": "Drittes Kapitel, § 18, Erste bis Achte Aufgabe ([68]–[85], pp. 50–62, Figs. 19–24)",
+        "method": "Proves straightedge-only completeness given ONE fixed circle with center M: parallel to a diameter aMb takes 11R_1 + 6R_2 (S = 17, 6 lines, 0 circles); Seventh & Eighth Problems find line-circle and circle-circle intersections of un-drawn circles via Aehnlichkeitspunkte A, I and the radical axis."
+      },
+      "notes": "Notice that center M IS indispensable: by Poncelet–Steiner–Hilbert projective invariance, a projective transformation fixing a circle without fixing its center destroys Euclidean parallelism and orthogonality!"
+    }
+  ]
+}

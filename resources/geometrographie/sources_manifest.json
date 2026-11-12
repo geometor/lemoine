@@ -1,0 +1,65 @@
+{
+  "work": "Géométrographie, ou Art des constructions géométriques",
+  "author": "Émile Michel Hyacinthe Lemoine (1840–1912)",
+  "public_domain": true,
+  "stemma": [
+    {
+      "id": "lemoine-1888-oran",
+      "year": 1888,
+      "title": "De la mesure de la simplicité dans les sciences mathématiques (Note sur une méthode d'évaluation de la simplicité des constructions géométriques)",
+      "venue": "Association Française pour l'Avancement des Sciences (AFAS), Congrès d'Oran (30 mars 1888), Tome I, p. 161; tirage à part p. 1–9",
+      "role": "First public announcement introducing quantitative simplicity metrics and restricted-instrument notes (including l'équerre, p. 9)."
+    },
+    {
+      "id": "lemoine-1892-pau",
+      "year": 1892,
+      "title": "La Géométrographie ou l'Art des constructions géométriques",
+      "venue": "AFAS, 21e Session, Congrès de Pau (septembre 1892), Seconde Partie: Notes et Mémoires, Paris: Gauthier-Villars et Fils, 1893, pp. 1–66",
+      "role": "Complete foundational treatise establishing the canonical five-operation calculus (R1, R2, C1, C2, C3), Problems I–LXIII, and critical responses to Mannheim, Brocard, d'Ocagne, Laisant, Dunesme, and Choisy."
+    },
+    {
+      "id": "lemoine-1902-scientia",
+      "year": 1902,
+      "title": "Géométrographie, ou Art des constructions géométriques",
+      "venue": "Collection Scientia, Série Physico-Mathématique, n° 18, Paris: C. Naud, Éditeur (février 1902), 87 pp.",
+      "role": "Definitive monograph codifying the ruler-and-compass canon alongside Géométrographie de l'équerre (E1, E2), Géométrographie Mascheronienne (compass alone), and Géométrographie Steinerienne (straightedge with fixed circle)."
+    },
+    {
+      "id": "mascheroni-1797-pavia",
+      "year": 1797,
+      "title": "La Geometria del Compasso",
+      "venue": "Pavia: Presso gli Eredi di Pietro Galeazzi, Anno V della Repubblica Francese (1797); Palermo centenary edition ed. Gaetano Fazzari (1901); French trans. A.-M. Carette, Géométrie du compas (Paris: Duprat, 1798)",
+      "role": "Primary minimal-instrument treatise proving that every ruler-and-compass point-construction is executable with the Euclidean compass alone (C1, C2, C3 without R1, R2)."
+    },
+    {
+      "id": "steiner-1833-berlin",
+      "year": 1833,
+      "title": "Die geometrischen Constructionen, ausgeführt mittelst der geraden Linie und Eines festen Kreises, als Lehrgegenstand auf höheren Unterrichts-Anstalten und zur praktischen Benutzung",
+      "venue": "Berlin: Ferdinand Dümmler, 1833, [1]–[85]; reprinted in Ostwald's Klassiker der exakten Wissenschaften Nr. 60, ed. A. J. von Oettingen, Leipzig: Wilhelm Engelmann, 1895",
+      "role": "Primary projective minimal-instrument treatise proving (after Poncelet, 1822) that every ruler-and-compass problem is solvable with the straightedge alone (R1, R2 without C1, C2, C3) once a single fixed circle and its center M are drawn."
+    }
+  ],
+  "witnesses": [
+    {
+      "id": "lemoine-fr",
+      "path": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt",
+      "language": "fr",
+      "sha256": "833832a96741e88a2432afa716dd19d7fae72af0d26d32af7e2020203559955d",
+      "ingestion_method": "300 DPI multimodal page-by-page scan vision (pp. 1–66)"
+    },
+    {
+      "id": "mascheroni-it",
+      "path": "resources/geometrographie/sources/mascheroni_1797_compasso_it.txt",
+      "language": "it",
+      "sha256": "fa24f30ecdd2cc56375c19c42c9886d92ae9f2d66cd6a8286179f46dd611aafb",
+      "ingestion_method": "300 DPI multimodal scan vision (Fazzari Prefazione p. xi–xiii, Indice, Libri III–X)"
+    },
+    {
+      "id": "steiner-de",
+      "path": "resources/geometrographie/sources/steiner_1833_constructionen_de.txt",
+      "language": "de",
+      "sha256": "0c14b5062264d2303c2d21d37958b09d89fe58e3d20a466774e606768412642d",
+      "ingestion_method": "300 DPI multimodal scan vision (Einleitende Uebersicht §§ 1–2, §§ 14–17, Drittes Kapitel § 18 Aufgaben 1–8)"
+    }
+  ]
+}

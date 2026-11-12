@@ -1,0 +1,88 @@
+# Jakob Steiner — Die geometrischen Constructionen, ausgeführt mittelst der
+# geraden Linie und Eines festen Kreises (Berlin: Ferdinand Dümmler, 1833)
+# Primary Archival Witness (German, visually transcribed from 300 DPI scans)
+#
+# Edition Witnessed:
+#   Ostwald's Klassiker der exakten Wissenschaften Nr. 60, herausgegeben von
+#   A. J. von Oettingen (Leipzig: Wilhelm Engelmann, 1895), preserving original
+#   1833 Berlin pagination in square brackets [1]–[85].
+
+[Einleitende Uebersicht, § 1–2, S. 3–6 / 1833 [1]–[6]]
+§ 1. Alle geometrischen Aufgaben der Elementar-Geometrie (welche sonst mittelst
+des Lineals und des Zirkels gelöst werden) lassen sich allein mittelst des Lineals
+lösen, sobald in der Ebene irgend ein fester Hülfskreis nebst seinem Mittelpunkte M
+gezeichnet vorliegt. Es kommt dabei hauptsächlich nur auf die Lösung der acht
+Fundamental-Aufgaben (a–h) an, welche im Dritten Kapitel vollständig ausgeführt wird.
+§ 2. Historischer Rückblick auf Lorenzo Mascheroni's Geometria del Compasso (1797,
+deutsche Uebersetzung von J. P. Grüson, Berlin 1825) und Jean-Victor Poncelet's
+Traité des propriétés projectives des figures (Paris 1822, Nr. 353 ff.), sowie auf
+Lambert's Freie Perspective und Brianchon's Applications de la théorie des transversales.
+
+[Erstes und Zweites Kapitel, §§ 3–17, S. 7–50 / 1833 [7]–[68]]
+- §§ 3–10 : Harmonische Strahlen und Punkte, vollständiges Vierseit und Viereck,
+  Pol und Polare am Kreise allein mittelst des Lineals.
+- §§ 11–13 : Aehnlichkeitspunkte (äusserer A und innerer I) und Aehnlichkeitsaxen
+  zweier und dreier Kreise.
+- §§ 14–17 : Linie der gleichen Potenzen (gemeinschaftliche Secante / Axe radical)
+  zweier Kreise und Punkt der gleichen Potenzen dreier Kreise (S. 44–50 / [60]–[67]).
+
+[Drittes Kapitel, § 18, S. 50–62 / 1833 [68]–[85]]
+Lösung aller geometrischen Aufgaben mittelst des Lineals, wenn ein fester Kreis
+gegeben ist (fester Hülfskreis mit gegebenem Mittelpunkte M) :
+
+Erste Aufgabe [68]–[71] (S. 50–52) :
+  « Mit irgend einer gegebenen Geraden, durch jeden beliebigen Punkt, eine
+  Parallele zu ziehen. »
+  (a. Wenn die gegebene Gerade durch M geht, liefert sie unmittelbar drei Punkte
+  a, M, b mit M in der Mitte ; das vollständige Viereck liefert sofort die Parallele.
+  b. Geht sie nicht durch M, zieht man Durchmesser und Sehnen oder benutzt einen
+  harmonischen Mittelpunkt.)
+
+Zweite Aufgabe [71] (S. 52) :
+  « Wenn in einer Geraden irgend eine begrenzte Strecke gegeben ist, so soll man
+  a) eine andere Strecke finden, welche ein gegebenes Vielfaches von jener ist ; oder
+  b) die gegebene Strecke in irgend eine gegebene Anzahl gleicher Theile theilen ; oder
+  endlich c) eine andere Strecke finden, welche zu der gegebenen irgend ein
+  gegebenes rationales Verhältniss hat. »
+  (Gelöst mittelst Paralleler nach Erste Aufgabe und § 6, IV.)
+
+Dritte Aufgabe [71]–[75] (S. 52–55) :
+  « Auf eine gegebene Gerade, durch irgend einen gegebenen Punkt, eine andere
+  Gerade rechtwinklig zu ziehen. »
+  A. Mittelst Paralleler [71]–[72] : Durchmesser und rechtwinklige Sehnen im
+     fester Hülfskreise (Satz des Thales), sodann Parallele durch den gegebenen Punkt.
+  B. Mittelst harmonischer Eigenschaften [72]–[75] : Höhenschnittpunkt (Orthocentrum)
+     des Dreiecks über einem Durchmesser ab des Hülfskreises, sowie harmonischer Pol.
+
+Vierte Aufgabe [75] (S. 55) :
+  « Durch einen gegebenen Punkt eine Gerade zu ziehen, die mit einer gegebenen
+  Geraden einen Winkel einschliesst, welcher einem gegebenen Winkel gleich ist. »
+  (Parallele Durchmesser ab, cd zu den Schenkeln des gegebenen Winkels AmC und ef
+  zur gegebenen Geraden EF, parallele Sehnen ce und ag, Durchmesser gh, zuletzt
+  Parallele pq zu gMh.)
+
+Fünfte Aufgabe [75]–[76] (S. 55–56) :
+  « Einen gegebenen Winkel a) zu hälften, oder b) beliebig oft zu vervielfachen. »
+  (Fall a : Man zieht die Durchmesser ab, cd des Hülfskreises parallel zu den
+  Schenkeln mA, mC, sodass Winkel aMc = AmC ist ; die Parallele mn zur Sehne ad
+  oder cb hälftet sofort den Winkel AmC !)
+
+Sechste Aufgabe [76]–[78] (S. 56–57) :
+  « An einen gegebenen Punkt eine Gerade zu legen, welche einer der Grösse und
+  Lage nach gegebenen Geraden gleich ist. »
+  (Uebertragung einer gegebenen Strecke M1a1 an einen gegebenen Punkt M2 mittelst
+  der Aehnlichkeitspunkte A1, I1 des Hülfskreises M und des gedachten Kreises M2.)
+
+Siebente Aufgabe [79]–[82] (S. 58–60) :
+  « Die gegenseitigen Durchschnittspunkte einer gegebenen Geraden und eines der
+  Grösse und Lage nach gegebenen Kreises (welcher aber nicht gezeichnet vorliegt)
+  zu finden. »
+  (Man construirt die Aehnlichkeitspunkte A, I des Hülfskreises M und des gedachten
+  Kreises M1, bestimmt die ähnlichliegende Gerade G, welche den gezeichneten
+  Hülfskreis M in g, h schneidet, und überträgt g, h homolog nach g1, h1 auf G1.)
+
+Achte Aufgabe [82]–[85] (S. 60–62) :
+  « Die gegenseitigen Durchschnittspunkte zweier gegebenen Kreise zu finden. »
+  (Man construirt allein mittelst des Lineals nach § 17 die gemeinschaftliche
+  Secante — Linie der gleichen Potenzen / Axe radical — der beiden gedachten Kreise
+  und führt dadurch die Aufgabe auf die Siebente Aufgabe zurück.)

@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 295" width="580" height="295" class="euclid-graphic" data-graphic-id="fig_golden_section_lemoine" data-proposition="XXXVI">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-2 -6 4 12" markerWidth="4" markerHeight="12" orient="auto">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+    </marker>
+    <marker id="geom-tick-2" viewBox="-4 -6 8 12" markerWidth="8" markerHeight="12" orient="auto">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" markerWidth="12" markerHeight="12" orient="auto">
+      <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+      <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+    </marker>
+  </defs>
+  <style>
+    :root {
+      --geom-fg: #18181b;
+      --geom-bg: #ffffff;
+      --geom-point-stroke: #ffffff;
+      --geom-poly-fill: #000000;
+      --geom-accent: #c88a1e;
+      --geom-assert: #16a34a;
+    }
+    .euclid-graphic {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      background-color: var(--geom-bg);
+    }
+    .geom-line { stroke: var(--geom-fg); stroke-width: 1.8; stroke-linecap: round; fill: none; }
+    .geom-bold { stroke: var(--geom-fg); stroke-width: 2.3; stroke-linecap: round; fill: none; }
+    .geom-dashed { stroke: var(--geom-fg); stroke-width: 1.35; stroke-dasharray: 5, 3.5; stroke-linecap: round; fill: none; opacity: 0.78; }
+    .geom-accent-line { stroke: var(--geom-accent); stroke-width: 2.15; stroke-linecap: round; fill: none; }
+    .geom-assert-line { stroke: var(--geom-assert); stroke-width: 2.25; stroke-linecap: round; fill: none; }
+    .geom-circle { stroke: var(--geom-fg); stroke-width: 1.55; fill: none; }
+    .geom-arc { stroke: var(--geom-accent); stroke-width: 1.75; stroke-dasharray: 4.5, 3; stroke-linecap: round; fill: none; }
+    .geom-ang-arc { stroke: var(--geom-assert); stroke-width: 1.7; stroke-linecap: round; fill: none; }
+    .geom-polygon { fill: var(--geom-poly-fill); fill-opacity: 0.05; stroke: none; }
+    .geom-polygon-accent { fill: var(--geom-accent); fill-opacity: 0.12; stroke: none; }
+    .geom-point { fill: var(--geom-fg); stroke: var(--geom-point-stroke); stroke-width: 1.15; }
+    .geom-point-accent { fill: var(--geom-accent); stroke: var(--geom-point-stroke); stroke-width: 1.15; }
+    .geom-point-assert { fill: var(--geom-assert); stroke: var(--geom-point-stroke); stroke-width: 1.25; }
+    .geom-label { font-size: 13px; font-weight: 700; fill: var(--geom-fg); user-select: none; }
+    .geom-label-sm { font-size: 10.2px; font-weight: 700; fill: var(--geom-fg); opacity: 0.88; user-select: none; }
+    .is-active { stroke-width: 3.1 !important; filter: drop-shadow(0 0 3px var(--geom-accent)); }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --geom-fg: #d6cfc5;
+        --geom-bg: #1e1e20;
+        --geom-point-stroke: #1e1e20;
+        --geom-poly-fill: #d6cfc5;
+        --geom-accent: #e8b85a;
+        --geom-assert: #5ec27e;
+      }
+    }
+  </style>
+  <g id="elements">
+    <path d="M 220.00 206.00 L 300.00 206.00 L 380.00 206.00" fill="none" class="geom-bold" data-ref="AB" />
+    <path d="M 220.00 206.00 L 269.44 206.00 L 318.89 206.00" fill="none" class="geom-assert-line" data-ref="AX" />
+    <path d="M 300.00 32.00 L 300.00 145.00 L 300.00 258.00" fill="none" class="geom-accent-line" data-ref="MC" />
+    <path d="M 380.00 206.00 L 340.00 126.00 L 300.00 46.00" fill="none" class="geom-dashed" data-ref="BC" />
+    <path d="M 278.12 126.00 A 98.89 98.89 0 0 1 317.92 219.76" fill="none" class="geom-assert-line" data-ref="A(ME)" />
+  </g>
+  <g id="graphics">
+    <path d="M 65.00 206.00 L 285.00 206.00 L 505.00 206.00" fill="none" class="geom-line" />
+    <path d="M 285.08 59.83 A 160.00 160.00 0 0 1 335.09 94.85" fill="none" class="geom-arc" />
+    <path d="M 264.91 94.85 A 160.00 160.00 0 0 1 314.92 59.83" fill="none" class="geom-arc" />
+    <path d="M 266.73 49.50 A 160.00 160.00 0 0 1 333.27 49.50" fill="none" class="geom-arc" />
+    <path d="M 202.09 224.70 A 178.89 178.89 0 0 1 279.97 57.70" fill="none" class="geom-arc" />
+  </g>
+  <g id="highlights" style="pointer-events: none;">
+    <path d="M 309.00 206.00 L 309.00 197.00 L 300.00 197.00" fill="none" class="geom-ang-arc" />
+  </g>
+  <g id="points">
+    <circle cx="201.11" cy="206.00" r="3.30" class="geom-point-accent" data-ref="E" />
+    <circle cx="220.00" cy="206.00" r="3.30" class="geom-point" data-ref="A" />
+    <circle cx="300.00" cy="206.00" r="3.30" class="geom-point" data-ref="M" />
+    <circle cx="318.89" cy="206.00" r="3.60" class="geom-point-assert" data-ref="X" />
+    <circle cx="380.00" cy="206.00" r="3.30" class="geom-point" data-ref="B" />
+    <circle cx="300.00" cy="46.00" r="3.30" class="geom-point-accent" data-ref="C" />
+  </g>
+  <g id="labels">
+    <text x="191.11" y="197.00" text-anchor="middle" class="geom-label" data-ref="E">E</text>
+    <text x="220.00" y="225.00" text-anchor="middle" class="geom-label" data-ref="A">A</text>
+    <text x="291.00" y="225.00" text-anchor="middle" class="geom-label" data-ref="M">M</text>
+    <text x="338.89" y="196.00" text-anchor="middle" class="geom-label" data-ref="X">X (φ⁻¹)</text>
+    <text x="390.00" y="225.00" text-anchor="middle" class="geom-label" data-ref="B">B</text>
+    <text x="314.00" y="51.00" text-anchor="middle" class="geom-label" data-ref="C">C</text>
+    <text x="290.00" y="20.00" text-anchor="middle" class="geom-label-sm">Problem XXXVI (Euclid II.11) — Golden Section in 1 Line &amp; 6 Circles (S = 18 vs. S = 25)</text>
+    <text x="290.00" y="280.00" text-anchor="middle" class="geom-label-sm">MC = AB, MB = AB/2  ⇒  BC = (√5/2)·AB  ⇒  ME = AX = AB / φ</text>
+  </g>
+</svg>

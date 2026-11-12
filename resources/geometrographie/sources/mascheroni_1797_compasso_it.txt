@@ -1,0 +1,68 @@
+# Lorenzo Mascheroni — La Geometria del Compasso (Pavia, Anno V / 1797)
+# Primary Archival Witness (Italian, visually transcribed from 300 DPI scans)
+#
+# Edition Witnessed:
+#   Editio Princeps: Pavia, Presso gli Eredi di Pietro Galeazzi, Anno V della
+#   Repubblica Francese (1797). Centenary Reprint edited with historical preface
+#   by Gaetano Fazzari (Palermo: Era Nuova, 1901), explicitly invoking Émile
+#   Lemoine's Géométrographie on p. xi.
+#   French Translation: A.-M. Carette, Géométrie du compas (Paris: Duprat, 1798).
+
+[Prefazione storica di G. Fazzari, p. xi–xii]
+« Se le sue dimostrazioni, con il continuo richiamo alle proposizioni di Euclide,
+del resto unico testo allora di Geometria elementare, riescano qualche volta pesanti
+e potrebbero essere oggidì semplificate, le sue costruzioni sono sempre elegantissime
+e spesso più semplici di quelle che ordinariamente si fanno adoperando e riga e
+compasso : di ciò il lettore può facilmente persuadersi adoperando p. es. il metodo
+della Geometrografia del Lemoine (18) per determinare la semplicità e l'esattezza
+di una costruzione geometrica. »
+
+[Indice dei XII Libri, p. 151–152]
+- A Bonaparte l'italico (p. 1) ; Prefazione (p. 3)
+- Libro I: Preliminare (p. 11)
+- Libro II: Della divisione della circonferenza e degli archi del cerchio (p. 19)
+- Libro III: Della moltiplicazione e divisione delle distanze in linea retta (p. 31)
+- Libro IV: Dell'addizione e sottrazione delle distanze; della situazione delle perpendicolari e delle parallele (p. 40)
+- Libro V: Delle distanze proporzionali (p. 46)
+- Libro VI: Delle radici (p. 51)
+- Libro VII: Della intersezione delle rette cogli archi di cerchio e tra loro (p. 60)
+- Libro VIII: Della costruzione, moltiplicazione e divisione degli angoli, e delle linee trigonometriche (p. 63)
+- Libro IX: Delle Figure simili e dei poligoni regolari (p. 68)
+- Libro X: Dei centri (p. 82)
+- Libro XI: Problemi varj (p. 86)
+- Libro XII: Problemi per approssimazione (p. 120)
+
+[Libro III — Divisione delle distanze in linea retta, § 64–68, p. 31–36]
+§ 64. Raddoppiare la distanza AB in linea retta mediante la semicirconferenza BCDE di raggio AB (3 corde eguali a AB : AB = BC = CD = DE, dunque AE = 2 AB).
+§ 66. Dividere per metà una distanza data AB (Sol. I–V, p. 32–33).
+      Sol. V (p. 33, Fig. 14) : « Col raggio AB, centro A descritta la semicirconferenza BCDE (§ 64) ; col centro E, raggio EB descritto l'arco indefinito PBp ; col centro B, raggio BA tagliando quest'arco in P e p ; con questi centri P e p, e collo stesso raggio BA si descrivano due archi, che si taglino in M. Sarà M il punto cercato. » (Cinq cercles de compas seul !)
+§ 67. Proseguire a suddividere in due parti eguali colla più semplice costruzione la AM in N ; la AN in O ; ecc. all'infinito (p. 34, Fig. 18).
+§ 68. Dividere in tre parti eguali la distanza AB (p. 36, Fig. 20).
+
+[Libro IV — Perpendicolari e parallele, § 76–80, p. 42–43]
+§ 76. Dati i due punti A e B ; trovare un punto H tale, che la retta BH sia perpendicolare alla AB in B ed eguale ad una data CD (p. 42, Fig. 26).
+§ 77. Dati i due punti A e B ; trovare un punto D in guisa, che la DA sia perpendicolare alla AB (p. 42–43, Fig. 27 : raggio arbitrario r, archi di centri A e B tagliantisi in C, semicirconferenza BAD di centro C ; 3 cercles !).
+§ 78. Dati i due estremi d'una retta AB e un punto D fuori di essa, trovare un altro punto E (Fig. 28), che determini la posizione della DE perpendicolare alla AB, e il punto M, dove la taglia.
+      « Sol. Si faccia ad AD = AE, a BD = BE (§ 11). Sarà E il primo punto cercato. Si divida DE per metà in M (§ 66). Sarà M il secondo. »
+§ 79. Trovare due punti di una retta, che sia perpendicolare al mezzo della DE (p. 43, Fig. 28).
+§ 80. Dati due punti A e B d'una retta, e un punto C fuori di essa (Fig. 29), pel quale si voglia condurre una parallela alla AB ; trovare un altro punto D, che ne determini la posizione.
+      « Sol. Si faccia a CA = BD (§ 11) ; BA = CD. Sarà D il punto cercato. » (2 cercles !)
+
+[Libro V — Delle distanze proporzionali, § 86–96, p. 46–49]
+§ 86. Trovare una terza proporzionale alle due distanze Qp, MN, delle quali la prima Qp è maggiore della seconda MN (p. 46, Fig. 35 : cercles concentriques / corde d'arc, 2 cercles !).
+§ 93. Trovare una quarta proporzionale a tre distanze date PQ, RS, TV (p. 48–49 : cercles concentriques de centre O et rayons PQ, RS).
+§ 96. Dividere la MN in P in parti proporzionali alle due distanze date PQ, RS (p. 49, Fig. 40).
+
+[Libro VII — Intersezione delle rette cogli archi di cerchio e tra loro, § 110–112, p. 60–63]
+§ 110–111. Dato un arco BCD descritto col centro A, trovare i due punti dove taglia la circonferenza una retta data per due punti (p. 60–61, Fig. 46–48 : par symétrie orthogonale du centre lorsque la droite ne passe pas par A, ou par bissection d'arc § 111 lorsque la droite passe par A).
+§ 112. Dati due punti A, B d'una retta (Fig. 49 e 50), e due punti C, D d'una altra ; trovare il punto S dove si tagliano (p. 61–63 : symétriques c, d de C, D par rapport à AB, quatrième sommet delta du parallélogramme CDd-delta, quatrième proportionnelle à c-delta, CD, Cc donnant le rayon CS = cS).
+
+[Libro VIII & IX — Angoli e poligoni regolari, § 113–128, p. 63–70]
+§ 113. Avvertimento fondamentale : costruire col solo compasso una retta o un angolo significa determinare mediante intersezioni d'archi i punti estremi che individuano la retta o i lati dell'angolo.
+§ 114. Essendo dato un angolo ABC per via dei tre punti A, B, C (Fig. 51), e dati due altri punti b ed a ; trovare un punto c, cosicchè l'angolo abc sia eguale ad ABC (p. 63–64).
+§ 128. Iscrivere ad un cerchio dato un poligono regolare tra quelli che si possono iscrivere ad esso col compasso e colla riga (pentagono, decagono e sezione aurea mediante i §§ 27–42 del Libro II, p. 70).
+
+[Libro X — Dei centri, § 143–147, p. 82–84]
+§ 143. Trovare il centro O d'un cerchio dato MAB (p. 82, Fig. 71 — problema detto poi « di Napoleone »).
+§ 144. Trovare il centro O del cerchio che passa per tre punti dati M, A, B (p. 83–84, circonscritto al triangolo).
+§ 147. Ad un quadrato dato ABTP circoscrivere ed inscrivere un cerchio (p. 84, Fig. 73).
