@@ -1,0 +1,420 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unité III : Cercles, tangentes, section d’or, géométrie projective et géométrie moderne du triangle &mdash; GÉOMÉTROGRAPHIE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../index.html">
+        <h1>GEOMETOR • lemoine</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">lemoine</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../mission/index.html"  >mission</a>
+        </li>
+        <li>
+          <a href="../index.html" class="is-active" aria-selected="true" >GÉOMÉTROGRAPHIE</a>
+        </li>
+        <li>
+          <a href="../../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../index.html" title="Return to Project Portal">&larr; lemoine</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">GÉOMÉTROGRAPHIE</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../unit-2-euclid-benchmarks/unit-2-euclid-benchmarks-fr.html" title="Unit II: Fundamental Speculative vs. Géométrographique Constructions (Euclid Book I Benchmarks)">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <a class="book-track-item" href="unit-3-circles-tangency-golden-en.html">English</a>
+              <span class="book-track-sep">&middot;</span>
+              <strong class="book-track-item is-active" aria-current="page">French (1902)</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="unit-3-circles-tangency-golden-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="unit-3-circles-tangency-golden-notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../unit-4-minimal-instruments/unit-4-minimal-instruments-fr.html" title="Unit IV: Restricted &amp; Alternative Instruments — Équerre, Mascheroni Compass-Only &amp; Poncelet–Steiner Fixed-Circle"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="unite-iii-cercles-tangentes-section-d-or-geometrie-projective-et-geometrie-moderne-du-triangle">
+        <span id="geometrographie-unit-3-fr"></span><h1>Unité III : Cercles, tangentes, section d’or, géométrie projective et géométrie moderne du triangle<a class="headerlink" href="#unite-iii-cercles-tangentes-section-d-or-geometrie-projective-et-geometrie-moderne-du-triangle" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Émile Lemoine — <em>Géométrographie, ou Art des constructions géométriques</em> (Texte français, Problèmes XXI et XXV–LXIII, pp. 12–51)</p>
+        <nav class="contents local" id="dans-cette-unite">
+        <p class="topic-title">Dans cette unité</p>
+        <ul class="simple">
+        <li><p><a class="reference internal" href="#cercle-circonscrit-xxi-tangentes-au-cercle-xxvxxvi-et-cercle-inscrit-x-1-xxvii" id="id1">§ 1. Cercle circonscrit (XXI), tangentes au cercle (XXV–XXVI) et cercle inscrit <span class="math notranslate nohighlight">\(X(1)\)</span> (XXVII)</a></p></li>
+        <li><p><a class="reference internal" href="#lignes-proportionnelles-xxxiiixxxv-et-division-en-moyenne-et-extreme-raison-xxxvi" id="id2">§ 2. Lignes proportionnelles (XXXIII–XXXV) et division en moyenne et extrême raison (XXXVI)</a></p></li>
+        <li><p><a class="reference internal" href="#inversion-au-compas-seul-xxxviii-polaire-a-la-regle-seule-xxxix-axe-radical-xli-et-conjugue-harmonique-xlvi" id="id3">§ 3. Inversion au compas seul (XXXVIII), polaire à la règle seule (XXXIX), axe radical (XLI) et conjugué harmonique (XLVI)</a></p></li>
+        <li><p><a class="reference internal" href="#geometrie-du-triangle-point-de-lemoine-x-6-points-de-brocard-et-centres-remarquables" id="id4">§ 4. Géométrie du triangle : point de Lemoine <span class="math notranslate nohighlight">\(X(6)\)</span>, points de Brocard et centres remarquables</a></p></li>
+        </ul>
+        </nav>
+        <div class="folio-milestone" id="folio-Problèmes XXI, XXV–XXVII" data-folio="Problèmes XXI, XXV–XXVII" data-page="15">[Folio Problèmes XXI, XXV–XXVII | p. 15]</div>
+        <section class="level-2" id="cercle-circonscrit-xxi-tangentes-au-cercle-xxvxxvi-et-cercle-inscrit-x-1-xxvii">
+        <h2>§ 1. Cercle circonscrit (XXI), tangentes au cercle (XXV–XXVI) et cercle inscrit <span class="math notranslate nohighlight">\(X(1)\)</span> (XXVII)<a class="headerlink" href="#cercle-circonscrit-xxi-tangentes-au-cercle-xxvxxvi-et-cercle-inscrit-x-1-xxvii" title="Link to this heading">¶</a></h2>
+        <p><strong>Problème XXI (Euclide IV.5 — Cercle circonscrit et centre :math:`X(3)`).</strong> En décrivant d’abord <span class="math notranslate nohighlight">\(B(R)\)</span> d’un rayon arbitraire suffisant (<span class="math notranslate nohighlight">\(C_1 + C_3\)</span>), puis <span class="math notranslate nohighlight">\(A(R)\)</span> et <span class="math notranslate nohighlight">\(C(R)\)</span> (<span class="math notranslate nohighlight">\(2C_1 + 2C_3\)</span>), un même cercle auxiliaire sert aux deux médiatrices (<span class="math notranslate nohighlight">\(4R_1 + 2R_2\)</span>), d’où le centre <span class="math notranslate nohighlight">\(O = X(3)\)</span> et le cercle <span class="math notranslate nohighlight">\(O(A)\)</span> (<span class="math notranslate nohighlight">\(2C_1 + C_3\)</span>) :</p>
+        <div class="math notranslate nohighlight">
+        \[\mathrm{Op.} : \left(4R_1 + 2R_2 + 5C_1 + 4C_3\right), \qquad S = 15, \quad E = 9 \quad (2\text{ droites}, 4\text{ cercles}).\]</div>
+        <p><strong>Problème XXVI (Euclide III.17 — Tangentes menées d’un point extérieur :g:`A` à un cercle :g:`O(R)`).</strong> La construction d’<a class="person-ref" id="occ-person-euclid-1" href="../persons.html#person-euclid" data-person="euclid" title="Euclid of Alexandria (fl. c. 300 BCE) — Alexandrian mathematician; author of the Elements">Euclide</a> demande <span class="math notranslate nohighlight">\(8R_1 + 4R_2 + 4C_1 + 3C_3\)</span> (<span class="math notranslate nohighlight">\(S = 19\)</span>). <a class="person-ref" id="occ-person-lemoine-1" href="../persons.html#person-lemoine" data-person="lemoine" title="Émile Michel Hyacinthe Lemoine (1840–1912) — French geometer, civil engineer, and polymath; co-founder of modern triangle geometry and creator of Géométrographie">Lemoine</a> abaisse la simplicité à <span class="math notranslate nohighlight">\(S = 18\)</span>, soit par <span class="math notranslate nohighlight">\(5R_1 + 3R_2 + 7C_1 + 3C_3\)</span>, soit par le cercle <span class="geom-ref" data-ref="M(MO)" title="M(MO)">MMO</span> de diamètre <span class="geom-ref" data-ref="OA" title="OA">OA</span> coupant <span class="geom-ref" data-ref="O(R)" title="O(R)">OR</span> en <span class="geom-ref" data-ref="T" title="T">T</span> et <span class="geom-ref" data-ref="T'" title="T&#x27;">T</span> le long de la polaire <span class="geom-ref" data-ref="TT'" title="TT&#x27;">TT</span>, d’où les tangentes <span class="geom-ref" data-ref="AT" title="AT">AT</span> et <span class="geom-ref" data-ref="AT'" title="AT&#x27;">AT</span> (<span class="math notranslate nohighlight">\(5R_1 + 3R_2 + 6C_1 + 4C_3\)</span>, <span class="math notranslate nohighlight">\(S = 18, E = 11\)</span>).</p>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 260" width="580" height="260" class="euclid-graphic" data-graphic-id="fig_circle_tangents" data-proposition="XXVI">
+          <defs>
+            <marker id="geom-tick-1" viewBox="-2 -6 4 12" markerWidth="4" markerHeight="12" orient="auto">
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+            </marker>
+            <marker id="geom-tick-2" viewBox="-4 -6 8 12" markerWidth="8" markerHeight="12" orient="auto">
+              <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+              <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+            </marker>
+            <marker id="geom-tick-3" viewBox="-6 -6 12 12" markerWidth="12" markerHeight="12" orient="auto">
+              <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+              <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+            </marker>
+          </defs>
+          <g id="elements">
+            <circle cx="375.00" cy="136.00" r="78.00" fill="none" class="geom-bold" data-ref="O(R)" />
+            <circle cx="245.00" cy="136.00" r="130.00" fill="none" class="geom-arc" data-ref="M(MO)" />
+            <path d="M 115.00 136.00 L 245.00 136.00 L 375.00 136.00" fill="none" class="geom-dashed" data-ref="OA" />
+            <path d="M 115.00 136.00 L 256.96 91.36 L 398.92 46.71" fill="none" class="geom-assert-line" data-ref="AT" />
+            <path d="M 115.00 136.00 L 256.96 180.64 L 398.92 225.29" fill="none" class="geom-assert-line" data-ref="AT&#x27;" />
+            <path d="M 351.60 38.00 L 351.60 136.00 L 351.60 234.00" fill="none" class="geom-accent-line" data-ref="TT&#x27;" />
+          </g>
+          <g id="graphics">
+            <path d="M 375.00 136.00 L 363.30 98.80 L 351.60 61.59" fill="none" class="geom-dashed" />
+            <path d="M 375.00 136.00 L 363.30 173.20 L 351.60 210.41" fill="none" class="geom-dashed" />
+          </g>
+          <g id="highlights" style="pointer-events: none;">
+          </g>
+          <g id="points">
+            <circle cx="115.00" cy="136.00" r="3.30" class="geom-point-accent" data-ref="A" />
+            <circle cx="245.00" cy="136.00" r="3.30" class="geom-point" data-ref="M" />
+            <circle cx="375.00" cy="136.00" r="3.30" class="geom-point" data-ref="O" />
+            <circle cx="351.60" cy="61.59" r="3.30" class="geom-point-assert" data-ref="T" />
+            <circle cx="351.60" cy="210.41" r="3.30" class="geom-point-assert" data-ref="T&#x27;" />
+          </g>
+          <g id="labels">
+            <text x="102.00" y="141.00" text-anchor="middle" class="geom-label" data-ref="A">A</text>
+            <text x="245.00" y="153.00" text-anchor="middle" class="geom-label" data-ref="M">M</text>
+            <text x="387.00" y="141.00" text-anchor="middle" class="geom-label" data-ref="O">O</text>
+            <text x="363.60" y="52.59" text-anchor="middle" class="geom-label" data-ref="T">T</text>
+            <text x="365.60" y="227.41" text-anchor="middle" class="geom-label" data-ref="T&#x27;">T&#x27;</text>
+            <text x="290.00" y="22.00" text-anchor="middle" class="geom-label-sm">Problems XXVI &amp; XXXIX — Tangents (S = 18) &amp; Straightedge Polar TT&#x27; (12R₁ + 7R₂)</text>
+          </g>
+        </svg>
+        </figure>
+        <p><strong>Problème XXVII (Euclide IV.4 — Cercle inscrit et centre :g:`I` :math:`= X(1)`).</strong> La construction classique trace deux bissectrices et abaisse la perpendiculaire complète de <span class="geom-ref" data-ref="I" title="I">I</span> sur <span class="geom-ref" data-ref="BC" title="BC">BC</span>, soit <span class="math notranslate nohighlight">\(6R_1 + 3R_2 + 11C_1 + 10C_3\)</span> (<span class="math notranslate nohighlight">\(S = 30, E = 17\)</span>, 3 droites, 10 cercles). En conservant la même ouverture aux sommets <span class="geom-ref" data-ref="B" title="B">B</span>, <span class="geom-ref" data-ref="C" title="C">C</span> pour mener <span class="geom-ref" data-ref="BI" title="BI">BI</span> et <span class="geom-ref" data-ref="CI" title="CI">CI</span> et en déterminant le rayon de contact <span class="geom-ref" data-ref="ID" title="ID">ID</span> sans tracer de troisième droite avant de décrire <span class="geom-ref" data-ref="I(ID)" title="I(ID)">IID</span>, Lemoine économise sept opérations et quatre cercles :</p>
+        <div class="math notranslate nohighlight">
+        \[\mathrm{Op.} : \left(4R_1 + 2R_2 + 11C_1 + 6C_3\right), \qquad S = 23, \quad E = 15 \quad (2\text{ droites}, 6\text{ cercles}).\]</div>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 280" width="540" height="280" class="euclid-graphic" data-graphic-id="fig_incircle_lemoine" data-proposition="XXVII">
+          <defs>
+            <marker id="geom-tick-1" viewBox="-2 -6 4 12" markerWidth="4" markerHeight="12" orient="auto">
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+            </marker>
+            <marker id="geom-tick-2" viewBox="-4 -6 8 12" markerWidth="8" markerHeight="12" orient="auto">
+              <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+              <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+            </marker>
+            <marker id="geom-tick-3" viewBox="-6 -6 12 12" markerWidth="12" markerHeight="12" orient="auto">
+              <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+              <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+            </marker>
+          </defs>
+          <g id="elements">
+            <polygon points="230.00,52.00 155.00,232.00 365.00,232.00" class="geom-polygon" data-ref="ABC" />
+            <path d="M 230.00 52.00 L 192.50 142.00 L 155.00 232.00" fill="none" class="geom-bold" data-ref="AB" />
+            <path d="M 155.00 232.00 L 260.00 232.00 L 365.00 232.00" fill="none" class="geom-bold" data-ref="BC" />
+            <path d="M 365.00 232.00 L 297.50 142.00 L 230.00 52.00" fill="none" class="geom-bold" data-ref="CA" />
+            <path d="M 155.00 232.00 L 218.00 190.00 L 281.00 148.00" fill="none" class="geom-accent-line" data-ref="BI" />
+            <path d="M 365.00 232.00 L 293.00 196.00 L 221.00 160.00" fill="none" class="geom-accent-line" data-ref="CI" />
+            <path d="M 245.00 172.00 L 245.00 202.00 L 245.00 232.00" fill="none" class="geom-dashed" data-ref="ID" />
+            <circle cx="245.00" cy="172.00" r="60.00" fill="none" class="geom-assert-line" data-ref="I(ID)" />
+          </g>
+          <g id="graphics">
+            <path d="M 172.23 189.35 A 46.00 46.00 0 0 1 200.89 235.21" fill="none" class="geom-arc" />
+            <path d="M 319.11 235.21 A 46.00 46.00 0 0 1 339.28 193.86" fill="none" class="geom-arc" />
+          </g>
+          <g id="highlights" style="pointer-events: none;">
+            <path d="M 253.50 232.00 L 253.50 223.50 L 245.00 223.50" fill="none" class="geom-ang-arc" />
+          </g>
+          <g id="points">
+            <circle cx="230.00" cy="52.00" r="3.30" class="geom-point" data-ref="A" />
+            <circle cx="155.00" cy="232.00" r="3.30" class="geom-point" data-ref="B" />
+            <circle cx="365.00" cy="232.00" r="3.30" class="geom-point" data-ref="C" />
+            <circle cx="245.00" cy="172.00" r="3.30" class="geom-point-assert" data-ref="I" />
+            <circle cx="245.00" cy="232.00" r="3.30" class="geom-point-accent" data-ref="D" />
+            <circle cx="293.00" cy="136.00" r="3.30" class="geom-point" data-ref="E" />
+            <circle cx="189.62" cy="148.92" r="3.30" class="geom-point" data-ref="F" />
+          </g>
+          <g id="labels">
+            <text x="230.00" y="43.00" text-anchor="middle" class="geom-label" data-ref="A">A</text>
+            <text x="142.00" y="247.00" text-anchor="middle" class="geom-label" data-ref="B">B</text>
+            <text x="378.00" y="247.00" text-anchor="middle" class="geom-label" data-ref="C">C</text>
+            <text x="245.00" y="160.00" text-anchor="middle" class="geom-label" data-ref="I">I = X(1)</text>
+            <text x="245.00" y="249.00" text-anchor="middle" class="geom-label" data-ref="D">D</text>
+            <text x="306.00" y="133.00" text-anchor="middle" class="geom-label" data-ref="E">E</text>
+            <text x="176.62" y="145.92" text-anchor="middle" class="geom-label" data-ref="F">F</text>
+            <text x="270.00" y="22.00" text-anchor="middle" class="geom-label-sm">Problem XXVII (Euclid IV.4) — Incircle : 4R₁ + 2R₂ + 11C₁ + 6C₃ (S = 23 vs. S = 30)</text>
+          </g>
+        </svg>
+        </figure>
+        <div class="folio-milestone" id="folio-Problèmes XXXIII–XXXVI" data-folio="Problèmes XXXIII–XXXVI" data-page="24">[Folio Problèmes XXXIII–XXXVI | p. 24]</div>
+        </section>
+        <section class="level-2" id="lignes-proportionnelles-xxxiiixxxv-et-division-en-moyenne-et-extreme-raison-xxxvi">
+        <h2>§ 2. Lignes proportionnelles (XXXIII–XXXV) et division en moyenne et extrême raison (XXXVI)<a class="headerlink" href="#lignes-proportionnelles-xxxiiixxxv-et-division-en-moyenne-et-extreme-raison-xxxvi" title="Link to this heading">¶</a></h2>
+        <ul class="simple">
+        <li><p><strong>Quatrième et troisième proportionnelles (XXXIII–XXXIV)</strong> : <span class="math notranslate nohighlight">\(x = bc/a\)</span> en <span class="math notranslate nohighlight">\(2R_1 + 2R_2 + 11C_1 + C_2 + 6C_3\)</span> (<span class="math notranslate nohighlight">\(S = 22\)</span>) ; <span class="math notranslate nohighlight">\(x = b^2/a\)</span> en <span class="math notranslate nohighlight">\(4R_1 + 2R_2 + 5C_1 + C_2 + 3C_3\)</span> (<span class="math notranslate nohighlight">\(S = 15\)</span>).</p></li>
+        <li><p><strong>Moyenne proportionnelle :math:`sqrt{ab}` (XXXV — construction de Lemoine et :person:`Gouzy &lt;gouzy&gt;`)</strong> : <span class="math notranslate nohighlight">\(\mathrm{Op.} : (2R_1 + 2R_2 + 6C_1 + C_2 + 3C_3)\)</span>, <span class="math notranslate nohighlight">\(S = 14, E = 9\)</span> (2 droites, 3 cercles, contre <span class="math notranslate nohighlight">\(S = 24\)</span>, 6 cercles dans le tracé classique).</p></li>
+        </ul>
+        <p><strong>Problème XXXVI (Euclide II.11 / VI.30 — :term:`Moyenne et extrême raison &lt;moyenne-et-extreme-raison&gt;` :math:`phi`).</strong> Au lieu des trois droites classiques (<span class="math notranslate nohighlight">\(S = 25\)</span>), Lemoine ne trace <strong>qu’une seule ligne droite</strong> : la médiatrice <span class="geom-ref" data-ref="MC" title="MC">MC</span> de <span class="geom-ref" data-ref="AB" title="AB">AB</span> (<span class="math notranslate nohighlight">\(2R_1 + R_2\)</span>), qui fournit simultanément le milieu <span class="geom-ref" data-ref="M" title="M">M</span> (<span class="math notranslate nohighlight">\(MB = AB/2\)</span>) et la perpendiculaire sur laquelle le cercle <span class="math notranslate nohighlight">\(M(AB)\)</span> marque <span class="geom-ref" data-ref="C" title="C">C</span> (<span class="math notranslate nohighlight">\(MC = AB\)</span>). Sans tracer l’hypoténuse <span class="geom-ref" data-ref="BC" title="BC">BC</span> (<span class="math notranslate nohighlight">\(= \frac{\sqrt{5}}{2} AB\)</span>), le cercle <span class="math notranslate nohighlight">\(B(C)\)</span> marque sur la droite prolongée le point <span class="geom-ref" data-ref="E" title="E">E</span> tel que <span class="math notranslate nohighlight">\(ME = AB/\phi\)</span>, et l’arc <span class="geom-ref" data-ref="A(ME)" title="A(ME)">AME</span> donne le point d’or <span class="geom-ref" data-ref="X" title="X">X</span> (<span class="geom-ref" data-ref="AX" title="AX">AX</span> <span class="math notranslate nohighlight">\(= AB/\phi\)</span>) :</p>
+        <div class="math notranslate nohighlight">
+        \[\mathrm{Op.} : \left(2R_1 + R_2 + 9C_1 + 6C_3\right), \qquad S = 18, \quad E = 11 \quad (1\text{ droite}, 6\text{ cercles}).\]</div>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 295" width="580" height="295" class="euclid-graphic" data-graphic-id="fig_golden_section_lemoine" data-proposition="XXXVI">
+          <defs>
+            <marker id="geom-tick-1" viewBox="-2 -6 4 12" markerWidth="4" markerHeight="12" orient="auto">
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+            </marker>
+            <marker id="geom-tick-2" viewBox="-4 -6 8 12" markerWidth="8" markerHeight="12" orient="auto">
+              <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+              <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+            </marker>
+            <marker id="geom-tick-3" viewBox="-6 -6 12 12" markerWidth="12" markerHeight="12" orient="auto">
+              <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+              <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+            </marker>
+          </defs>
+          <g id="elements">
+            <path d="M 220.00 206.00 L 300.00 206.00 L 380.00 206.00" fill="none" class="geom-bold" data-ref="AB" />
+            <path d="M 220.00 206.00 L 269.44 206.00 L 318.89 206.00" fill="none" class="geom-assert-line" data-ref="AX" />
+            <path d="M 300.00 32.00 L 300.00 145.00 L 300.00 258.00" fill="none" class="geom-accent-line" data-ref="MC" />
+            <path d="M 380.00 206.00 L 340.00 126.00 L 300.00 46.00" fill="none" class="geom-dashed" data-ref="BC" />
+            <path d="M 278.12 126.00 A 98.89 98.89 0 0 1 317.92 219.76" fill="none" class="geom-assert-line" data-ref="A(ME)" />
+          </g>
+          <g id="graphics">
+            <path d="M 65.00 206.00 L 285.00 206.00 L 505.00 206.00" fill="none" class="geom-line" />
+            <path d="M 285.08 59.83 A 160.00 160.00 0 0 1 335.09 94.85" fill="none" class="geom-arc" />
+            <path d="M 264.91 94.85 A 160.00 160.00 0 0 1 314.92 59.83" fill="none" class="geom-arc" />
+            <path d="M 266.73 49.50 A 160.00 160.00 0 0 1 333.27 49.50" fill="none" class="geom-arc" />
+            <path d="M 202.09 224.70 A 178.89 178.89 0 0 1 279.97 57.70" fill="none" class="geom-arc" />
+          </g>
+          <g id="highlights" style="pointer-events: none;">
+            <path d="M 309.00 206.00 L 309.00 197.00 L 300.00 197.00" fill="none" class="geom-ang-arc" />
+          </g>
+          <g id="points">
+            <circle cx="201.11" cy="206.00" r="3.30" class="geom-point-accent" data-ref="E" />
+            <circle cx="220.00" cy="206.00" r="3.30" class="geom-point" data-ref="A" />
+            <circle cx="300.00" cy="206.00" r="3.30" class="geom-point" data-ref="M" />
+            <circle cx="318.89" cy="206.00" r="3.60" class="geom-point-assert" data-ref="X" />
+            <circle cx="380.00" cy="206.00" r="3.30" class="geom-point" data-ref="B" />
+            <circle cx="300.00" cy="46.00" r="3.30" class="geom-point-accent" data-ref="C" />
+          </g>
+          <g id="labels">
+            <text x="191.11" y="197.00" text-anchor="middle" class="geom-label" data-ref="E">E</text>
+            <text x="220.00" y="225.00" text-anchor="middle" class="geom-label" data-ref="A">A</text>
+            <text x="291.00" y="225.00" text-anchor="middle" class="geom-label" data-ref="M">M</text>
+            <text x="338.89" y="196.00" text-anchor="middle" class="geom-label" data-ref="X">X (φ⁻¹)</text>
+            <text x="390.00" y="225.00" text-anchor="middle" class="geom-label" data-ref="B">B</text>
+            <text x="314.00" y="51.00" text-anchor="middle" class="geom-label" data-ref="C">C</text>
+            <text x="290.00" y="20.00" text-anchor="middle" class="geom-label-sm">Problem XXXVI (Euclid II.11) — Golden Section in 1 Line &amp; 6 Circles (S = 18 vs. S = 25)</text>
+            <text x="290.00" y="280.00" text-anchor="middle" class="geom-label-sm">MC = AB, MB = AB/2  ⇒  BC = (√5/2)·AB  ⇒  ME = AX = AB / φ</text>
+          </g>
+        </svg>
+        </figure>
+        <div class="folio-milestone" id="folio-Problèmes XXXVIII–XLVII" data-folio="Problèmes XXXVIII–XLVII" data-page="29">[Folio Problèmes XXXVIII–XLVII | p. 29]</div>
+        </section>
+        <section class="level-2" id="inversion-au-compas-seul-xxxviii-polaire-a-la-regle-seule-xxxix-axe-radical-xli-et-conjugue-harmonique-xlvi">
+        <h2>§ 3. Inversion au compas seul (XXXVIII), polaire à la règle seule (XXXIX), axe radical (XLI) et conjugué harmonique (XLVI)<a class="headerlink" href="#inversion-au-compas-seul-xxxviii-polaire-a-la-regle-seule-xxxix-axe-radical-xli-et-conjugue-harmonique-xlvi" title="Link to this heading">¶</a></h2>
+        <ul class="simple">
+        <li><p><strong>Problème XXXVIII (:term:`Inversion &lt;inversion&gt;` — compas seul lorsque :math:`OA &gt; R/2`)</strong> : Tracer <span class="math notranslate nohighlight">\(A(O)\)</span> coupant <span class="math notranslate nohighlight">\(O(R)\)</span> en <span class="math notranslate nohighlight">\(M, N\)</span>, puis <span class="math notranslate nohighlight">\(M(O)\)</span> et <span class="math notranslate nohighlight">\(N(O)\)</span> se recoupant en <span class="math notranslate nohighlight">\(A'\)</span> : <span class="math notranslate nohighlight">\(\mathrm{Op.} : (5C_1 + 3C_3)\)</span>, <span class="math notranslate nohighlight">\(S = 8, E = 5\)</span> (<strong>0 droite, 3 cercles</strong>).</p></li>
+        <li><p><strong>Problème XXXIX (:term:`Polaire d’un point &lt;polaire&gt;` — règle seule)</strong> : Par le quadrilatère complet inscrit dans le cercle tracé <span class="math notranslate nohighlight">\(O\)</span>, <span class="math notranslate nohighlight">\(\mathrm{Op.} : (12R_1 + 7R_2)\)</span>, <span class="math notranslate nohighlight">\(S = 19, E = 12\)</span> (<strong>7 droites, 0 cercle</strong>).</p></li>
+        <li><p><strong>Problème XLI (:term:`Axe radical &lt;linie-der-gleichen-potenzen&gt;` de deux cercles non sécants)</strong> : Deux cercles auxiliaires quelconques (<span class="math notranslate nohighlight">\(2C_3\)</span>) coupant les deux cercles donnés fournissent deux centres radicaux par simples droites concourantes : <span class="math notranslate nohighlight">\(\mathrm{Op.} : (10R_1 + 5R_2 + 2C_3)\)</span>, <span class="math notranslate nohighlight">\(S = 17, E = 10\)</span> — alors que la construction classique par les tangentes communes défendue par <a class="person-ref" id="occ-person-mannheim-1" href="../persons.html#person-mannheim" data-person="mannheim" title="Amédée Mannheim (1831–1906) — Professor of descriptive geometry at the École Polytechnique; inventor of the modern slide rule layout">Amédée Mannheim</a> (pp. 57–58) exigeait <span class="math notranslate nohighlight">\(18R_1 + 9R_2 + 19C_1 + 12C_3\)</span> (<span class="math notranslate nohighlight">\(S = 58\)</span>) !</p></li>
+        <li><p><strong>Problème XLVI (:term:`Conjugué harmonique &lt;conjugue-harmonique&gt;` — règle seule)</strong> : Par le quadrilatère complet de <a class="person-ref" id="occ-person-pappus-1" href="../persons.html#person-pappus" data-person="pappus" title="Pappus of Alexandria (c. 290–c. 350 CE) — Late antique Greek geometer; author of the Synagoge (Mathematical Collection)">Pappus</a>, <span class="math notranslate nohighlight">\(\mathrm{Op.} : (9R_1 + 6R_2)\)</span>, <span class="math notranslate nohighlight">\(S = 15, E = 9\)</span> (<strong>6 droites, 0 cercle</strong>).</p></li>
+        <li><p><strong>Problème XLVII (Carré sur :math:`AB`, construction d’:person:`Eugène Catalan &lt;catalan&gt;`)</strong> : <span class="math notranslate nohighlight">\(\mathrm{Op.} : (6R_1 + 3R_2 + 6C_1 + 4C_3)\)</span>, <span class="math notranslate nohighlight">\(S = 19, E = 12\)</span>.</p></li>
+        </ul>
+        <div class="folio-milestone" id="folio-Problèmes L–LXIII" data-folio="Problèmes L–LXIII" data-page="42">[Folio Problèmes L–LXIII | p. 42]</div>
+        </section>
+        <section class="level-2" id="geometrie-du-triangle-point-de-lemoine-x-6-points-de-brocard-et-centres-remarquables">
+        <h2>§ 4. Géométrie du triangle : point de Lemoine <span class="math notranslate nohighlight">\(X(6)\)</span>, points de Brocard et centres remarquables<a class="headerlink" href="#geometrie-du-triangle-point-de-lemoine-x-6-points-de-brocard-et-centres-remarquables" title="Link to this heading">¶</a></h2>
+        <ul class="simple">
+        <li><p><strong>Problème L — Centre de gravité :g:`G` :math:`= X(2)`</strong> : <span class="math notranslate nohighlight">\(\mathrm{Op.} : (6R_1 + 3R_2 + 6C_1 + 2C_3)\)</span>, <span class="math notranslate nohighlight">\(S = 17, E = 12\)</span> (3 droites, 2 cercles).</p></li>
+        <li><p><strong>Problème LI — :term:`Point de Lemoine &lt;point-de-lemoine&gt;` :g:`K` :math:`= X(6)`</strong> (<a class="citation-ref" id="occ-cite-lemoine-1873-1" href="../bibliography.html#cite-lemoine-1873" data-cite="lemoine-1873" title="Émile Lemoine — Sur quelques propriétés d&#x27;un point remarquable du triangle (Association Française pour l&#x27;Avancement des Sciences (Congrès de Lyon), Comptes Rendus, pp. 90–95)">lemoine-1873</a>) : Tandis que la construction générale par coordonnées normales (XLIX) demande <span class="math notranslate nohighlight">\(S = 54\)</span>, la bissection directe d’une <a class="term-ref glossary-term" id="occ-term-antiparallele-1" href="../glossary.html#term-antiparallele" data-term="antiparallele" title="Droite antiparallèle (Antiparallel Line): A transversal cutting two sides AB, AC of angle A at P, Q such that ∠AQP = ∠ABC (and ∠APQ = ∠ACB). The locus of midpoints of antiparallels to BC is the symmedian through A—the key theorem behind Lemoine&#x27;s S = 27 construction of X(6).">antiparallèle</a> <span class="geom-ref" data-ref="PaQa" title="PaQa">PaQa</span> à <span class="geom-ref" data-ref="BC" title="BC">BC</span> permet de ne tracer que les deux symédianes <span class="geom-ref" data-ref="AK" title="AK">AK</span> et <span class="geom-ref" data-ref="BK" title="BK">BK</span> :</p></li>
+        </ul>
+        <div class="math notranslate nohighlight">
+        \[\mathrm{Op.} : \left(4R_1 + 2R_2 + 13C_1 + 8C_3\right), \qquad S = 27, \quad E = 17 \quad (2\text{ droites}, 8\text{ cercles}).\]</div>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 290" width="580" height="290" class="euclid-graphic" data-graphic-id="fig_lemoine_symmedian_x6" data-proposition="LI">
+          <defs>
+            <marker id="geom-tick-1" viewBox="-2 -6 4 12" markerWidth="4" markerHeight="12" orient="auto">
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+            </marker>
+            <marker id="geom-tick-2" viewBox="-4 -6 8 12" markerWidth="8" markerHeight="12" orient="auto">
+              <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+              <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+            </marker>
+            <marker id="geom-tick-3" viewBox="-6 -6 12 12" markerWidth="12" markerHeight="12" orient="auto">
+              <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+              <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+            </marker>
+          </defs>
+          <g id="elements">
+            <polygon points="245.00,48.00 165.00,240.00 389.00,240.00" class="geom-polygon" data-ref="ABC" />
+            <path d="M 245.00 48.00 L 205.00 144.00 L 165.00 240.00" fill="none" class="geom-bold" data-ref="AB" />
+            <path d="M 165.00 240.00 L 277.00 240.00 L 389.00 240.00" fill="none" class="geom-bold" data-ref="BC" />
+            <path d="M 389.00 240.00 L 317.00 144.00 L 245.00 48.00" fill="none" class="geom-bold" data-ref="CA" />
+            <path d="M 245.00 48.00 L 261.00 144.00 L 277.00 240.00" fill="none" class="geom-dashed" data-ref="AMa" />
+            <path d="M 189.62 180.92 L 254.75 164.38 L 319.88 147.84" fill="none" class="geom-accent-line" data-ref="PaQa" />
+            <path d="M 245.00 48.00 L 253.04 144.00 L 261.08 240.00" fill="none" class="geom-assert-line" data-ref="AK" />
+            <path d="M 165.00 240.00 L 238.34 188.45 L 311.67 136.90" fill="none" class="geom-assert-line" data-ref="BK" />
+          </g>
+          <g id="graphics">
+          </g>
+          <g id="highlights" style="pointer-events: none;">
+          </g>
+          <g id="points">
+            <circle cx="245.00" cy="48.00" r="3.20" class="geom-point" data-ref="A" />
+            <circle cx="165.00" cy="240.00" r="3.20" class="geom-point" data-ref="B" />
+            <circle cx="389.00" cy="240.00" r="3.20" class="geom-point" data-ref="C" />
+            <circle cx="189.62" cy="180.92" r="3.20" class="geom-point-accent" data-ref="Pa" />
+            <circle cx="319.88" cy="147.84" r="3.20" class="geom-point-accent" data-ref="Qa" />
+            <circle cx="254.75" cy="164.38" r="3.20" class="geom-point-accent" data-ref="Mpa" />
+            <circle cx="277.00" cy="240.00" r="3.20" class="geom-point" data-ref="Ma" />
+            <circle cx="266.33" cy="176.00" r="3.20" class="geom-point" data-ref="G" />
+            <circle cx="255.74" cy="176.22" r="3.80" class="geom-point-assert" data-ref="K" />
+          </g>
+          <g id="labels">
+            <text x="245.00" y="39.00" text-anchor="middle" class="geom-label" data-ref="A">A</text>
+            <text x="152.00" y="255.00" text-anchor="middle" class="geom-label" data-ref="B">B</text>
+            <text x="402.00" y="255.00" text-anchor="middle" class="geom-label" data-ref="C">C</text>
+            <text x="174.62" y="183.92" text-anchor="middle" class="geom-label" data-ref="Pa">Pₐ</text>
+            <text x="335.88" y="145.84" text-anchor="middle" class="geom-label" data-ref="Qa">Qₐ</text>
+            <text x="238.75" y="159.38" text-anchor="middle" class="geom-label" data-ref="Mpa">M&#x27;ₐ</text>
+            <text x="277.00" y="257.00" text-anchor="middle" class="geom-label" data-ref="Ma">Mₐ</text>
+            <text x="298.33" y="172.00" text-anchor="middle" class="geom-label" data-ref="G">G = X(2)</text>
+            <text x="222.74" y="189.22" text-anchor="middle" class="geom-label" data-ref="K">K = X(6)</text>
+            <text x="290.00" y="22.00" text-anchor="middle" class="geom-label-sm">Problem LI — Lemoine Symmedian Point K = X(6) : 4R₁ + 2R₂ + 13C₁ + 8C₃ (S = 27)</text>
+            <text x="290.00" y="276.00" text-anchor="middle" class="geom-label-sm">Antiparallel PₐQₐ bisected by symmedian AK (isogonal to median AMₐ through G = X(2))</text>
+          </g>
+        </svg>
+        </figure>
+        <ul class="simple">
+        <li><p><strong>Problèmes LII–LV — :term:`Droite de Lemoine &lt;droite-de-lemoine&gt;` (:math:`S = 19`), couple :math:`(G, K)` (:math:`S = 32`) et :term:`points de Brocard &lt;points-de-brocard&gt;` :math:`omega, omega’`</strong> : Un point de Brocard en <span class="math notranslate nohighlight">\(8R_1 + 4R_2 + 10C_1 + 6C_3\)</span> (<span class="math notranslate nohighlight">\(S = 28\)</span>) ; les deux points simultanément en <span class="math notranslate nohighlight">\(12R_1 + 6R_2 + 12C_1 + 8C_3\)</span> (<span class="math notranslate nohighlight">\(S = 38\)</span>, contre <span class="math notranslate nohighlight">\(S = 74\)</span> dans la lettre d’<a class="person-ref" id="occ-person-brocard-1" href="../persons.html#person-brocard" data-person="brocard" title="Henri Brocard (1845–1922) — French army meteorologist and geometer; co-founder of modern triangle geometry">Henri Brocard</a>, pp. 58–59).</p></li>
+        <li><p><strong>Problèmes LVI–LXIII</strong> : Point de <a class="person-ref" id="occ-person-steiner-1" href="../persons.html#person-steiner" data-person="steiner" title="Jakob Steiner (1796–1863) — Swiss-born synthetic projective geometer; professor of geometry at the University of Berlin">Steiner</a> <span class="math notranslate nohighlight">\(X(99)\)</span> (<span class="math notranslate nohighlight">\(S = 24\)</span>), point de <a class="person-ref" id="occ-person-tarry-1" href="../persons.html#person-tarry" data-person="tarry" title="Gaston Tarry (1843–1913) — French amateur mathematician in Algeria; discoverer of the Tarry point X(98)">Tarry</a> <span class="math notranslate nohighlight">\(X(98)\)</span> (<span class="math notranslate nohighlight">\(S = 28\)</span>), point de <a class="person-ref" id="occ-person-gergonne-1" href="../persons.html#person-gergonne" data-person="gergonne" title="Joseph Diaz Gergonne (1771–1859) — French mathematician; founder of Annales de Mathématiques Pures et Appliquées">Gergonne</a> <span class="math notranslate nohighlight">\(X(7)\)</span> (<span class="math notranslate nohighlight">\(S = 27\)</span>), centre de <a class="person-ref" id="occ-person-spieker-1" href="../persons.html#person-spieker" data-person="spieker" title="Theodor Spieker (1823–1913) — German geometer in Potsdam">Spieker</a> <span class="math notranslate nohighlight">\(X(10)\)</span> (<span class="math notranslate nohighlight">\(S = 29\)</span>), point de <a class="person-ref" id="occ-person-nagel-1" href="../persons.html#person-nagel" data-person="nagel" title="Christian Heinrich von Nagel (1803–1882) — German geometer in Ulm">Nagel</a> <span class="math notranslate nohighlight">\(X(8)\)</span> (<span class="math notranslate nohighlight">\(4R_1 + 2R_2 + 7C_1 + 3C_3, S = 16\)</span>), point <span class="math notranslate nohighlight">\(\Phi\)</span> de <a class="person-ref" id="occ-person-neuberg-1" href="../persons.html#person-neuberg" data-person="neuberg" title="Joseph Jean Baptiste Neuberg (1840–1926) — Luxembourgish-Belgian geometer at the University of Liège; co-editor of Mathesis">Neuberg</a> (<span class="math notranslate nohighlight">\(S = 37\)</span>) et point <span class="math notranslate nohighlight">\(W\)</span> (<span class="math notranslate nohighlight">\(S = 62\)</span> au lieu de <span class="math notranslate nohighlight">\(148\)</span>).</p></li>
+        </ul>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../unit-2-euclid-benchmarks/unit-2-euclid-benchmarks-fr.html" title="Unit II: Fundamental Speculative vs. Géométrographique Constructions (Euclid Book I Benchmarks)">&larr; <span class="nav-label">Unit II: Fundamental Speculative vs. Géométrographique Constructions (Euclid Book I Benchmarks)</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">GÉOMÉTROGRAPHIE</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../unit-4-minimal-instruments/unit-4-minimal-instruments-fr.html" title="Unit IV: Restricted &amp; Alternative Instruments — Équerre, Mascheroni Compass-Only &amp; Poncelet–Steiner Fixed-Circle"><span class="nav-label">Unit IV: Restricted & Alternative Instruments — Équerre, Mascheroni Compass-Only & Poncelet–Steiner Fixed-Circle</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../about/index.html"  >about</a></li>
+        <li><a href="../../changelog.html"  >changelog</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1902 C. Naud (Collection Scientia No. 18) • Digital Edition GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

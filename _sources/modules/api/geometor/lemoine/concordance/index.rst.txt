@@ -1,0 +1,277 @@
+geometor.lemoine.concordance
+============================
+
+.. py:module:: geometor.lemoine.concordance
+
+.. autoapi-nested-parse::
+
+   Structured apparatus, operation calculus, and dual minimal-instrument concordance for GEOMETOR Lemoine.
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   geometor.lemoine.concordance.CODEX_UNITS
+   geometor.lemoine.concordance.TRACK_SUFFIXES
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   geometor.lemoine.concordance.OpCount
+   geometor.lemoine.concordance.InstrumentLocus
+   geometor.lemoine.concordance.ConcordanceEntry
+   geometor.lemoine.concordance.LemoineApparatus
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.lemoine.concordance.default_repo_root
+   geometor.lemoine.concordance.apparatus_slug
+   geometor.lemoine.concordance.load_apparatus
+   geometor.lemoine.concordance.verify_sources_manifest
+   geometor.lemoine.concordance.verify_concordance
+
+
+Module Contents
+---------------
+
+.. py:data:: CODEX_UNITS
+   :type:  tuple[tuple[str, str], ...]
+   :value: (('unit-1-operations', 'Unit I: Historical Genesis, Methodological Criteria & The Five...
+
+
+.. py:data:: TRACK_SUFFIXES
+   :type:  tuple[str, ...]
+   :value: ('en', 'fr', 'summary', 'notes')
+
+
+.. py:function:: default_repo_root() -> pathlib.Path
+
+   Return the root directory of the ``geometor/lemoine`` repository.
+
+
+.. py:function:: apparatus_slug(raw_key: str) -> str
+
+   Normalize an apparatus key to the ``photon_platform.publish`` cross-reference slug.
+
+
+.. py:class:: OpCount
+
+   Exact Lemoine *Géométrographie* operation-count vector and derived invariants.
+
+
+   .. py:attribute:: r1
+      :type:  int
+
+
+   .. py:attribute:: r2
+      :type:  int
+
+
+   .. py:attribute:: c1
+      :type:  int
+
+
+   .. py:attribute:: c2
+      :type:  int
+
+
+   .. py:attribute:: c3
+      :type:  int
+
+
+   .. py:attribute:: s
+      :type:  int
+
+
+   .. py:attribute:: e
+      :type:  int
+
+
+   .. py:attribute:: lines
+      :type:  int
+
+
+   .. py:attribute:: circles
+      :type:  int
+
+
+   .. py:attribute:: symbol
+      :type:  str
+
+
+   .. py:method:: from_dict(data: dict[str, Any]) -> OpCount
+      :classmethod:
+
+
+      Instantiate an :class:`OpCount` from a JSON mapping.
+
+
+
+   .. py:method:: validate(label: str = '') -> list[str]
+
+      Verify Lemoine's four fundamental algebraic identities on this operation symbol.
+
+
+
+.. py:class:: InstrumentLocus
+
+   Minimal-instrument counterpart locus and constructive method (Mascheroni or Steiner).
+
+
+   .. py:attribute:: locus
+      :type:  str
+
+
+   .. py:attribute:: method
+      :type:  str
+
+
+   .. py:method:: from_dict(data: dict[str, Any]) -> InstrumentLocus
+      :classmethod:
+
+
+      Instantiate an :class:`InstrumentLocus` from a JSON mapping.
+
+
+
+.. py:class:: ConcordanceEntry
+
+   Single canonical construction benchmark across Lemoine, Euclid, Mascheroni, and Steiner.
+
+
+   .. py:attribute:: id
+      :type:  str
+
+
+   .. py:attribute:: problem_number
+      :type:  str
+
+
+   .. py:attribute:: title_en
+      :type:  str
+
+
+   .. py:attribute:: title_fr
+      :type:  str
+
+
+   .. py:attribute:: unit_id
+      :type:  str
+
+
+   .. py:attribute:: folio_page
+      :type:  str
+
+
+   .. py:attribute:: euclid_ref
+      :type:  str
+
+
+   .. py:attribute:: elements_ref
+      :type:  str
+
+
+   .. py:attribute:: etc_ref
+      :type:  str | None
+
+
+   .. py:attribute:: pappus_ref
+      :type:  str | None
+
+
+   .. py:attribute:: classical_ops
+      :type:  OpCount
+
+
+   .. py:attribute:: lemoine_ops
+      :type:  OpCount
+
+
+   .. py:attribute:: mascheroni
+      :type:  InstrumentLocus
+
+
+   .. py:attribute:: steiner
+      :type:  InstrumentLocus
+
+
+   .. py:attribute:: notes
+      :type:  str
+
+
+   .. py:method:: from_dict(data: dict[str, Any]) -> ConcordanceEntry
+      :classmethod:
+
+
+      Parse a concordance entry from ``concordance.json``.
+
+
+
+   .. py:property:: delta_s
+      :type: int
+
+
+      Operations saved by ``lemoine_ops`` relative to ``classical_ops`` (``S_classical - S_lemoine``).
+
+
+   .. py:property:: delta_e
+      :type: int
+
+
+      Exactitude reduction achieved by ``lemoine_ops`` relative to ``classical_ops``.
+
+
+.. py:class:: LemoineApparatus
+
+   Loaded scholarly apparatus and dual minimal-instrument concordance.
+
+
+   .. py:attribute:: metadata
+      :type:  dict[str, Any]
+
+
+   .. py:attribute:: entries
+      :type:  tuple[ConcordanceEntry, ...]
+
+
+   .. py:attribute:: persons
+      :type:  dict[str, dict[str, str]]
+
+
+   .. py:attribute:: citations
+      :type:  dict[str, dict[str, str]]
+
+
+   .. py:attribute:: glossary
+      :type:  dict[str, dict[str, str]]
+
+
+   .. py:attribute:: sources_manifest
+      :type:  dict[str, Any]
+
+
+.. py:function:: load_apparatus(repo_root: pathlib.Path | None = None) -> LemoineApparatus
+
+   Load ``concordance.json``, ``persons.json``, ``citations.json``, ``glossary.json``, and ``sources_manifest.json``.
+
+
+.. py:function:: verify_sources_manifest(repo_root: pathlib.Path | None = None) -> list[str]
+
+   Verify SHA-256 digests and non-empty witness files listed in ``sources_manifest.json``.
+
+
+.. py:function:: verify_concordance(apparatus: LemoineApparatus | None = None) -> list[str]
+
+   Validate all concordance entries, operation counts, unit references, and apparatus dictionaries.
+
+

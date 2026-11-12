@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 290" width="580" height="290" class="euclid-graphic" data-graphic-id="fig_lemoine_symmedian_x6" data-proposition="LI">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-2 -6 4 12" markerWidth="4" markerHeight="12" orient="auto">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+    </marker>
+    <marker id="geom-tick-2" viewBox="-4 -6 8 12" markerWidth="8" markerHeight="12" orient="auto">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" markerWidth="12" markerHeight="12" orient="auto">
+      <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+      <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+    </marker>
+  </defs>
+  <style>
+    :root {
+      --geom-fg: #18181b;
+      --geom-bg: #ffffff;
+      --geom-point-stroke: #ffffff;
+      --geom-poly-fill: #000000;
+      --geom-accent: #c88a1e;
+      --geom-assert: #16a34a;
+    }
+    .euclid-graphic {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      background-color: var(--geom-bg);
+    }
+    .geom-line { stroke: var(--geom-fg); stroke-width: 1.8; stroke-linecap: round; fill: none; }
+    .geom-bold { stroke: var(--geom-fg); stroke-width: 2.3; stroke-linecap: round; fill: none; }
+    .geom-dashed { stroke: var(--geom-fg); stroke-width: 1.35; stroke-dasharray: 5, 3.5; stroke-linecap: round; fill: none; opacity: 0.78; }
+    .geom-accent-line { stroke: var(--geom-accent); stroke-width: 2.15; stroke-linecap: round; fill: none; }
+    .geom-assert-line { stroke: var(--geom-assert); stroke-width: 2.25; stroke-linecap: round; fill: none; }
+    .geom-circle { stroke: var(--geom-fg); stroke-width: 1.55; fill: none; }
+    .geom-arc { stroke: var(--geom-accent); stroke-width: 1.75; stroke-dasharray: 4.5, 3; stroke-linecap: round; fill: none; }
+    .geom-ang-arc { stroke: var(--geom-assert); stroke-width: 1.7; stroke-linecap: round; fill: none; }
+    .geom-polygon { fill: var(--geom-poly-fill); fill-opacity: 0.05; stroke: none; }
+    .geom-polygon-accent { fill: var(--geom-accent); fill-opacity: 0.12; stroke: none; }
+    .geom-point { fill: var(--geom-fg); stroke: var(--geom-point-stroke); stroke-width: 1.15; }
+    .geom-point-accent { fill: var(--geom-accent); stroke: var(--geom-point-stroke); stroke-width: 1.15; }
+    .geom-point-assert { fill: var(--geom-assert); stroke: var(--geom-point-stroke); stroke-width: 1.25; }
+    .geom-label { font-size: 13px; font-weight: 700; fill: var(--geom-fg); user-select: none; }
+    .geom-label-sm { font-size: 10.2px; font-weight: 700; fill: var(--geom-fg); opacity: 0.88; user-select: none; }
+    .is-active { stroke-width: 3.1 !important; filter: drop-shadow(0 0 3px var(--geom-accent)); }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --geom-fg: #d6cfc5;
+        --geom-bg: #1e1e20;
+        --geom-point-stroke: #1e1e20;
+        --geom-poly-fill: #d6cfc5;
+        --geom-accent: #e8b85a;
+        --geom-assert: #5ec27e;
+      }
+    }
+  </style>
+  <g id="elements">
+    <polygon points="245.00,48.00 165.00,240.00 389.00,240.00" class="geom-polygon" data-ref="ABC" />
+    <path d="M 245.00 48.00 L 205.00 144.00 L 165.00 240.00" fill="none" class="geom-bold" data-ref="AB" />
+    <path d="M 165.00 240.00 L 277.00 240.00 L 389.00 240.00" fill="none" class="geom-bold" data-ref="BC" />
+    <path d="M 389.00 240.00 L 317.00 144.00 L 245.00 48.00" fill="none" class="geom-bold" data-ref="CA" />
+    <path d="M 245.00 48.00 L 261.00 144.00 L 277.00 240.00" fill="none" class="geom-dashed" data-ref="AMa" />
+    <path d="M 189.62 180.92 L 254.75 164.38 L 319.88 147.84" fill="none" class="geom-accent-line" data-ref="PaQa" />
+    <path d="M 245.00 48.00 L 253.04 144.00 L 261.08 240.00" fill="none" class="geom-assert-line" data-ref="AK" />
+    <path d="M 165.00 240.00 L 238.34 188.45 L 311.67 136.90" fill="none" class="geom-assert-line" data-ref="BK" />
+  </g>
+  <g id="graphics">
+  </g>
+  <g id="highlights" style="pointer-events: none;">
+  </g>
+  <g id="points">
+    <circle cx="245.00" cy="48.00" r="3.20" class="geom-point" data-ref="A" />
+    <circle cx="165.00" cy="240.00" r="3.20" class="geom-point" data-ref="B" />
+    <circle cx="389.00" cy="240.00" r="3.20" class="geom-point" data-ref="C" />
+    <circle cx="189.62" cy="180.92" r="3.20" class="geom-point-accent" data-ref="Pa" />
+    <circle cx="319.88" cy="147.84" r="3.20" class="geom-point-accent" data-ref="Qa" />
+    <circle cx="254.75" cy="164.38" r="3.20" class="geom-point-accent" data-ref="Mpa" />
+    <circle cx="277.00" cy="240.00" r="3.20" class="geom-point" data-ref="Ma" />
+    <circle cx="266.33" cy="176.00" r="3.20" class="geom-point" data-ref="G" />
+    <circle cx="255.74" cy="176.22" r="3.80" class="geom-point-assert" data-ref="K" />
+  </g>
+  <g id="labels">
+    <text x="245.00" y="39.00" text-anchor="middle" class="geom-label" data-ref="A">A</text>
+    <text x="152.00" y="255.00" text-anchor="middle" class="geom-label" data-ref="B">B</text>
+    <text x="402.00" y="255.00" text-anchor="middle" class="geom-label" data-ref="C">C</text>
+    <text x="174.62" y="183.92" text-anchor="middle" class="geom-label" data-ref="Pa">Pₐ</text>
+    <text x="335.88" y="145.84" text-anchor="middle" class="geom-label" data-ref="Qa">Qₐ</text>
+    <text x="238.75" y="159.38" text-anchor="middle" class="geom-label" data-ref="Mpa">M&#x27;ₐ</text>
+    <text x="277.00" y="257.00" text-anchor="middle" class="geom-label" data-ref="Ma">Mₐ</text>
+    <text x="298.33" y="172.00" text-anchor="middle" class="geom-label" data-ref="G">G = X(2)</text>
+    <text x="222.74" y="189.22" text-anchor="middle" class="geom-label" data-ref="K">K = X(6)</text>
+    <text x="290.00" y="22.00" text-anchor="middle" class="geom-label-sm">Problem LI — Lemoine Symmedian Point K = X(6) : 4R₁ + 2R₂ + 13C₁ + 8C₃ (S = 27)</text>
+    <text x="290.00" y="276.00" text-anchor="middle" class="geom-label-sm">Antiparallel PₐQₐ bisected by symmedian AK (isogonal to median AMₐ through G = X(2))</text>
+  </g>
+</svg>

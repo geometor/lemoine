@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 260" width="580" height="260" class="euclid-graphic" data-graphic-id="fig_circle_tangents" data-proposition="XXVI">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-2 -6 4 12" markerWidth="4" markerHeight="12" orient="auto">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+    </marker>
+    <marker id="geom-tick-2" viewBox="-4 -6 8 12" markerWidth="8" markerHeight="12" orient="auto">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" markerWidth="12" markerHeight="12" orient="auto">
+      <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+      <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+    </marker>
+  </defs>
+  <style>
+    :root {
+      --geom-fg: #18181b;
+      --geom-bg: #ffffff;
+      --geom-point-stroke: #ffffff;
+      --geom-poly-fill: #000000;
+      --geom-accent: #c88a1e;
+      --geom-assert: #16a34a;
+    }
+    .euclid-graphic {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      background-color: var(--geom-bg);
+    }
+    .geom-line { stroke: var(--geom-fg); stroke-width: 1.8; stroke-linecap: round; fill: none; }
+    .geom-bold { stroke: var(--geom-fg); stroke-width: 2.3; stroke-linecap: round; fill: none; }
+    .geom-dashed { stroke: var(--geom-fg); stroke-width: 1.35; stroke-dasharray: 5, 3.5; stroke-linecap: round; fill: none; opacity: 0.78; }
+    .geom-accent-line { stroke: var(--geom-accent); stroke-width: 2.15; stroke-linecap: round; fill: none; }
+    .geom-assert-line { stroke: var(--geom-assert); stroke-width: 2.25; stroke-linecap: round; fill: none; }
+    .geom-circle { stroke: var(--geom-fg); stroke-width: 1.55; fill: none; }
+    .geom-arc { stroke: var(--geom-accent); stroke-width: 1.75; stroke-dasharray: 4.5, 3; stroke-linecap: round; fill: none; }
+    .geom-ang-arc { stroke: var(--geom-assert); stroke-width: 1.7; stroke-linecap: round; fill: none; }
+    .geom-polygon { fill: var(--geom-poly-fill); fill-opacity: 0.05; stroke: none; }
+    .geom-polygon-accent { fill: var(--geom-accent); fill-opacity: 0.12; stroke: none; }
+    .geom-point { fill: var(--geom-fg); stroke: var(--geom-point-stroke); stroke-width: 1.15; }
+    .geom-point-accent { fill: var(--geom-accent); stroke: var(--geom-point-stroke); stroke-width: 1.15; }
+    .geom-point-assert { fill: var(--geom-assert); stroke: var(--geom-point-stroke); stroke-width: 1.25; }
+    .geom-label { font-size: 13px; font-weight: 700; fill: var(--geom-fg); user-select: none; }
+    .geom-label-sm { font-size: 10.2px; font-weight: 700; fill: var(--geom-fg); opacity: 0.88; user-select: none; }
+    .is-active { stroke-width: 3.1 !important; filter: drop-shadow(0 0 3px var(--geom-accent)); }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --geom-fg: #d6cfc5;
+        --geom-bg: #1e1e20;
+        --geom-point-stroke: #1e1e20;
+        --geom-poly-fill: #d6cfc5;
+        --geom-accent: #e8b85a;
+        --geom-assert: #5ec27e;
+      }
+    }
+  </style>
+  <g id="elements">
+    <circle cx="375.00" cy="136.00" r="78.00" fill="none" class="geom-bold" data-ref="O(R)" />
+    <circle cx="245.00" cy="136.00" r="130.00" fill="none" class="geom-arc" data-ref="M(MO)" />
+    <path d="M 115.00 136.00 L 245.00 136.00 L 375.00 136.00" fill="none" class="geom-dashed" data-ref="OA" />
+    <path d="M 115.00 136.00 L 256.96 91.36 L 398.92 46.71" fill="none" class="geom-assert-line" data-ref="AT" />
+    <path d="M 115.00 136.00 L 256.96 180.64 L 398.92 225.29" fill="none" class="geom-assert-line" data-ref="AT&#x27;" />
+    <path d="M 351.60 38.00 L 351.60 136.00 L 351.60 234.00" fill="none" class="geom-accent-line" data-ref="TT&#x27;" />
+  </g>
+  <g id="graphics">
+    <path d="M 375.00 136.00 L 363.30 98.80 L 351.60 61.59" fill="none" class="geom-dashed" />
+    <path d="M 375.00 136.00 L 363.30 173.20 L 351.60 210.41" fill="none" class="geom-dashed" />
+  </g>
+  <g id="highlights" style="pointer-events: none;">
+  </g>
+  <g id="points">
+    <circle cx="115.00" cy="136.00" r="3.30" class="geom-point-accent" data-ref="A" />
+    <circle cx="245.00" cy="136.00" r="3.30" class="geom-point" data-ref="M" />
+    <circle cx="375.00" cy="136.00" r="3.30" class="geom-point" data-ref="O" />
+    <circle cx="351.60" cy="61.59" r="3.30" class="geom-point-assert" data-ref="T" />
+    <circle cx="351.60" cy="210.41" r="3.30" class="geom-point-assert" data-ref="T&#x27;" />
+  </g>
+  <g id="labels">
+    <text x="102.00" y="141.00" text-anchor="middle" class="geom-label" data-ref="A">A</text>
+    <text x="245.00" y="153.00" text-anchor="middle" class="geom-label" data-ref="M">M</text>
+    <text x="387.00" y="141.00" text-anchor="middle" class="geom-label" data-ref="O">O</text>
+    <text x="363.60" y="52.59" text-anchor="middle" class="geom-label" data-ref="T">T</text>
+    <text x="365.60" y="227.41" text-anchor="middle" class="geom-label" data-ref="T&#x27;">T&#x27;</text>
+    <text x="290.00" y="22.00" text-anchor="middle" class="geom-label-sm">Problems XXVI &amp; XXXIX — Tangents (S = 18) &amp; Straightedge Polar TT&#x27; (12R₁ + 7R₂)</text>
+  </g>
+</svg>

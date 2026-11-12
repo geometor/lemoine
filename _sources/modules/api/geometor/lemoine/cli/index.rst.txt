@@ -1,0 +1,51 @@
+geometor.lemoine.cli
+====================
+
+.. py:module:: geometor.lemoine.cli
+
+.. autoapi-nested-parse::
+
+   Command-line interface for GEOMETOR Lemoine apparatus compilation and verification.
+
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.lemoine.cli.build_parser
+   geometor.lemoine.cli.cmd_summary
+   geometor.lemoine.cli.cmd_compile_apparatus
+   geometor.lemoine.cli.cmd_verify
+   geometor.lemoine.cli.main
+
+
+Module Contents
+---------------
+
+.. py:function:: build_parser() -> argparse.ArgumentParser
+
+   Build the ``geometor-lemoine`` CLI argument parser.
+
+
+.. py:function:: cmd_summary(repo_root: pathlib.Path) -> int
+
+   Display summary metrics for the Lemoine codex and concordance.
+
+
+.. py:function:: cmd_compile_apparatus(repo_root: pathlib.Path) -> int
+
+   Compile apparatus RST pages and mirror JSON apparatus files.
+
+
+.. py:function:: cmd_verify(repo_root: pathlib.Path) -> int
+
+   Run all integrity checks across sources, concordance, codex tracks, and SVGs.
+
+
+.. py:function:: main(argv: list[str] | None = None) -> int
+
+   CLI entry point.
+
+

@@ -1,0 +1,378 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unité II : Constructions fondamentales d’Euclide — Tracé spéculatif et tracé géométrographique &mdash; GÉOMÉTROGRAPHIE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../index.html">
+        <h1>GEOMETOR • lemoine</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">lemoine</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../mission/index.html"  >mission</a>
+        </li>
+        <li>
+          <a href="../index.html" class="is-active" aria-selected="true" >GÉOMÉTROGRAPHIE</a>
+        </li>
+        <li>
+          <a href="../../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../index.html" title="Return to Project Portal">&larr; lemoine</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">GÉOMÉTROGRAPHIE</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../unit-1-operations/unit-1-operations-fr.html" title="Unit I: Historical Genesis, Methodological Criteria &amp; The Five Elementary Operations">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <a class="book-track-item" href="unit-2-euclid-benchmarks-en.html">English</a>
+              <span class="book-track-sep">&middot;</span>
+              <strong class="book-track-item is-active" aria-current="page">French (1902)</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="unit-2-euclid-benchmarks-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="unit-2-euclid-benchmarks-notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../unit-3-circles-tangency-golden/unit-3-circles-tangency-golden-fr.html" title="Unit III: Circles, Tangency, Golden Section, Projective Polarity &amp; Modern Triangle Centers"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="unite-ii-constructions-fondamentales-d-euclide-trace-speculatif-et-trace-geometrographique">
+        <span id="geometrographie-unit-2-fr"></span><h1>Unité II : Constructions fondamentales d’Euclide — Tracé spéculatif et tracé géométrographique<a class="headerlink" href="#unite-ii-constructions-fondamentales-d-euclide-trace-speculatif-et-trace-geometrographique" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Émile Lemoine — <em>Géométrographie, ou Art des constructions géométriques</em> (Texte français, Problèmes XI–XXIV, pp. 6–14)</p>
+        <nav class="contents local" id="dans-cette-unite">
+        <p class="topic-title">Dans cette unité</p>
+        <ul class="simple">
+        <li><p><a class="reference internal" href="#report-d-un-angle-xi-et-construction-des-triangles-xiixvi" id="id1">§ 1. Report d’un angle (XI) et construction des triangles (XII–XVI)</a></p></li>
+        <li><p><a class="reference internal" href="#parallele-par-un-point-exterieur-xvii-les-deux-constructions-de-gaston-tarry-s-9" id="id2">§ 2. Parallèle par un point extérieur (XVII) : les deux constructions de Gaston Tarry (<span class="math notranslate nohighlight">\(S = 9\)</span>)</a></p></li>
+        <li><p><a class="reference internal" href="#mediatrice-et-milieu-d-un-segment-xviii-symetrique-d-un-point-sans-regle-xviii-bis" id="id3">§ 3. Médiatrice et milieu d’un segment (XVIII) ; symétrique d’un point sans règle (XVIII <em>bis</em>)</a></p></li>
+        <li><p><a class="reference internal" href="#perpendiculaires-xx-cercle-unique-de-thales-s-8-et-bissectrice-d-un-angle-xxii" id="id4">§ 4. Perpendiculaires (XX — cercle unique de Thalès <span class="math notranslate nohighlight">\(S = 8\)</span>) et bissectrice d’un angle (XXII)</a></p></li>
+        </ul>
+        </nav>
+        <div class="folio-milestone" id="folio-Problèmes XI–XVI" data-folio="Problèmes XI–XVI" data-page="6">[Folio Problèmes XI–XVI | p. 6]</div>
+        <section class="level-2" id="report-d-un-angle-xi-et-construction-des-triangles-xiixvi">
+        <h2>§ 1. Report d’un angle (XI) et construction des triangles (XII–XVI)<a class="headerlink" href="#report-d-un-angle-xi-et-construction-des-triangles-xiixvi" title="Link to this heading">¶</a></h2>
+        <p><strong>Problème XI (Euclide I.23).</strong> <em>Sur une droite tracée, construire en un point donné</em> <span class="math notranslate nohighlight">\(A\)</span> <em>un angle égal à un angle donné</em> <span class="math notranslate nohighlight">\(O\)</span>.
+        La réduction spéculative d’<a class="person-ref" id="occ-person-euclid-1" href="../persons.html#person-euclid" data-person="euclid" title="Euclid of Alexandria (fl. c. 300 BCE) — Alexandrian mathematician; author of the Elements">Euclide</a> (<a class="citation-ref" id="occ-cite-euclid-heath-1" href="../bibliography.html#cite-euclid-heath" data-cite="euclid-heath" title="Euclid (trans. Sir Thomas L. Heath) — The Thirteen Books of Euclid&#x27;s Elements (3 vols. (Books I–XIII); GEOMETOR Digital Scriptorium Edition (geometor/euclid &amp; geometor/elements))">euclid-heath</a>) joint deux points sur les côtés de l’angle <span class="math notranslate nohighlight">\(O\)</span> pour ramener le problème à la construction d’un triangle (I.22), ce qui exige <span class="math notranslate nohighlight">\(4R_1 + 2R_2 + 8C_1 + C_2 + 4C_3\)</span> (<span class="math notranslate nohighlight">\(S = 19, E = 13\)</span>). En traçant de <span class="math notranslate nohighlight">\(O\)</span> puis de <span class="math notranslate nohighlight">\(A\)</span> deux arcs d’un même rayon arbitraire (<span class="math notranslate nohighlight">\(2C_1 + 2C_3\)</span>), en prenant la corde interceptée (<span class="math notranslate nohighlight">\(2C_1\)</span>), en la reportant (<span class="math notranslate nohighlight">\(C_1 + C_3\)</span>) et en joignant <span class="math notranslate nohighlight">\(A\)</span> au point obtenu (<span class="math notranslate nohighlight">\(2R_1 + R_2\)</span>), on obtient :</p>
+        <div class="math notranslate nohighlight">
+        \[\mathrm{Op.} : \left(2R_1 + R_2 + 5C_1 + 3C_3\right), \qquad S = 11, \quad E = 7 \quad (1\text{ droite}, 3\text{ cercles}).\]</div>
+        <p><strong>Problème XVI (Euclide I.22).</strong> <em>Construire un triangle connaissant les trois côtés</em> <span class="math notranslate nohighlight">\(a, b, c\)</span>.
+        En traçant d’abord une droite indéfinie quelconque (<span class="math notranslate nohighlight">\(R_2\)</span>) au lieu de joindre deux points placés d’avance, on porte <span class="math notranslate nohighlight">\(BC = a\)</span> (<span class="math notranslate nohighlight">\(2C_1 + C_2 + C_3\)</span>), puis <span class="math notranslate nohighlight">\(B(c)\)</span> et <span class="math notranslate nohighlight">\(C(b)\)</span> (<span class="math notranslate nohighlight">\(6C_1 + 2C_3\)</span>) se coupant en <span class="math notranslate nohighlight">\(A\)</span>, et l’on trace <span class="math notranslate nohighlight">\(AB\)</span> et <span class="math notranslate nohighlight">\(AC\)</span> (<span class="math notranslate nohighlight">\(4R_1 + 2R_2\)</span>) :</p>
+        <div class="math notranslate nohighlight">
+        \[\mathrm{Op.} : \left(4R_1 + 3R_2 + 8C_1 + C_2 + 3C_3\right), \qquad S = 19, \quad E = 13 \quad (3\text{ droites}, 3\text{ cercles}).\]</div>
+        <div class="folio-milestone" id="folio-Problème XVII" data-folio="Problème XVII" data-page="8">[Folio Problème XVII | p. 8]</div>
+        </section>
+        <section class="level-2" id="parallele-par-un-point-exterieur-xvii-les-deux-constructions-de-gaston-tarry-s-9">
+        <h2>§ 2. Parallèle par un point extérieur (XVII) : les deux constructions de Gaston Tarry (<span class="math notranslate nohighlight">\(S = 9\)</span>)<a class="headerlink" href="#parallele-par-un-point-exterieur-xvii-les-deux-constructions-de-gaston-tarry-s-9" title="Link to this heading">¶</a></h2>
+        <p><strong>Problème XVII (Euclide I.31).</strong> <em>Par un point donné</em> <span class="geom-ref" data-ref="A" title="A">A</span> <em>hors d’une droite tracée</em> <span class="geom-ref" data-ref="BC" title="BC">BC</span> <em>, mener une parallèle à</em> <span class="geom-ref" data-ref="BC" title="BC">BC</span>.</p>
+        <ul class="simple">
+        <li><p><strong>Construction classique par l’angle alterne-interne</strong> : <span class="math notranslate nohighlight">\(\mathrm{Op.} : (2R_1 + R_2 + 5C_1 + 3C_3)\)</span> ; <span class="math notranslate nohighlight">\(S = 11, E = 7\)</span> ; 1 droite, 3 cercles.</p></li>
+        <li><p><strong>Première construction géométrographique de Gaston Tarry</strong> (<a class="person-ref" id="occ-person-tarry-1" href="../persons.html#person-tarry" data-person="tarry" title="Gaston Tarry (1843–1913) — French amateur mathematician in Algeria; discoverer of the Tarry point X(98)">Gaston Tarry</a>) : D’un centre arbitraire, tracer un cercle passant par <span class="geom-ref" data-ref="A" title="A">A</span> (<span class="math notranslate nohighlight">\(C_1 + C_3\)</span>) coupant <span class="geom-ref" data-ref="BC" title="BC">BC</span> en deux points, et reporter l’arc avec le même rayon : <span class="math notranslate nohighlight">\(\mathrm{Op.} : (2R_1 + R_2 + 4C_1 + 2C_3)\)</span> ; <span class="math notranslate nohighlight">\(S = 9, E = 6\)</span> ; <strong>1 droite, 2 cercles</strong>.</p></li>
+        <li><p><strong>Deuxième construction géométrographique de Gaston Tarry (par le losange d’ouverture unique)</strong> : Avec un rayon arbitraire suffisant <span class="math notranslate nohighlight">\(R\)</span>, tracer de <span class="geom-ref" data-ref="A" title="A">A</span> un arc (<span class="math notranslate nohighlight">\(C_1 + C_3\)</span>) coupant <span class="geom-ref" data-ref="BC" title="BC">BC</span> en <span class="geom-ref" data-ref="P" title="P">P</span> ; du même rayon <span class="math notranslate nohighlight">\(R\)</span>, tracer <span class="math notranslate nohighlight">\(P(R)\)</span> (<span class="math notranslate nohighlight">\(C_1 + C_3\)</span>) coupant <span class="geom-ref" data-ref="BC" title="BC">BC</span> en <span class="geom-ref" data-ref="Q" title="Q">Q</span>, puis <span class="math notranslate nohighlight">\(Q(R)\)</span> (<span class="math notranslate nohighlight">\(C_1 + C_3\)</span>) coupant le premier arc <span class="math notranslate nohighlight">\(A(R)\)</span> en <span class="geom-ref" data-ref="D" title="D">D</span>. Le quadrilatère <span class="geom-ref" data-ref="APQD" title="APQD">APQD</span> est un losange et la droite <span class="geom-ref" data-ref="AD" title="AD">AD</span> (<span class="math notranslate nohighlight">\(2R_1 + R_2\)</span>) est parallèle à <span class="geom-ref" data-ref="BC" title="BC">BC</span> :</p></li>
+        </ul>
+        <div class="math notranslate nohighlight">
+        \[\mathrm{Op.} : \left(2R_1 + R_2 + 3C_1 + 3C_3\right), \qquad S = 9, \quad E = 5 \quad (1\text{ droite}, 3\text{ cercles}).\]</div>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 250" width="650" height="250" class="euclid-graphic" data-graphic-id="fig_parallel_comparison" data-proposition="XVII">
+          <defs>
+            <marker id="geom-tick-1" viewBox="-2 -6 4 12" markerWidth="4" markerHeight="12" orient="auto">
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+            </marker>
+            <marker id="geom-tick-2" viewBox="-4 -6 8 12" markerWidth="8" markerHeight="12" orient="auto">
+              <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+              <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+            </marker>
+            <marker id="geom-tick-3" viewBox="-6 -6 12 12" markerWidth="12" markerHeight="12" orient="auto">
+              <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+              <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+            </marker>
+          </defs>
+          <g id="elements">
+            <polygon points="392.00,186.00 488.00,186.00 530.00,99.68 434.00,99.68" class="geom-polygon-accent" data-ref="APQD" />
+            <path d="M 350.00 186.00 L 481.00 186.00 L 612.00 186.00" fill="none" class="geom-bold" data-ref="BC" />
+            <path d="M 356.00 99.68 L 484.00 99.68 L 612.00 99.68" fill="none" class="geom-assert-line" data-ref="AD" />
+          </g>
+          <g id="graphics">
+            <path d="M 34.00 186.00 L 161.00 186.00 L 288.00 186.00" fill="none" class="geom-bold" />
+            <path d="M 92.00 186.00 L 117.00 138.00 L 142.00 90.00" fill="none" class="geom-dashed" />
+            <path d="M 132.55 85.64 A 108.24 108.24 0 0 1 197.88 208.50" fill="none" class="geom-arc" />
+            <path d="M 247.88 67.50 A 108.24 108.24 0 0 1 79.92 178.67" fill="none" class="geom-arc" />
+            <path d="M 138.16 97.33 A 108.24 108.24 0 0 1 266.88 100.71" fill="none" class="geom-arc" />
+            <path d="M 48.00 90.00 L 168.00 90.00 L 288.00 90.00" fill="none" class="geom-assert-line" />
+            <path d="M 322.00 20.00 L 322.00 126.00 L 322.00 232.00" fill="none" class="geom-dashed" />
+            <path d="M 392.00 186.00 L 413.00 142.84 L 434.00 99.68" fill="none" class="geom-dashed" marker-mid="url(#geom-tick-1)" />
+            <path d="M 392.00 186.00 L 440.00 186.00 L 488.00 186.00" fill="none" class="geom-bold" marker-mid="url(#geom-tick-1)" />
+            <path d="M 488.00 186.00 L 509.00 142.84 L 530.00 99.68" fill="none" class="geom-dashed" marker-mid="url(#geom-tick-1)" />
+            <path d="M 416.85 93.27 A 96.00 96.00 0 0 1 486.54 202.67" fill="none" class="geom-arc" />
+            <path d="M 524.21 66.84 A 96.00 96.00 0 0 1 524.21 132.51" fill="none" class="geom-arc" />
+            <path d="M 501.36 90.93 A 96.00 96.00 0 0 1 555.88 118.12" fill="none" class="geom-arc" />
+          </g>
+          <g id="highlights" style="pointer-events: none;">
+          </g>
+          <g id="points">
+            <circle cx="142.00" cy="90.00" r="3.30" class="geom-point-accent" data-ref="A" />
+            <circle cx="92.00" cy="186.00" r="3.30" class="geom-point" data-ref="P" />
+            <circle cx="200.24" cy="186.00" r="3.30" class="geom-point" data-ref="Q" />
+            <circle cx="250.24" cy="90.00" r="3.30" class="geom-point-assert" data-ref="D" />
+            <circle cx="434.00" cy="99.68" r="3.30" class="geom-point-accent" data-ref="A" />
+            <circle cx="392.00" cy="186.00" r="3.30" class="geom-point" data-ref="P" />
+            <circle cx="488.00" cy="186.00" r="3.30" class="geom-point" data-ref="Q" />
+            <circle cx="530.00" cy="99.68" r="3.30" class="geom-point-assert" data-ref="D" />
+          </g>
+          <g id="labels">
+            <text x="132.00" y="82.00" text-anchor="middle" class="geom-label">A</text>
+            <text x="84.00" y="203.00" text-anchor="middle" class="geom-label">P</text>
+            <text x="206.24" y="203.00" text-anchor="middle" class="geom-label">Q</text>
+            <text x="258.24" y="82.00" text-anchor="middle" class="geom-label">D</text>
+            <text x="162.00" y="24.00" text-anchor="middle" class="geom-label-sm">Classical Euclid I.31 : 2R₁ + R₂ + 5C₁ + 3C₃ (S = 11)</text>
+            <text x="424.00" y="91.68" text-anchor="middle" class="geom-label" data-ref="A">A</text>
+            <text x="384.00" y="203.00" text-anchor="middle" class="geom-label" data-ref="P">P</text>
+            <text x="494.00" y="203.00" text-anchor="middle" class="geom-label" data-ref="Q">Q</text>
+            <text x="540.00" y="91.68" text-anchor="middle" class="geom-label" data-ref="D">D</text>
+            <text x="485.00" y="24.00" text-anchor="middle" class="geom-label-sm">Tarry Rhombus : 2R₁ + R₂ + 3C₁ + 3C₃ (S = 9, E = 5)</text>
+          </g>
+        </svg>
+        </figure>
+        <div class="folio-milestone" id="folio-Problèmes XVIII–XIX" data-folio="Problèmes XVIII–XIX" data-page="9">[Folio Problèmes XVIII–XIX | p. 9]</div>
+        </section>
+        <section class="level-2" id="mediatrice-et-milieu-d-un-segment-xviii-symetrique-d-un-point-sans-regle-xviii-bis">
+        <h2>§ 3. Médiatrice et milieu d’un segment (XVIII) ; symétrique d’un point sans règle (XVIII <em>bis</em>)<a class="headerlink" href="#mediatrice-et-milieu-d-un-segment-xviii-symetrique-d-un-point-sans-regle-xviii-bis" title="Link to this heading">¶</a></h2>
+        <p><strong>Problème XVIII (Euclide I.10).</strong> <em>Tracer la perpendiculaire au milieu de la distance de deux points</em> <span class="geom-ref" data-ref="A" title="A">A</span> <em>et</em> <span class="geom-ref" data-ref="B" title="B">B</span> <em>, ou trouver le milieu</em> <span class="geom-ref" data-ref="M" title="M">M</span> <em>d’une droite tracée</em> <span class="geom-ref" data-ref="AB" title="AB">AB</span>.
+        En conservant une ouverture arbitraire commune <span class="math notranslate nohighlight">\(R &gt; AB/2\)</span> pour décrire <span class="geom-ref" data-ref="A(R)" title="A(R)">AR</span> (<span class="math notranslate nohighlight">\(C_1 + C_3\)</span>) et <span class="geom-ref" data-ref="B(R)" title="B(R)">BR</span> (<span class="math notranslate nohighlight">\(C_1 + C_3\)</span>) se coupant en <span class="geom-ref" data-ref="P" title="P">P</span> et <span class="geom-ref" data-ref="Q" title="Q">Q</span>, puis en traçant <span class="geom-ref" data-ref="PQ" title="PQ">PQ</span> (<span class="math notranslate nohighlight">\(2R_1 + R_2\)</span>) qui partage <span class="geom-ref" data-ref="AB" title="AB">AB</span> en <span class="geom-ref" data-ref="AM" title="AM">AM</span> et <span class="geom-ref" data-ref="MB" title="MB">MB</span>, on évite de prendre <span class="math notranslate nohighlight">\(AB\)</span> au compas :</p>
+        <div class="math notranslate nohighlight">
+        \[\mathrm{Op.} : \left(2R_1 + R_2 + 2C_1 + 2C_3\right), \qquad S = 7, \quad E = 4 \quad (1\text{ droite}, 2\text{ cercles}).\]</div>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 265" width="520" height="265" class="euclid-graphic" data-graphic-id="fig_perpendicular_bisector" data-proposition="XVIII">
+          <defs>
+            <marker id="geom-tick-1" viewBox="-2 -6 4 12" markerWidth="4" markerHeight="12" orient="auto">
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+            </marker>
+            <marker id="geom-tick-2" viewBox="-4 -6 8 12" markerWidth="8" markerHeight="12" orient="auto">
+              <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+              <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+            </marker>
+            <marker id="geom-tick-3" viewBox="-6 -6 12 12" markerWidth="12" markerHeight="12" orient="auto">
+              <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+              <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+            </marker>
+          </defs>
+          <g id="elements">
+            <path d="M 228.99 36.46 A 115.00 115.00 0 0 1 228.99 239.54" fill="none" class="geom-arc" data-ref="A(R)" />
+            <path d="M 291.01 239.54 A 115.00 115.00 0 0 1 291.01 36.46" fill="none" class="geom-arc" data-ref="B(R)" />
+            <path d="M 175.00 138.00 L 217.50 138.00 L 260.00 138.00" fill="none" class="geom-bold" marker-mid="url(#geom-tick-1)" data-ref="AM" />
+            <path d="M 260.00 138.00 L 302.50 138.00 L 345.00 138.00" fill="none" class="geom-bold" marker-mid="url(#geom-tick-1)" data-ref="MB" />
+            <path d="M 260.00 34.00 L 260.00 138.00 L 260.00 242.00" fill="none" class="geom-assert-line" data-ref="PQ" />
+          </g>
+          <g id="graphics">
+            <path d="M 115.00 138.00 L 260.00 138.00 L 405.00 138.00" fill="none" class="geom-dashed" />
+          </g>
+          <g id="highlights" style="pointer-events: none;">
+            <path d="M 269.50 138.00 L 269.50 128.50 L 260.00 128.50" fill="none" class="geom-ang-arc" />
+          </g>
+          <g id="points">
+            <circle cx="175.00" cy="138.00" r="3.30" class="geom-point" data-ref="A" />
+            <circle cx="345.00" cy="138.00" r="3.30" class="geom-point" data-ref="B" />
+            <circle cx="260.00" cy="60.54" r="3.30" class="geom-point-accent" data-ref="P" />
+            <circle cx="260.00" cy="215.46" r="3.30" class="geom-point-accent" data-ref="Q" />
+            <circle cx="260.00" cy="138.00" r="3.80" class="geom-point-assert" data-ref="M" />
+          </g>
+          <g id="labels">
+            <text x="163.00" y="156.00" text-anchor="middle" class="geom-label" data-ref="A">A</text>
+            <text x="357.00" y="156.00" text-anchor="middle" class="geom-label" data-ref="B">B</text>
+            <text x="274.00" y="56.54" text-anchor="middle" class="geom-label" data-ref="P">P</text>
+            <text x="274.00" y="229.46" text-anchor="middle" class="geom-label" data-ref="Q">Q</text>
+            <text x="248.00" y="130.00" text-anchor="middle" class="geom-label" data-ref="M">M</text>
+            <text x="260.00" y="20.00" text-anchor="middle" class="geom-label-sm">Problem XVIII (Euclid I.10) — 2R₁ + R₂ + 2C₁ + 2C₃  (S = 7, E = 4 vs. S = 8)</text>
+          </g>
+        </svg>
+        </figure>
+        <p><strong>Problème XVIII bis.</strong> <em>Construire le symétrique</em> <span class="math notranslate nohighlight">\(A'\)</span> <em>d’un point donné</em> <span class="math notranslate nohighlight">\(A\)</span> <em>par rapport à une droite tracée</em> <span class="math notranslate nohighlight">\(BC\)</span>.
+        De deux points quelconques pris sur <span class="math notranslate nohighlight">\(BC\)</span> (<span class="math notranslate nohighlight">\(2C_2\)</span>), décrire les deux cercles passant par <span class="math notranslate nohighlight">\(A\)</span> (<span class="math notranslate nohighlight">\(2C_1 + 2C_3\)</span>) ; leur second point commun est <span class="math notranslate nohighlight">\(A'\)</span>, obtenu <strong>sans tracer aucune droite</strong> :</p>
+        <div class="math notranslate nohighlight">
+        \[\mathrm{Op.} : \left(2C_1 + 2C_2 + 2C_3\right), \qquad S = 6, \quad E = 4 \quad (0\text{ droite}, 2\text{ cercles}).\]</div>
+        <div class="folio-milestone" id="folio-Problèmes XX–XXIV" data-folio="Problèmes XX–XXIV" data-page="11">[Folio Problèmes XX–XXIV | p. 11]</div>
+        </section>
+        <section class="level-2" id="perpendiculaires-xx-cercle-unique-de-thales-s-8-et-bissectrice-d-un-angle-xxii">
+        <h2>§ 4. Perpendiculaires (XX — cercle unique de Thalès <span class="math notranslate nohighlight">\(S = 8\)</span>) et bissectrice d’un angle (XXII)<a class="headerlink" href="#perpendiculaires-xx-cercle-unique-de-thales-s-8-et-bissectrice-d-un-angle-xxii" title="Link to this heading">¶</a></h2>
+        <p><strong>Problème XX (Euclide I.12 et I.11).</strong> <em>Mener par un point donné</em> <span class="geom-ref" data-ref="A" title="A">A</span> <em>la perpendiculaire à une droite tracée</em> <span class="geom-ref" data-ref="BC" title="BC">BC</span>.</p>
+        <ol class="arabic simple">
+        <li><p><strong>Premier cas — :g:`A` est hors de :g:`BC` (Euclide I.12)</strong> : En construisant le symétrique <span class="geom-ref" data-ref="A'" title="A&#x27;">A</span> de <span class="geom-ref" data-ref="A" title="A">A</span> par rapport à deux centres <span class="geom-ref" data-ref="B" title="B">B</span>, <span class="geom-ref" data-ref="C" title="C">C</span> sur la droite et en joignant <span class="geom-ref" data-ref="AA'" title="AA&#x27;">AA</span>, on obtient <span class="math notranslate nohighlight">\(2R_1 + R_2 + 3C_1 + C_2 + 2C_3\)</span> (<span class="math notranslate nohighlight">\(S = 9, E = 6\)</span>, 1 droite, 2 cercles).</p></li>
+        <li><p><strong>Second cas — :g:`A` est situé sur :g:`BC` (Euclide I.11 par le cercle de Thalès)</strong> : Placer une pointe en <span class="geom-ref" data-ref="A" title="A">A</span> (<span class="math notranslate nohighlight">\(C_1\)</span>) et l’autre en un point quelconque <span class="geom-ref" data-ref="O" title="O">O</span> pris hors de <span class="geom-ref" data-ref="BC" title="BC">BC</span> (<span class="math notranslate nohighlight">\(0\)</span>), décrire <strong>l’unique cercle</strong> <span class="geom-ref" data-ref="O(OA)" title="O(OA)">OOA</span> (<span class="math notranslate nohighlight">\(C_3\)</span>) qui recoupe <span class="geom-ref" data-ref="BC" title="BC">BC</span> en <span class="geom-ref" data-ref="B" title="B">B</span>, tracer le diamètre <span class="geom-ref" data-ref="BD" title="BD">BD</span> par <span class="geom-ref" data-ref="B" title="B">B</span> et <span class="geom-ref" data-ref="O" title="O">O</span> (<span class="math notranslate nohighlight">\(2R_1 + R_2\)</span>), puis joindre <span class="geom-ref" data-ref="AD" title="AD">AD</span> (<span class="math notranslate nohighlight">\(2R_1 + R_2\)</span>) :</p></li>
+        </ol>
+        <div class="math notranslate nohighlight">
+        \[\mathrm{Op.} : \left(4R_1 + 2R_2 + C_1 + C_3\right), \qquad S = 8, \quad E = 5 \quad (2\text{ droites}, 1\text{ cercle}).\]</div>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 255" width="620" height="255" class="euclid-graphic" data-graphic-id="fig_perpendicular_external" data-proposition="XX">
+          <defs>
+            <marker id="geom-tick-1" viewBox="-2 -6 4 12" markerWidth="4" markerHeight="12" orient="auto">
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+            </marker>
+            <marker id="geom-tick-2" viewBox="-4 -6 8 12" markerWidth="8" markerHeight="12" orient="auto">
+              <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+              <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+            </marker>
+            <marker id="geom-tick-3" viewBox="-6 -6 12 12" markerWidth="12" markerHeight="12" orient="auto">
+              <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+              <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+            </marker>
+          </defs>
+          <g id="elements">
+            <path d="M 35.00 138.00 L 150.00 138.00 L 265.00 138.00" fill="none" class="geom-bold" data-ref="BC" />
+            <path d="M 154.00 48.00 L 154.00 137.00 L 154.00 226.00" fill="none" class="geom-assert-line" data-ref="AA&#x27;" />
+            <circle cx="458.00" cy="141.00" r="75.00" fill="none" class="geom-arc" data-ref="O(OA)" />
+            <path d="M 518.00 186.00 L 458.00 141.00 L 398.00 96.00" fill="none" class="geom-line" data-ref="BD" />
+            <path d="M 398.00 54.00 L 398.00 133.00 L 398.00 212.00" fill="none" class="geom-assert-line" data-ref="AD" />
+          </g>
+          <g id="graphics">
+            <path d="M 141.30 55.41 A 107.81 107.81 0 0 1 141.30 220.59" fill="none" class="geom-arc" />
+            <path d="M 163.83 215.09 A 90.91 90.91 0 0 1 163.83 60.91" fill="none" class="geom-arc" />
+            <path d="M 298.00 20.00 L 298.00 127.50 L 298.00 235.00" fill="none" class="geom-dashed" />
+            <path d="M 332.00 186.00 L 454.00 186.00 L 576.00 186.00" fill="none" class="geom-bold" />
+          </g>
+          <g id="highlights" style="pointer-events: none;">
+            <path d="M 162.50 138.00 L 162.50 129.50 L 154.00 129.50" fill="none" class="geom-ang-arc" />
+            <path d="M 407.00 186.00 L 407.00 177.00 L 398.00 177.00" fill="none" class="geom-ang-arc" />
+          </g>
+          <g id="points">
+            <circle cx="154.00" cy="68.00" r="3.30" class="geom-point-accent" data-ref="A" />
+            <circle cx="154.00" cy="208.00" r="3.30" class="geom-point-accent" data-ref="A&#x27;" />
+            <circle cx="72.00" cy="138.00" r="3.30" class="geom-point" data-ref="B" />
+            <circle cx="212.00" cy="138.00" r="3.30" class="geom-point" data-ref="C" />
+            <circle cx="154.00" cy="138.00" r="3.30" class="geom-point-assert" data-ref="H" />
+            <circle cx="398.00" cy="186.00" r="3.30" class="geom-point-assert" data-ref="A" />
+            <circle cx="458.00" cy="141.00" r="3.30" class="geom-point-accent" data-ref="O" />
+            <circle cx="518.00" cy="186.00" r="3.30" class="geom-point" data-ref="B" />
+            <circle cx="398.00" cy="96.00" r="3.30" class="geom-point-assert" data-ref="D" />
+          </g>
+          <g id="labels">
+            <text x="166.00" y="63.00" text-anchor="middle" class="geom-label" data-ref="A">A</text>
+            <text x="168.00" y="221.00" text-anchor="middle" class="geom-label" data-ref="A&#x27;">A&#x27;</text>
+            <text x="64.00" y="155.00" text-anchor="middle" class="geom-label" data-ref="B">B</text>
+            <text x="222.00" y="155.00" text-anchor="middle" class="geom-label" data-ref="C">C</text>
+            <text x="143.00" y="131.00" text-anchor="middle" class="geom-label" data-ref="H">H</text>
+            <text x="150.00" y="24.00" text-anchor="middle" class="geom-label-sm">XX.1 Off Line (I.12): 2 Circles, S = 9</text>
+            <text x="387.00" y="204.00" text-anchor="middle" class="geom-label" data-ref="A">A</text>
+            <text x="470.00" y="136.00" text-anchor="middle" class="geom-label" data-ref="O">O</text>
+            <text x="528.00" y="204.00" text-anchor="middle" class="geom-label" data-ref="B">B</text>
+            <text x="385.00" y="92.00" text-anchor="middle" class="geom-label" data-ref="D">D</text>
+            <text x="458.00" y="24.00" text-anchor="middle" class="geom-label-sm">XX.2 On Line (Thales): 1 Circle, 4R₁ + 2R₂ + C₁ + C₃ (S = 8)</text>
+          </g>
+        </svg>
+        </figure>
+        <p><strong>Problème XXII (Euclide I.9 — Bissectrice d’un angle).</strong> En gardant la même ouverture suffisante pour l’arc décrit du sommet et pour les deux arcs décrits des points où il coupe les côtés, la bissectrice s’obtient par <span class="math notranslate nohighlight">\(\mathrm{Op.} : (2R_1 + R_2 + 3C_1 + 3C_3)\)</span>, <span class="math notranslate nohighlight">\(S = 9, E = 5\)</span> (1 droite, 3 cercles).</p>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../unit-1-operations/unit-1-operations-fr.html" title="Unit I: Historical Genesis, Methodological Criteria &amp; The Five Elementary Operations">&larr; <span class="nav-label">Unit I: Historical Genesis, Methodological Criteria & The Five Elementary Operations</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">GÉOMÉTROGRAPHIE</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../unit-3-circles-tangency-golden/unit-3-circles-tangency-golden-fr.html" title="Unit III: Circles, Tangency, Golden Section, Projective Polarity &amp; Modern Triangle Centers"><span class="nav-label">Unit III: Circles, Tangency, Golden Section, Projective Polarity & Modern Triangle Centers</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../about/index.html"  >about</a></li>
+        <li><a href="../../changelog.html"  >changelog</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1902 C. Naud (Collection Scientia No. 18) • Digital Edition GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

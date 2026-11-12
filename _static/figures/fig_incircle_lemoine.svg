@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 280" width="540" height="280" class="euclid-graphic" data-graphic-id="fig_incircle_lemoine" data-proposition="XXVII">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-2 -6 4 12" markerWidth="4" markerHeight="12" orient="auto">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+    </marker>
+    <marker id="geom-tick-2" viewBox="-4 -6 8 12" markerWidth="8" markerHeight="12" orient="auto">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" markerWidth="12" markerHeight="12" orient="auto">
+      <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+      <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+    </marker>
+  </defs>
+  <style>
+    :root {
+      --geom-fg: #18181b;
+      --geom-bg: #ffffff;
+      --geom-point-stroke: #ffffff;
+      --geom-poly-fill: #000000;
+      --geom-accent: #c88a1e;
+      --geom-assert: #16a34a;
+    }
+    .euclid-graphic {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      background-color: var(--geom-bg);
+    }
+    .geom-line { stroke: var(--geom-fg); stroke-width: 1.8; stroke-linecap: round; fill: none; }
+    .geom-bold { stroke: var(--geom-fg); stroke-width: 2.3; stroke-linecap: round; fill: none; }
+    .geom-dashed { stroke: var(--geom-fg); stroke-width: 1.35; stroke-dasharray: 5, 3.5; stroke-linecap: round; fill: none; opacity: 0.78; }
+    .geom-accent-line { stroke: var(--geom-accent); stroke-width: 2.15; stroke-linecap: round; fill: none; }
+    .geom-assert-line { stroke: var(--geom-assert); stroke-width: 2.25; stroke-linecap: round; fill: none; }
+    .geom-circle { stroke: var(--geom-fg); stroke-width: 1.55; fill: none; }
+    .geom-arc { stroke: var(--geom-accent); stroke-width: 1.75; stroke-dasharray: 4.5, 3; stroke-linecap: round; fill: none; }
+    .geom-ang-arc { stroke: var(--geom-assert); stroke-width: 1.7; stroke-linecap: round; fill: none; }
+    .geom-polygon { fill: var(--geom-poly-fill); fill-opacity: 0.05; stroke: none; }
+    .geom-polygon-accent { fill: var(--geom-accent); fill-opacity: 0.12; stroke: none; }
+    .geom-point { fill: var(--geom-fg); stroke: var(--geom-point-stroke); stroke-width: 1.15; }
+    .geom-point-accent { fill: var(--geom-accent); stroke: var(--geom-point-stroke); stroke-width: 1.15; }
+    .geom-point-assert { fill: var(--geom-assert); stroke: var(--geom-point-stroke); stroke-width: 1.25; }
+    .geom-label { font-size: 13px; font-weight: 700; fill: var(--geom-fg); user-select: none; }
+    .geom-label-sm { font-size: 10.2px; font-weight: 700; fill: var(--geom-fg); opacity: 0.88; user-select: none; }
+    .is-active { stroke-width: 3.1 !important; filter: drop-shadow(0 0 3px var(--geom-accent)); }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --geom-fg: #d6cfc5;
+        --geom-bg: #1e1e20;
+        --geom-point-stroke: #1e1e20;
+        --geom-poly-fill: #d6cfc5;
+        --geom-accent: #e8b85a;
+        --geom-assert: #5ec27e;
+      }
+    }
+  </style>
+  <g id="elements">
+    <polygon points="230.00,52.00 155.00,232.00 365.00,232.00" class="geom-polygon" data-ref="ABC" />
+    <path d="M 230.00 52.00 L 192.50 142.00 L 155.00 232.00" fill="none" class="geom-bold" data-ref="AB" />
+    <path d="M 155.00 232.00 L 260.00 232.00 L 365.00 232.00" fill="none" class="geom-bold" data-ref="BC" />
+    <path d="M 365.00 232.00 L 297.50 142.00 L 230.00 52.00" fill="none" class="geom-bold" data-ref="CA" />
+    <path d="M 155.00 232.00 L 218.00 190.00 L 281.00 148.00" fill="none" class="geom-accent-line" data-ref="BI" />
+    <path d="M 365.00 232.00 L 293.00 196.00 L 221.00 160.00" fill="none" class="geom-accent-line" data-ref="CI" />
+    <path d="M 245.00 172.00 L 245.00 202.00 L 245.00 232.00" fill="none" class="geom-dashed" data-ref="ID" />
+    <circle cx="245.00" cy="172.00" r="60.00" fill="none" class="geom-assert-line" data-ref="I(ID)" />
+  </g>
+  <g id="graphics">
+    <path d="M 172.23 189.35 A 46.00 46.00 0 0 1 200.89 235.21" fill="none" class="geom-arc" />
+    <path d="M 319.11 235.21 A 46.00 46.00 0 0 1 339.28 193.86" fill="none" class="geom-arc" />
+  </g>
+  <g id="highlights" style="pointer-events: none;">
+    <path d="M 253.50 232.00 L 253.50 223.50 L 245.00 223.50" fill="none" class="geom-ang-arc" />
+  </g>
+  <g id="points">
+    <circle cx="230.00" cy="52.00" r="3.30" class="geom-point" data-ref="A" />
+    <circle cx="155.00" cy="232.00" r="3.30" class="geom-point" data-ref="B" />
+    <circle cx="365.00" cy="232.00" r="3.30" class="geom-point" data-ref="C" />
+    <circle cx="245.00" cy="172.00" r="3.30" class="geom-point-assert" data-ref="I" />
+    <circle cx="245.00" cy="232.00" r="3.30" class="geom-point-accent" data-ref="D" />
+    <circle cx="293.00" cy="136.00" r="3.30" class="geom-point" data-ref="E" />
+    <circle cx="189.62" cy="148.92" r="3.30" class="geom-point" data-ref="F" />
+  </g>
+  <g id="labels">
+    <text x="230.00" y="43.00" text-anchor="middle" class="geom-label" data-ref="A">A</text>
+    <text x="142.00" y="247.00" text-anchor="middle" class="geom-label" data-ref="B">B</text>
+    <text x="378.00" y="247.00" text-anchor="middle" class="geom-label" data-ref="C">C</text>
+    <text x="245.00" y="160.00" text-anchor="middle" class="geom-label" data-ref="I">I = X(1)</text>
+    <text x="245.00" y="249.00" text-anchor="middle" class="geom-label" data-ref="D">D</text>
+    <text x="306.00" y="133.00" text-anchor="middle" class="geom-label" data-ref="E">E</text>
+    <text x="176.62" y="145.92" text-anchor="middle" class="geom-label" data-ref="F">F</text>
+    <text x="270.00" y="22.00" text-anchor="middle" class="geom-label-sm">Problem XXVII (Euclid IV.4) — Incircle : 4R₁ + 2R₂ + 11C₁ + 6C₃ (S = 23 vs. S = 30)</text>
+  </g>
+</svg>

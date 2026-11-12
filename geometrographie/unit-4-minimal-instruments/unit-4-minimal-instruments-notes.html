@@ -1,0 +1,175 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unit IV Commentary &amp; Notes: Mohr–Mascheroni, Poncelet–Steiner &amp; Hilbert’s Field Hierarchy &mdash; GÉOMÉTROGRAPHIE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../index.html">
+        <h1>GEOMETOR • lemoine</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">lemoine</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../mission/index.html"  >mission</a>
+        </li>
+        <li>
+          <a href="../index.html" class="is-active" aria-selected="true" >GÉOMÉTROGRAPHIE</a>
+        </li>
+        <li>
+          <a href="../../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../index.html" title="Return to Project Portal">&larr; lemoine</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">GÉOMÉTROGRAPHIE</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../unit-3-circles-tangency-golden/unit-3-circles-tangency-golden-notes.html" title="Unit III: Circles, Tangency, Golden Section, Projective Polarity &amp; Modern Triangle Centers">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <a class="book-track-item" href="unit-4-minimal-instruments-en.html">English</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="unit-4-minimal-instruments-fr.html">French (1902)</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="unit-4-minimal-instruments-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <strong class="book-track-item is-active" aria-current="page">Notes</strong>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../concordance.html" title="Dual Minimal-Instrument Concordance"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="unit-iv-commentary-notes-mohrmascheroni-ponceletsteiner-hilbert-s-field-hierarchy">
+        <span id="geometrographie-unit-4-notes"></span><h1>Unit IV Commentary &amp; Notes: Mohr–Mascheroni, Poncelet–Steiner &amp; Hilbert’s Field Hierarchy<a class="headerlink" href="#unit-iv-commentary-notes-mohrmascheroni-ponceletsteiner-hilbert-s-field-hierarchy" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Historical Lineage, Projective Obstructions &amp; Algebraic Constructibility</p>
+        <section class="level-2" id="from-mohr-1672-and-mascheroni-1797-to-bonaparte-and-fazzari-1901">
+        <h2>1. From Mohr (1672) and Mascheroni (1797) to Bonaparte and Fazzari (1901)<a class="headerlink" href="#from-mohr-1672-and-mascheroni-1797-to-bonaparte-and-fazzari-1901" title="Link to this heading">¶</a></h2>
+        <p>As <a class="person-ref" id="occ-person-fazzari-1" href="../persons.html#person-fazzari" data-person="fazzari" title="Gaetano Fazzari (1856–1935) — Italian mathematician and historian of mathematics in Palermo; founder of Il Pitagora">Gaetano Fazzari</a> documents in the historical preface to his 1901 Palermo edition of <em>La Geometria del Compasso</em> (<a class="citation-ref" id="occ-cite-fazzari-1901-1" href="../bibliography.html#cite-fazzari-1901" data-cite="fazzari-1901" title="Lorenzo Mascheroni (ed. Gaetano Fazzari) — La Geometria del Compasso: Nuova edizione con prefazione e note (Prefazione pp. v–xvi; Testo pp. 1–152)">fazzari-1901</a>, pp. v–xiii), <a class="person-ref" id="occ-person-mascheroni-1" href="../persons.html#person-mascheroni" data-person="mascheroni" title="Lorenzo Mascheroni (1750–1800) — Italian mathematician and poet; professor of algebra and geometry at the University of Pavia">Lorenzo Mascheroni</a> met <a class="person-ref" id="occ-person-bonaparte-1" href="../persons.html#person-bonaparte" data-person="bonaparte" title="Napoléon Bonaparte (1769–1821) — French general and member of the Institut National">Napoléon Bonaparte</a> in northern Italy in 1797 and dedicated the Pavia <em>editio princeps</em> (<a class="citation-ref" id="occ-cite-mascheroni-1797-1" href="../bibliography.html#cite-mascheroni-1797" data-cite="mascheroni-1797" title="Lorenzo Mascheroni — La Geometria del Compasso (Libri I–XII, §§ 1–213, 18 plates (Figs. 1–108))">mascheroni-1797</a>) to him in Italian hendecasyllabic verse. Returning to Paris, Bonaparte famously astonished Laplace and Lagrange at the Institut National by presenting Mascheroni’s compass-only quadrisection of the circle (Libro II, § 34: stepping three hexagon chords <span class="math notranslate nohighlight">\(B, C, D\)</span> of radius <span class="math notranslate nohighlight">\(r\)</span> so <span class="math notranslate nohighlight">\(AC = BD = r\sqrt{3}\)</span>, intersecting <span class="math notranslate nohighlight">\(A(AC)\)</span> and <span class="math notranslate nohighlight">\(D(BD)\)</span> at <span class="math notranslate nohighlight">\(E\)</span> so <span class="math notranslate nohighlight">\(OE = r\sqrt{2}\)</span>, and cutting the circle from <span class="math notranslate nohighlight">\(A\)</span> with radius <span class="math notranslate nohighlight">\(OE\)</span> in just <strong>4 auxiliary arcs</strong>), provoking Laplace’s celebrated remark: <em>“Nous attendions tout de vous, général, excepté des leçons de géométrie.”</em></p>
+        <p>Only in 1928 did Danish mathematician Johannes Hjelmslev examine a student-submitted 1672 Amsterdam booklet by <a class="person-ref" id="occ-person-mohr-1" href="../persons.html#person-mohr" data-person="mohr" title="Georg Mohr (1640–1697) — Danish mathematician; author of Euclides Danicus (1672)">Georg Mohr</a>, <em>Euclides Danicus</em> (<a class="citation-ref" id="occ-cite-mohr-1672-1" href="../bibliography.html#cite-mohr-1672" data-cite="mohr-1672" title="Georg Mohr — Euclides Danicus, Bestaende udi Too Deele (Parts I–II, 36 pp. (republished with German translation by J. Hjelmslev, Copenhagen: Høst &amp; Søn, 1928))">mohr-1672</a>), discovering that Mohr had solved the entire compass-only program 125 years before Mascheroni! Even more remarkably, <a class="person-ref" id="occ-person-adler-1" href="../persons.html#person-adler" data-person="adler" title="August Adler (1863–1923) — Czech-Austrian geometer and Privatdozent in Vienna and Prague">August Adler</a> (<a class="citation-ref" id="occ-cite-adler-1890-1" href="../bibliography.html#cite-adler-1890" data-cite="adler-1890" title="August Adler — Zur Theorie der Mascheronischen Constructionen / Theorie der geometrischen Konstruktionen (Sitzungsberichte der Kaiserlichen Akademie der Wissenschaften in Wien, Math.-Naturwiss. Classe, Bd. 99, Abt. IIa, pp. 910–916; Sammlung Göschen Nr. 301)">adler-1890</a>) showed that circular inversion (<span class="math notranslate nohighlight">\(5C_1 + 3C_3\)</span>, Lemoine Problem XXXVIII) provides a single uniform functor translating every straightedge step into compass arcs.</p>
+        </section>
+        <section class="level-2" id="ponceletsteiner-vs-hilbert-chapter-vii-euclidean-vs-pythagorean-fields">
+        <h2>2. Poncelet–Steiner vs. Hilbert Chapter VII: Euclidean vs. Pythagorean Fields<a class="headerlink" href="#ponceletsteiner-vs-hilbert-chapter-vii-euclidean-vs-pythagorean-fields" title="Link to this heading">¶</a></h2>
+        <p>Comparing <a class="person-ref" id="occ-person-steiner-1" href="../persons.html#person-steiner" data-person="steiner" title="Jakob Steiner (1796–1863) — Swiss-born synthetic projective geometer; professor of geometry at the University of Berlin">Steiner</a>’s 1833 fixed-circle constructions (<a class="citation-ref" id="occ-cite-steiner-1833-1" href="../bibliography.html#cite-steiner-1833" data-cite="steiner-1833" title="Jakob Steiner — Die geometrischen Constructionen, ausgeführt mittelst der geraden Linie und Eines festen Kreises, als Lehrgegenstand auf höheren Unterrichts-Anstalten und zur praktischen Benutzung (§§ 1–22, [1]–[110]; Ostwald&#x27;s Klassiker der exakten Wissenschaften Nr. 60, ed. A. J. von Oettingen (1895))">steiner-1833</a>) with <a class="person-ref" id="occ-person-hilbert-1" href="../persons.html#person-hilbert" data-person="hilbert" title="David Hilbert (1862–1943) — German mathematician; author of Grundlagen der Geometrie (1899)">David Hilbert</a>’s 1899 <em>Grundlagen der Geometrie</em> Chapter VII (<a class="citation-ref" id="occ-cite-hilbert-1899-1" href="../bibliography.html#cite-hilbert-1899" data-cite="hilbert-1899" title="David Hilbert — Grundlagen der Geometrie (Siebentes Kapitel: Die geometrischen Konstruktionen auf Grund der Axiome I–IV (§§ 36–39))">hilbert-1899</a>, §§ 36–39; published in <code class="docutils literal notranslate"><span class="pre">geometor/hilbert</span></code>) clarifies the exact algebraic role of a <strong>traced circle locus</strong>:</p>
+        <ul class="simple">
+        <li><p>In <strong>Hilbert §§ 36–39</strong>, the geometer possesses a straightedge and an <em>Eichmaß</em> (segment-transferrer capable of laying off a fixed unit length <span class="math notranslate nohighlight">\(1\)</span> along any ray, equivalent to Lemoine’s <em>équerre</em> + unit gauge without a drawn circle). Hilbert proves that this instrument constructs a point if and only if its coordinates lie in the <strong>pythagorean closure</strong> <span class="math notranslate nohighlight">\(\Omega_{\text{pyth}}\)</span> (closed under <span class="math notranslate nohighlight">\(\sqrt{1 + \omega^2}\)</span>, sums of squares). Crucially, <span class="math notranslate nohighlight">\(\sqrt{1 + \sqrt{2}} \notin \Omega_{\text{pyth}}\)</span>: <strong>not</strong> every circle–line intersection can be executed!</p></li>
+        <li><p>In <strong>Poncelet–Steiner (1822 / 1833)</strong>, replacing the movable unit gauge by <strong>one single drawn circle</strong> <span class="math notranslate nohighlight">\(\Omega\)</span> with its center <span class="math notranslate nohighlight">\(M\)</span> upgrades constructibility from the pythagorean field <span class="math notranslate nohighlight">\(\Omega_{\text{pyth}}\)</span> to the <strong>full Euclidean quadratic closure</strong> <span class="math notranslate nohighlight">\(\mathbb{E}\)</span> (closed under <span class="math notranslate nohighlight">\(\sqrt{\alpha}\)</span> for <em>every</em> positive <span class="math notranslate nohighlight">\(\alpha &gt; 0\)</span>), because Steiner’s Seventh Problem projects arbitrary secants homothethically onto the actual continuous circumference <span class="math notranslate nohighlight">\(\Omega\)</span>!</p></li>
+        </ul>
+        </section>
+        <section class="level-2" id="why-geometrographie-bridges-synthetic-duality-and-algorithmic-cost">
+        <h2>3. Why <em>Géométrographie</em> Bridges Synthetic Duality and Algorithmic Cost<a class="headerlink" href="#why-geometrographie-bridges-synthetic-duality-and-algorithmic-cost" title="Link to this heading">¶</a></h2>
+        <p>Viewed through Lemoine’s operation vectors:</p>
+        <ul class="simple">
+        <li><p><strong>Mascheroni</strong> trades <span class="math notranslate nohighlight">\((l_1, l_2) \to (0, 0)\)</span> at the price of simulating collinear incidences via inversion/fourth-proportional circles (e.g., midpoint <span class="math notranslate nohighlight">\(S = 7 \to 17\)</span>); yet on metric/inversive problems (point reflection <span class="math notranslate nohighlight">\(S = 6\)</span>, parallel point <span class="math notranslate nohighlight">\(S = 7\)</span>, circle inversion <span class="math notranslate nohighlight">\(S = 8\)</span>, fourth proportional <span class="math notranslate nohighlight">\(S = 14\)</span>), Mascheroni <strong>ties or beats</strong> standard ruler-and-compass textbooks!</p></li>
+        <li><p><strong>Steiner</strong> trades <span class="math notranslate nohighlight">\((m_1, m_2, m_3) \to (0, 0, 0)\)</span> once fixed circle <span class="math notranslate nohighlight">\(M\)</span> is given; on metric transfers (Sixth–Eighth Problems) homothetic simulation increases <span class="math notranslate nohighlight">\(S\)</span>, yet on projective/harmonic problems (polar <span class="math notranslate nohighlight">\(12R_1 + 7R_2, S = 19\)</span>; harmonic conjugate <span class="math notranslate nohighlight">\(9R_1 + 6R_2, S = 15\)</span>; tangents to a drawn circle <span class="math notranslate nohighlight">\(16R_1 + 9R_2, S = 25\)</span>), Steiner’s pure straightedge <strong>beats</strong> compass-assisted constructions!</p></li>
+        </ul>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../unit-3-circles-tangency-golden/unit-3-circles-tangency-golden-notes.html" title="Unit III: Circles, Tangency, Golden Section, Projective Polarity &amp; Modern Triangle Centers">&larr; <span class="nav-label">Unit III: Circles, Tangency, Golden Section, Projective Polarity & Modern Triangle Centers</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">GÉOMÉTROGRAPHIE</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../concordance.html" title="Dual Minimal-Instrument Concordance"><span class="nav-label">Dual Minimal-Instrument Concordance</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../about/index.html"  >about</a></li>
+        <li><a href="../../changelog.html"  >changelog</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1902 C. Naud (Collection Scientia No. 18) • Digital Edition GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>
