@@ -46,7 +46,7 @@
           <a href="../geometrographie/bibliography.html"  >Bibliography</a>
         </li>
         <li>
-          <a href="../mission/index.html"  >Mission</a>
+          <a href="#" class="is-active" aria-selected="true" aria-current="page">About</a>
         </li>
         <li>
           <a href="../usage/index.html"  >Usage</a>
@@ -73,7 +73,7 @@
         </div>
         <div class="book-header-nav">
           <div class="book-nav-prev">
-            <a class="book-nav-btn" href="../modules/api/geometor/lemoine/sphinx_ext/index.html" title="geometor.lemoine.sphinx_ext">&larr; <span class="nav-label">Prev</span></a>
+            <a class="book-nav-btn" href="../geometrographie/glossary.html" title="Glossary">&larr; <span class="nav-label">Prev</span></a>
           </div>
           <div class="book-nav-center">
           </div>
@@ -83,9 +83,41 @@
         </div>
       </header>
       <div class="content body book-content" role="main">
-        <section class="level-1" id="about">
-        <span id="about-index"></span><h1>About<a class="headerlink" href="#about" title="Link to this heading">¶</a></h1>
-        <p>Biographical, mathematical, and philological background for <code class="docutils literal notranslate"><span class="pre">geometor.lemoine</span></code>.</p>
+        <section class="level-1" id="about-index">
+        <span id="about"></span><span id="id1"></span><h1>About<a class="headerlink" href="#about-index" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Extracting Historical Semantic Knowledge &amp; Repurposing It for Exact Symbolic Reasoning</p>
+        <section class="level-2" id="about-this-edition">
+        <h2>About This Edition<a class="headerlink" href="#about-this-edition" title="Link to this heading">¶</a></h2>
+        <p><code class="docutils literal notranslate"><span class="pre">geometor.lemoine</span></code> establishes a rigorous, folio-verified Digital Scriptorium edition of <strong>Émile Lemoine’s</strong> foundational treatise <em>Géométrographie, ou Art des constructions géométriques</em> (Paris: C. Naud, Collection <em>Scientia</em> No. 18, 1902), synthesizing the earlier milestones of the <em>Note d’Oran</em> (AFAS 1888) and the <em>Mémoire de Pau</em> (AFAS 1892 / Gauthier-Villars 1893). This edition unites quantitative geometric construction complexity with minimal-instrument constructibility, establishing the operational metrics that measure how synthetic constructions are physically and algorithmically executed.</p>
+        <p>The treatise decomposes every classical ruler-and-compass construction into five irreducible elementary acts (<span class="math notranslate nohighlight">\(R_1, R_2, C_1, C_2, C_3\)</span>), defining an operational calculus that assigns to every geometric construction a rigorous <strong>coefficient of simplicity</strong> (<span class="math notranslate nohighlight">\(S = l_1 + l_2 + m_1 + m_2 + m_3\)</span>) and <strong>coefficient of exactitude</strong> (<span class="math notranslate nohighlight">\(E = l_1 + m_1 + m_2\)</span>). By parsing historical propositions, enunciations, operational vectors, and comparative benchmark problems into addressable semantic elements, this digital edition transforms Lemoine’s constructive calculus into a computable graph.</p>
+        <p>Within the GEOMETOR research ecosystem, <em>Géométrographie</em> serves as the foundational bridge connecting the axiomatic canon of Euclid’s <em>Elements</em> (), the modern triangle center taxonomy of Kimberling’s <em>Encyclopedia of Triangle Centers</em> (), and the classical projective lemmas of Pappus of Alexandria (). Furthermore, through its <strong>Dual Minimal-Instrument Concordance</strong>, it projects Euclidean benchmarks simultaneously onto the compass-only subspace of Lorenzo Mascheroni (1797) and the single-fixed-circle straightedge subspace of Jean-Victor Poncelet (1822) and Jakob Steiner (1833).</p>
+        </section>
+        <section class="level-2" id="the-geometor-mission">
+        <h2>The GEOMETOR Mission<a class="headerlink" href="#the-geometor-mission" title="Link to this heading">¶</a></h2>
+        <p>The GEOMETOR project, conceived and directed by <strong>phi ARCHITECT</strong>, is dedicated to a multi-generational synthesis of geometry, computation, and symbolic reasoning. At its core, the project operates across three foundational pillars:</p>
+        <section class="level-3" id="extracting-historical-semantic-knowledge">
+        <h3>Extracting Historical Semantic Knowledge<a class="headerlink" href="#extracting-historical-semantic-knowledge" title="Link to this heading">¶</a></h3>
+        <p>Moving beyond passive page scans and superficial OCR, GEOMETOR recovers the living deductive architecture of more than 2,300 years of geometric, axiomatic, and philosophical treatises. From ancient Greek codices and Renaissance folios to nineteenth-century synthetic treatises, our Digital Scriptorium elevates prose, marginal citations, primary-source folios (via <code class="docutils literal notranslate"><span class="pre">publish</span> <span class="pre">folio</span></code>), and calibrated Ink-to-Vector <code class="docutils literal notranslate"><span class="pre">.euclid-graphic</span></code> diagrams into structured, machine-addressable semantic knowledge graphs. Every proposition, step, enunciation, and justification is isolated, verified, and interconnected across history.</p>
+        </section>
+        <section class="level-3" id="exact-symbolic-grounding-geometor-model">
+        <h3>Exact Symbolic Grounding (<code class="docutils literal notranslate"><span class="pre">geometor.model</span></code>)<a class="headerlink" href="#exact-symbolic-grounding-geometor-model" title="Link to this heading">¶</a></h3>
+        <p>Geometry in GEOMETOR is never approximated through floating-point fuzz or numerical instability. Constructions are anchored in 100% exact symbolic algebra via <cite>SymPy</cite> and Norman Wildberger’s Rational Trigonometry invariants (quadrance, spread, and cross-ratio) over exact algebraic number fields. By eliminating rounding errors entirely, geometric configurations retain absolute fidelity, allowing geometric proofs, collinearities, and concyclicities to be verified symbolically with mathematical certainty.</p>
+        </section>
+        <section class="level-3" id="repurposing-knowledge-across-mediums">
+        <h3>Repurposing Knowledge Across Mediums<a class="headerlink" href="#repurposing-knowledge-across-mediums" title="Link to this heading">¶</a></h3>
+        <p>The extracted semantic graphs and exact algebraic models are re-deployed across a unified computational medium: synchronized multi-track <strong>Book Codices</strong> and EPUB 3 editions published with <cite>photon-platform/publish</cite>; computable deductive canons (such as <code class="docutils literal notranslate"><span class="pre">geometor.elements</span></code>, <code class="docutils literal notranslate"><span class="pre">geometor.etc</span></code>, <code class="docutils literal notranslate"><span class="pre">geometor.pappus</span></code>, and <code class="docutils literal notranslate"><span class="pre">geometor.divine</span></code>); interactive SVG laboratories powered by <code class="docutils literal notranslate"><span class="pre">geometor.explorer</span></code>; ultra-high-definition (QHD) visual broadcasts; and neuro-symbolic program synthesis guided by <code class="docutils literal notranslate"><span class="pre">geometor.seer</span></code> across <a class="reference external" href="https://geometor.com">geometor.com</a>.</p>
+        </section>
+        </section>
+        <section class="level-2" id="sources-provenance-methodology">
+        <h2>Sources, Provenance &amp; Methodology<a class="headerlink" href="#sources-provenance-methodology" title="Link to this heading">¶</a></h2>
+        <p>Following the GEOMETOR Digital Scriptorium Iron Law, all operation vectors, problem numbers, and citations in this edition were visually verified page-by-page from 300 DPI archival page scans across three public-domain sources, with UTF-8 transcriptions and SHA-256 checksums recorded in <code class="docutils literal notranslate"><span class="pre">resources/geometrographie/sources_manifest.json</span></code>:</p>
+        <ul class="simple">
+        <li><p><strong>Émile Lemoine</strong>, <em>Géométrographie, ou Art des constructions géométriques</em> (Paris: C. Naud, Éditeur, Collection <em>Scientia</em>, Série Physico-Mathématique, n° 18, 1902; 88 pp.), collated against <em>La Géométrographie ou l’Art des constructions géométriques</em> (Pau: AFAS, 1892; Paris: Gauthier-Villars, 1893).</p></li>
+        <li><p><strong>Lorenzo Mascheroni</strong>, <em>La Geometria del Compasso</em> (Pavia: Pietro Galeazzi, 1797; collated with the critical edition by Gaetano Fazzari, Palermo: Era Nova, 1901).</p></li>
+        <li><p><strong>Jakob Steiner</strong>, <em>Die geometrischen Constructionen, ausgeführt mittelst der geraden Linie und Eines festen Kreises</em> (Berlin: Ferdinand Dümmler, 1833; Ostwald’s Klassiker der exakten Wissenschaften Nr. 60, edited by A. J. von Oettingen, Leipzig: Wilhelm Engelmann, 1895).</p></li>
+        </ul>
+        <section class="level-3" id="child-essays-monographic-studies">
+        <h3>Child Essays &amp; Monographic Studies<a class="headerlink" href="#child-essays-monographic-studies" title="Link to this heading">¶</a></h3>
         <ul class="simple">
         <li><p><a class="reference internal" href="emile-lemoine.html"><span class="doc">Émile Lemoine (1840–1912)</span></a> — Life, modern triangle geometry (<span class="math notranslate nohighlight">\(X(6)\)</span>), <em>L’Intermédiaire des Mathématiciens</em>, and the invention of <em>Géométrographie</em>.</p></li>
         <li><p><a class="reference internal" href="mascheroni-steiner.html"><span class="doc">Mascheroni (1797) &amp; Poncelet–Steiner (1833)</span></a> — Minimal-instrument constructibility from Georg Mohr and Lorenzo Mascheroni to Jakob Steiner and August Adler.</p></li>
@@ -94,13 +126,15 @@
         <div class="toctree-wrapper compound">
         </div>
         </section>
+        </section>
+        </section>
 
       </div>
       <footer class="book-footer">
         <div class="book-footer-ornament">&#10086;</div>
         <div class="book-footer-nav">
           <div class="book-nav-prev">
-            <a class="book-nav-btn" href="../modules/api/geometor/lemoine/sphinx_ext/index.html" title="geometor.lemoine.sphinx_ext">&larr; <span class="nav-label">geometor.lemoine.sphinx_ext</span></a>
+            <a class="book-nav-btn" href="../geometrographie/glossary.html" title="Glossary">&larr; <span class="nav-label">Glossary</span></a>
           </div>
           <div class="book-nav-center">
             <a class="book-toc-link" href="../index.html">GEOMETOR • lemoine</a>
@@ -137,7 +171,6 @@
       <ul>
         <li><a href="../geometrographie/concordance.html"  >Concordance</a></li>
         <li><a href="../geometrographie/glossary.html"  >Glossary</a></li>
-        <li><a href="#" class="is-active" aria-selected="true" aria-current="page">About</a></li>
         <li><a href="../changelog.html"  >Changelog</a></li>
       </ul>
     </div>
@@ -151,7 +184,7 @@
 
   <script src="../_static/jquery.js?v=5d32c60e"></script>
   <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-  <script src="../_static/documentation_options.js?v=92734c54"></script>
+  <script src="../_static/documentation_options.js?v=360bc84d"></script>
   <script src="../_static/doctools.js?v=fd6eb6e6"></script>
   <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
   <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
