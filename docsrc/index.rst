@@ -30,7 +30,6 @@ Context & Architecture
 * :doc:`Geometrography Book Codex <geometrographie/index>` — Four synchronized bilingual units with archival folios and vector figures.
 * :doc:`People <geometrographie/persons>` — Prosopographical register of 26 geometers from Euclid to Lemoine, Mascheroni, and Steiner.
 * :doc:`Bibliography <geometrographie/bibliography>` — Primary treatises, archival editions, and modern constructive literature.
-* :doc:`Mission & Constructive Complexity Vision <mission/index>` — Philosophical and operational objectives of the digital edition.
 * :doc:`Using This Edition <usage/index>` — Interactive reader's guide to tracks, folios, operation vectors, and search.
 * :doc:`Curation & Verification Log <log/index>` — Chronological transcription and milestone record.
 * :doc:`Python Package & Concordance API <modules/index>` — Exact algebraic operations and invariant verifiers in ``geometor.lemoine``.
