@@ -29,7 +29,7 @@ REPO_ROOT = default_repo_root()
 
 
 def test_version_and_repo_root() -> None:
-    assert __version__ == "0.1.0"
+    assert __version__ == "0.1.1"
     assert (REPO_ROOT / "pyproject.toml").is_file()
     assert len(CODEX_UNITS) == 4
     assert TRACK_SUFFIXES == ("en", "fr", "summary", "notes")

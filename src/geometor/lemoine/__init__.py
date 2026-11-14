@@ -25,7 +25,7 @@ from geometor.lemoine.sphinx_ext import (
     register_french_book_track,
 )
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 __all__ = [
     "CODEX_UNITS",
