@@ -41,19 +41,40 @@ def mirror_apparatus_json(repo_root: Path | None = None) -> list[Path]:
 def render_persons_rst(app: LemoineApparatus) -> str:
     """Render ``docsrc/geometrographie/persons.rst`` with ``.. _person-<slug>:`` anchors."""
     lines: list[str] = [
-        ":layout: book",
+        ":navigation: header",
+        ":order: 5",
+        ":nav_title: People",
         "",
         ".. _persons:",
         "",
-        "Index of Persons",
-        "================",
+        "People",
+        "======",
         "",
-        ".. rubric:: Prosopographical Registry of Geometers & Commentators",
+        ".. rubric:: Authors, Editors & Cited Geometers in the Lemoine Tradition",
+        "",
+        "Authors, Translators & Editors",
+        "------------------------------",
+        "",
+        ".. _person-lemoine:",
+        "",
+        "Émile Michel Hyacinthe Lemoine (1840 – 1912)",
+        "--------------------------------------------",
+        "",
+        "*French Civil Engineer, Modern Triangle Geometer & Founder of Geometrography*",
+        "",
+        "Émile Michel Hyacinthe Lemoine (22 November 1840, Quimper – 21 February 1912, Paris) was an alumnus of the *École Polytechnique* (entering in 1860) and a chief civil engineer in Paris. In 1873 at the AFAS Congress in Lyon, he discovered the concurrency of the triangle's symmedians at the **Lemoine Point** $K = X(6)$ (minimizing squared distances to triangle sides) and introduced the Lemoine circles. In 1888 (Oran) and 1892 (Pau), he formulated **Géométrographie**, published definitively in 1902 (*Scientia* No. 18), establishing the five canonical operations ($R_1, R_2, C_1, C_2, C_3$) and formal measures of simplicity ($S$) and exactitude ($E$). He co-founded *L'Intermédiaire des Mathématiciens* (1894) and repeatedly received the *Prix Francœur* from the French Academy of Sciences.",
+        "",
+        "----",
+        "",
+        "Cited Geometers, Philosophers & Scholars",
+        "----------------------------------------",
         "",
     ]
     for key in sorted(app.persons.keys(), key=lambda k: app.persons[k]["name"]):
-        p = app.persons[key]
         slug = apparatus_slug(key)
+        if slug == "lemoine":
+            continue
+        p = app.persons[key]
         lines.extend(
             [
                 f".. _person-{slug}:",
@@ -69,12 +90,14 @@ def render_persons_rst(app: LemoineApparatus) -> str:
 def render_bibliography_rst(app: LemoineApparatus) -> str:
     """Render ``docsrc/geometrographie/bibliography.rst`` with ``.. _cite-<slug>:`` anchors."""
     lines: list[str] = [
-        ":layout: book",
+        ":navigation: header",
+        ":order: 6",
+        ":nav_title: Bibliography",
         "",
         ".. _bibliography:",
         "",
-        "Systematic Bibliography",
-        "=======================",
+        "Bibliography",
+        "============",
         "",
         ".. rubric:: Primary Treatises, Archival Editions & Constructive Literature",
         "",
@@ -106,12 +129,13 @@ def render_glossary_rst(app: LemoineApparatus) -> str:
         "grc": "Greek",
     }
     lines: list[str] = [
-        ":layout: book",
+        ":navigation: footer",
+        ":nav_title: Glossary",
         "",
         ".. _glossary:",
         "",
-        "Technical Glossary",
-        "==================",
+        "Glossary",
+        "========",
         "",
         ".. rubric:: Constructive & Minimal-Instrument Terminology (*Français · Italiano · Deutsch · English*)",
         "",
@@ -136,7 +160,8 @@ def render_concordance_rst(app: LemoineApparatus) -> str:
     """Render ``docsrc/geometrographie/concordance.rst`` comparing Lemoine, Euclid, Mascheroni, and Steiner."""
     unit_titles = dict(CODEX_UNITS)
     lines: list[str] = [
-        ":layout: book",
+        ":navigation: footer",
+        ":nav_title: Concordance",
         "",
         ".. _concordance:",
         "",

@@ -1,9 +1,10 @@
-:layout: book
+:navigation: footer
+:nav_title: Glossary
 
 .. _glossary:
 
-Technical Glossary
-==================
+Glossary
+========
 
 .. rubric:: Constructive & Minimal-Instrument Terminology (*Français · Italiano · Deutsch · English*)
 
