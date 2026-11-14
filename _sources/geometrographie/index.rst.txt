@@ -1,18 +1,28 @@
-:layout: book
 :navigation: header
-:order: 20
+:order: 1
+:nav_title: Geometrography
+:layout: book
+:book_title: Geometrography, or the Art of Geometrical Constructions
+:book_subtitle: Géométrographie ou Art des constructions géométriques — Émile Lemoine (1902)
+:author: Émile Lemoine
+:year: 1902
 
 .. _geometrographie-index:
 
-GÉOMÉTROGRAPHIE
-===============
+Geometrography
+==============
 
-.. rubric:: *Art des constructions géométriques* — Émile Lemoine (1888 / 1892 / *Scientia* No. 18, 1902)
+.. rubric:: *Géométrographie ou Art des constructions géométriques* — Émile Lemoine (1902)
 
-| **Note Originale (Oran, 1888):** *De la mesure de la simplicité dans les sciences mathématiques*, AFAS Congrès d'Oran, 30 mars 1888.
-| **Mémoire Fondamental (Pau, 1892 / 1893):** *La Géométrographie ou l'Art des constructions géométriques*, Gauthier-Villars / AFAS, Paris (pp. 1–66).
-| **Monographie Définitive (Paris, 1902):** *Géométrographie, ou Art des constructions géométriques*, Collection *Scientia* (Phys.-Math. n° 18), C. Naud, Paris, 1902.
-| **Digital Critical Codex:** Synchronized 4-track edition (*English · French (1902) · Summary · Notes*) paired with the **Dual Minimal-Instrument Concordance** to **Lorenzo Mascheroni** (1797) and **Jakob Steiner** (1833).
+.. container:: title-page
+
+   | **Émile Lemoine**
+   | *Géométrographie, ou Art des constructions géométriques* (1902)
+   |
+   | Quantitative Evaluation of Simplicity and Exactitude in Compass-and-Straightedge Geometric Constructions
+   |
+   | **First French Edition (1902):** Collection *Scientia* (Phys.-Math. n° 18), Paris: C. Naud, 1902
+   | **Digital Edition:** Synchronized 4-Track Edition (*English · French (1902) · Summary · Notes*) with exact operation-vector algebra
 
 .. epigraph::
 
@@ -24,8 +34,8 @@ GÉOMÉTROGRAPHIE
 
 ----
 
-Conspectus Totius Operis
-------------------------
+Table of Contents
+-----------------
 
 **Unit I: Historical Genesis, Methodological Criteria & The Five Elementary Operations** (*Préliminaires & Opérations I–X* — pp. 1–5, 52–65)
    :ref:`English <geometrographie-unit-1-en>` · :ref:`French (1902) <geometrographie-unit-1-fr>` · :ref:`Summary <geometrographie-unit-1-summary>` · :ref:`Notes <geometrographie-unit-1-notes>`
@@ -41,13 +51,13 @@ Conspectus Totius Operis
 
 ----
 
-Apparatus Criticus & Minimal-Instrument Concordance
----------------------------------------------------
+Scholarly Apparatus
+-------------------
 
-* :ref:`Dual Minimal-Instrument Concordance <concordance>` — 26 canonical construction benchmarks comparing speculative textbook execution, Lemoine's *Géométrographie* (:math:`R_1, R_2, C_1, C_2, C_3`), Mascheroni's compass-only *La Geometria del Compasso* (1797), and Poncelet–Steiner fixed-circle straightedge constructions (1833).
-* :ref:`Systematic Bibliography <bibliography>` — Primary treatises, archival witnesses, and modern constructive references.
-* :ref:`Index of Persons <persons>` — Prosopographical registry of 26 geometers from Euclid and Pappus to Lemoine, Tarry, Brocard, Mascheroni, and Steiner.
-* :ref:`Technical Glossary <glossary>` — Bilingual French, German, Italian, and English operational and projective terminology.
+* :doc:`Dual Minimal-Instrument Concordance <concordance>` — 26 canonical construction benchmarks comparing speculative textbook execution, Lemoine's *Géométrographie* (:math:`R_1, R_2, C_1, C_2, C_3`), Mascheroni's compass-only *La Geometria del Compasso* (1797), and Poncelet–Steiner fixed-circle straightedge constructions (1833).
+* :doc:`Bibliography <bibliography>` — Primary treatises, archival witnesses, and modern constructive references.
+* :doc:`People <persons>` — Prosopographical registry of 26 geometers from Euclid and Pappus to Lemoine, Tarry, Brocard, Mascheroni, and Steiner.
+* :doc:`Glossary <glossary>` — Bilingual French, German, Italian, and English operational and projective terminology.
 
 .. toctree::
    :maxdepth: 1
@@ -86,7 +96,7 @@ Apparatus Criticus & Minimal-Instrument Concordance
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: Critical Apparatus
+   :caption: Scholarly Apparatus
 
    concordance
    bibliography

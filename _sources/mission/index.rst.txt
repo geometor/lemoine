@@ -1,8 +1,9 @@
 :navigation: header
 :order: 10
+:nav_title: Mission
 
 =======
-mission
+Mission
 =======
 
 ``geometor.lemoine`` establishes a rigorous, folio-verified Digital Scriptorium edition of **Émile Lemoine's** *Géométrographie, ou Art des constructions géométriques* (1888 / 1892 / 1902), uniting quantitative construction complexity with minimal-instrument constructibility across the **GEOMETOR** ecosystem.

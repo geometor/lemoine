@@ -1,11 +1,30 @@
-:layout: book
+:navigation: header
+:order: 5
+:nav_title: People
 
 .. _persons:
 
-Index of Persons
-================
+People
+======
 
-.. rubric:: Prosopographical Registry of Geometers & Commentators
+.. rubric:: Authors, Editors & Cited Geometers in the Lemoine Tradition
+
+Authors, Translators & Editors
+------------------------------
+
+.. _person-lemoine:
+
+Émile Michel Hyacinthe Lemoine (1840 – 1912)
+--------------------------------------------
+
+*French Civil Engineer, Modern Triangle Geometer & Founder of Geometrography*
+
+Émile Michel Hyacinthe Lemoine (22 November 1840, Quimper – 21 February 1912, Paris) was an alumnus of the *École Polytechnique* (entering in 1860) and a chief civil engineer in Paris. In 1873 at the AFAS Congress in Lyon, he discovered the concurrency of the triangle's symmedians at the **Lemoine Point** $K = X(6)$ (minimizing squared distances to triangle sides) and introduced the Lemoine circles. In 1888 (Oran) and 1892 (Pau), he formulated **Géométrographie**, published definitively in 1902 (*Scientia* No. 18), establishing the five canonical operations ($R_1, R_2, C_1, C_2, C_3$) and formal measures of simplicity ($S$) and exactitude ($E$). He co-founded *L'Intermédiaire des Mathématiciens* (1894) and repeatedly received the *Prix Francœur* from the French Academy of Sciences.
+
+----
+
+Cited Geometers, Philosophers & Scholars
+----------------------------------------
 
 .. _person-mannheim:
 
@@ -136,8 +155,3 @@ Index of Persons
 
 **Theodor Spieker** (1823–1913) — *German geometer in Potsdam*
    Introduced the Spieker center X(10)—incenter of the medial triangle and center of mass of a uniform wire perimeter—analyzed in Lemoine Problem LX (S = 29).
-
-.. _person-lemoine:
-
-**Émile Michel Hyacinthe Lemoine** (1840–1912) — *French geometer, civil engineer, and polymath; co-founder of modern triangle geometry and creator of Géométrographie*
-   Educated at the Prytanée National Militaire and the École Polytechnique (1860), Lemoine introduced the symmedian point X(6) and Lemoine circles at the 1873 Lyon congress of the Association Française pour l'Avancement des Sciences (AFAS), inaugurated the quantitative science of geometric simplicity at Oran (1888) and Pau (1892), co-founded L'Intermédiaire des Mathématiciens with C.-A. Laisant (1894), and published the definitive monograph Géométrographie in Collection Scientia No. 18 (1902).

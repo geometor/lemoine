@@ -1,9 +1,11 @@
-:layout: book
+:navigation: header
+:order: 6
+:nav_title: Bibliography
 
 .. _bibliography:
 
-Systematic Bibliography
-=======================
+Bibliography
+============
 
 .. rubric:: Primary Treatises, Archival Editions & Constructive Literature
 
