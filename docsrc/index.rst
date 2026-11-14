@@ -9,8 +9,8 @@ Scholarly Digital Scriptorium **Book Codex**, theme-adaptive ``.euclid-graphic``
 
 ----
 
-Treatise Codex (*Opus*)
------------------------
+Book Codex
+----------
 
 :doc:`Géométrographie, ou Art des constructions géométriques (1888 / 1892 / 1902) <geometrographie/index>`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -19,16 +19,20 @@ Treatise Codex (*Opus*)
 
 Lemoine's foundational operational calculus decomposing every geometric construction into five elementary acts (:math:`R_1, R_2, C_1, C_2, C_3`) to measure its **coefficient of simplicity** (:math:`S = l_1 + l_2 + m_1 + m_2 + m_3`) and **coefficient of exactitude** (:math:`E = l_1 + m_1 + m_2`), systematically replacing speculative textbook proofs with minimal constructive syntheses across Euclid's *Elements*, golden-section division, projective polarity, modern triangle centers (:math:`X(1), X(2), X(3), X(6), X(7), X(8), X(10), X(98), X(99)`, Brocard :math:`\omega, \omega'`), compass-only geometry, and fixed-circle straightedge geometry.
 
-* **Synchronized 4-Track Book Codex**: :ref:`Conspectus Operis <geometrographie-index>` · :ref:`Unit I: Five Elementary Operations <geometrographie-unit-1-en>` · :ref:`Unit II: Euclid Book I Benchmarks <geometrographie-unit-2-en>` · :ref:`Unit III: Circles, Golden Section & Triangle Centers <geometrographie-unit-3-en>` · :ref:`Unit IV: Équerre, Mascheroni & Steiner <geometrographie-unit-4-en>` across *English · French (1902) · Summary · Notes*.
-* **Scholarly & Cross-Repository Apparatus**: :ref:`Dual Minimal-Instrument Concordance <concordance>` · :ref:`Systematic Bibliography <bibliography>` · :ref:`Index of Persons <persons>` · :ref:`Technical Glossary <glossary>` with interactive ``:cite:``, ``:person:``, ``:term:``, and ``:g:`` hover integration.
+* **Synchronized 4-Track Book Codex**: :ref:`Table of Contents <geometrographie-index>` · :ref:`Unit I: Five Elementary Operations <geometrographie-unit-1-en>` · :ref:`Unit II: Euclid Book I Benchmarks <geometrographie-unit-2-en>` · :ref:`Unit III: Circles, Golden Section & Triangle Centers <geometrographie-unit-3-en>` · :ref:`Unit IV: Équerre, Mascheroni & Steiner <geometrographie-unit-4-en>` across *English · French (1902) · Summary · Notes*.
+* **Scholarly & Cross-Repository Apparatus**: :ref:`Dual Minimal-Instrument Concordance <concordance>` · :ref:`Bibliography <bibliography>` · :ref:`People <persons>` · :ref:`Glossary <glossary>` with interactive ``:cite:``, ``:person:``, ``:term:``, and ``:g:`` hover integration.
 
 ----
 
 Context & Architecture
 ----------------------
 
-* :doc:`Mission & Constructive Complexity Vision <mission/index>`
-* :doc:`About Lemoine, Minimal Instruments & Textual Stemma <about/index>`
-* :doc:`Python Package & Concordance API <modules/index>`
-* :doc:`Curation & Verification Log <log/index>`
-* :doc:`Changelog <changelog>`
+* :doc:`Geometrography Book Codex <geometrographie/index>` — Four synchronized bilingual units with archival folios and vector figures.
+* :doc:`People <geometrographie/persons>` — Prosopographical register of 26 geometers from Euclid to Lemoine, Mascheroni, and Steiner.
+* :doc:`Bibliography <geometrographie/bibliography>` — Primary treatises, archival editions, and modern constructive literature.
+* :doc:`Mission & Constructive Complexity Vision <mission/index>` — Philosophical and operational objectives of the digital edition.
+* :doc:`Using This Edition <usage/index>` — Interactive reader's guide to tracks, folios, operation vectors, and search.
+* :doc:`Curation & Verification Log <log/index>` — Chronological transcription and milestone record.
+* :doc:`Python Package & Concordance API <modules/index>` — Exact algebraic operations and invariant verifiers in ``geometor.lemoine``.
+* :doc:`About Lemoine, Minimal Instruments & Textual Stemma <about/index>` — Historical provenance and archival sources.
+* :doc:`Changelog <changelog>` — Version history and release notes.
