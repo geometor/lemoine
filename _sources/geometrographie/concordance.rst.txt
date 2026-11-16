@@ -192,10 +192,10 @@ Master Operation-Count Summary
      - :math:`11R_1 + 6R_2` (:math:`S=17, E=11`)
      - ``-8``
 
-Unit I: Historical Genesis, Methodological Criteria & The Five Elementary Operations
-------------------------------------------------------------------------------------
+Part I: Operations & Elementary Notations (Notations et Symboles)
+-----------------------------------------------------------------
 
- Companion codex unit: :doc:`Unit I: Historical Genesis, Methodological Criteria & The Five Elementary Operations <unit-1-operations/unit-1-operations-en>`.
+ Companion codex unit: :doc:`Part I: Operations & Elementary Notations (Notations et Symboles) <part_01_operations/part_01_operations-en>`.
 
 .. _concordance-line-two-points:
 
@@ -227,10 +227,10 @@ VIII — Laying Off a Given Segment Along a Traced Line
 - **Poncelet–Steiner Fixed-Circle Counterpart** (*Drittes Kapitel, § 18, Sechste Aufgabe ([76]–[78], pp. 56–57)*): Pure straightedge transfer of segment M_1 a_1 to a given origin M_2 by constructing the centers of similitude A_1, I_1 of the fixed circle M and the virtual circle (M_2, M_1 a_1).
 - **Critical Note**: Euclid I.2–I.3 avoids assuming a divider compass that retains its opening when lifted (S = 16); Lemoine's modern compass takes AB in 2C_1 and lays it off in C_2 + C_3 (or C_1 + C_3 from a fixed point, S = 4, E = 3).
 
-Unit II: Fundamental Speculative vs. Géométrographique Constructions (Euclid Book I Benchmarks)
------------------------------------------------------------------------------------------------
+Part II: Fundamental Constructions (Constructions Fondamentales)
+----------------------------------------------------------------
 
- Companion codex unit: :doc:`Unit II: Fundamental Speculative vs. Géométrographique Constructions (Euclid Book I Benchmarks) <unit-2-euclid-benchmarks/unit-2-euclid-benchmarks-en>`.
+ Companion codex unit: :doc:`Part II: Fundamental Constructions (Constructions Fondamentales) <part_02_fundamental_constructions/part_02_fundamental_constructions-en>`.
 
 .. _concordance-copy-angle:
 
@@ -352,10 +352,40 @@ XXII — Bisecting a Given Rectilinear Angle
 - **Poncelet–Steiner Fixed-Circle Counterpart** (*Drittes Kapitel, § 18, Fünfte Aufgabe, Fall a ([75]–[76], pp. 55–56, Fig. 21)*): Draws diameters ab, cd of fixed circle M parallel to sides mA, mC so central angle aMc = AmC; the line through vertex m parallel to chord ad (or cb) bisects angle AmC!
 - **Critical Note**: Retaining the same sufficient radius R for the initial arc at A and the two intersecting arcs from B and D avoids resetting the compass, reducing S from 10 to 9.
 
-Unit III: Circles, Tangency, Golden Section, Projective Polarity & Modern Triangle Centers
-------------------------------------------------------------------------------------------
+.. _concordance-mascheroni-midpoint-line-intersection:
 
- Companion codex unit: :doc:`Unit III: Circles, Tangency, Golden Section, Projective Polarity & Modern Triangle Centers <unit-3-circles-tangency-golden/unit-3-circles-tangency-golden-en>`.
+Masch. §§ 66, 112 — Mascheroni Compass-Only Midpoint & Intersection of Two Lines
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+*Géométrographie Mascheronienne : milieu de AB et intersection de deux droites au compas seul*
+
+**Lemoine Folio**: pp. Scientia 1902; Mascheroni pp. 33, 61–63 | **Euclid**: I.Post.3, I.10 | **Elements DAG**: G.2 (Postulate 3), G.11 (I.10) | **Projective**: Mohr–Mascheroni / Adler inversive completeness
+
+- **Classical / Speculative Construction**: :math:`2R_1 + R_2 + 2C_1 + 2C_3` — Simplicity :math:`S = 7`, Exactitude :math:`E = 4` (1 lines, 2 circles).
+- **Lemoine Géométrographique Synthesis**: :math:`10C_1 + 7C_3` — Simplicity :math:`S = 17`, Exactitude :math:`E = 10` (0 lines, 7 circles).
+- **Mascheroni Compass-Only Counterpart** (*Libro III, § 66 Sol. V (p. 33, Fig. 14); Libro VII, §§ 110–112 (pp. 60–63, Figs. 46–50)*): Proves compass-only completeness: line-circle intersection (§§ 110–111) and line-line intersection (§ 112, via symmetric points c, d across AB, parallelogram CDd-delta, and fourth proportional c-delta : CD = Cc : CS) reduce all Euclidean constructions to C_1, C_2, C_3.
+- **Poncelet–Steiner Fixed-Circle Counterpart** (*Einleitung § 2 ([2]–[4], pp. 4–5)*): Steiner opens his 1833 treatise by contrasting Mascheroni's exclusion of the straightedge with the dual projective program of excluding the compass altogether.
+- **Critical Note**: In Géométrographie Mascheronienne (r1 = r2 = 0), bisecting an un-drawn segment AB takes 10C_1 + 7C_3 (S = 17, 7 circles), whereas reflecting a point takes 4C_1 + 2C_3 (S = 6) and constructing a parallel point takes 5C_1 + 2C_3 (S = 7).
+
+.. _concordance-steiner-parallel-circle-meet:
+
+Steiner § 18 Aufg. 1–8 — Poncelet–Steiner Straightedge-Only Parallel & Virtual Circle Intersections
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+*Géométrographie Steinerienne : parallèle et intersections de cercles à la règle seule avec un cercle fixe*
+
+**Lemoine Folio**: pp. Scientia 1902; Steiner [68]–[85] (pp. 50–62) | **Euclid**: I.Post.1–2, I.31 | **Elements DAG**: G.1 (Postulate 1), G.32 (I.31) | **Projective**: Poncelet–Steiner Theorem (complete quadrangle + centers of similitude + radical axis)
+
+- **Classical / Speculative Construction**: :math:`2R_1 + R_2 + 3C_1 + 3C_3` — Simplicity :math:`S = 9`, Exactitude :math:`E = 5` (1 lines, 3 circles).
+- **Lemoine Géométrographique Synthesis**: :math:`11R_1 + 6R_2` — Simplicity :math:`S = 17`, Exactitude :math:`E = 11` (6 lines, 0 circles).
+- **Mascheroni Compass-Only Counterpart** (*Libro VII, §§ 110–112 (pp. 60–63)*): Dual counterpart: where Mascheroni simulates straight lines via pairs of points and fourth-proportional arcs, Steiner simulates un-drawn circles via centers of similitude and radical axes.
+- **Poncelet–Steiner Fixed-Circle Counterpart** (*Drittes Kapitel, § 18, Erste bis Achte Aufgabe ([68]–[85], pp. 50–62, Figs. 19–24)*): Proves straightedge-only completeness given ONE fixed circle with center M: parallel to a diameter aMb takes 11R_1 + 6R_2 (S = 17, 6 lines, 0 circles); Seventh & Eighth Problems find line-circle and circle-circle intersections of un-drawn circles via Aehnlichkeitspunkte A, I and the radical axis.
+- **Critical Note**: Notice that center M IS indispensable: by Poncelet–Steiner–Hilbert projective invariance, a projective transformation fixing a circle without fixing its center destroys Euclidean parallelism and orthogonality!
+
+Part III: Circles, Tangency & Triangle Geometry (Cercles, Tangentes et Triangle)
+--------------------------------------------------------------------------------
+
+ Companion codex unit: :doc:`Part III: Circles, Tangency & Triangle Geometry (Cercles, Tangentes et Triangle) <part_03_circles_and_tangency/part_03_circles_and_tangency-en>`.
 
 .. _concordance-circumcircle:
 
@@ -566,38 +596,3 @@ LXI — Nagel Point X(8) of a Given Triangle
 - **Mascheroni Compass-Only Counterpart** (*Libro I, §§ 10–11; Libro VII, § 112 (pp. 12–13, 61–62)*): Transfers side lengths along the extended sides by three compass arcs to mark two excircle touchpoints T_b, T_c, then intersects cevians AT_b and BT_c by § 112.
 - **Poncelet–Steiner Fixed-Circle Counterpart** (*Drittes Kapitel, § 18, Sechste Aufgabe ([76]–[78], pp. 56–57)*): Transfers side lengths along the triangle's sides via centers of similitude with fixed circle M to locate T_b, T_c, then joins AT_b and BT_c by straightedge.
 - **Critical Note**: Instead of constructing two excircles via exterior angle bisectors (S = 34), Lemoine lays off semiperimeter differences directly with 3 circles and joins two Nagel cevians in S = 16!
-
-Unit IV: Restricted & Alternative Instruments — Équerre, Mascheroni Compass-Only & Poncelet–Steiner Fixed-Circle
-----------------------------------------------------------------------------------------------------------------
-
- Companion codex unit: :doc:`Unit IV: Restricted & Alternative Instruments — Équerre, Mascheroni Compass-Only & Poncelet–Steiner Fixed-Circle <unit-4-minimal-instruments/unit-4-minimal-instruments-en>`.
-
-.. _concordance-mascheroni-midpoint-line-intersection:
-
-Masch. §§ 66, 112 — Mascheroni Compass-Only Midpoint & Intersection of Two Lines
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-*Géométrographie Mascheronienne : milieu de AB et intersection de deux droites au compas seul*
-
-**Lemoine Folio**: pp. Scientia 1902; Mascheroni pp. 33, 61–63 | **Euclid**: I.Post.3, I.10 | **Elements DAG**: G.2 (Postulate 3), G.11 (I.10) | **Projective**: Mohr–Mascheroni / Adler inversive completeness
-
-- **Classical / Speculative Construction**: :math:`2R_1 + R_2 + 2C_1 + 2C_3` — Simplicity :math:`S = 7`, Exactitude :math:`E = 4` (1 lines, 2 circles).
-- **Lemoine Géométrographique Synthesis**: :math:`10C_1 + 7C_3` — Simplicity :math:`S = 17`, Exactitude :math:`E = 10` (0 lines, 7 circles).
-- **Mascheroni Compass-Only Counterpart** (*Libro III, § 66 Sol. V (p. 33, Fig. 14); Libro VII, §§ 110–112 (pp. 60–63, Figs. 46–50)*): Proves compass-only completeness: line-circle intersection (§§ 110–111) and line-line intersection (§ 112, via symmetric points c, d across AB, parallelogram CDd-delta, and fourth proportional c-delta : CD = Cc : CS) reduce all Euclidean constructions to C_1, C_2, C_3.
-- **Poncelet–Steiner Fixed-Circle Counterpart** (*Einleitung § 2 ([2]–[4], pp. 4–5)*): Steiner opens his 1833 treatise by contrasting Mascheroni's exclusion of the straightedge with the dual projective program of excluding the compass altogether.
-- **Critical Note**: In Géométrographie Mascheronienne (r1 = r2 = 0), bisecting an un-drawn segment AB takes 10C_1 + 7C_3 (S = 17, 7 circles), whereas reflecting a point takes 4C_1 + 2C_3 (S = 6) and constructing a parallel point takes 5C_1 + 2C_3 (S = 7).
-
-.. _concordance-steiner-parallel-circle-meet:
-
-Steiner § 18 Aufg. 1–8 — Poncelet–Steiner Straightedge-Only Parallel & Virtual Circle Intersections
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-*Géométrographie Steinerienne : parallèle et intersections de cercles à la règle seule avec un cercle fixe*
-
-**Lemoine Folio**: pp. Scientia 1902; Steiner [68]–[85] (pp. 50–62) | **Euclid**: I.Post.1–2, I.31 | **Elements DAG**: G.1 (Postulate 1), G.32 (I.31) | **Projective**: Poncelet–Steiner Theorem (complete quadrangle + centers of similitude + radical axis)
-
-- **Classical / Speculative Construction**: :math:`2R_1 + R_2 + 3C_1 + 3C_3` — Simplicity :math:`S = 9`, Exactitude :math:`E = 5` (1 lines, 3 circles).
-- **Lemoine Géométrographique Synthesis**: :math:`11R_1 + 6R_2` — Simplicity :math:`S = 17`, Exactitude :math:`E = 11` (6 lines, 0 circles).
-- **Mascheroni Compass-Only Counterpart** (*Libro VII, §§ 110–112 (pp. 60–63)*): Dual counterpart: where Mascheroni simulates straight lines via pairs of points and fourth-proportional arcs, Steiner simulates un-drawn circles via centers of similitude and radical axes.
-- **Poncelet–Steiner Fixed-Circle Counterpart** (*Drittes Kapitel, § 18, Erste bis Achte Aufgabe ([68]–[85], pp. 50–62, Figs. 19–24)*): Proves straightedge-only completeness given ONE fixed circle with center M: parallel to a diameter aMb takes 11R_1 + 6R_2 (S = 17, 6 lines, 0 circles); Seventh & Eighth Problems find line-circle and circle-circle intersections of un-drawn circles via Aehnlichkeitspunkte A, I and the radical axis.
-- **Critical Note**: Notice that center M IS indispensable: by Poncelet–Steiner–Hilbert projective invariance, a projective transformation fixing a circle without fixing its center destroys Euclidean parallelism and orthogonality!

@@ -46,7 +46,7 @@ Module Contents
 
 .. py:data:: CODEX_UNITS
    :type:  tuple[tuple[str, str], ...]
-   :value: (('unit-1-operations', 'Unit I: Historical Genesis, Methodological Criteria & The Five...
+   :value: (('part_01_operations', 'Part I: Operations & Elementary Notations (Notations et Symboles)'),...
 
 
 .. py:data:: TRACK_SUFFIXES
