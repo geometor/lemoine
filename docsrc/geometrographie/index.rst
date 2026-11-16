@@ -1,28 +1,29 @@
 :navigation: header
 :order: 1
-:nav_title: Geometrography
+:type: book
+:nav_title: La Géométrographie
+:breadcrumb_title: La Géométrographie
 :layout: book
-:book_title: Geometrography, or the Art of Geometrical Constructions
-:book_subtitle: Géométrographie ou Art des constructions géométriques — Émile Lemoine (1902)
+:book_title: La Géométrographie
+:book_subtitle: Géométrographie ou Art des constructions géométriques — Émile Lemoine (Paris, 1902)
 :author: Émile Lemoine
 :year: 1902
+:excerpt: Lemoine's 1902 treatise establishing geometrography—the quantitative measurement of simplicity and exactitude in geometric constructions via five elementary operations.
 
 .. _geometrographie-index:
 
-Geometrography
-==============
+==================
+La Géométrographie
+==================
 
 .. rubric:: *Géométrographie ou Art des constructions géométriques* — Émile Lemoine (1902)
 
 .. container:: title-page
 
-   | **Émile Lemoine**
-   | *Géométrographie, ou Art des constructions géométriques* (1902)
-   |
-   | Quantitative Evaluation of Simplicity and Exactitude in Compass-and-Straightedge Geometric Constructions
-   |
-   | **First French Edition (1902):** Collection *Scientia* (Phys.-Math. n° 18), Paris: C. Naud, 1902
-   | **Digital Edition:** Synchronized 4-Track Edition (*English · French (1902) · Summary · Notes*) with exact operation-vector algebra
+   | **Author:** :person:`Émile Lemoine <lemoine>` (1840–1912)
+   | **Treatise:** *Géométrographie, ou Art des constructions géométriques*
+   | **First Edition:** Collection *Scientia* (Série Physico-Mathématique n° 18), Paris: C. Naud, 1902
+   | **Format:** Synchronized 4-Track Edition (*English · French (1902) · Summary · Notes*) with exact operation-vector algebra
 
 .. epigraph::
 
@@ -37,27 +38,30 @@ Geometrography
 Table of Contents
 -----------------
 
-**Unit I: Historical Genesis, Methodological Criteria & The Five Elementary Operations** (*Préliminaires & Opérations I–X* — pp. 1–5, 52–65)
-   :ref:`English <geometrographie-unit-1-en>` · :ref:`French (1902) <geometrographie-unit-1-fr>` · :ref:`Summary <geometrographie-unit-1-summary>` · :ref:`Notes <geometrographie-unit-1-notes>`
+.. list-table::
+   :header-rows: 1
+   :widths: 24 44 32
 
-**Unit II: Fundamental Speculative vs. Géométrographique Constructions** (*Constructions élémentaires d'Euclide, XI–XXIV* — pp. 6–14)
-   :ref:`English <geometrographie-unit-2-en>` · :ref:`French (1902) <geometrographie-unit-2-fr>` · :ref:`Summary <geometrographie-unit-2-summary>` · :ref:`Notes <geometrographie-unit-2-notes>`
-
-**Unit III: Circles, Tangency, Golden Section, Projective Polarity & Modern Triangle Centers** (*Problèmes XXI & XXV–LXIII* — pp. 12–51)
-   :ref:`English <geometrographie-unit-3-en>` · :ref:`French (1902) <geometrographie-unit-3-fr>` · :ref:`Summary <geometrographie-unit-3-summary>` · :ref:`Notes <geometrographie-unit-3-notes>`
-
-**Unit IV: Restricted & Alternative Instruments — Équerre, Mascheroni Compass-Only & Poncelet–Steiner Fixed-Circle** (*Scientia n° 18, Mascheroni 1797 & Steiner 1833* — pp. 55–88)
-   :ref:`English <geometrographie-unit-4-en>` · :ref:`French (1902) <geometrographie-unit-4-fr>` · :ref:`Summary <geometrographie-unit-4-summary>` · :ref:`Notes <geometrographie-unit-4-notes>`
-
-----
+   * - Division
+     - Topics & Benchmarks
+     - Parallel Tracks
+   * - **I. The Five Elementary Operations**
+     - Historical genesis, methodological criteria, and definition of the five fundamental operations ($R_1, R_2, C_1, C_2, C_3$), coefficients of simplicity ($S$) and exactitude ($E$) (*Préliminaires & Opérations I–X*, pp. 1–5, 52–65).
+     - :doc:`EN <unit-1-operations/unit-1-operations-en>` · :doc:`FR <unit-1-operations/unit-1-operations-fr>` · :doc:`Summary <unit-1-operations/unit-1-operations-summary>` · :doc:`Notes <unit-1-operations/unit-1-operations-notes>`
+   * - **II. Fundamental Euclidean Benchmarks**
+     - Speculative textbook proofs vs. minimal *géométrographique* constructions across Euclid's *Elements* Book I (*Constructions élémentaires d'Euclide, XI–XXIV*, pp. 6–14).
+     - :doc:`EN <unit-2-euclid-benchmarks/unit-2-euclid-benchmarks-en>` · :doc:`FR <unit-2-euclid-benchmarks/unit-2-euclid-benchmarks-fr>` · :doc:`Summary <unit-2-euclid-benchmarks/unit-2-euclid-benchmarks-summary>` · :doc:`Notes <unit-2-euclid-benchmarks/unit-2-euclid-benchmarks-notes>`
+   * - **III. Circles, Tangency & Triangle Centers**
+     - Tangent circles, Apollonian problems, golden section division, projective polarity, and modern triangle centers ($X(1), X(2), X(3), X(6), X(7), X(8), X(10)$, Brocard points) (*Problèmes XXI & XXV–LXIII*, pp. 12–51).
+     - :doc:`EN <unit-3-circles-tangency-golden/unit-3-circles-tangency-golden-en>` · :doc:`FR <unit-3-circles-tangency-golden/unit-3-circles-tangency-golden-fr>` · :doc:`Summary <unit-3-circles-tangency-golden/unit-3-circles-tangency-golden-summary>` · :doc:`Notes <unit-3-circles-tangency-golden/unit-3-circles-tangency-golden-notes>`
 
 Scholarly Apparatus
 -------------------
 
-* :doc:`Dual Minimal-Instrument Concordance <concordance>` — 26 canonical construction benchmarks comparing speculative textbook execution, Lemoine's *Géométrographie* (:math:`R_1, R_2, C_1, C_2, C_3`), Mascheroni's compass-only *La Geometria del Compasso* (1797), and Poncelet–Steiner fixed-circle straightedge constructions (1833).
-* :doc:`Bibliography <bibliography>` — Primary treatises, archival witnesses, and modern constructive references.
-* :doc:`People <persons>` — Prosopographical registry of 26 geometers from Euclid and Pappus to Lemoine, Tarry, Brocard, Mascheroni, and Steiner.
-* :doc:`Glossary <glossary>` — Bilingual French, German, Italian, and English operational and projective terminology.
+* :doc:`concordance` — Canonical construction benchmarks comparing speculative textbook execution with Lemoine's *Géométrographie* ($R_1, R_2, C_1, C_2, C_3$).
+* :doc:`bibliography` — Primary treatises, archival witnesses, and modern constructive literature.
+* :doc:`persons` — Biographical register of geometers from Euclid to Lemoine, Brocard, and Tarry.
+* :doc:`glossary` — Operational and constructive geometric terminology.
 
 .. toctree::
    :maxdepth: 1
@@ -67,7 +71,6 @@ Scholarly Apparatus
    unit-1-operations/unit-1-operations-en
    unit-2-euclid-benchmarks/unit-2-euclid-benchmarks-en
    unit-3-circles-tangency-golden/unit-3-circles-tangency-golden-en
-   unit-4-minimal-instruments/unit-4-minimal-instruments-en
 
 .. toctree::
    :maxdepth: 1
@@ -77,7 +80,6 @@ Scholarly Apparatus
    unit-1-operations/unit-1-operations-fr
    unit-2-euclid-benchmarks/unit-2-euclid-benchmarks-fr
    unit-3-circles-tangency-golden/unit-3-circles-tangency-golden-fr
-   unit-4-minimal-instruments/unit-4-minimal-instruments-fr
 
 .. toctree::
    :maxdepth: 1
@@ -90,8 +92,6 @@ Scholarly Apparatus
    unit-2-euclid-benchmarks/unit-2-euclid-benchmarks-notes
    unit-3-circles-tangency-golden/unit-3-circles-tangency-golden-summary
    unit-3-circles-tangency-golden/unit-3-circles-tangency-golden-notes
-   unit-4-minimal-instruments/unit-4-minimal-instruments-summary
-   unit-4-minimal-instruments/unit-4-minimal-instruments-notes
 
 .. toctree::
    :maxdepth: 1

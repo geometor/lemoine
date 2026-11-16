@@ -33,7 +33,9 @@ if "geometor.lemoine.sphinx_ext" not in extensions:  # noqa: F405
 register_french_book_track()
 configure_local_intersphinx(intersphinx_mapping, _REPO_ROOT)  # noqa: F405
 
-project = "GEOMETOR • lemoine"
+site_title = "Émile Lemoine"
+project = site_title
+html_title = f"{site_title} • {org_name}"
 author = "Émile Lemoine"
 copyright = "1902 C. Naud (Collection Scientia No. 18) • Digital Edition GEOMETOR"
 

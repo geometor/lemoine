@@ -569,8 +569,7 @@ LXI — Nagel Point X(8) of a Given Triangle
 
 Unit IV: Restricted & Alternative Instruments — Équerre, Mascheroni Compass-Only & Poncelet–Steiner Fixed-Circle
 ----------------------------------------------------------------------------------------------------------------
-
- Companion codex unit: :doc:`Unit IV: Restricted & Alternative Instruments — Équerre, Mascheroni Compass-Only & Poncelet–Steiner Fixed-Circle <unit-4-minimal-instruments/unit-4-minimal-instruments-en>`.
+Minimal-instrument comparisons across Lorenzo Mascheroni's *La Geometria del Compasso* (1797) and Jakob Steiner's *Die geometrischen Constructionen* (1833).
 
 .. _concordance-mascheroni-midpoint-line-intersection:
 
