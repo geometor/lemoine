@@ -1,0 +1,19 @@
+{
+  "edition": "geometrographie",
+  "source_pdf": "resources/geometrographie/sources/lemoine_ia_lagomtrographie00lemogoog.pdf",
+  "total_pages": 90,
+  "dpi": 300,
+  "preserve_color": false,
+  "folio_png_count": 90,
+  "rendered_new_count": 90,
+  "extracted_text_pages": 2,
+  "extracted_graphics_count": 6,
+  "extracted_graphics": [
+    "0001-img1.png",
+    "0002-img1.png",
+    "0003-img1.png",
+    "0004-img1.png",
+    "0005-img1.png",
+    "0090-img1.png"
+  ]
+}

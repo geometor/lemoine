@@ -47,13 +47,13 @@ Table of Contents
      - Parallel Tracks
    * - **I. The Five Elementary Operations**
      - Historical genesis, methodological criteria, and definition of the five fundamental operations ($R_1, R_2, C_1, C_2, C_3$), coefficients of simplicity ($S$) and exactitude ($E$) (*Préliminaires & Opérations I–X*, pp. 1–5, 52–65).
-     - :doc:`EN <unit-1-operations/unit-1-operations-en>` · :doc:`FR <unit-1-operations/unit-1-operations-fr>` · :doc:`Summary <unit-1-operations/unit-1-operations-summary>` · :doc:`Notes <unit-1-operations/unit-1-operations-notes>`
+     - :doc:`EN <part_01_operations/part_01_operations-en>` · :doc:`FR <part_01_operations/part_01_operations-fr>` · :doc:`Summary <part_01_operations/part_01_operations-summary>` · :doc:`Notes <part_01_operations/part_01_operations-notes>`
    * - **II. Fundamental Euclidean Benchmarks**
      - Speculative textbook proofs vs. minimal *géométrographique* constructions across Euclid's *Elements* Book I (*Constructions élémentaires d'Euclide, XI–XXIV*, pp. 6–14).
-     - :doc:`EN <unit-2-euclid-benchmarks/unit-2-euclid-benchmarks-en>` · :doc:`FR <unit-2-euclid-benchmarks/unit-2-euclid-benchmarks-fr>` · :doc:`Summary <unit-2-euclid-benchmarks/unit-2-euclid-benchmarks-summary>` · :doc:`Notes <unit-2-euclid-benchmarks/unit-2-euclid-benchmarks-notes>`
+     - :doc:`EN <part_02_fundamental_constructions/part_02_fundamental_constructions-en>` · :doc:`FR <part_02_fundamental_constructions/part_02_fundamental_constructions-fr>` · :doc:`Summary <part_02_fundamental_constructions/part_02_fundamental_constructions-summary>` · :doc:`Notes <part_02_fundamental_constructions/part_02_fundamental_constructions-notes>`
    * - **III. Circles, Tangency & Triangle Centers**
      - Tangent circles, Apollonian problems, golden section division, projective polarity, and modern triangle centers ($X(1), X(2), X(3), X(6), X(7), X(8), X(10)$, Brocard points) (*Problèmes XXI & XXV–LXIII*, pp. 12–51).
-     - :doc:`EN <unit-3-circles-tangency-golden/unit-3-circles-tangency-golden-en>` · :doc:`FR <unit-3-circles-tangency-golden/unit-3-circles-tangency-golden-fr>` · :doc:`Summary <unit-3-circles-tangency-golden/unit-3-circles-tangency-golden-summary>` · :doc:`Notes <unit-3-circles-tangency-golden/unit-3-circles-tangency-golden-notes>`
+     - :doc:`EN <part_03_circles_and_tangency/part_03_circles_and_tangency-en>` · :doc:`FR <part_03_circles_and_tangency/part_03_circles_and_tangency-fr>` · :doc:`Summary <part_03_circles_and_tangency/part_03_circles_and_tangency-summary>` · :doc:`Notes <part_03_circles_and_tangency/part_03_circles_and_tangency-notes>`
 
 Scholarly Apparatus
 -------------------
@@ -68,30 +68,30 @@ Scholarly Apparatus
    :hidden:
    :caption: English Edition
 
-   unit-1-operations/unit-1-operations-en
-   unit-2-euclid-benchmarks/unit-2-euclid-benchmarks-en
-   unit-3-circles-tangency-golden/unit-3-circles-tangency-golden-en
+   part_01_operations/part_01_operations-en
+   part_02_fundamental_constructions/part_02_fundamental_constructions-en
+   part_03_circles_and_tangency/part_03_circles_and_tangency-en
 
 .. toctree::
    :maxdepth: 1
    :hidden:
    :caption: French (1902)
 
-   unit-1-operations/unit-1-operations-fr
-   unit-2-euclid-benchmarks/unit-2-euclid-benchmarks-fr
-   unit-3-circles-tangency-golden/unit-3-circles-tangency-golden-fr
+   part_01_operations/part_01_operations-fr
+   part_02_fundamental_constructions/part_02_fundamental_constructions-fr
+   part_03_circles_and_tangency/part_03_circles_and_tangency-fr
 
 .. toctree::
    :maxdepth: 1
    :hidden:
    :caption: Summaries & Commentary
 
-   unit-1-operations/unit-1-operations-summary
-   unit-1-operations/unit-1-operations-notes
-   unit-2-euclid-benchmarks/unit-2-euclid-benchmarks-summary
-   unit-2-euclid-benchmarks/unit-2-euclid-benchmarks-notes
-   unit-3-circles-tangency-golden/unit-3-circles-tangency-golden-summary
-   unit-3-circles-tangency-golden/unit-3-circles-tangency-golden-notes
+   part_01_operations/part_01_operations-summary
+   part_01_operations/part_01_operations-notes
+   part_02_fundamental_constructions/part_02_fundamental_constructions-summary
+   part_02_fundamental_constructions/part_02_fundamental_constructions-notes
+   part_03_circles_and_tangency/part_03_circles_and_tangency-summary
+   part_03_circles_and_tangency/part_03_circles_and_tangency-notes
 
 .. toctree::
    :maxdepth: 1

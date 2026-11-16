@@ -8,3 +8,5 @@ Euclidean geometry traditionally postulates *both* the ungraduated straightedge 
 
 2. **Straightedge Alone with One Fixed Circle — Poncelet (1822) & Jakob Steiner (1833)**:
    Conversely, a straightedge *alone* in an empty plane can execute only projectively invariant constructions (such as harmonic conjugates and polars) and cannot solve quadratic metric problems. **Jean-Victor Poncelet** (1822) observed, and **Jakob Steiner** rigorously demonstrated in *Die geometrischen Constructionen, ausgeführt mittelst der geraden Linie und Eines festen Kreises* (Berlin, 1833), that **a single permanently drawn circle together with its center** :math:`M` suffices to execute *every* ruler-and-compass construction using the straightedge alone (:math:`l_1 R_1 + l_2 R_2`) via eight canonical problems (§ 18, ``[68]``–``[85]``) built from complete quadrangles, centers of similitude (*Aehnlichkeitspunkte*), and radical axes (*Linie der gleichen Potenzen*).
+
+.. picture:: /_static/figures/fig_mascheroni_steiner_duality.svg

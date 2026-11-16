@@ -39,8 +39,16 @@ def build_parser() -> argparse.ArgumentParser:
 def cmd_summary(repo_root: Path) -> int:
     """Display summary metrics for the Lemoine codex and concordance."""
     app = load_apparatus(repo_root)
-    classical_s = sum(e.classical_ops.s for e in app.entries if e.unit_id != "unit-4-minimal-instruments")
-    lemoine_s = sum(e.lemoine_ops.s for e in app.entries if e.unit_id != "unit-4-minimal-instruments")
+    classical_s = sum(
+        e.classical_ops.s
+        for e in app.entries
+        if e.id not in ("mascheroni-midpoint-line-intersection", "steiner-parallel-circle-meet")
+    )
+    lemoine_s = sum(
+        e.lemoine_ops.s
+        for e in app.entries
+        if e.id not in ("mascheroni-midpoint-line-intersection", "steiner-parallel-circle-meet")
+    )
     saved = classical_s - lemoine_s
 
     print("GEOMETOR • lemoine — Géométrographie (1902) Codex Summary")

@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "title": "Géométrographie Primary Source Folio Map",
     "edition": "geometrographie",
+    "title": "G\u00e9om\u00e9trographie Primary Source Folio Map",
     "version": "1.0.0",
     "witnesses": {
       "lemoine-fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt",
@@ -10,358 +10,538 @@
     }
   },
   "folios": {
-    "Préliminaires": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L15",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L15",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L15"
-    },
-    "Hypothèses d'épure": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L204",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L204",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L204"
-    },
-    "Conventions fondamentales": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L204",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L204",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L204"
-    },
-    "Les cinq opérations": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L23",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L23",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L23"
-    },
-    "Opérations I–X": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L46",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L46",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L46"
-    },
-    "Problèmes XI–XVI": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L60",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L60",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L60"
-    },
-    "Problème XVII": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L69",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L69",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L69"
-    },
-    "Problèmes XVIII–XIX": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L77",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L77",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L77"
-    },
-    "Problèmes XX–XXIV": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L88",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L88",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L88"
-    },
-    "Problèmes XXI, XXV–XXVII": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L105",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L105",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L105"
-    },
-    "Problèmes XXXIII–XXXVI": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L123",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L123",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L123"
-    },
-    "Problèmes XXXVIII–XLVII": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L139",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L139",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L139"
-    },
-    "Problèmes L–LXIII": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L162",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L162",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L162"
-    },
-    "L'Équerre": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L205",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L205",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L205"
-    },
-    "Géométrographie Mascheronienne": {
-      "it": "resources/geometrographie/sources/mascheroni_1797_compasso_it.txt#L11",
-      "fr": "resources/geometrographie/sources/mascheroni_1797_compasso_it.txt#L11",
-      "en": "resources/geometrographie/sources/mascheroni_1797_compasso_it.txt#L11",
-      "default": "resources/geometrographie/sources/mascheroni_1797_compasso_it.txt#L11"
-    },
-    "Géométrographie Steinerienne": {
-      "de": "resources/geometrographie/sources/steiner_1833_constructionen_de.txt#L10",
-      "fr": "resources/geometrographie/sources/steiner_1833_constructionen_de.txt#L10",
-      "en": "resources/geometrographie/sources/steiner_1833_constructionen_de.txt#L10",
-      "default": "resources/geometrographie/sources/steiner_1833_constructionen_de.txt#L10"
-    },
-    "Opérations I-X": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L46",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L46",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L46"
-    },
-    "Problèmes XI-XVI": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L60",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L60",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L60"
-    },
-    "Problèmes XVIII-XIX": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L77",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L77",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L77"
-    },
-    "Problèmes XXI, XXV-XXVII": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L105",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L105",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L105"
-    },
-    "Problèmes XXXIII-XXXVI": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L123",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L123",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L123"
-    },
-    "Problèmes XXXVIII-XLVII": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L139",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L139",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L139"
-    },
-    "Problèmes L-LXIII": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L162",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L162",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L162"
-    },
-    "Problèmes XX-XXIV": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L88",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L88",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L88"
-    },
+    "0001": "resources/geometrographie/folios/0001.png",
+    "0002": "resources/geometrographie/folios/0002.png",
+    "0003": "resources/geometrographie/folios/0003.png",
+    "0004": "resources/geometrographie/folios/0004.png",
+    "0005": "resources/geometrographie/folios/0005.png",
+    "0006": "resources/geometrographie/folios/0006.png",
+    "0007": "resources/geometrographie/folios/0007.png",
+    "0008": "resources/geometrographie/folios/0008.png",
+    "0009": "resources/geometrographie/folios/0009.png",
+    "0010": "resources/geometrographie/folios/0010.png",
+    "0011": "resources/geometrographie/folios/0011.png",
+    "0012": "resources/geometrographie/folios/0012.png",
+    "0013": "resources/geometrographie/folios/0013.png",
+    "0014": "resources/geometrographie/folios/0014.png",
+    "0015": "resources/geometrographie/folios/0015.png",
+    "0016": "resources/geometrographie/folios/0016.png",
+    "0017": "resources/geometrographie/folios/0017.png",
+    "0018": "resources/geometrographie/folios/0018.png",
+    "0019": "resources/geometrographie/folios/0019.png",
+    "0020": "resources/geometrographie/folios/0020.png",
+    "0021": "resources/geometrographie/folios/0021.png",
+    "0022": "resources/geometrographie/folios/0022.png",
+    "0023": "resources/geometrographie/folios/0023.png",
+    "0024": "resources/geometrographie/folios/0024.png",
+    "0025": "resources/geometrographie/folios/0025.png",
+    "0026": "resources/geometrographie/folios/0026.png",
+    "0027": "resources/geometrographie/folios/0027.png",
+    "0028": "resources/geometrographie/folios/0028.png",
+    "0029": "resources/geometrographie/folios/0029.png",
+    "0030": "resources/geometrographie/folios/0030.png",
+    "0031": "resources/geometrographie/folios/0031.png",
+    "0032": "resources/geometrographie/folios/0032.png",
+    "0033": "resources/geometrographie/folios/0033.png",
+    "0034": "resources/geometrographie/folios/0034.png",
+    "0035": "resources/geometrographie/folios/0035.png",
+    "0036": "resources/geometrographie/folios/0036.png",
+    "0037": "resources/geometrographie/folios/0037.png",
+    "0038": "resources/geometrographie/folios/0038.png",
+    "0039": "resources/geometrographie/folios/0039.png",
+    "0040": "resources/geometrographie/folios/0040.png",
+    "0041": "resources/geometrographie/folios/0041.png",
+    "0042": "resources/geometrographie/folios/0042.png",
+    "0043": "resources/geometrographie/folios/0043.png",
+    "0044": "resources/geometrographie/folios/0044.png",
+    "0045": "resources/geometrographie/folios/0045.png",
+    "0046": "resources/geometrographie/folios/0046.png",
+    "0047": "resources/geometrographie/folios/0047.png",
+    "0048": "resources/geometrographie/folios/0048.png",
+    "0049": "resources/geometrographie/folios/0049.png",
+    "0050": "resources/geometrographie/folios/0050.png",
+    "0051": "resources/geometrographie/folios/0051.png",
+    "0052": "resources/geometrographie/folios/0052.png",
+    "0053": "resources/geometrographie/folios/0053.png",
+    "0054": "resources/geometrographie/folios/0054.png",
+    "0055": "resources/geometrographie/folios/0055.png",
+    "0056": "resources/geometrographie/folios/0056.png",
+    "0057": "resources/geometrographie/folios/0057.png",
+    "0058": "resources/geometrographie/folios/0058.png",
+    "0059": "resources/geometrographie/folios/0059.png",
+    "0060": "resources/geometrographie/folios/0060.png",
+    "0061": "resources/geometrographie/folios/0061.png",
+    "0062": "resources/geometrographie/folios/0062.png",
+    "0063": "resources/geometrographie/folios/0063.png",
+    "0064": "resources/geometrographie/folios/0064.png",
+    "0065": "resources/geometrographie/folios/0065.png",
+    "0066": "resources/geometrographie/folios/0066.png",
+    "0067": "resources/geometrographie/folios/0067.png",
+    "0068": "resources/geometrographie/folios/0068.png",
+    "0069": "resources/geometrographie/folios/0069.png",
+    "0070": "resources/geometrographie/folios/0070.png",
+    "0071": "resources/geometrographie/folios/0071.png",
+    "0072": "resources/geometrographie/folios/0072.png",
+    "0073": "resources/geometrographie/folios/0073.png",
+    "0074": "resources/geometrographie/folios/0074.png",
+    "0075": "resources/geometrographie/folios/0075.png",
+    "0076": "resources/geometrographie/folios/0076.png",
+    "0077": "resources/geometrographie/folios/0077.png",
+    "0078": "resources/geometrographie/folios/0078.png",
+    "0079": "resources/geometrographie/folios/0079.png",
+    "0080": "resources/geometrographie/folios/0080.png",
+    "0081": "resources/geometrographie/folios/0081.png",
+    "0082": "resources/geometrographie/folios/0082.png",
+    "0083": "resources/geometrographie/folios/0083.png",
+    "0084": "resources/geometrographie/folios/0084.png",
+    "0085": "resources/geometrographie/folios/0085.png",
+    "0086": "resources/geometrographie/folios/0086.png",
+    "0087": "resources/geometrographie/folios/0087.png",
+    "0088": "resources/geometrographie/folios/0088.png",
+    "0089": "resources/geometrographie/folios/0089.png",
+    "0090": "resources/geometrographie/folios/0090.png",
     "1": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L15",
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L15",
       "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L15",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L15"
-    },
-    "page 1": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L15",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L15",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L15"
-    },
-    "p. 1": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L15",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L15",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L15"
-    },
-    "2": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L204",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L204",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L204"
-    },
-    "page 2": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L204",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L204",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L204"
-    },
-    "p. 2": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L204",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L204",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L204"
-    },
-    "3": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L23",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L23",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L23"
-    },
-    "page 3": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L23",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L23",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L23"
-    },
-    "p. 3": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L23",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L23",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L23"
-    },
-    "4": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L46",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L46",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L46"
-    },
-    "page 4": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L46",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L46",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L46"
-    },
-    "p. 4": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L46",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L46",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L46"
-    },
-    "6": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L60",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L60",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L60"
-    },
-    "page 6": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L60",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L60",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L60"
-    },
-    "p. 6": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L60",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L60",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L60"
-    },
-    "8": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L69",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L69",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L69"
-    },
-    "page 8": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L69",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L69",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L69"
-    },
-    "p. 8": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L69",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L69",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L69"
-    },
-    "9": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L77",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L77",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L77"
-    },
-    "page 9": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L77",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L77",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L77"
-    },
-    "p. 9": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L77",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L77",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L77"
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L15"
     },
     "11": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L88",
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L88",
       "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L88",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L88"
-    },
-    "page 11": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L88",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L88",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L88"
-    },
-    "p. 11": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L88",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L88",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L88"
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L88"
     },
     "15": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L105",
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L105",
       "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L105",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L105"
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L105"
     },
-    "page 15": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L105",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L105",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L105"
-    },
-    "p. 15": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L105",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L105",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L105"
+    "2": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L204",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L204",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L204"
     },
     "24": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L123",
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L123",
       "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L123",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L123"
-    },
-    "page 24": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L123",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L123",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L123"
-    },
-    "p. 24": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L123",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L123",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L123"
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L123"
     },
     "29": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L139",
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L139",
       "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L139",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L139"
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L139"
     },
-    "page 29": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L139",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L139",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L139"
+    "3": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L23",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L23",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L23"
     },
-    "p. 29": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L139",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L139",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L139"
+    "4": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L46",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L46",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L46"
     },
     "42": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L162",
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L162",
       "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L162",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L162"
-    },
-    "page 42": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L162",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L162",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L162"
-    },
-    "p. 42": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L162",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L162",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L162"
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L162"
     },
     "55": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L205",
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L205",
       "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L205",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L205"
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L205"
     },
-    "page 55": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L205",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L205",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L205"
-    },
-    "p. 55": {
-      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L205",
-      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L205",
-      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L205"
+    "6": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L60",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L60",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L60"
     },
     "66": {
-      "it": "resources/geometrographie/sources/mascheroni_1797_compasso_it.txt#L11",
-      "fr": "resources/geometrographie/sources/mascheroni_1797_compasso_it.txt#L11",
+      "default": "resources/geometrographie/sources/mascheroni_1797_compasso_it.txt#L11",
       "en": "resources/geometrographie/sources/mascheroni_1797_compasso_it.txt#L11",
-      "default": "resources/geometrographie/sources/mascheroni_1797_compasso_it.txt#L11"
-    },
-    "page 66": {
-      "it": "resources/geometrographie/sources/mascheroni_1797_compasso_it.txt#L11",
       "fr": "resources/geometrographie/sources/mascheroni_1797_compasso_it.txt#L11",
-      "en": "resources/geometrographie/sources/mascheroni_1797_compasso_it.txt#L11",
-      "default": "resources/geometrographie/sources/mascheroni_1797_compasso_it.txt#L11"
-    },
-    "p. 66": {
-      "it": "resources/geometrographie/sources/mascheroni_1797_compasso_it.txt#L11",
-      "fr": "resources/geometrographie/sources/mascheroni_1797_compasso_it.txt#L11",
-      "en": "resources/geometrographie/sources/mascheroni_1797_compasso_it.txt#L11",
-      "default": "resources/geometrographie/sources/mascheroni_1797_compasso_it.txt#L11"
+      "it": "resources/geometrographie/sources/mascheroni_1797_compasso_it.txt#L11"
     },
     "74": {
       "de": "resources/geometrographie/sources/steiner_1833_constructionen_de.txt#L10",
-      "fr": "resources/geometrographie/sources/steiner_1833_constructionen_de.txt#L10",
+      "default": "resources/geometrographie/sources/steiner_1833_constructionen_de.txt#L10",
       "en": "resources/geometrographie/sources/steiner_1833_constructionen_de.txt#L10",
-      "default": "resources/geometrographie/sources/steiner_1833_constructionen_de.txt#L10"
+      "fr": "resources/geometrographie/sources/steiner_1833_constructionen_de.txt#L10"
     },
-    "page 74": {
+    "8": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L69",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L69",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L69"
+    },
+    "9": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L77",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L77",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L77"
+    },
+    "Conventions fondamentales": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L204",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L204",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L204"
+    },
+    "G\u00e9om\u00e9trographie Mascheronienne": {
+      "default": "resources/geometrographie/sources/mascheroni_1797_compasso_it.txt#L11",
+      "en": "resources/geometrographie/sources/mascheroni_1797_compasso_it.txt#L11",
+      "fr": "resources/geometrographie/sources/mascheroni_1797_compasso_it.txt#L11",
+      "it": "resources/geometrographie/sources/mascheroni_1797_compasso_it.txt#L11"
+    },
+    "G\u00e9om\u00e9trographie Steinerienne": {
       "de": "resources/geometrographie/sources/steiner_1833_constructionen_de.txt#L10",
-      "fr": "resources/geometrographie/sources/steiner_1833_constructionen_de.txt#L10",
+      "default": "resources/geometrographie/sources/steiner_1833_constructionen_de.txt#L10",
       "en": "resources/geometrographie/sources/steiner_1833_constructionen_de.txt#L10",
-      "default": "resources/geometrographie/sources/steiner_1833_constructionen_de.txt#L10"
+      "fr": "resources/geometrographie/sources/steiner_1833_constructionen_de.txt#L10"
+    },
+    "Hypoth\u00e8ses d'\u00e9pure": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L204",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L204",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L204"
+    },
+    "L'\u00c9querre": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L205",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L205",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L205"
+    },
+    "Les cinq op\u00e9rations": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L23",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L23",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L23"
+    },
+    "Op\u00e9rations I-X": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L46",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L46",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L46"
+    },
+    "Op\u00e9rations I\u2013X": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L46",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L46",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L46"
+    },
+    "Probl\u00e8me XVII": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L69",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L69",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L69"
+    },
+    "Probl\u00e8mes L-LXIII": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L162",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L162",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L162"
+    },
+    "Probl\u00e8mes L\u2013LXIII": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L162",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L162",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L162"
+    },
+    "Probl\u00e8mes XI-XVI": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L60",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L60",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L60"
+    },
+    "Probl\u00e8mes XI\u2013XVI": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L60",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L60",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L60"
+    },
+    "Probl\u00e8mes XVIII-XIX": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L77",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L77",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L77"
+    },
+    "Probl\u00e8mes XVIII\u2013XIX": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L77",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L77",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L77"
+    },
+    "Probl\u00e8mes XX-XXIV": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L88",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L88",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L88"
+    },
+    "Probl\u00e8mes XXI, XXV-XXVII": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L105",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L105",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L105"
+    },
+    "Probl\u00e8mes XXI, XXV\u2013XXVII": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L105",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L105",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L105"
+    },
+    "Probl\u00e8mes XXXIII-XXXVI": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L123",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L123",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L123"
+    },
+    "Probl\u00e8mes XXXIII\u2013XXXVI": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L123",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L123",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L123"
+    },
+    "Probl\u00e8mes XXXVIII-XLVII": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L139",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L139",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L139"
+    },
+    "Probl\u00e8mes XXXVIII\u2013XLVII": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L139",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L139",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L139"
+    },
+    "Probl\u00e8mes XX\u2013XXIV": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L88",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L88",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L88"
+    },
+    "Pr\u00e9liminaires": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L15",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L15",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L15"
+    },
+    "geometrographie:0001": "resources/geometrographie/folios/0001.png",
+    "geometrographie:0002": "resources/geometrographie/folios/0002.png",
+    "geometrographie:0003": "resources/geometrographie/folios/0003.png",
+    "geometrographie:0004": "resources/geometrographie/folios/0004.png",
+    "geometrographie:0005": "resources/geometrographie/folios/0005.png",
+    "geometrographie:0006": "resources/geometrographie/folios/0006.png",
+    "geometrographie:0007": "resources/geometrographie/folios/0007.png",
+    "geometrographie:0008": "resources/geometrographie/folios/0008.png",
+    "geometrographie:0009": "resources/geometrographie/folios/0009.png",
+    "geometrographie:0010": "resources/geometrographie/folios/0010.png",
+    "geometrographie:0011": "resources/geometrographie/folios/0011.png",
+    "geometrographie:0012": "resources/geometrographie/folios/0012.png",
+    "geometrographie:0013": "resources/geometrographie/folios/0013.png",
+    "geometrographie:0014": "resources/geometrographie/folios/0014.png",
+    "geometrographie:0015": "resources/geometrographie/folios/0015.png",
+    "geometrographie:0016": "resources/geometrographie/folios/0016.png",
+    "geometrographie:0017": "resources/geometrographie/folios/0017.png",
+    "geometrographie:0018": "resources/geometrographie/folios/0018.png",
+    "geometrographie:0019": "resources/geometrographie/folios/0019.png",
+    "geometrographie:0020": "resources/geometrographie/folios/0020.png",
+    "geometrographie:0021": "resources/geometrographie/folios/0021.png",
+    "geometrographie:0022": "resources/geometrographie/folios/0022.png",
+    "geometrographie:0023": "resources/geometrographie/folios/0023.png",
+    "geometrographie:0024": "resources/geometrographie/folios/0024.png",
+    "geometrographie:0025": "resources/geometrographie/folios/0025.png",
+    "geometrographie:0026": "resources/geometrographie/folios/0026.png",
+    "geometrographie:0027": "resources/geometrographie/folios/0027.png",
+    "geometrographie:0028": "resources/geometrographie/folios/0028.png",
+    "geometrographie:0029": "resources/geometrographie/folios/0029.png",
+    "geometrographie:0030": "resources/geometrographie/folios/0030.png",
+    "geometrographie:0031": "resources/geometrographie/folios/0031.png",
+    "geometrographie:0032": "resources/geometrographie/folios/0032.png",
+    "geometrographie:0033": "resources/geometrographie/folios/0033.png",
+    "geometrographie:0034": "resources/geometrographie/folios/0034.png",
+    "geometrographie:0035": "resources/geometrographie/folios/0035.png",
+    "geometrographie:0036": "resources/geometrographie/folios/0036.png",
+    "geometrographie:0037": "resources/geometrographie/folios/0037.png",
+    "geometrographie:0038": "resources/geometrographie/folios/0038.png",
+    "geometrographie:0039": "resources/geometrographie/folios/0039.png",
+    "geometrographie:0040": "resources/geometrographie/folios/0040.png",
+    "geometrographie:0041": "resources/geometrographie/folios/0041.png",
+    "geometrographie:0042": "resources/geometrographie/folios/0042.png",
+    "geometrographie:0043": "resources/geometrographie/folios/0043.png",
+    "geometrographie:0044": "resources/geometrographie/folios/0044.png",
+    "geometrographie:0045": "resources/geometrographie/folios/0045.png",
+    "geometrographie:0046": "resources/geometrographie/folios/0046.png",
+    "geometrographie:0047": "resources/geometrographie/folios/0047.png",
+    "geometrographie:0048": "resources/geometrographie/folios/0048.png",
+    "geometrographie:0049": "resources/geometrographie/folios/0049.png",
+    "geometrographie:0050": "resources/geometrographie/folios/0050.png",
+    "geometrographie:0051": "resources/geometrographie/folios/0051.png",
+    "geometrographie:0052": "resources/geometrographie/folios/0052.png",
+    "geometrographie:0053": "resources/geometrographie/folios/0053.png",
+    "geometrographie:0054": "resources/geometrographie/folios/0054.png",
+    "geometrographie:0055": "resources/geometrographie/folios/0055.png",
+    "geometrographie:0056": "resources/geometrographie/folios/0056.png",
+    "geometrographie:0057": "resources/geometrographie/folios/0057.png",
+    "geometrographie:0058": "resources/geometrographie/folios/0058.png",
+    "geometrographie:0059": "resources/geometrographie/folios/0059.png",
+    "geometrographie:0060": "resources/geometrographie/folios/0060.png",
+    "geometrographie:0061": "resources/geometrographie/folios/0061.png",
+    "geometrographie:0062": "resources/geometrographie/folios/0062.png",
+    "geometrographie:0063": "resources/geometrographie/folios/0063.png",
+    "geometrographie:0064": "resources/geometrographie/folios/0064.png",
+    "geometrographie:0065": "resources/geometrographie/folios/0065.png",
+    "geometrographie:0066": "resources/geometrographie/folios/0066.png",
+    "geometrographie:0067": "resources/geometrographie/folios/0067.png",
+    "geometrographie:0068": "resources/geometrographie/folios/0068.png",
+    "geometrographie:0069": "resources/geometrographie/folios/0069.png",
+    "geometrographie:0070": "resources/geometrographie/folios/0070.png",
+    "geometrographie:0071": "resources/geometrographie/folios/0071.png",
+    "geometrographie:0072": "resources/geometrographie/folios/0072.png",
+    "geometrographie:0073": "resources/geometrographie/folios/0073.png",
+    "geometrographie:0074": "resources/geometrographie/folios/0074.png",
+    "geometrographie:0075": "resources/geometrographie/folios/0075.png",
+    "geometrographie:0076": "resources/geometrographie/folios/0076.png",
+    "geometrographie:0077": "resources/geometrographie/folios/0077.png",
+    "geometrographie:0078": "resources/geometrographie/folios/0078.png",
+    "geometrographie:0079": "resources/geometrographie/folios/0079.png",
+    "geometrographie:0080": "resources/geometrographie/folios/0080.png",
+    "geometrographie:0081": "resources/geometrographie/folios/0081.png",
+    "geometrographie:0082": "resources/geometrographie/folios/0082.png",
+    "geometrographie:0083": "resources/geometrographie/folios/0083.png",
+    "geometrographie:0084": "resources/geometrographie/folios/0084.png",
+    "geometrographie:0085": "resources/geometrographie/folios/0085.png",
+    "geometrographie:0086": "resources/geometrographie/folios/0086.png",
+    "geometrographie:0087": "resources/geometrographie/folios/0087.png",
+    "geometrographie:0088": "resources/geometrographie/folios/0088.png",
+    "geometrographie:0089": "resources/geometrographie/folios/0089.png",
+    "geometrographie:0090": "resources/geometrographie/folios/0090.png",
+    "p. 1": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L15",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L15",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L15"
+    },
+    "p. 11": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L88",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L88",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L88"
+    },
+    "p. 15": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L105",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L105",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L105"
+    },
+    "p. 2": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L204",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L204",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L204"
+    },
+    "p. 24": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L123",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L123",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L123"
+    },
+    "p. 29": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L139",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L139",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L139"
+    },
+    "p. 3": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L23",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L23",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L23"
+    },
+    "p. 4": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L46",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L46",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L46"
+    },
+    "p. 42": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L162",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L162",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L162"
+    },
+    "p. 55": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L205",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L205",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L205"
+    },
+    "p. 6": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L60",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L60",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L60"
+    },
+    "p. 66": {
+      "default": "resources/geometrographie/sources/mascheroni_1797_compasso_it.txt#L11",
+      "en": "resources/geometrographie/sources/mascheroni_1797_compasso_it.txt#L11",
+      "fr": "resources/geometrographie/sources/mascheroni_1797_compasso_it.txt#L11",
+      "it": "resources/geometrographie/sources/mascheroni_1797_compasso_it.txt#L11"
     },
     "p. 74": {
       "de": "resources/geometrographie/sources/steiner_1833_constructionen_de.txt#L10",
-      "fr": "resources/geometrographie/sources/steiner_1833_constructionen_de.txt#L10",
+      "default": "resources/geometrographie/sources/steiner_1833_constructionen_de.txt#L10",
       "en": "resources/geometrographie/sources/steiner_1833_constructionen_de.txt#L10",
-      "default": "resources/geometrographie/sources/steiner_1833_constructionen_de.txt#L10"
+      "fr": "resources/geometrographie/sources/steiner_1833_constructionen_de.txt#L10"
+    },
+    "p. 8": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L69",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L69",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L69"
+    },
+    "p. 9": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L77",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L77",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L77"
+    },
+    "page 1": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L15",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L15",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L15"
+    },
+    "page 11": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L88",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L88",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L88"
+    },
+    "page 15": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L105",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L105",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L105"
+    },
+    "page 2": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L204",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L204",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L204"
+    },
+    "page 24": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L123",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L123",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L123"
+    },
+    "page 29": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L139",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L139",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L139"
+    },
+    "page 3": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L23",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L23",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L23"
+    },
+    "page 4": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L46",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L46",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L46"
+    },
+    "page 42": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L162",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L162",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L162"
+    },
+    "page 55": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L205",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L205",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L205"
+    },
+    "page 6": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L60",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L60",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L60"
+    },
+    "page 66": {
+      "default": "resources/geometrographie/sources/mascheroni_1797_compasso_it.txt#L11",
+      "en": "resources/geometrographie/sources/mascheroni_1797_compasso_it.txt#L11",
+      "fr": "resources/geometrographie/sources/mascheroni_1797_compasso_it.txt#L11",
+      "it": "resources/geometrographie/sources/mascheroni_1797_compasso_it.txt#L11"
+    },
+    "page 74": {
+      "de": "resources/geometrographie/sources/steiner_1833_constructionen_de.txt#L10",
+      "default": "resources/geometrographie/sources/steiner_1833_constructionen_de.txt#L10",
+      "en": "resources/geometrographie/sources/steiner_1833_constructionen_de.txt#L10",
+      "fr": "resources/geometrographie/sources/steiner_1833_constructionen_de.txt#L10"
+    },
+    "page 8": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L69",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L69",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L69"
+    },
+    "page 9": {
+      "default": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L77",
+      "en": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L77",
+      "fr": "resources/geometrographie/sources/lemoine_geometrographie_fr.txt#L77"
     }
   }
 }

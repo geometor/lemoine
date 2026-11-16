@@ -11,20 +11,16 @@ from typing import Any
 
 CODEX_UNITS: tuple[tuple[str, str], ...] = (
     (
-        "unit-1-operations",
-        "Unit I: Historical Genesis, Methodological Criteria & The Five Elementary Operations",
+        "part_01_operations",
+        "Part I: Operations & Elementary Notations (Notations et Symboles)",
     ),
     (
-        "unit-2-euclid-benchmarks",
-        "Unit II: Fundamental Speculative vs. Géométrographique Constructions (Euclid Book I Benchmarks)",
+        "part_02_fundamental_constructions",
+        "Part II: Fundamental Constructions (Constructions Fondamentales)",
     ),
     (
-        "unit-3-circles-tangency-golden",
-        "Unit III: Circles, Tangency, Golden Section, Projective Polarity & Modern Triangle Centers",
-    ),
-    (
-        "unit-4-minimal-instruments",
-        "Unit IV: Restricted & Alternative Instruments — Équerre, Mascheroni Compass-Only & Poncelet–Steiner Fixed-Circle",
+        "part_03_circles_and_tangency",
+        "Part III: Circles, Tangency & Triangle Geometry (Cercles, Tangentes et Triangle)",
     ),
 )
 

@@ -31,7 +31,7 @@ REPO_ROOT = default_repo_root()
 def test_version_and_repo_root() -> None:
     assert __version__ == "0.1.5"
     assert (REPO_ROOT / "pyproject.toml").is_file()
-    assert len(CODEX_UNITS) == 4
+    assert len(CODEX_UNITS) == 3
     assert TRACK_SUFFIXES == ("en", "fr", "summary", "notes")
 
 
@@ -97,7 +97,7 @@ def test_concordance_and_minimal_instrument_subspaces() -> None:
 
     # Standard ruler-and-compass Lemoine syntheses never exceed classical simplicity S
     for entry in app.entries:
-        if entry.unit_id != "unit-4-minimal-instruments":
+        if entry.id not in ("mascheroni-midpoint-line-intersection", "steiner-parallel-circle-meet"):
             assert entry.delta_s >= 0, f"{entry.id} had negative saving {entry.delta_s}"
 
 
@@ -178,7 +178,7 @@ def test_french_book_track_registration() -> None:
     env = SimpleNamespace(found_docs=found_docs)
 
     for suffix in TRACK_SUFFIXES:
-        active_doc = f"geometrographie/unit-1-operations/unit-1-operations-{suffix}"
+        active_doc = f"geometrographie/part_01_operations/part_01_operations-{suffix}"
         tracks = book.detect_companion_tracks(env, active_doc)
         keys = [t["key"] for t in tracks]
         assert keys == ["en", "fr", "summary", "notes"]
