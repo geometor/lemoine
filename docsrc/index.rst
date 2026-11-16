@@ -1,12 +1,12 @@
 .. container:: author-overline
 
-   the works of
+   semantic digital archive • the works of
 
 =============
 Émile Lemoine
 =============
 
-The mission of this project is to capture a semantic digital library of the works of :person:`Émile Lemoine <lemoine>` (1840–1912), the French civil engineer and mathematician who founded geometrography—the quantitative science of evaluating simplicity and exactitude in geometric constructions.
+The works of :person:`Émile Lemoine <lemoine>` (1840–1912) founded geometrography—the quantitative science of evaluating simplicity and exactitude in geometric constructions. Within the interconnected `GEOMETOR <https://geometor.com/books/>`_ semantic digital archive, these foundational texts are liberated from static print bounds into addressable semantic units, calibrated vector diagrams, primary-source folio provenance, and exact symbolic operation metrics speaking one shared geometric language.
 
 .. collection::
    :type: book
