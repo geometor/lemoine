@@ -45,5 +45,5 @@ Apparat critique
 
 * :doc:`concordance`
 * :doc:`bibliography`
-* :doc:`persons`
+* :doc:`people/index`
 * :doc:`glossary`

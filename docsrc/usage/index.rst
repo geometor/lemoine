@@ -59,7 +59,7 @@ People, Bibliography & Glossary Tooltips
 
 Rich interconnected registers provide immediate context:
 
-* **People (``:person:``)**: Hover or click names like :person:`Émile Lemoine <lemoine>`, :person:`Lorenzo Mascheroni <mascheroni>`, or :person:`Jakob Steiner <steiner>` to open detailed biographies in :doc:`/geometrographie/persons`.
+* **People (``:person:``)**: Hover or click names like :person:`Émile Lemoine <lemoine>`, :person:`Lorenzo Mascheroni <mascheroni>`, or :person:`Jakob Steiner <steiner>` to open detailed biographies in :doc:`/geometrographie/people/index`.
 * **Citations (``:cite:``)**: Citations connect directly to full bibliographical records in :doc:`/geometrographie/bibliography`.
 * **Terms (``:term:``)**: Foundational concepts like :term:`géométrographie <geometrographie>`, :term:`simplicité <simplicite>`, and :term:`exactitude <exactitude>` link to definitions in :doc:`/geometrographie/glossary`.
 * **Display Themes**: Switch between Light and Dark display modes using the theme toggle in the header navigation bar.
