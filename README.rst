@@ -20,17 +20,6 @@ Books in This Archive
 
 - `Geometrography <https://geometor.github.io/lemoine/geometrographie/>`_ — *La Géométrographie, ou Art des constructions géométriques* (1902), establishing exact elementary operation counts (:math:`R_1, R_2, C_1, C_2, C_3`), simplicity (:math:`S`), and exactitude (:math:`E`) for classical and modern geometric constructions.
 
-Python Package & Modules
-------------------------
-
-The ``geometor-lemoine`` Python package (``import geometor.lemoine``) provides the executable symbolic geometry, construction, and compilation modules powering this archive:
-
-- ``compile_codex.py`` — Deterministic RST apparatus compiler and Book Codex track verifier for GEOMETOR Lemoine.
-- ``concordance.py`` — Structured apparatus, operation calculus, and dual minimal-instrument concordance for GEOMETOR Lemoine.
-- ``cli.py`` — Command-line interface for GEOMETOR Lemoine apparatus compilation and verification.
-- ``sphinx_ext.py`` — Runtime Sphinx & photon-platform/publish integration for GEOMETOR Lemoine.
-
-See the `API Reference <https://geometor.github.io/lemoine/modules/>`_ for full module documentation.
 
 Repository Contents
 -------------------
