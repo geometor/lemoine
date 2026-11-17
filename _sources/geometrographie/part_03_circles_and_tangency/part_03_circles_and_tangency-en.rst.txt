@@ -1,6 +1,6 @@
 :layout: book
 :folio: 0030
-:tracks: English: part_03_circles_and_tangency-en | Français: part_03_circles_and_tangency-fr | Summary: part_03_circles_and_tangency-summary | Notes: part_03_circles_and_tangency-notes
+:tracks: English: part_03_circles_and_tangency-en | French: part_03_circles_and_tangency-fr | Summary: part_03_circles_and_tangency-summary | Notes: part_03_circles_and_tangency-notes
 
 .. _geometrographie-part-03-en:
 .. _geometrographie-unit-3-en:

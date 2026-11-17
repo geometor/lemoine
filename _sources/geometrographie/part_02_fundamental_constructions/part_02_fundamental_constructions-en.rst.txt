@@ -1,6 +1,6 @@
 :layout: book
 :folio: 0023
-:tracks: English: part_02_fundamental_constructions-en | Français: part_02_fundamental_constructions-fr | Summary: part_02_fundamental_constructions-summary | Notes: part_02_fundamental_constructions-notes
+:tracks: English: part_02_fundamental_constructions-en | French: part_02_fundamental_constructions-fr | Summary: part_02_fundamental_constructions-summary | Notes: part_02_fundamental_constructions-notes
 
 .. _geometrographie-part-02-en:
 .. _geometrographie-unit-2-en:

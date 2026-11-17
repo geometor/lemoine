@@ -1,6 +1,6 @@
 :layout: book
 :folio: 0017
-:tracks: English: part_01_operations-en | Français: part_01_operations-fr | Summary: part_01_operations-summary | Notes: part_01_operations-notes
+:tracks: English: part_01_operations-en | French: part_01_operations-fr | Summary: part_01_operations-summary | Notes: part_01_operations-notes
 
 .. _geometrographie-part-01-en:
 .. _geometrographie-unit-1-en:
