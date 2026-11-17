@@ -60,7 +60,7 @@ Scholarly Apparatus
 
 * :doc:`concordance` — Canonical construction benchmarks comparing speculative textbook execution with Lemoine's *Géométrographie* ($R_1, R_2, C_1, C_2, C_3$).
 * :doc:`bibliography` — Primary treatises, archival witnesses, and modern constructive literature.
-* :doc:`persons` — Biographical register of geometers from Euclid to Lemoine, Brocard, and Tarry.
+* :doc:`people/index` — Biographical register of geometers from Euclid to Lemoine, Brocard, and Tarry.
 * :doc:`glossary` — Operational and constructive geometric terminology.
 
 .. toctree::
@@ -100,7 +100,7 @@ Scholarly Apparatus
 
    concordance
    bibliography
-   persons
+   people/index
    glossary
 
 .. toctree::

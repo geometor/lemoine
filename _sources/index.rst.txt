@@ -8,8 +8,7 @@
 
 The works of :person:`Émile Lemoine <lemoine>` (1840–1912) founded geometrography—the quantitative science of evaluating simplicity and exactitude in geometric constructions. Within the interconnected `GEOMETOR <https://geometor.com/books/>`_ semantic digital archive, these foundational texts are liberated from static print bounds into addressable semantic units, calibrated vector diagrams, primary-source folio provenance, and exact symbolic operation metrics speaking one shared geometric language.
 
-.. collection::
-   :type: book
+.. reference-directory::
    :sort: order
 
 .. toctree::
