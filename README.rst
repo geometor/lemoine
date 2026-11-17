@@ -18,7 +18,7 @@ Mission
 Books in This Archive
 ---------------------
 
-- **`Geometrography <https://geometor.github.io/lemoine/geometrographie/>`_** — *La Géométrographie, ou Art des constructions géométriques* (1902), establishing exact elementary operation counts (:math:`R_1, R_2, C_1, C_2, C_3`), simplicity (:math:`S`), and exactitude (:math:`E`) for classical and modern geometric constructions.
+- `Geometrography <https://geometor.github.io/lemoine/geometrographie/>`_ — *La Géométrographie, ou Art des constructions géométriques* (1902), establishing exact elementary operation counts (:math:`R_1, R_2, C_1, C_2, C_3`), simplicity (:math:`S`), and exactitude (:math:`E`) for classical and modern geometric constructions.
 
 Repository Contents
 -------------------
