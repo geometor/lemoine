@@ -103,7 +103,7 @@ def test_concordance_and_minimal_instrument_subspaces() -> None:
 
 def test_mirrored_apparatus_and_deterministic_compilation() -> None:
     written = compile_apparatus_rst(REPO_ROOT)
-    assert len(written) == 4
+    assert len(written) == 3
 
     for fname in ("persons.json", "citations.json", "glossary.json"):
         primary = (REPO_ROOT / "resources" / "geometrographie" / fname).read_text(encoding="utf-8")

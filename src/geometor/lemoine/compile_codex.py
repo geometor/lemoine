@@ -295,11 +295,12 @@ def compile_apparatus_rst(repo_root: Path | None = None) -> list[Path]:
     codex_dir.mkdir(parents=True, exist_ok=True)
 
     outputs = {
-        codex_dir / "persons.rst": render_persons_rst(app),
         codex_dir / "bibliography.rst": render_bibliography_rst(app),
         codex_dir / "glossary.rst": render_glossary_rst(app),
         codex_dir / "concordance.rst": render_concordance_rst(app),
     }
+    if not (codex_dir / "people" / "index.rst").is_file():
+        outputs[codex_dir / "persons.rst"] = render_persons_rst(app)
     written: list[Path] = []
     for path, content in outputs.items():
         path.write_text(content, encoding="utf-8")

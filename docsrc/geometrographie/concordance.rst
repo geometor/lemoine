@@ -1,5 +1,4 @@
-:navigation: header
-:order: 14
+:navigation: footer
 :nav_title: Concordance
 
 .. _concordance:
