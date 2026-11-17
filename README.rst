@@ -3,6 +3,11 @@ GEOMETOR • lemoine
 
 **Visit the Online Archive:** https://geometor.github.io/lemoine/
 
+.. image:: docsrc/_static/figures/fig_circle_tangents.svg
+   :alt: GEOMETOR • lemoine featured geometric construction
+   :target: https://geometor.github.io/lemoine/
+   :align: center
+
 **Émile Lemoine • La Géométrographie • semantic digital archive**
 
 Mission
@@ -13,7 +18,7 @@ Mission
 Books in This Archive
 ---------------------
 
-- **`La Géométrographie <https://geometor.github.io/lemoine/geometrographie/>`_** — Art des constructions géométriques establishing exact elementary operation counts (:math:`R_1, R_2, C_1, C_2, C_3`), simplicity (:math:`S`), and exactitude (:math:`E`) for classical and modern geometric constructions (1902).
+- **`Geometrography <https://geometor.github.io/lemoine/geometrographie/>`_** — *La Géométrographie, ou Art des constructions géométriques* (1902), establishing exact elementary operation counts (:math:`R_1, R_2, C_1, C_2, C_3`), simplicity (:math:`S`), and exactitude (:math:`E`) for classical and modern geometric constructions.
 
 Repository Contents
 -------------------
