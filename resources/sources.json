@@ -1,0 +1,22 @@
+{
+  "repository": "geometor/lemoine",
+  "rights_category": "public-domain",
+  "sources": [
+    {
+      "id": "lemoine-1902-geometrographie",
+      "title": "Géométrographie ou Art des constructions géométriques (1902)",
+      "author": "Émile Lemoine",
+      "year": "1902",
+      "era": "Internet Archive",
+      "languages": [
+        "French"
+      ],
+      "site_url": "https://archive.org/details/lagomtrographie00lemogoog",
+      "local_path": "resources/geometrographie/sources/lemoine_ia_lagomtrographie00lemogoog.pdf",
+      "pages": 90,
+      "publisher": "C. Naud (Scientia Série Phys.-Math. No. 18), Paris",
+      "rights": "Public Domain (1902)",
+      "excerpt": "1902 Paris first edition, 90 pp., digitized via Google Books / Internet Archive."
+    }
+  ]
+}
