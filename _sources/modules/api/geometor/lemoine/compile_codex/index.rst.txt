@@ -58,6 +58,6 @@ Module Contents
 
 .. py:function:: verify_codex_tracks(repo_root: pathlib.Path | None = None) -> list[str]
 
-   Verify 4-track synchronization, ``:layout: book`` metadata, ``.. folio::`` markers, SVGs, and zero embedded Python.
+   Verify 4 Parts, 25 atomic leaves (100 track files), ``:folio:`` provenance, paired plates, SVGs, and zero embedded Python.
 
 

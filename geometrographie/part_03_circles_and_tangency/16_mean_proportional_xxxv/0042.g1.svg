@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 480" width="520" height="480" class="euclid-graphic" data-graphic-id="0042.g1" data-folio="0042" data-graphic="g1" role="img" aria-label="FIG. 6 — Problem XXXV(d): Mean proportional AB = sqrt(MN)">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-2 -6 4 12" markerWidth="4" markerHeight="12" orient="auto">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+    </marker>
+    <marker id="geom-tick-2" viewBox="-4 -6 8 12" markerWidth="8" markerHeight="12" orient="auto">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" markerWidth="12" markerHeight="12" orient="auto">
+      <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+      <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+    </marker>
+  </defs>
+  <style>
+    :root {
+      --geom-fg: #18181b;
+      --geom-bg: #ffffff;
+      --geom-point-stroke: #ffffff;
+      --geom-poly-fill: #000000;
+      --geom-accent: #c88a1e;
+      --geom-assert: #16a34a;
+    }
+    .euclid-graphic {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', Georgia, sans-serif;
+      background-color: var(--geom-bg);
+    }
+    .geom-line { stroke: #18181b; stroke: var(--geom-fg, #18181b); stroke-width: 1.7; stroke-linecap: round; fill: none; }
+    .geom-bold { stroke: #18181b; stroke: var(--geom-fg, #18181b); stroke-width: 2.25; stroke-linecap: round; fill: none; }
+    .geom-dashed { stroke: #18181b; stroke: var(--geom-fg, #18181b); stroke-width: 1.3; stroke-dasharray: 5, 3.5; stroke-linecap: round; fill: none; opacity: 0.78; }
+    .geom-accent-line { stroke: #c88a1e; stroke: var(--geom-accent, #c88a1e); stroke-width: 2.05; stroke-linecap: round; fill: none; }
+    .geom-assert-line { stroke: #16a34a; stroke: var(--geom-assert, #16a34a); stroke-width: 2.25; stroke-linecap: round; fill: none; }
+    .geom-circle { stroke: #18181b; stroke: var(--geom-fg, #18181b); stroke-width: 1.7; fill: none; }
+    .geom-arc { stroke: #c88a1e; stroke: var(--geom-accent, #c88a1e); stroke-width: 1.45; stroke-dasharray: 4.5, 3; stroke-linecap: round; fill: none; opacity: 0.88; }
+    .geom-ang-arc { stroke: #16a34a; stroke: var(--geom-assert, #16a34a); stroke-width: 1.6; stroke-linecap: round; fill: none; }
+    .geom-polygon { fill: #18181b; fill: var(--geom-poly-fill, #18181b); fill-opacity: 0.045; stroke: none; }
+    .geom-point { fill: #18181b; fill: var(--geom-fg, #18181b); stroke: #ffffff; stroke: var(--geom-point-stroke, #ffffff); stroke-width: 1.1; }
+    .geom-point-accent { fill: #c88a1e; fill: var(--geom-accent, #c88a1e); stroke: #ffffff; stroke: var(--geom-point-stroke, #ffffff); stroke-width: 1.1; }
+    .geom-point-assert { fill: #16a34a; fill: var(--geom-assert, #16a34a); stroke: #ffffff; stroke: var(--geom-point-stroke, #ffffff); stroke-width: 1.2; }
+    .geom-label { font-size: 13.5px; font-weight: 700; font-style: italic; fill: #18181b; fill: var(--geom-fg, #18181b); user-select: none; }
+    .geom-caption { font-size: 10.5px; font-weight: 700; fill: #18181b; fill: var(--geom-fg, #18181b); opacity: 0.85; user-select: none; letter-spacing: 0.02em; }
+    .is-active { stroke-width: 3.1 !important; filter: drop-shadow(0 0 3px var(--geom-accent)); }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --geom-fg: #d6cfc5;
+        --geom-bg: #1e1e20;
+        --geom-point-stroke: #1e1e20;
+        --geom-poly-fill: #d6cfc5;
+        --geom-accent: #e8b85a;
+        --geom-assert: #5ec27e;
+      }
+    }
+  </style>
+  <g id="elements">
+    <path d="M 345.94 31.92 A 198.00 198.00 0 1 1 50.97 223.62" fill="none" stroke="#c88a1e" stroke-width="1.45" stroke-dasharray="4.5,3" stroke-linecap="round" opacity="0.88" class="geom-arc" data-ref="O(OB)" />
+    <path d="M 72.67 296.00 L 248.00 296.00 L 423.33 296.00" fill="none" stroke="#18181b" stroke-width="1.3" stroke-dasharray="5,3.5" stroke-linecap="round" opacity="0.78" class="geom-dashed" data-ref="CB" />
+    <path d="M 268.62 310.17 L 336.12 181.53 L 403.62 52.90" fill="none" stroke="#c88a1e" stroke-width="2.05" stroke-linecap="round" class="geom-accent-line" data-ref="KA" />
+    <path d="M 394.32 70.61 L 408.83 183.30 L 423.33 296.00" fill="none" stroke="#16a34a" stroke-width="2.25" stroke-linecap="round" class="geom-assert-line" data-ref="AB" />
+    <path d="M 283.26 341.51 A 147.28 147.28 0 0 1 381.19 154.88" fill="none" stroke="#c88a1e" stroke-width="1.45" stroke-dasharray="4.5,3" stroke-linecap="round" opacity="0.88" class="geom-arc" data-ref="B(N)" />
+    <path d="M 328.05 150.68 A 96.18 96.18 0 0 1 344.14 201.20" fill="none" stroke="#c88a1e" stroke-width="1.45" stroke-dasharray="4.5,3" stroke-linecap="round" opacity="0.88" class="geom-arc" data-ref="O(OK)" />
+  </g>
+  <g id="graphics">
+  </g>
+  <g id="highlights" style="pointer-events: none;">
+  </g>
+  <g id="points">
+    <circle cx="248.00" cy="204.00" r="3.20" fill="#18181b" stroke="#ffffff" stroke-width="1.1" class="geom-point" data-ref="O" />
+    <circle cx="72.67" cy="296.00" r="3.20" fill="#18181b" stroke="#ffffff" stroke-width="1.1" class="geom-point" data-ref="C" />
+    <circle cx="423.33" cy="296.00" r="3.20" fill="#18181b" stroke="#ffffff" stroke-width="1.1" class="geom-point" data-ref="B" />
+    <circle cx="276.05" cy="296.00" r="3.20" fill="#c88a1e" stroke="#ffffff" stroke-width="1.1" class="geom-point-accent" data-ref="K" />
+    <circle cx="394.32" cy="70.61" r="3.60" fill="#16a34a" stroke="#ffffff" stroke-width="1.2" class="geom-point-assert" data-ref="A" />
+  </g>
+  <g id="labels">
+    <text x="236.00" y="192.00" text-anchor="middle" dominant-baseline="central" font-size="13.5" font-weight="700" font-style="italic" fill="#18181b" class="geom-label" data-ref="O">O</text>
+    <text x="57.67" y="298.00" text-anchor="middle" dominant-baseline="central" font-size="13.5" font-weight="700" font-style="italic" fill="#18181b" class="geom-label" data-ref="C">C</text>
+    <text x="438.33" y="300.00" text-anchor="middle" dominant-baseline="central" font-size="13.5" font-weight="700" font-style="italic" fill="#18181b" class="geom-label" data-ref="B">B</text>
+    <text x="266.05" y="311.00" text-anchor="middle" dominant-baseline="central" font-size="13.5" font-weight="700" font-style="italic" fill="#18181b" class="geom-label" data-ref="K">K</text>
+    <text x="409.32" y="72.61" text-anchor="middle" dominant-baseline="central" font-size="13.5" font-weight="700" font-style="italic" fill="#18181b" class="geom-label" data-ref="A">A</text>
+    <text x="260.00" y="464.00" text-anchor="middle" dominant-baseline="central" font-size="10.5" font-weight="700" fill="#18181b" opacity="0.85" class="geom-caption">FIG. 6 — Prob. XXXV(d) : Mean Proportional AB = √(MN) (S = 18)</text>
+  </g>
+</svg>

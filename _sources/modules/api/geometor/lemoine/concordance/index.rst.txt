@@ -15,6 +15,8 @@ Attributes
 .. autoapisummary::
 
    geometor.lemoine.concordance.CODEX_UNITS
+   geometor.lemoine.concordance.CODEX_LEAVES
+   geometor.lemoine.concordance.PAIRED_ARCHIVAL_PLATES
    geometor.lemoine.concordance.TRACK_SUFFIXES
 
 
@@ -47,6 +49,16 @@ Module Contents
 .. py:data:: CODEX_UNITS
    :type:  tuple[tuple[str, str], ...]
    :value: (('part_01_operations', 'Part I: Operations & Elementary Notations (Notations et Symboles)'),...
+
+
+.. py:data:: CODEX_LEAVES
+   :type:  tuple[tuple[str, str, str, str], ...]
+   :value: (('part_01_operations', '01_introduction', '0017', 'Introduction: Aim & Ideal Postulates of...
+
+
+.. py:data:: PAIRED_ARCHIVAL_PLATES
+   :type:  tuple[tuple[str, str, str], ...]
+   :value: (('part_03_circles_and_tangency', '11_incircle_xxvii', '0031'), ('part_03_circles_and_tangency',...
 
 
 .. py:data:: TRACK_SUFFIXES

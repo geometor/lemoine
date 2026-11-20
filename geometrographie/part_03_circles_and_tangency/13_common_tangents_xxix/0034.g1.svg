@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 340" width="680" height="340" class="euclid-graphic" data-graphic-id="0034.g1" data-folio="0034" data-graphic="g1" role="img" aria-label="FIG. 3 — Problem XXIX: Homothety centers V and V1 of circles O and O&#x27;">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-2 -6 4 12" markerWidth="4" markerHeight="12" orient="auto">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+    </marker>
+    <marker id="geom-tick-2" viewBox="-4 -6 8 12" markerWidth="8" markerHeight="12" orient="auto">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" markerWidth="12" markerHeight="12" orient="auto">
+      <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+      <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+    </marker>
+  </defs>
+  <style>
+    :root {
+      --geom-fg: #18181b;
+      --geom-bg: #ffffff;
+      --geom-point-stroke: #ffffff;
+      --geom-poly-fill: #000000;
+      --geom-accent: #c88a1e;
+      --geom-assert: #16a34a;
+    }
+    .euclid-graphic {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', Georgia, sans-serif;
+      background-color: var(--geom-bg);
+    }
+    .geom-line { stroke: #18181b; stroke: var(--geom-fg, #18181b); stroke-width: 1.7; stroke-linecap: round; fill: none; }
+    .geom-bold { stroke: #18181b; stroke: var(--geom-fg, #18181b); stroke-width: 2.25; stroke-linecap: round; fill: none; }
+    .geom-dashed { stroke: #18181b; stroke: var(--geom-fg, #18181b); stroke-width: 1.3; stroke-dasharray: 5, 3.5; stroke-linecap: round; fill: none; opacity: 0.78; }
+    .geom-accent-line { stroke: #c88a1e; stroke: var(--geom-accent, #c88a1e); stroke-width: 2.05; stroke-linecap: round; fill: none; }
+    .geom-assert-line { stroke: #16a34a; stroke: var(--geom-assert, #16a34a); stroke-width: 2.25; stroke-linecap: round; fill: none; }
+    .geom-circle { stroke: #18181b; stroke: var(--geom-fg, #18181b); stroke-width: 1.7; fill: none; }
+    .geom-arc { stroke: #c88a1e; stroke: var(--geom-accent, #c88a1e); stroke-width: 1.45; stroke-dasharray: 4.5, 3; stroke-linecap: round; fill: none; opacity: 0.88; }
+    .geom-ang-arc { stroke: #16a34a; stroke: var(--geom-assert, #16a34a); stroke-width: 1.6; stroke-linecap: round; fill: none; }
+    .geom-polygon { fill: #18181b; fill: var(--geom-poly-fill, #18181b); fill-opacity: 0.045; stroke: none; }
+    .geom-point { fill: #18181b; fill: var(--geom-fg, #18181b); stroke: #ffffff; stroke: var(--geom-point-stroke, #ffffff); stroke-width: 1.1; }
+    .geom-point-accent { fill: #c88a1e; fill: var(--geom-accent, #c88a1e); stroke: #ffffff; stroke: var(--geom-point-stroke, #ffffff); stroke-width: 1.1; }
+    .geom-point-assert { fill: #16a34a; fill: var(--geom-assert, #16a34a); stroke: #ffffff; stroke: var(--geom-point-stroke, #ffffff); stroke-width: 1.2; }
+    .geom-label { font-size: 13.5px; font-weight: 700; font-style: italic; fill: #18181b; fill: var(--geom-fg, #18181b); user-select: none; }
+    .geom-caption { font-size: 10.5px; font-weight: 700; fill: #18181b; fill: var(--geom-fg, #18181b); opacity: 0.85; user-select: none; letter-spacing: 0.02em; }
+    .is-active { stroke-width: 3.1 !important; filter: drop-shadow(0 0 3px var(--geom-accent)); }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --geom-fg: #d6cfc5;
+        --geom-bg: #1e1e20;
+        --geom-point-stroke: #1e1e20;
+        --geom-poly-fill: #d6cfc5;
+        --geom-accent: #e8b85a;
+        --geom-assert: #5ec27e;
+      }
+    }
+  </style>
+  <g id="elements">
+    <circle cx="170.00" cy="160.00" r="118.00" fill="none" stroke="#18181b" stroke-width="2.25" stroke-linecap="round" class="geom-bold" data-ref="O" />
+    <circle cx="392.00" cy="160.00" r="62.00" fill="none" stroke="#18181b" stroke-width="2.25" stroke-linecap="round" class="geom-bold" data-ref="O&#x27;" />
+    <path d="M 34.00 160.00 L 341.89 160.00 L 649.79 160.00" fill="none" stroke="#18181b" stroke-width="1.3" stroke-dasharray="5,3.5" stroke-linecap="round" opacity="0.78" class="geom-dashed" data-ref="OO&#x27;" />
+    <path d="M 229.00 57.81 L 433.39 108.90 L 637.79 160.00" fill="none" stroke="#c88a1e" stroke-width="2.05" stroke-linecap="round" class="geom-accent-line" data-ref="αV" />
+    <path d="M 111.00 262.19 L 267.00 184.25 L 423.00 106.31" fill="none" stroke="#c88a1e" stroke-width="2.05" stroke-linecap="round" class="geom-accent-line" data-ref="α₁α&#x27;" />
+    <path d="M 209.04 72.31 A 118.00 118.00 0 0 1 251.54 47.78" fill="none" stroke="#c88a1e" stroke-width="1.45" stroke-dasharray="4.5,3" stroke-linecap="round" opacity="0.88" class="geom-arc" data-ref="A(AO)" />
+    <path d="M 130.96 247.69 A 118.00 118.00 0 0 1 88.46 272.22" fill="none" stroke="#c88a1e" stroke-width="1.45" stroke-dasharray="4.5,3" stroke-linecap="round" opacity="0.88" class="geom-arc" data-ref="A₁(A₁O)" />
+    <path d="M 410.16 116.16 A 62.00 62.00 0 0 1 437.95 100.11" fill="none" stroke="#c88a1e" stroke-width="1.45" stroke-dasharray="4.5,3" stroke-linecap="round" opacity="0.88" class="geom-arc" data-ref="A&#x27;₁(A&#x27;₁O&#x27;)" />
+  </g>
+  <g id="graphics">
+  </g>
+  <g id="highlights" style="pointer-events: none;">
+  </g>
+  <g id="points">
+    <circle cx="52.00" cy="160.00" r="3.20" fill="#18181b" stroke="#ffffff" stroke-width="1.1" class="geom-point" data-ref="A₁" />
+    <circle cx="170.00" cy="160.00" r="3.20" fill="#18181b" stroke="#ffffff" stroke-width="1.1" class="geom-point" data-ref="O" />
+    <circle cx="288.00" cy="160.00" r="3.20" fill="#18181b" stroke="#ffffff" stroke-width="1.1" class="geom-point" data-ref="A" />
+    <circle cx="315.53" cy="160.00" r="3.50" fill="#16a34a" stroke="#ffffff" stroke-width="1.2" class="geom-point-assert" data-ref="V₁" />
+    <circle cx="330.00" cy="160.00" r="3.20" fill="#18181b" stroke="#ffffff" stroke-width="1.1" class="geom-point" data-ref="A&#x27;" />
+    <circle cx="392.00" cy="160.00" r="3.20" fill="#18181b" stroke="#ffffff" stroke-width="1.1" class="geom-point" data-ref="O&#x27;" />
+    <circle cx="454.00" cy="160.00" r="3.20" fill="#18181b" stroke="#ffffff" stroke-width="1.1" class="geom-point" data-ref="A&#x27;₁" />
+    <circle cx="637.79" cy="160.00" r="3.50" fill="#16a34a" stroke="#ffffff" stroke-width="1.2" class="geom-point-assert" data-ref="V" />
+    <circle cx="229.00" cy="57.81" r="3.20" fill="#c88a1e" stroke="#ffffff" stroke-width="1.1" class="geom-point-accent" data-ref="α" />
+    <circle cx="111.00" cy="262.19" r="3.20" fill="#c88a1e" stroke="#ffffff" stroke-width="1.1" class="geom-point-accent" data-ref="α₁" />
+    <circle cx="423.00" cy="106.31" r="3.20" fill="#c88a1e" stroke="#ffffff" stroke-width="1.1" class="geom-point-accent" data-ref="α&#x27;" />
+  </g>
+  <g id="labels">
+    <text x="38.00" y="175.00" text-anchor="middle" dominant-baseline="central" font-size="13.5" font-weight="700" font-style="italic" fill="#18181b" class="geom-label" data-ref="A₁">A₁</text>
+    <text x="170.00" y="175.00" text-anchor="middle" dominant-baseline="central" font-size="13.5" font-weight="700" font-style="italic" fill="#18181b" class="geom-label" data-ref="O">O</text>
+    <text x="276.00" y="175.00" text-anchor="middle" dominant-baseline="central" font-size="13.5" font-weight="700" font-style="italic" fill="#18181b" class="geom-label" data-ref="A">A</text>
+    <text x="315.53" y="176.00" text-anchor="middle" dominant-baseline="central" font-size="13.5" font-weight="700" font-style="italic" fill="#18181b" class="geom-label" data-ref="V₁">V₁</text>
+    <text x="342.00" y="175.00" text-anchor="middle" dominant-baseline="central" font-size="13.5" font-weight="700" font-style="italic" fill="#18181b" class="geom-label" data-ref="A&#x27;">A&#x27;</text>
+    <text x="392.00" y="175.00" text-anchor="middle" dominant-baseline="central" font-size="13.5" font-weight="700" font-style="italic" fill="#18181b" class="geom-label" data-ref="O&#x27;">O&#x27;</text>
+    <text x="468.00" y="175.00" text-anchor="middle" dominant-baseline="central" font-size="13.5" font-weight="700" font-style="italic" fill="#18181b" class="geom-label" data-ref="A&#x27;₁">A&#x27;₁</text>
+    <text x="639.79" y="176.00" text-anchor="middle" dominant-baseline="central" font-size="13.5" font-weight="700" font-style="italic" fill="#18181b" class="geom-label" data-ref="V">V</text>
+    <text x="231.00" y="43.81" text-anchor="middle" dominant-baseline="central" font-size="13.5" font-weight="700" font-style="italic" fill="#18181b" class="geom-label" data-ref="α">α</text>
+    <text x="107.00" y="278.19" text-anchor="middle" dominant-baseline="central" font-size="13.5" font-weight="700" font-style="italic" fill="#18181b" class="geom-label" data-ref="α₁">α₁</text>
+    <text x="427.00" y="91.31" text-anchor="middle" dominant-baseline="central" font-size="13.5" font-weight="700" font-style="italic" fill="#18181b" class="geom-label" data-ref="α&#x27;">α&#x27;</text>
+    <text x="340.00" y="324.00" text-anchor="middle" dominant-baseline="central" font-size="10.5" font-weight="700" fill="#18181b" opacity="0.85" class="geom-caption">FIG. 3 — Problem XXIX (2nd Method) : Centers of Similitude V, V₁ of Circles O and O&#x27;</text>
+  </g>
+</svg>
