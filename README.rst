@@ -3,6 +3,12 @@ GEOMETOR • lemoine
 
 **Visit the Online Archive:** https://geometor.github.io/lemoine/
 
+.. image:: docsrc/_static/logo.png
+   :alt: GEOMETOR • lemoine Medallion
+   :target: https://geometor.github.io/lemoine/
+   :width: 180px
+   :align: center
+
 .. image:: docsrc/_static/figures/fig_circle_tangents.svg
    :alt: GEOMETOR • lemoine featured geometric construction
    :target: https://geometor.github.io/lemoine/
