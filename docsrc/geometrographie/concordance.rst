@@ -195,7 +195,7 @@ Master Operation-Count Summary
 Part I: Operations & Elementary Notations (Notations et Symboles)
 -----------------------------------------------------------------
 
- Companion codex unit: :doc:`Part I: Operations & Elementary Notations (Notations et Symboles) <part_01_operations/part_01_operations-en>`.
+Companion codex part: :doc:`Part I: Operations & Elementary Notations (Notations et Symboles) <part_01_operations/index>`.
 
 .. _concordance-line-two-points:
 
@@ -227,10 +227,10 @@ VIII — Laying Off a Given Segment Along a Traced Line
 - **Poncelet–Steiner Fixed-Circle Counterpart** (*Drittes Kapitel, § 18, Sechste Aufgabe ([76]–[78], pp. 56–57)*): Pure straightedge transfer of segment M_1 a_1 to a given origin M_2 by constructing the centers of similitude A_1, I_1 of the fixed circle M and the virtual circle (M_2, M_1 a_1).
 - **Critical Note**: Euclid I.2–I.3 avoids assuming a divider compass that retains its opening when lifted (S = 16); Lemoine's modern compass takes AB in 2C_1 and lays it off in C_2 + C_3 (or C_1 + C_3 from a fixed point, S = 4, E = 3).
 
-Part II: Fundamental Constructions (Constructions Fondamentales)
-----------------------------------------------------------------
+Part II: Fundamental Euclidean Constructions (Constructions Fondamentales)
+--------------------------------------------------------------------------
 
- Companion codex unit: :doc:`Part II: Fundamental Constructions (Constructions Fondamentales) <part_02_fundamental_constructions/part_02_fundamental_constructions-en>`.
+Companion codex part: :doc:`Part II: Fundamental Euclidean Constructions (Constructions Fondamentales) <part_02_fundamental_constructions/index>`.
 
 .. _concordance-copy-angle:
 
@@ -352,6 +352,36 @@ XXII — Bisecting a Given Rectilinear Angle
 - **Poncelet–Steiner Fixed-Circle Counterpart** (*Drittes Kapitel, § 18, Fünfte Aufgabe, Fall a ([75]–[76], pp. 55–56, Fig. 21)*): Draws diameters ab, cd of fixed circle M parallel to sides mA, mC so central angle aMc = AmC; the line through vertex m parallel to chord ad (or cb) bisects angle AmC!
 - **Critical Note**: Retaining the same sufficient radius R for the initial arc at A and the two intersecting arcs from B and D avoids resetting the compass, reducing S from 10 to 9.
 
+.. _concordance-circumcircle:
+
+XXI — Circumcircle and Circumcenter X(3) Through Three Given Points
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+*Circonscrire un cercle à un triangle donné ABC, ou faire passer un cercle par A, B, C*
+
+**Lemoine Folio**: pp. 12–13 | **Euclid**: IV.5 | **Elements DAG**: G.117 (IV.5) | **ETC**: X(3) Circumcenter
+
+- **Classical / Speculative Construction**: :math:`4R_1 + 2R_2 + 6C_1 + 5C_3` — Simplicity :math:`S = 17`, Exactitude :math:`E = 10` (2 lines, 5 circles).
+- **Lemoine Géométrographique Synthesis**: :math:`4R_1 + 2R_2 + 5C_1 + 4C_3` — Simplicity :math:`S = 15`, Exactitude :math:`E = 9` (2 lines, 4 circles).
+- **Mascheroni Compass-Only Counterpart** (*Libro X, §§ 143–144 (pp. 82–84, Fig. 71)*): Paired with Napoleon's Problem (§ 143, center of a drawn circle in 6 arcs): § 144 finds circumcenter O of three non-collinear points M, A, B by compass inversion/third-proportional arcs alone.
+- **Poncelet–Steiner Fixed-Circle Counterpart** (*Drittes Kapitel, § 18, Zweite & Dritte Aufgabe ([71]–[75], pp. 52–55)*): Constructs the perpendicular bisectors of AB and AC by straightedge via fixed circle M; their intersection is X(3) (while the circle itself remains represented by center O and radius OA).
+- **Critical Note**: Sharing circle B(R) across both perpendicular bisectors AB and BC cuts the circle count from 5 to 4 (3 mediatrix circles + circumcircle O(OA), S = 15).
+
+.. _concordance-external-tangents:
+
+XXVI — Tangents to a Given Circle from an External Point
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+*Mener d'un point extérieur A les tangentes à un cercle donné O*
+
+**Lemoine Folio**: pp. 14 | **Euclid**: III.17 | **Elements DAG**: G.91 (III.17) | **Projective**: Pole-polar contact chord
+
+- **Classical / Speculative Construction**: :math:`8R_1 + 4R_2 + 4C_1 + 3C_3` — Simplicity :math:`S = 19`, Exactitude :math:`E = 12` (4 lines, 3 circles).
+- **Lemoine Géométrographique Synthesis**: :math:`5R_1 + 3R_2 + 6C_1 + 4C_3` — Simplicity :math:`S = 18`, Exactitude :math:`E = 11` (3 lines, 4 circles).
+- **Mascheroni Compass-Only Counterpart** (*Libro XI, § 161 (pp. 92–93)*): Finds midpoint M of OA (§ 66) or uses concentric radius 2R arc and circle A(OA) to determine contact points T, T' on O(R) by compass alone.
+- **Poncelet–Steiner Fixed-Circle Counterpart** (*Erstes Kapitel, § 10 ([26]–[30], pp. 20–23)*): Pure straightedge construction! Draw two arbitrary secants from A cutting the drawn circle O, construct the polar of A via the complete inscribed quadrangle (Lemoine XXXIX, 12R_1 + 7R_2), and join A to its two intersections T, T' with circle O.
+- **Critical Note**: Highlights instrument duality: when circle O is already drawn, Steiner's projective polar method needs ZERO circles (16R_1 + 9R_2 for both tangents), whereas Lemoine optimizes the metric ruler-and-compass construction to S = 18.
+
 .. _concordance-mascheroni-midpoint-line-intersection:
 
 Masch. §§ 66, 112 — Mascheroni Compass-Only Midpoint & Intersection of Two Lines
@@ -382,40 +412,10 @@ Steiner § 18 Aufg. 1–8 — Poncelet–Steiner Straightedge-Only Parallel & Vi
 - **Poncelet–Steiner Fixed-Circle Counterpart** (*Drittes Kapitel, § 18, Erste bis Achte Aufgabe ([68]–[85], pp. 50–62, Figs. 19–24)*): Proves straightedge-only completeness given ONE fixed circle with center M: parallel to a diameter aMb takes 11R_1 + 6R_2 (S = 17, 6 lines, 0 circles); Seventh & Eighth Problems find line-circle and circle-circle intersections of un-drawn circles via Aehnlichkeitspunkte A, I and the radical axis.
 - **Critical Note**: Notice that center M IS indispensable: by Poncelet–Steiner–Hilbert projective invariance, a projective transformation fixing a circle without fixing its center destroys Euclidean parallelism and orthogonality!
 
-Part III: Circles, Tangency & Triangle Geometry (Cercles, Tangentes et Triangle)
---------------------------------------------------------------------------------
+Part III: Circles, Tangency, Proportions & Projective Geometry (Cercles, Tangentes et Proportions)
+--------------------------------------------------------------------------------------------------
 
- Companion codex unit: :doc:`Part III: Circles, Tangency & Triangle Geometry (Cercles, Tangentes et Triangle) <part_03_circles_and_tangency/part_03_circles_and_tangency-en>`.
-
-.. _concordance-circumcircle:
-
-XXI — Circumcircle and Circumcenter X(3) Through Three Given Points
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-*Circonscrire un cercle à un triangle donné ABC, ou faire passer un cercle par A, B, C*
-
-**Lemoine Folio**: pp. 12–13 | **Euclid**: IV.5 | **Elements DAG**: G.117 (IV.5) | **ETC**: X(3) Circumcenter
-
-- **Classical / Speculative Construction**: :math:`4R_1 + 2R_2 + 6C_1 + 5C_3` — Simplicity :math:`S = 17`, Exactitude :math:`E = 10` (2 lines, 5 circles).
-- **Lemoine Géométrographique Synthesis**: :math:`4R_1 + 2R_2 + 5C_1 + 4C_3` — Simplicity :math:`S = 15`, Exactitude :math:`E = 9` (2 lines, 4 circles).
-- **Mascheroni Compass-Only Counterpart** (*Libro X, §§ 143–144 (pp. 82–84, Fig. 71)*): Paired with Napoleon's Problem (§ 143, center of a drawn circle in 6 arcs): § 144 finds circumcenter O of three non-collinear points M, A, B by compass inversion/third-proportional arcs alone.
-- **Poncelet–Steiner Fixed-Circle Counterpart** (*Drittes Kapitel, § 18, Zweite & Dritte Aufgabe ([71]–[75], pp. 52–55)*): Constructs the perpendicular bisectors of AB and AC by straightedge via fixed circle M; their intersection is X(3) (while the circle itself remains represented by center O and radius OA).
-- **Critical Note**: Sharing circle B(R) across both perpendicular bisectors AB and BC cuts the circle count from 5 to 4 (3 mediatrix circles + circumcircle O(OA), S = 15).
-
-.. _concordance-external-tangents:
-
-XXVI — Tangents to a Given Circle from an External Point
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-*Mener d'un point extérieur A les tangentes à un cercle donné O*
-
-**Lemoine Folio**: pp. 15–16 | **Euclid**: III.17 | **Elements DAG**: G.91 (III.17) | **Projective**: Pole-polar contact chord
-
-- **Classical / Speculative Construction**: :math:`8R_1 + 4R_2 + 4C_1 + 3C_3` — Simplicity :math:`S = 19`, Exactitude :math:`E = 12` (4 lines, 3 circles).
-- **Lemoine Géométrographique Synthesis**: :math:`5R_1 + 3R_2 + 6C_1 + 4C_3` — Simplicity :math:`S = 18`, Exactitude :math:`E = 11` (3 lines, 4 circles).
-- **Mascheroni Compass-Only Counterpart** (*Libro XI, § 161 (pp. 92–93)*): Finds midpoint M of OA (§ 66) or uses concentric radius 2R arc and circle A(OA) to determine contact points T, T' on O(R) by compass alone.
-- **Poncelet–Steiner Fixed-Circle Counterpart** (*Erstes Kapitel, § 10 ([26]–[30], pp. 20–23)*): Pure straightedge construction! Draw two arbitrary secants from A cutting the drawn circle O, construct the polar of A via the complete inscribed quadrangle (Lemoine XXXIX, 12R_1 + 7R_2), and join A to its two intersections T, T' with circle O.
-- **Critical Note**: Highlights instrument duality: when circle O is already drawn, Steiner's projective polar method needs ZERO circles (16R_1 + 9R_2 for both tangents), whereas Lemoine optimizes the metric ruler-and-compass construction to S = 18.
+Companion codex part: :doc:`Part III: Circles, Tangency, Proportions & Projective Geometry (Cercles, Tangentes et Proportions) <part_03_circles_and_tangency/index>`.
 
 .. _concordance-incircle-x1:
 
@@ -537,6 +537,11 @@ XLVI — Harmonic Conjugate of a Point with Respect to a Segment
 - **Poncelet–Steiner Fixed-Circle Counterpart** (*Erstes Kapitel, §§ 4–6 ([10]–[16], pp. 9–13)*): Identical pure-straightedge complete quadrilateral construction (9R_1 + 6R_2, S = 15, 0 circles) — didn't even require the fixed circle M!
 - **Critical Note**: Projective invariant cross-ratio (A, B; C, D) = -1 constructed with zero compass operations; choosing the first auxiliary ray as R_1 + R_2 through A saves 3R_1 over naive alignment.
 
+Part IV: Guiding Principles, Modern Triangle Geometry & Reflections (Principes et Géométrie du Triangle)
+--------------------------------------------------------------------------------------------------------
+
+Companion codex part: :doc:`Part IV: Guiding Principles, Modern Triangle Geometry & Reflections (Principes et Géométrie du Triangle) <part_04_triangle_and_reflections/index>`.
+
 .. _concordance-centroid-x2:
 
 L — Centroid G = X(2) of a Given Triangle
@@ -574,7 +579,7 @@ LIV–LV — First and Second Brocard Points omega and omega' of a Triangle
 
 *Construire les points de Brocard ω et ω' d'un triangle donné ABC*
 
-**Lemoine Folio**: pp. 46–48, 58–59 | **Euclid**: III.21, III.32 | **Elements DAG**: G.95 (III.21), G.106 (III.32) | **ETC**: Bicentric Brocard pair (Ω, Ω') | **Projective**: Harmonic/isogonal Brocard circle on diameter OK
+**Lemoine Folio**: pp. 45–46, 58–59 | **Euclid**: III.21, III.32 | **Elements DAG**: G.95 (III.21), G.106 (III.32) | **ETC**: Bicentric Brocard pair (Ω, Ω') | **Projective**: Harmonic/isogonal Brocard circle on diameter OK
 
 - **Classical / Speculative Construction**: :math:`22R_1 + 11R_2 + 24C_1 + 17C_3` — Simplicity :math:`S = 74`, Exactitude :math:`E = 46` (11 lines, 17 circles).
 - **Lemoine Géométrographique Synthesis**: :math:`12R_1 + 6R_2 + 12C_1 + 8C_3` — Simplicity :math:`S = 38`, Exactitude :math:`E = 24` (6 lines, 8 circles).
@@ -589,7 +594,7 @@ LXI — Nagel Point X(8) of a Given Triangle
 
 *Construire le point de Nagel X(8) d'un triangle donné ABC*
 
-**Lemoine Folio**: pp. 50 | **Euclid**: IV.4 (excircle touchpoints) | **Elements DAG**: G.116 (IV.4) | **ETC**: X(8) Nagel Point | **Projective**: Isotomic/cevian concurrency
+**Lemoine Folio**: pp. 49 | **Euclid**: IV.4 (excircle touchpoints) | **Elements DAG**: G.116 (IV.4) | **ETC**: X(8) Nagel Point | **Projective**: Isotomic/cevian concurrency
 
 - **Classical / Speculative Construction**: :math:`6R_1 + 3R_2 + 15C_1 + 10C_3` — Simplicity :math:`S = 34`, Exactitude :math:`E = 21` (3 lines, 10 circles).
 - **Lemoine Géométrographique Synthesis**: :math:`4R_1 + 2R_2 + 7C_1 + 3C_3` — Simplicity :math:`S = 16`, Exactitude :math:`E = 11` (2 lines, 3 circles).

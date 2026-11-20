@@ -8,7 +8,9 @@ from geometor.lemoine.compile_codex import (
     verify_codex_tracks,
 )
 from geometor.lemoine.concordance import (
+    CODEX_LEAVES,
     CODEX_UNITS,
+    PAIRED_ARCHIVAL_PLATES,
     TRACK_SUFFIXES,
     ConcordanceEntry,
     InstrumentLocus,
@@ -28,7 +30,9 @@ from geometor.lemoine.sphinx_ext import (
 __version__ = "0.1.5"
 
 __all__ = [
+    "CODEX_LEAVES",
     "CODEX_UNITS",
+    "PAIRED_ARCHIVAL_PLATES",
     "TRACK_SUFFIXES",
     "ConcordanceEntry",
     "InstrumentLocus",

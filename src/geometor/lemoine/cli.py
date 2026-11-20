@@ -8,7 +8,9 @@ from pathlib import Path
 
 from geometor.lemoine.compile_codex import compile_apparatus_rst, verify_codex_tracks
 from geometor.lemoine.concordance import (
+    CODEX_LEAVES,
     CODEX_UNITS,
+    PAIRED_ARCHIVAL_PLATES,
     default_repo_root,
     load_apparatus,
     verify_concordance,
@@ -51,8 +53,12 @@ def cmd_summary(repo_root: Path) -> int:
     )
     saved = classical_s - lemoine_s
 
-    print("GEOMETOR • lemoine — Géométrographie (1902) Codex Summary")
-    print(f"  Units                : {len(CODEX_UNITS)} (4 synchronized tracks: en, fr, summary, notes)")
+    print("GEOMETOR • lemoine — La Géométrographie (1892/1893 & 1902) Codex Summary")
+    print(
+        f"  Codex hierarchy      : {len(CODEX_UNITS)} Parts, {len(CODEX_LEAVES)} atomic leaves "
+        f"({len(CODEX_LEAVES) * 4} synchronized track files)"
+    )
+    print(f"  Paired archival figs : {len(PAIRED_ARCHIVAL_PLATES)} original engravings (.g1.png + .g1.svg)")
     print(f"  Concordance entries  : {len(app.entries)}")
     print(f"  Persons registry     : {len(app.persons)}")
     print(f"  Bibliography entries : {len(app.citations)}")
@@ -86,7 +92,8 @@ def cmd_verify(repo_root: Path) -> int:
 
     print(
         f"OK: Verified {len(app.entries)} concordance benchmarks, 3 archival witnesses, "
-        f"{len(CODEX_UNITS) * 4} codex track files, and standalone .euclid-graphic SVGs."
+        f"{len(CODEX_UNITS)} Parts, {len(CODEX_LEAVES)} atomic leaves ({len(CODEX_LEAVES) * 4} track files), "
+        f"{len(PAIRED_ARCHIVAL_PLATES)} paired archival plates, and standalone .euclid-graphic SVGs."
     )
     return 0
 

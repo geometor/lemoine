@@ -16,12 +16,62 @@ CODEX_UNITS: tuple[tuple[str, str], ...] = (
     ),
     (
         "part_02_fundamental_constructions",
-        "Part II: Fundamental Constructions (Constructions Fondamentales)",
+        "Part II: Fundamental Euclidean Constructions (Constructions Fondamentales)",
     ),
     (
         "part_03_circles_and_tangency",
-        "Part III: Circles, Tangency & Triangle Geometry (Cercles, Tangentes et Triangle)",
+        "Part III: Circles, Tangency, Proportions & Projective Geometry (Cercles, Tangentes et Proportions)",
     ),
+    (
+        "part_04_triangle_and_reflections",
+        "Part IV: Guiding Principles, Modern Triangle Geometry & Reflections (Principes et Géométrie du Triangle)",
+    ),
+)
+
+CODEX_LEAVES: tuple[tuple[str, str, str, str], ...] = (
+    # Part I — Operations & Elementary Notations (fols. 0017–0022, pp. 1–6)
+    ("part_01_operations", "01_introduction", "0017", "Introduction: Aim & Ideal Postulates of Geometrography"),
+    ("part_01_operations", "02_five_operations", "0019", "The Five Elementary Operations & Coefficients S and E"),
+    ("part_01_operations", "03_applications_i_vii", "0021", "Elementary Applications I–VII: Straight Lines & Circles"),
+    ("part_01_operations", "04_applications_viii_x", "0022", "Applications VIII–X: Segment Transfer & Equidistant Points"),
+    # Part II — Fundamental Euclidean Constructions (fols. 0023–0030, pp. 7–14)
+    ("part_02_fundamental_constructions", "05_angles_and_triangles", "0023", "Problems XI–XVI: Copying Angles & Constructing Triangles"),
+    ("part_02_fundamental_constructions", "06_parallels_xvii", "0025", "Problem XVII: Parallel Through an External Point"),
+    ("part_02_fundamental_constructions", "07_bisector_reflection_xviii", "0026", "Problems XVIII & XVIII bis: Perpendicular Bisector & Point Reflection"),
+    ("part_02_fundamental_constructions", "08_diameter_perpendiculars_xix_xx", "0026", "Problems XIX–XX: Circle Center & Perpendiculars"),
+    ("part_02_fundamental_constructions", "09_circumcircle_angle_bisectors_xxi_xxiv", "0028", "Problems XXI–XXIV: Circumcircle & Angle Bisectors"),
+    ("part_02_fundamental_constructions", "10_tangents_xxv_xxvi", "0030", "Problems XXV–XXVI: Tangents to a Given Circle"),
+    # Part III — Circles, Tangency, Proportions & Projective Geometry (fols. 0031–0052, pp. 15–36)
+    ("part_03_circles_and_tangency", "11_incircle_xxvii", "0031", "Problem XXVII: Incircle & Excircles of a Triangle"),
+    ("part_03_circles_and_tangency", "12_capable_segment_xxviii", "0032", "Problem XXVIII: Circular Segment Capable of a Given Angle"),
+    ("part_03_circles_and_tangency", "13_common_tangents_xxix", "0032", "Problem XXIX: Common Tangents to Two Circles"),
+    ("part_03_circles_and_tangency", "14_multiples_and_division_xxx_xxxii", "0035", "Problems XXX–XXXII: Segment Division & Parallels"),
+    ("part_03_circles_and_tangency", "15_fourth_and_third_proportionals_xxxiii_xxxiv", "0037", "Problems XXXIII–XXXIV bis: Fourth & Third Proportionals"),
+    ("part_03_circles_and_tangency", "16_mean_proportional_xxxv", "0040", "Problem XXXV: Mean Proportional Between Two Segments"),
+    ("part_03_circles_and_tangency", "17_golden_section_and_inaccessible_xxxvi_xxxvii", "0043", "Problems XXXVI–XXXVII: Golden Section & Inaccessible Intersections"),
+    ("part_03_circles_and_tangency", "18_inversion_polarity_harmonic_xxxviii_xlvi", "0045", "Problems XXXVIII–XLVI: Inversion, Polarity, Radical Axis & Harmonic Conjugates"),
+    ("part_03_circles_and_tangency", "19_square_and_ellipse_axes_xlvii_xlviii", "0050", "Problems XLVII–XLVIII: Catalan's Square & Axes of an Ellipse"),
+    # Part IV — Guiding Principles, Modern Triangle Geometry & Reflections (fols. 0052–0082, pp. 36–66)
+    ("part_04_triangle_and_reflections", "20_principles_and_rational_division", "0052", "Five Guiding Principles & Simultaneous 1/10 and 1/15 Division"),
+    ("part_04_triangle_and_reflections", "21_normal_coordinates_xlix", "0056", "Problem XLIX: Constructing a Point from Normal Coordinates"),
+    ("part_04_triangle_and_reflections", "22_centroid_and_lemoine_point_l_liii", "0058", "Problems L–LIII: Centroid X(2), Lemoine Point X(6) & Lemoine Line"),
+    ("part_04_triangle_and_reflections", "23_brocard_steiner_nagel_liv_lxiii", "0061", "Problems LIV–LXIII: Brocard, Steiner, Tarry, Gergonne, Spieker, Nagel & Neuberg"),
+    ("part_04_triangle_and_reflections", "24_observations_diverses", "0068", "Various Observations: Idealizations, Oran Notation & Replies to Mannheim and Brocard"),
+    ("part_04_triangle_and_reflections", "25_note_complementaire_and_resume", "0076", "Complementary Note & Analytical Summary (d'Ocagne, Laisant & Complete Index)"),
+)
+
+PAIRED_ARCHIVAL_PLATES: tuple[tuple[str, str, str], ...] = (
+    ("part_03_circles_and_tangency", "11_incircle_xxvii", "0031"),
+    ("part_03_circles_and_tangency", "12_capable_segment_xxviii", "0032"),
+    ("part_03_circles_and_tangency", "13_common_tangents_xxix", "0034"),
+    ("part_03_circles_and_tangency", "15_fourth_and_third_proportionals_xxxiii_xxxiv", "0037"),
+    ("part_03_circles_and_tangency", "15_fourth_and_third_proportionals_xxxiii_xxxiv", "0038"),
+    ("part_03_circles_and_tangency", "16_mean_proportional_xxxv", "0042"),
+    ("part_03_circles_and_tangency", "16_mean_proportional_xxxv", "0043"),
+    ("part_03_circles_and_tangency", "17_golden_section_and_inaccessible_xxxvi_xxxvii", "0044"),
+    ("part_03_circles_and_tangency", "19_square_and_ellipse_axes_xlvii_xlviii", "0050"),
+    ("part_04_triangle_and_reflections", "20_principles_and_rational_division", "0054"),
+    ("part_04_triangle_and_reflections", "21_normal_coordinates_xlix", "0056"),
 )
 
 TRACK_SUFFIXES: tuple[str, ...] = ("en", "fr", "summary", "notes")

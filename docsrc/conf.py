@@ -40,6 +40,9 @@ author = "Émile Lemoine"
 copyright = "1902 C. Naud (Collection Scientia No. 18) • Digital Edition GEOMETOR"
 
 html_static_path = ["_static"]
+html_css_files = list(globals().get("html_css_files", []))
+if "lemoine_codex.css" not in html_css_files:
+    html_css_files.append("lemoine_codex.css")
 
 autoapi_dirs = [str(_REPO_ROOT / "src" / "geometor")]
 autoapi_add_toctree_entry = False

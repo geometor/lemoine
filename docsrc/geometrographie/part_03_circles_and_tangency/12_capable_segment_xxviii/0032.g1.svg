@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" width="600" height="480" class="euclid-graphic" data-graphic-id="0032.g1" data-folio="0032" data-graphic="g1" role="img" aria-label="FIG. 2 — Problem XXVIII: Segment capable of a given angle">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-2 -6 4 12" markerWidth="4" markerHeight="12" orient="auto">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+    </marker>
+    <marker id="geom-tick-2" viewBox="-4 -6 8 12" markerWidth="8" markerHeight="12" orient="auto">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" markerWidth="12" markerHeight="12" orient="auto">
+      <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+      <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="var(--geom-fg)" stroke-width="1.4" />
+    </marker>
+  </defs>
+  <style>
+    :root {
+      --geom-fg: #18181b;
+      --geom-bg: #ffffff;
+      --geom-point-stroke: #ffffff;
+      --geom-poly-fill: #000000;
+      --geom-accent: #c88a1e;
+      --geom-assert: #16a34a;
+    }
+    .euclid-graphic {
+      font-family: 'Fira Sans Condensed', 'Fira Sans', Georgia, sans-serif;
+      background-color: var(--geom-bg);
+    }
+    .geom-line { stroke: #18181b; stroke: var(--geom-fg, #18181b); stroke-width: 1.7; stroke-linecap: round; fill: none; }
+    .geom-bold { stroke: #18181b; stroke: var(--geom-fg, #18181b); stroke-width: 2.25; stroke-linecap: round; fill: none; }
+    .geom-dashed { stroke: #18181b; stroke: var(--geom-fg, #18181b); stroke-width: 1.3; stroke-dasharray: 5, 3.5; stroke-linecap: round; fill: none; opacity: 0.78; }
+    .geom-accent-line { stroke: #c88a1e; stroke: var(--geom-accent, #c88a1e); stroke-width: 2.05; stroke-linecap: round; fill: none; }
+    .geom-assert-line { stroke: #16a34a; stroke: var(--geom-assert, #16a34a); stroke-width: 2.25; stroke-linecap: round; fill: none; }
+    .geom-circle { stroke: #18181b; stroke: var(--geom-fg, #18181b); stroke-width: 1.7; fill: none; }
+    .geom-arc { stroke: #c88a1e; stroke: var(--geom-accent, #c88a1e); stroke-width: 1.45; stroke-dasharray: 4.5, 3; stroke-linecap: round; fill: none; opacity: 0.88; }
+    .geom-ang-arc { stroke: #16a34a; stroke: var(--geom-assert, #16a34a); stroke-width: 1.6; stroke-linecap: round; fill: none; }
+    .geom-polygon { fill: #18181b; fill: var(--geom-poly-fill, #18181b); fill-opacity: 0.045; stroke: none; }
+    .geom-point { fill: #18181b; fill: var(--geom-fg, #18181b); stroke: #ffffff; stroke: var(--geom-point-stroke, #ffffff); stroke-width: 1.1; }
+    .geom-point-accent { fill: #c88a1e; fill: var(--geom-accent, #c88a1e); stroke: #ffffff; stroke: var(--geom-point-stroke, #ffffff); stroke-width: 1.1; }
+    .geom-point-assert { fill: #16a34a; fill: var(--geom-assert, #16a34a); stroke: #ffffff; stroke: var(--geom-point-stroke, #ffffff); stroke-width: 1.2; }
+    .geom-label { font-size: 13.5px; font-weight: 700; font-style: italic; fill: #18181b; fill: var(--geom-fg, #18181b); user-select: none; }
+    .geom-caption { font-size: 10.5px; font-weight: 700; fill: #18181b; fill: var(--geom-fg, #18181b); opacity: 0.85; user-select: none; letter-spacing: 0.02em; }
+    .is-active { stroke-width: 3.1 !important; filter: drop-shadow(0 0 3px var(--geom-accent)); }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --geom-fg: #d6cfc5;
+        --geom-bg: #1e1e20;
+        --geom-point-stroke: #1e1e20;
+        --geom-poly-fill: #d6cfc5;
+        --geom-accent: #e8b85a;
+        --geom-assert: #5ec27e;
+      }
+    }
+  </style>
+  <g id="elements">
+    <path d="M 82.00 254.00 L 165.00 254.00 L 248.00 254.00" fill="none" stroke="#18181b" stroke-width="2.25" stroke-linecap="round" class="geom-bold" data-ref="AB" />
+    <path d="M 165.00 68.24 L 165.00 246.00 L 165.00 423.76" fill="none" stroke="#18181b" stroke-width="1.3" stroke-dasharray="5,3.5" stroke-linecap="round" opacity="0.78" class="geom-dashed" data-ref="PQ" />
+    <path d="M 248.00 254.00 L 168.32 165.51 L 88.65 77.02" fill="none" stroke="#18181b" stroke-width="1.3" stroke-dasharray="5,3.5" stroke-linecap="round" opacity="0.78" class="geom-dashed" data-ref="BD" />
+    <path d="M 58.90 89.62 A 166.00 166.00 0 0 1 197.31 134.59" fill="none" stroke="#c88a1e" stroke-width="1.45" stroke-dasharray="4.5,3" stroke-linecap="round" opacity="0.88" class="geom-arc" data-ref="A(AB)" />
+    <path d="M 82.00 254.00 A 124.04 124.04 0 1 1 248.00 254.00" fill="none" stroke="#16a34a" stroke-width="2.25" stroke-linecap="round" class="geom-assert-line" data-ref="O(OA)" />
+    <path d="M 372.00 254.00 L 454.49 179.73 L 536.98 105.45" fill="none" stroke="#18181b" stroke-width="2.25" stroke-linecap="round" class="geom-bold" data-ref="CD" />
+    <path d="M 372.00 254.00 L 476.00 254.00 L 580.00 254.00" fill="none" stroke="#18181b" stroke-width="2.25" stroke-linecap="round" class="geom-bold" data-ref="CE" />
+    <path d="M 474.20 123.19 A 166.00 166.00 0 0 1 474.20 384.81" fill="none" stroke="#c88a1e" stroke-width="1.45" stroke-dasharray="4.5,3" stroke-linecap="round" opacity="0.88" class="geom-arc" data-ref="C(AB)" />
+  </g>
+  <g id="graphics">
+    <path d="M 193.08 377.36 A 166.00 166.00 0 0 1 133.30 411.88" fill="none" stroke="#c88a1e" stroke-width="1.45" stroke-dasharray="4.5,3" stroke-linecap="round" opacity="0.88" class="geom-arc" />
+    <path d="M 141.30 126.84 A 166.00 166.00 0 0 1 191.22 98.01" fill="none" stroke="#c88a1e" stroke-width="1.45" stroke-dasharray="4.5,3" stroke-linecap="round" opacity="0.88" class="geom-arc" />
+    <path d="M 196.70 411.88 A 166.00 166.00 0 0 1 136.92 377.36" fill="none" stroke="#c88a1e" stroke-width="1.45" stroke-dasharray="4.5,3" stroke-linecap="round" opacity="0.88" class="geom-arc" />
+    <path d="M 75.36 114.20 A 222.15 222.15 0 0 1 127.01 67.69" fill="none" stroke="#c88a1e" stroke-width="1.45" stroke-dasharray="4.5,3" stroke-linecap="round" opacity="0.88" class="geom-arc" />
+    <path d="M 521.44 371.82 A 118.98 118.98 0 0 1 471.47 352.64" fill="none" stroke="#c88a1e" stroke-width="1.45" stroke-dasharray="4.5,3" stroke-linecap="round" opacity="0.88" class="geom-arc" />
+  </g>
+  <g id="highlights" style="pointer-events: none;">
+    <path d="M 397.27 231.25 A 34.00 34.00 0 0 1 406.00 254.00" fill="none" stroke="#16a34a" stroke-width="1.6" stroke-linecap="round" class="geom-ang-arc" />
+  </g>
+  <g id="points">
+    <circle cx="82.00" cy="254.00" r="3.20" fill="#18181b" stroke="#ffffff" stroke-width="1.1" class="geom-point" data-ref="A" />
+    <circle cx="248.00" cy="254.00" r="3.20" fill="#18181b" stroke="#ffffff" stroke-width="1.1" class="geom-point" data-ref="B" />
+    <circle cx="165.00" cy="110.24" r="3.20" fill="#18181b" stroke="#ffffff" stroke-width="1.1" class="geom-point" data-ref="P" />
+    <circle cx="165.00" cy="397.76" r="3.20" fill="#18181b" stroke="#ffffff" stroke-width="1.1" class="geom-point" data-ref="Q" />
+    <circle cx="99.35" cy="88.91" r="3.20" fill="#c88a1e" stroke="#ffffff" stroke-width="1.1" class="geom-point-accent" data-ref="D" />
+    <circle cx="165.00" cy="161.82" r="3.50" fill="#16a34a" stroke="#ffffff" stroke-width="1.2" class="geom-point-assert" data-ref="O" />
+    <circle cx="372.00" cy="254.00" r="3.20" fill="#18181b" stroke="#ffffff" stroke-width="1.1" class="geom-point" data-ref="C" />
+    <circle cx="495.36" cy="142.92" r="3.20" fill="#c88a1e" stroke="#ffffff" stroke-width="1.1" class="geom-point-accent" data-ref="D_ang" />
+    <circle cx="538.00" cy="254.00" r="3.20" fill="#18181b" stroke="#ffffff" stroke-width="1.1" class="geom-point" data-ref="E" />
+    <circle cx="495.36" cy="365.08" r="3.20" fill="#c88a1e" stroke="#ffffff" stroke-width="1.1" class="geom-point-accent" data-ref="F" />
+  </g>
+  <g id="labels">
+    <text x="70.00" y="267.00" text-anchor="middle" dominant-baseline="central" font-size="13.5" font-weight="700" font-style="italic" fill="#18181b" class="geom-label" data-ref="A">A</text>
+    <text x="260.00" y="267.00" text-anchor="middle" dominant-baseline="central" font-size="13.5" font-weight="700" font-style="italic" fill="#18181b" class="geom-label" data-ref="B">B</text>
+    <text x="178.00" y="100.24" text-anchor="middle" dominant-baseline="central" font-size="13.5" font-weight="700" font-style="italic" fill="#18181b" class="geom-label" data-ref="P">P</text>
+    <text x="154.00" y="411.76" text-anchor="middle" dominant-baseline="central" font-size="13.5" font-weight="700" font-style="italic" fill="#18181b" class="geom-label" data-ref="Q">Q</text>
+    <text x="89.35" y="75.91" text-anchor="middle" dominant-baseline="central" font-size="13.5" font-weight="700" font-style="italic" fill="#18181b" class="geom-label" data-ref="D">D</text>
+    <text x="177.00" y="156.82" text-anchor="middle" dominant-baseline="central" font-size="13.5" font-weight="700" font-style="italic" fill="#18181b" class="geom-label" data-ref="O">O</text>
+    <text x="358.00" y="254.00" text-anchor="middle" dominant-baseline="central" font-size="13.5" font-weight="700" font-style="italic" fill="#18181b" class="geom-label" data-ref="C">C</text>
+    <text x="495.36" y="127.92" text-anchor="middle" dominant-baseline="central" font-size="13.5" font-weight="700" font-style="italic" fill="#18181b" class="geom-label" data-ref="D_ang">D</text>
+    <text x="551.00" y="242.00" text-anchor="middle" dominant-baseline="central" font-size="13.5" font-weight="700" font-style="italic" fill="#18181b" class="geom-label" data-ref="E">E</text>
+    <text x="496.36" y="381.08" text-anchor="middle" dominant-baseline="central" font-size="13.5" font-weight="700" font-style="italic" fill="#18181b" class="geom-label" data-ref="F">F</text>
+    <text x="300.00" y="464.00" text-anchor="middle" dominant-baseline="central" font-size="10.5" font-weight="700" fill="#18181b" opacity="0.85" class="geom-caption">FIG. 2 — Problem XXVIII : Segment capable of ∠DCE on AB  (4R₁ + 2R₂ + 11C₁ + 6C₃, S = 23)</text>
+  </g>
+</svg>

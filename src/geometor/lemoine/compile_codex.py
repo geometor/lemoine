@@ -8,7 +8,9 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 from geometor.lemoine.concordance import (
+    CODEX_LEAVES,
     CODEX_UNITS,
+    PAIRED_ARCHIVAL_PLATES,
     TRACK_SUFFIXES,
     LemoineApparatus,
     apparatus_slug,
@@ -229,7 +231,7 @@ def render_concordance_rst(app: LemoineApparatus) -> str:
                 unit_heading,
                 bar,
                 "",
-                f" Companion codex unit: :doc:`{unit_titles[unit_id]} <{unit_id}/{unit_id}-en>`.",
+                f"Companion codex part: :doc:`{unit_titles[unit_id]} <{unit_id}/index>`.",
                 "",
             ]
         )
@@ -308,8 +310,24 @@ def compile_apparatus_rst(repo_root: Path | None = None) -> list[Path]:
     return written
 
 
+def _validate_euclid_svg(svg_path: Path, rel_label: str) -> list[str]:
+    """Verify XML well-formedness, ``euclid-graphic`` class, and 5 canonical layers."""
+    errs: list[str] = []
+    svg_text = svg_path.read_text(encoding="utf-8")
+    try:
+        ET.fromstring(svg_text)
+    except ET.ParseError as exc:
+        errs.append(f"{rel_label} is malformed XML: {exc}")
+    if 'class="euclid-graphic"' not in svg_text:
+        errs.append(f'{rel_label} missing class="euclid-graphic"')
+    for gid in ("elements", "graphics", "highlights", "points", "labels"):
+        if f'id="{gid}"' not in svg_text:
+            errs.append(f'{rel_label} missing required SVG layer <g id="{gid}">')
+    return errs
+
+
 def verify_codex_tracks(repo_root: Path | None = None) -> list[str]:
-    """Verify 4-track synchronization, ``:layout: book`` metadata, ``.. folio::`` markers, SVGs, and zero embedded Python."""
+    """Verify 4 Parts, 25 atomic leaves (100 track files), ``:folio:`` provenance, paired plates, SVGs, and zero embedded Python."""
     root = repo_root or default_repo_root()
     codex_dir = root / "docsrc" / "geometrographie"
     errors: list[str] = []
@@ -321,22 +339,40 @@ def verify_codex_tracks(repo_root: Path | None = None) -> list[str]:
         idx_text = index_rst.read_text(encoding="utf-8")
         if ":layout: book" not in idx_text:
             errors.append("docsrc/geometrographie/index.rst missing ':layout: book'")
+        if ":folio:" not in idx_text:
+            errors.append("docsrc/geometrographie/index.rst missing ':folio:' badge")
 
     for unit_id, _title in CODEX_UNITS:
-        unit_dir = codex_dir / unit_id
+        part_index = codex_dir / unit_id / "index.rst"
+        if not part_index.is_file():
+            errors.append(f"Missing Part index: {part_index.relative_to(root)}")
+        else:
+            ptext = part_index.read_text(encoding="utf-8")
+            if ":layout: book" not in ptext:
+                errors.append(f"{part_index.relative_to(root)} missing ':layout: book'")
+            if ":folio:" not in ptext:
+                errors.append(f"{part_index.relative_to(root)} missing ':folio:' badge")
+
+    for part_id, leaf_id, expected_folio, _title in CODEX_LEAVES:
+        leaf_dir = codex_dir / part_id / leaf_id
         for suffix in TRACK_SUFFIXES:
-            track_file = unit_dir / f"{unit_id}-{suffix}.rst"
+            track_file = leaf_dir / f"{leaf_id}-{suffix}.rst"
             if not track_file.is_file():
                 errors.append(f"Missing codex track file: {track_file.relative_to(root)}")
                 continue
             text = track_file.read_text(encoding="utf-8")
+            rel = track_file.relative_to(root)
             if ":layout: book" not in text:
-                errors.append(f"{track_file.relative_to(root)} missing ':layout: book'")
+                errors.append(f"{rel} missing ':layout: book'")
+            if f":folio: {expected_folio}" not in text:
+                errors.append(f"{rel} missing ':folio: {expected_folio}' frontmatter")
+            if ":tracks:" not in text:
+                errors.append(f"{rel} missing ':tracks:' frontmatter")
             if suffix in ("en", "fr") and ".. folio::" not in text:
-                errors.append(
-                    f"{track_file.relative_to(root)} missing '.. folio::' page anchors"
-                )
+                errors.append(f"{rel} missing '.. folio::' page anchors")
 
+    pic_re = re.compile(r"^\s*\.\.\s+picture::\s+(\S+)", re.MULTILINE)
+    referenced_rel_plates: set[Path] = set()
     if codex_dir.is_dir():
         for rst_file in sorted(codex_dir.rglob("*.rst")):
             text = rst_file.read_text(encoding="utf-8")
@@ -345,23 +381,44 @@ def verify_codex_tracks(repo_root: Path | None = None) -> list[str]:
                     errors.append(
                         f"Forbidden embedded Python construct ({pat.pattern}) in {rst_file.relative_to(root)}"
                     )
+            for pic in pic_re.findall(text):
+                if not pic.startswith("/"):
+                    referenced_rel_plates.add((rst_file.parent / pic).resolve())
+
+    # Validate all 11 paired archival bitmaps + calibrated SVGs and ensure zero orphans
+    expected_plates: set[Path] = set()
+    for part_id, leaf_id, folio in PAIRED_ARCHIVAL_PLATES:
+        leaf_dir = codex_dir / part_id / leaf_id
+        png_path = leaf_dir / f"{folio}.g1.png"
+        svg_path = leaf_dir / f"{folio}.g1.svg"
+        expected_plates.add(png_path.resolve())
+        expected_plates.add(svg_path.resolve())
+        if not png_path.is_file() or png_path.stat().st_size < 1024:
+            errors.append(f"Missing or empty archival bitmap: {png_path.relative_to(root)}")
+        if not svg_path.is_file():
+            errors.append(f"Missing calibrated archival SVG: {svg_path.relative_to(root)}")
+        else:
+            errors.extend(_validate_euclid_svg(svg_path, str(svg_path.relative_to(root))))
+        if png_path.resolve() not in referenced_rel_plates:
+            errors.append(f"Unreferenced archival bitmap: {png_path.relative_to(root)}")
+        if svg_path.resolve() not in referenced_rel_plates:
+            errors.append(f"Unreferenced archival SVG: {svg_path.relative_to(root)}")
+
+    actual_plates = {
+        p.resolve()
+        for pat in ("*.g[0-9].png", "*.g[0-9].svg")
+        for p in codex_dir.rglob(pat)
+    }
+    for orphan in sorted(actual_plates - expected_plates):
+        errors.append(f"Orphaned archival plate file: {orphan.relative_to(root)}")
 
     fig_dir = root / "docsrc" / "_static" / "figures"
     svg_files = sorted(fig_dir.glob("*.svg")) if fig_dir.is_dir() else []
-    if len(svg_files) < 8:
+    if len(svg_files) < 9:
         errors.append(
-            f"Expected at least 8 standalone .euclid-graphic SVGs in docsrc/_static/figures/, found {len(svg_files)}"
+            f"Expected at least 9 standalone .euclid-graphic SVGs in docsrc/_static/figures/, found {len(svg_files)}"
         )
     for svg_path in svg_files:
-        svg_text = svg_path.read_text(encoding="utf-8")
-        try:
-            ET.fromstring(svg_text)
-        except ET.ParseError as exc:
-            errors.append(f"{svg_path.name} is malformed XML: {exc}")
-        if 'class="euclid-graphic"' not in svg_text:
-            errors.append(f"{svg_path.name} missing class=\"euclid-graphic\"")
-        for gid in ("elements", "graphics", "highlights", "points", "labels"):
-            if f'id="{gid}"' not in svg_text:
-                errors.append(f"{svg_path.name} missing required SVG layer <g id=\"{gid}\">")
+        errors.extend(_validate_euclid_svg(svg_path, svg_path.name))
 
     return errors
