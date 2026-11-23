@@ -14,38 +14,58 @@ Problems XXI–XXIV: Circumcircle & Angle Bisectors
 .. folio:: 0028
    :page: p. 12
 
-**Problem XXI (Euclid IV.5 — Circumcircle & Circumcenter :math:`X(3)` Through Three Points :math:`A, B, C`).**
-Open the compass to a single arbitrary radius :math:`R` greater than half of both :math:`AB` and :math:`BC`. Sweep :math:`B(R)` once (:math:`C_1 + C_3`), then :math:`A(R)` and :math:`C(R)` (:math:`2C_1 + 2C_3`). Sharing :math:`B(R)` across both perpendicular bisectors cuts the auxiliary circle count from four to three; tracing the two mediatrices (:math:`4R_1 + 2R_2`) fixes circumcenter :math:`O = X(3)` (:cite:`kimberling-etc`, :external+etc:doc:`index`), and sweeping :math:`O(A)` (:math:`2C_1 + C_3`) completes the circumcircle (saving 2 operations over textbook :math:`S = 17`, :ref:`concordance-circumcircle`):
+**XXI.** — *To describe a circumference passing through three given points.*
 
-.. math::
+:math:`\mathrm{Op.} : (4R_1 + 2R_2 + 5C_1 + 4C_3)`; simplicity 15; exactitude 9; 2 straight lines, 4 circles.
 
-   \mathrm{Op.} : \left(4R_1 + 2R_2 + 5C_1 + 4C_3\right), \qquad S = 15, \quad E = 9 \quad (2\text{ lines}, 4\text{ circles}).
+**XXII.** — *To divide a given angle into two equal parts.*
 
-**Problem XXII (Euclid I.9 — Angle Bisector of :math:`\angle BAC`).**
-Keeping one single sufficient radius :math:`R` for the initial arc centered at vertex :math:`A` (:math:`C_1 + C_3`, cutting the arms at :math:`B` and :math:`C`) and for both intersecting arcs :math:`B(R)` and :math:`C(R)` (:math:`2C_1 + 2C_3`), then joining :math:`A` to their intersection (:math:`2R_1 + R_2`), yields:
+:math:`\mathrm{Op.} : (2R_1 + R_2 + 3C_1 + 3C_3)`; simplicity 9; exactitude 5; 1 straight line, 3 circles.
 
-.. math::
+If the given angle :g:`BAC` is determined by its vertex :g:`A` and by two points :g:`B` and :g:`C` each belonging to one of the sides of the angle to be divided, the symbol of the construction would be increased by the drawing of the two straight lines :g:`AB`, :g:`AC`;
 
-   \mathrm{Op.} : \left(2R_1 + R_2 + 3C_1 + 3C_3\right), \qquad S = 9, \quad E = 5 \quad (1\text{ line}, 3\text{ circles}),
-
-saving one :math:`C_1` over Euclid I.9 (:math:`S = 10`, :ref:`concordance-angle-bisector`).
+but one may save something and trace only one of them by operating as follows:
 
 .. folio:: 0029
    :page: p. 13
 
-If the angle is specified merely by three unjoined points :math:`B, A, C`, Lemoine traces :math:`AB` (:math:`2R_1 + R_2`), sweeps :math:`A(AC)` cutting :math:`AB` at :math:`C'` (:math:`2C_1 + C_3`), sweeps :math:`C(AC)` and :math:`C'(AC)` meeting at :math:`D`, and traces :math:`AD` (:math:`2R_1 + R_2 + 2C_1 + 2C_3`), totaling :math:`4R_1 + 2R_2 + 4C_1 + 3C_3` (:math:`S = 13, E = 8`, 2 lines, 3 circles).
+I trace :g:`AB` :math:`\mathrm{op.} : (2R_1 + R_2)`.
 
-**Problem XXIII (Euclid III.30 — Bisect a Given Circular Arc).**
-Assuming the circle's center is known (otherwise Problem XIX adds :math:`4R_1 + 2R_2 + 3C_2 + 3C_3`), perpendicular bisection of the chord joining the arc's endpoints takes :math:`2R_1 + R_2 + 2C_1 + 2C_3` (:math:`S = 7, E = 4`, 1 line, 2 circles).
+I describe :g:`A(AC)` which cuts :g:`AB` at :g:`C'` in the direction :g:`AB` :math:`\mathrm{op.} : (2C_1 + C_3)`.
 
-**Problem XXIV — Bisector of the Angle Between Two Lines :math:`AB, CD` Whose Intersection :math:`X` Is Inaccessible.**
-From an indeterminate point :math:`A` on :math:`AB`, sweep :math:`A(R)` cutting :math:`CD` at :math:`C` and :math:`AB` at :math:`B`, and with the same radius sweep :math:`C(R)` cutting :math:`CD` at :math:`D` (:math:`C_1 + C_2 + 2C_3`). Sweep :math:`B(R)` cutting :math:`C(R)` at :math:`J`, and :math:`D(R)` cutting :math:`A(R)` at :math:`I` (:math:`2C_1 + 2C_3`); trace :math:`AJ` and :math:`CI` (:math:`4R_1 + 2R_2`), meeting at a point :math:`M` on the required bisector! Sweep :math:`M(R')` cutting :math:`AB` at :math:`H` and :math:`CD` at :math:`G` (:math:`C_1 + C_3`), find one equidistant point :math:`M'` from :math:`G, H`, and join :math:`MM'` (:math:`2R_1 + R_2 + 2C_1 + 2C_3`):
+Then I describe :g:`C(AC)`, :g:`C'(AC)` which intersect at :g:`D`, and I trace :g:`AD` :math:`\mathrm{op.} : (2R_1 + R_2 + 2C_1 + 2C_3)`.
 
-.. math::
+:g:`AD` is the bisector of the angle :g:`BAC`.
 
-   \mathrm{Op.} : \left(6R_1 + 3R_2 + 6C_1 + C_2 + 7C_3\right), \qquad S = 23, \quad E = 13 \quad (3\text{ lines}, 7\text{ circles}).
+In all: :math:`\mathrm{op.} : (4R_1 + 2R_2 + 4C_1 + 3C_3)`; simplicity 13; exactitude 8; 2 straight lines, 3 circles.
+
+**XXIII.** — *To divide a given arc into two equal parts.*
+
+:math:`\mathrm{Op.} : (2R_1 + R_2 + 2C_1 + 2C_3)`; simplicity 7; exactitude 4; 1 straight line, 2 circles.
+
+When we give a circle or an arc of a circle, we always suppose, as in this construction, that its center is placed; if it were not, one would place it by the construction whose symbol is :math:`\mathrm{op.} : (4R_1 + 2R_2 + 3C_2 + 3C_3)`, upon the execution of which there is no need to insist.
+
+**XXIV.** — *To trace the bisector of the angle formed by two straight lines* :g:`AB`, :g:`CD`, *which cannot be produced as far as their point of intersection* :g:`X` [*]_ .
+
+From an arbitrary point :g:`A` of :g:`AB`, I trace (:g:`R` being arbitrary) :g:`A(R)`, which cuts :g:`CD` at :g:`C` and :g:`AB` at :g:`B`; I trace :g:`C(R)` which cuts :g:`CD` at :g:`D` :math:`\mathrm{op.} : (C_1 + C_2 + 2C_3)`. :g:`B` and :g:`D` both being on the same side of :g:`AC`.
+
+I trace :g:`B(R)` which cuts :g:`C(R)` at :g:`J`, :g:`D(R)` which cuts :g:`A(R)` at :g:`I` :math:`\mathrm{op.} : (2C_1 + 2C_3)`.
+
+I trace :g:`AJ`, :g:`CI` :math:`\mathrm{op.} : (4R_1 + 2R_2)`. These two straight lines intersect at :g:`M`, a point on the required bisector.
+
+I trace an arbitrary circle :g:`M(R')` which cuts :g:`AB` at :g:`H`, :g:`CD` at :g:`G` :math:`\mathrm{op.} : (C_1 + C_3)`, :g:`G` and :g:`H` being the points of intersection such that :math:`GX = HX`.
+
+I take an arbitrary point :g:`M'` equidistant from :g:`G` and :g:`H`; I trace :g:`MM'` :math:`\mathrm{op.} : (2R_1 + R_2 + 2C_1 + 2C_3)`.
+
+:math:`\mathrm{Op.} : (6R_1 + 3R_2 + 6C_1 + C_2 + 7C_3)`; simplicity 23; exactitude 13; 3 straight lines, 7 circles.
+
+There is a great number of simple solutions of the same problem which may be useful; but I give only this one, which is the simplest I have found, so as not to expand our memoir unduly. This observation applies to many other problems treated here.
 
 .. folio:: 0030
    :page: p. 14
 
-Page 14 concludes the preliminary angle-and-arc block and opens the circle-tangency sequence (Problems XXV–XXVI).
+:g:`M` is either the center of the circle inscribed in the triangle :g:`ACX`, or that of the escribed circle to the same triangle tangent to the side :g:`AC`, according as :g:`D` and :g:`B` are on one side or the other of :g:`AC` (which must not be drawn). I could have continued the construction by seeking
+
+the center :math:`\mu` of that one of the two tangent circles which is not :g:`M`; but the construction would have been a little more complicated, as is easy to see.
+
+.. [*] I gave in the Oran memoir already cited a solution of this problem much more complicated *graphically*; I had not yet trained my mind to seek graphical simplifications for their own sake, as I have already said.

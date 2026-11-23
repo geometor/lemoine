@@ -14,23 +14,54 @@ Problèmes XXV–XXVI : Tangentes à un cercle donné
 .. folio:: 0030
    :page: p. 14
 
-**Problème XXV (Euclide III.16 Cor. — Tangente en un point donné :math:`A` d'un cercle :math:`O`).**
-La méthode classique joint le rayon :math:`OA` et élève la perpendiculaire en :math:`A` par XX 2° : :math:`6R_1 + 3R_2 + C_1 + C_3` (:math:`S = 11, E = 7`, 3 droites, 1 cercle). En utilisant trois arcs de rayon égal au rayon :math:`OA` pour obtenir directement un second point de la tangente sans tracer le rayon :math:`OA`, :person:`Lemoine <lemoine>` abaisse la simplicité à :math:`S = 10` avec une seule droite :
+**XXV.** — *Tracer par un point* :g:`A` *pris sur une circonférence de centre* :g:`O` *une tangente à la circonférence.*
 
-.. math::
+La solution classique est un peu trop compliquée, elle donne :
 
-   \mathrm{Op.} : \left(2R_1 + R_2 + 4C_1 + 3C_3\right), \qquad S = 10, \quad E = 6 \quad (1\text{ droite}, 3\text{ cercles}).
+:math:`\mathrm{Op.} : (6R_1 + 3R_2 + C_1 + C_3)` ; simplicité 11 ; exactitude 7 ; 3 droites, 1 cercle.
 
-**Problème XXVI (Euclide III.17 — Tangentes menées d'un point extérieur :g:`A` à un cercle donné :g:`O(R)`).**
-Contre :math:`S = 19` dans le tracé classique d':person:`Euclide <euclid>`, Lemoine expose deux constructions de simplicité :math:`S = 18` :
+En voici une préférable :
 
-1. **Première construction** : :math:`\mathrm{op.} : (5R_1 + 3R_2 + 7C_1 + 3C_3)` ; :math:`S = 18, E = 12` ; 3 droites, 3 cercles.
-2. **Seconde construction** (par le milieu :g:`M` de :g:`OA` et le cercle :g:`M(MO)` qui coupe :g:`O(R)` aux points de contact :g:`T`, :g:`T'` sur la polaire :g:`TT'`) :
+Je trace :g:`A(AO)` qui coupe :g:`O(OA)` en :g:`B`, je trace :g:`B(BA)` qui coupe :g:`A(AO)` en :g:`C`,
 
-.. math::
+je trace :g:`C(CA)` qui coupe :g:`B(BA)` en :g:`D`, je trace :g:`AD`.
 
-   \mathrm{Op.} : \left(5R_1 + 3R_2 + 6C_1 + 4C_3\right), \qquad S = 18, \quad E = 11 \quad (3\text{ droites}, 4\text{ cercles}).
+:math:`\mathrm{Op.} : (2R_1 + R_2 + 4C_1 + 3C_3)` ; simplicité 10 ; exactitude 6 ; 1 droite, 3 cercles.
+
+**XXVI.** — *Tracer d'un point extérieur* :g:`A` *les deux tangentes à un cercle donné de centre* :g:`O` [*]_ .
+
+1° Je trace un diamètre quelconque :g:`COD` :math:`\mathrm{op.} : (R_1 + R_2)`.
+
+Je prends :g:`OA` et je décris :g:`C(OA)`, :g:`D(OA)` se coupant en :g:`E`, :math:`\mathrm{op.} : (4C_1 + 2C_3)`.
+
+Je prends :g:`EO` et je décris :g:`A(EO)` qui coupe la circonférence donnée en :g:`G` et en :g:`H` :math:`\mathrm{op.} : (3C_1 + C_3)`.
+
+Je trace :g:`AG`, :g:`AH` :math:`\mathrm{op.} : (4R_1 + 2R_2)`.
+
+:math:`\mathrm{Op.} : (5R_1 + 3R_2 + 7C_1 + 3C_3)` ; simplicité 18 ; exactitude 12 ; 3 droites, 3 cercles.
+
+2° Je trace la sécante quelconque :g:`ABC` (:g:`B` entre :g:`A` et :g:`C`) ;
+
+je trace :g:`C(CA)` :math:`\mathrm{op.} : (R_1 + R_2 + 2C_1 + C_3)`.
+
+Sur :g:`BC` je prends :math:`BD = CA`, :g:`D` étant de l'autre côté de :g:`B` que :g:`C` ;
+
+je trace :g:`D(CA)` qui coupe :g:`C(CA)` en :g:`K` :math:`\mathrm{op.} : (2C_1 + 2C_3)`.
+
+Il est facile de voir que :g:`AK` est la moyenne proportionnelle entre :g:`AB` et :g:`AC`.
+
+Je décris :g:`A(AK)` qui coupe la circonférence donnée en :g:`I` et :g:`I'` ; je trace :g:`AI`, :g:`AI'` :math:`\mathrm{op.} : (4R_1 + 2R_2 + 2C_1 + C_3)` qui sont les tangentes cherchées.
+
+:math:`\mathrm{Op.} : (5R_1 + 3R_2 + 6C_1 + 4C_3)` ; simplicité 18 ; exactitude 11 ; 3 droites, 4 cercles.
 
 .. picture:: /_static/figures/fig_circle_tangents.svg
    :alt: Problème XXVI : tangentes AT et AT' d'un point extérieur A au cercle O(R) par le cercle M(MO)
    :caption: Problème XXVI : Tangentes extérieures AT, AT' au cercle O(R) par le milieu M de OA et le cercle M(MO) (5R₁ + 3R₂ + 6C₁ + 4C₃, S = 18, E = 11).
+
+.. [*] La solution classique qui consiste à décrire une circonférence sur :g:`OA` comme diamètre, etc.,
+
+   donne le symbole : :math:`\mathrm{op.} : (8R_1 + 4R_2 + 4C_1 + 3C_3)`. Dans mon mémoire d'Oran,
+
+   j'avais mis : :math:`\mathrm{op.} : (6R_1 + 3R_2 + 4C_1 + 3C_3)`. Seulement, j'avais oublié de compter la droite :g:`OA` qu'il faut tracer.
+
+   Les deux solutions que je donne ici sont un peu plus simples que cette solution classique.

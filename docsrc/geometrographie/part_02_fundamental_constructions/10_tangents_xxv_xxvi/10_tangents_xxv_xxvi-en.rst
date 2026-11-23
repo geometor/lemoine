@@ -14,25 +14,42 @@ Problems XXV–XXVI: Tangents to a Given Circle
 .. folio:: 0030
    :page: p. 14
 
-**Problem XXV (Euclid III.16 Por. — Tangent at a Given Point :math:`A` on a Circle :math:`O`).**
-Classical execution joins radius :math:`OA` (:math:`2R_1 + R_2`) and erects the perpendicular at :math:`A` by Problem XX 2° (:math:`4R_1 + 2R_2 + C_1 + C_3`), totaling :math:`6R_1 + 3R_2 + C_1 + C_3` (:math:`S = 11, E = 7`, 3 lines, 1 circle). Lemoine improves simplicity to :math:`S = 10, E = 6` in **only one straight line**: sweep :math:`A(AO)` (:math:`2C_1 + C_3`) cutting circle :math:`O` at :math:`B`; keeping radius :math:`AO`, sweep :math:`B(BO)` (:math:`C_1 + C_3`) cutting :math:`A(AO)` at :math:`C` (opposite to :math:`O`), and sweep :math:`C(CO)` (:math:`C_1 + C_3`)? Specifically, :math:`B(AO)` cuts :math:`O` at :math:`C` and :math:`A(AO)` at :math:`D`, giving :math:`AD` tangent at :math:`A` by equilateral-angle symmetry:
+**XXV.** — *To trace through a point* :g:`A` *taken upon a circumference of center* :g:`O` *a tangent to the circumference.*
 
-.. math::
+The classical solution is a little too complicated; it gives:
 
-   \mathrm{Op.} : \left(2R_1 + R_2 + 4C_1 + 3C_3\right), \qquad S = 10, \quad E = 6 \quad (1\text{ line}, 3\text{ circles}).
+:math:`\mathrm{Op.} : (6R_1 + 3R_2 + C_1 + C_3)`; simplicity 11; exactitude 7; 3 straight lines, 1 circle.
 
-**Problem XXVI (Euclid III.17 — Tangents from an External Point :g:`A` to a Given Circle :g:`O(R)`).**
-Whereas classical *Elements* III.17 costs :math:`8R_1 + 4R_2 + 4C_1 + 3C_3` (:math:`S = 19, E = 12`), :person:`Lemoine <lemoine>` gives two distinct :math:`S = 18` syntheses on folio ``0030`` (p. 14):
+Here is a preferable one:
 
-1. **First Method (Concentric-Diameter / Perpendicular Bisector, :math:`S = 18, E = 12`)**: Draw line :math:`OA` cutting circle :math:`O` at :math:`C, D`, bisect :g:`OA` at :g:`M`, sweep :g:`M(MO)` cutting :g:`O(R)` at contact points :g:`T`, :g:`T'`, and draw :g:`AT`, :g:`AT'`: :math:`5R_1 + 3R_2 + 7C_1 + 3C_3` (:math:`S = 18, E = 12`, 3 lines, 3 circles).
-2. **Second Method (Secant Chord & Thales Circle, :math:`S = 18, E = 11`)**: Draw an arbitrary secant from :g:`A` or bisect :g:`OA` via equal-radius arcs so that circle :g:`M(MO)` cuts :g:`O(R)` directly at :g:`T` and :g:`T'` along polar chord :g:`TT'`, yielding superior exactitude :math:`E = 11`:
+I trace :g:`A(AO)` which cuts :g:`O(OA)` at :g:`B`, I trace :g:`B(BA)` which cuts :g:`A(AO)` at :g:`C`, I trace :g:`C(CA)` which cuts :g:`B(BA)` at :g:`D`, I trace :g:`AD`.
 
-.. math::
+:math:`\mathrm{Op.} : (2R_1 + R_2 + 4C_1 + 3C_3)`; simplicity 10; exactitude 6; 1 straight line, 3 circles.
 
-   \mathrm{Op.} : \left(5R_1 + 3R_2 + 6C_1 + 4C_3\right), \qquad S = 18, \quad E = 11 \quad (3\text{ lines}, 4\text{ circles}).
+**XXVI.** — *To trace from an external point* :g:`A` *the two tangents to a given circle of center* :g:`O` [*]_ .
+
+1° I trace an arbitrary diameter :g:`COD` :math:`\mathrm{op.} : (R_1 + R_2)`.
+
+I take :g:`OA` and I describe :g:`C(OA)`, :g:`D(OA)` intersecting at :g:`E`, :math:`\mathrm{op.} : (4C_1 + 2C_3)`.
+
+I take :g:`EO` and I describe :g:`A(EO)` which cuts the given circumference at :g:`G` and at :g:`H` :math:`\mathrm{op.} : (3C_1 + C_3)`.
+
+I trace :g:`AG`, :g:`AH` :math:`\mathrm{op.} : (4R_1 + 2R_2)`.
+
+:math:`\mathrm{Op.} : (5R_1 + 3R_2 + 7C_1 + 3C_3)`; simplicity 18; exactitude 12; 3 straight lines, 3 circles.
+
+2° I trace the arbitrary secant :g:`ABC` (:g:`B` between :g:`A` and :g:`C`); I trace :g:`C(CA)` :math:`\mathrm{op.} : (R_1 + R_2 + 2C_1 + C_3)`.
+
+Upon :g:`BC` I take :math:`BD = CA`, :g:`D` being on the opposite side of :g:`B` from :g:`C`; I trace :g:`D(CA)` which cuts :g:`C(CA)` at :g:`K` :math:`\mathrm{op.} : (2C_1 + 2C_3)`.
+
+It is easy to see that :g:`AK` is the mean proportional between :g:`AB` and :g:`AC`.
+
+I describe :g:`A(AK)` which cuts the given circumference at :g:`I` and :g:`I'`; I trace :g:`AI`, :g:`AI'` :math:`\mathrm{op.} : (4R_1 + 2R_2 + 2C_1 + C_3)` which are the required tangents.
+
+:math:`\mathrm{Op.} : (5R_1 + 3R_2 + 6C_1 + 4C_3)`; simplicity 18; exactitude 11; 3 straight lines, 4 circles.
 
 .. picture:: /_static/figures/fig_circle_tangents.svg
    :alt: Problem XXVI tangents AT and AT' from external point A to circle O(R) via Thales circle M(MO)
    :caption: Problem XXVI: External tangents AT, AT' to circle O(R) via midpoint M of OA and Thales circle M(MO) (5R₁ + 3R₂ + 6C₁ + 4C₃, S = 18, E = 11).
 
-Note the striking instrument duality documented in :ref:`concordance-external-tangents`: when circle :g:`O` is already traced, :person:`Steiner <steiner>`'s pure-straightedge polar construction (Problem XXXIX + two tangent joins) requires **zero circles** (:math:`16R_1 + 9R_2`), whereas Lemoine's metric synthesis achieves :math:`S = 18`.
+.. [*] The classical solution which consists in describing a circumference upon :g:`OA` as diameter, etc., gives the symbol: :math:`\mathrm{op.} : (8R_1 + 4R_2 + 4C_1 + 3C_3)`. In my Oran memoir, I had put: :math:`\mathrm{op.} : (6R_1 + 3R_2 + 4C_1 + 3C_3)`. Only, I had forgotten to count the straight line :g:`OA` which must be traced. The two solutions I give here are a little simpler than that classical solution.

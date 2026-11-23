@@ -14,30 +14,57 @@ Problems XXX–XXXII: Segment Division & Parallels
 .. folio:: 0035
    :page: p. 19
 
-**Problem XXX — Construct Segment :math:`CD = n \cdot AB` (:math:`n`-Fold Multiple).**
-Drawing an arbitrary carrier line (:math:`R_2`) and applying Application VIII's :math:`n`-fold stepping rule (p. 6) yields:
-1. *Without marking intermediate divisions*: :math:`\mathrm{Op.} : [R_2 + (n + 2)C_1 + C_2]`.
-2. *Marking every intermediate division*: :math:`\mathrm{Op.} : [R_2 + (n + 1)C_1 + C_2 + nC_3]`.
+**XXX.** — *To construct a straight line* :g:`CD` *that is* :math:`n` *times a given length* :g:`AB'`: *1° without marking the intermediate divisions; 2° marking the divisions.*
 
-**Problem XXXI (Euclid VI.9 — Construct :math:`CD = \frac{1}{n} AB`).**
-Trace two arbitrary intersecting lines :math:`OH, OL` (:math:`2R_2`), lay off :math:`AB` as :math:`OH` (:math:`3C_1 + C_3`), step an arbitrary compass opening :math:`n` times along :math:`OL` marking only the last two divisions :math:`K` and :math:`L` (:math:`2C_1 + nC_3`), and through :math:`K` draw the parallel to un-traced :math:`LH` (:math:`2R_1 + R_2 + 6C_1 + 2C_3`, Problem XVII remark) cutting :math:`OH` at :math:`G` so :math:`GH = \frac{1}{n} AB`:
+Referring back to VIII, we find:
+
+1° :math:`\mathrm{Op.} : [R_2 + (n + 2)C_1 + C_2]`.
+
+2° :math:`\mathrm{Op.} : [R_2 + (n + 1)C_1 + C_2 + nC_3]`.
+
+For certain values of :math:`n`, one may have simpler particular constructions.
+
+**XXXI.** — *To construct a straight line* :g:`CD` *that is the* :math:`n^{\text{th}}` *part of a given straight line* :g:`AB`.
+
+I trace two arbitrary straight lines :g:`OH`, :g:`OL` . . . :math:`\mathrm{op.} : (2R_2)`.
+
+I lay off :g:`AB` along :g:`OH` . . . :math:`\mathrm{op.} : (3C_1 + C_3)`.
+
+Along :g:`OL` I take the length :g:`OL` equal to :math:`n` times an arbitrary compass opening and I mark its last two divisions :g:`K` and :g:`L` . . . :math:`\mathrm{op.} : (2C_1 + nC_3)`.
 
 .. folio:: 0036
    :page: p. 20
 
-.. math::
+Through :g:`K` I draw a parallel to :g:`LH` (without tracing :g:`LH`) . . . :math:`\mathrm{op.} : (2R_1 + R_2 + 6C_1 + 2C_3)`
+which cuts :g:`OH` at :g:`G`; :g:`GH` is the sought length.
 
-   \mathrm{Op.} : \left[2R_1 + 3R_2 + 11C_1 + (n + 3)C_3\right], \qquad S = 19 + n, \quad E = n + 10 \quad (3\text{ lines}, n+3\text{ circles}).
+:math:`\mathrm{Op.} : [2R_1 + 3R_2 + 11C_1 + (n + 3)C_3]`.
 
-For special integers (:math:`n = 2, 3, 4, 2^p`, or :math:`n = 10, 15` later in **FIG. 10**), dedicated geometric configurations beat this general Thales formula substantially.
+Simplicity :math:`19 + n`; exactitude :math:`n + 10` (the :math:`C_3` along :g:`OL` evidently count here, except the next-to-last, in estimating exactitude); 3 lines, :math:`(n + 3)` circles.
 
-**Problem XXXII (Euclid VI.10 — Divide Segment :math:`AB` into :math:`p` Parts Proportional to :math:`n_1, n_2, \dots, n_p`).**
-Draw ray :math:`BX` through :math:`B` (:math:`R_1 + R_2`), lay off :math:`BN_1 = n_1, \dots, N_{p-1}N_p = n_p` sequentially along :math:`BX` (:math:`p[3C_1 + C_3]`), join :math:`AN_p` (:math:`2R_1 + R_2`), and copy angle :math:`\angle BN_pA` at each division point :math:`N_{p-1}, \dots, N_1` (:math:`2(p-1)R_1 + (p-1)R_2 + (2p+1)C_1 + (2p-1)C_3`):
+REMARK. — For certain values of :math:`n`: 2, 3, 4, :math:`2^p`, etc., for example, one can find simpler particular constructions.
 
-.. math::
+**XXXII.** — *To divide a straight line* :g:`AB` *into* :math:`p` *parts proportional to given straight lines* :math:`n_1, n_2, \dots n_p`.
 
-   \mathrm{Op.} : \left[(2p + 1)R_1 + (p + 1)R_2 + (5p + 1)C_1 + (3p - 1)C_3\right], \qquad S = 11p + 2, \quad E = 7p + 2.
+I draw through :g:`B` a straight line :g:`BX` . . . :math:`\mathrm{op.} : (R_1 + R_2)` ;
 
-In the rich philosophical footnote (*) on folio ``0036`` (p. 20), :person:`Lemoine <lemoine>` states two foundational operational laws:
-1. **Multiple Compasses**: Although single-compass execution is the default, keeping a second compass holding a recurring radius saves :math:`2C_1` every time that opening would otherwise be reset.
-2. **Independence of Execution Order from Proof Order**: The sequence of strokes on the drawing sheet need *not* follow the linear sequence of deductive reasoning—if a proof reveals several circles of equal radius whose centers are already determined, the draftsman should sweep **all** of them before altering the compass aperture!
+I take on :g:`BX`, :math:`BN_1 = n_1` ; :math:`N_1 N_2 = n_2, \dots N_{p-1} N_p = n_p` . . . :math:`\mathrm{op.} : [p(3C_1 + C_3)]`.
+
+I trace :math:`AN_p` . . . :math:`\mathrm{op.} : (2R_1 + R_2)`.
+
+At each of the points :math:`N_{p-1}, N_{p-2}, \dots N_1`, I make with :math:`N_p B` angles equal to :math:`BN_p A`, :math:`\mathrm{op.} : [2(p - 1)R_1 + (p - 1)R_2 + (2p + 1)C_1 + (2p - 1)C_3]`.
+
+:math:`\mathrm{Op.} : [(2p + 1)R_1 + (p + 1)R_2 + (5p + 1)C_1 + (3p - 1)C_3]` ; simplicity :math:`11p + 2`; exactitude :math:`7p + 2`; :math:`(p + 1)` lines, :math:`(3p - 1)` circles.
+
+REMARK. — If the parts :math:`n_1, n_2, \dots n_p` were too small or too large to be used directly, one would make them all :math:`\lambda` times larger or :math:`\lambda` times smaller,
+which we know how to do by operations XXX or XXXI, and one would easily calculate the symbol, which would then be more complicated.
+
+If several parts :math:`n_1, n_2, \dots n_p` are equal without all of them being so, and one has several compasses [*]_ , the general symbol simplifies.
+
+.. [*] We always suppose, unless notice is given to the contrary, that only a single compass is used; but there are operations where it is advantageous to have several; this happens if, having taken a certain length with the compass, one still needs that same length later in the construction
+   after having been obliged to disturb the opening of the compass in order to take another length; each time that one is not obliged to make this change of opening, one gains: :math:`\mathrm{op.} : (2C_1)`. Let us remark further that although the construction is deduced from geometrical reasoning, the order of the constructions need not
+   follow the order of that reasoning. Thus, if the reasoning shows at various parts of its development that several circles of the same radius *whose centers are already fixed* have to be constructed when one constructs the first, one will evidently have to describe them all while one has that radius
+   in the compass opening, etc.; therefore it is necessary, for any carefully executed construction, to study it beforehand as a whole, to examine it by a sort of reasoned sketch in order to arrive as simply as possible at the sought result; there is a veritable *art* of geometrical constructions
+   with which one has never systematically concerned oneself; the geometer, as I have already remarked, says as simply: "I take the polar of :g:`A` with respect to circle :g:`O`" as he says: "I join the two points :g:`A` and :g:`B`," and the thing executed is quite different.
+   The geometer seeks the simplicity of the phrase, of the deduction, of the idea; if *the statement* of the construction he indicates is simple, he says: "The construction is simple"; it is with this simplicity alone that one has occupied oneself hitherto.
+   *The art of geometrical construction* or Geometrography places itself at an altogether different point of view.

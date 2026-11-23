@@ -7,71 +7,28 @@
 .. _lemoine-03_applications_i_vii-en:
 .. _lemoine-en-fundamental-table:
 
-Elementary Applications I–VII: Straight Lines & Circles
-=======================================================
-
-.. rubric:: Émile Lemoine — *La Géométrographie* (English Translation, p. 5, fols. ``0021``)
+Applications I–VII
+==================
 
 .. folio:: 0021
    :page: p. 5
 
-Immediately following the *Exposition*, Lemoine tabulates the first seven elementary applications—the atomic ruler and compass moves from which all compound constructions in the memoir are assembled:
+* **I.** — *To draw an arbitrary straight line* :math:`\mathrm{op.} : (R_2)`.
+* **II.** — *To draw a straight line through a given point* :math:`\mathrm{op.} : (R_1 + R_2)`.
+* **III.** — *To draw a straight line through two given points* :math:`\mathrm{op.} : (2R_1 + R_2)`.
+* **IV.** — *To draw an arbitrary circle* :math:`\mathrm{op.} : (C_3)`.
+* **V.** — *To draw an arbitrary circle whose center is given* :math:`\mathrm{op.} : (C_1 + C_3)`.
+* **VI.** — *To take a given length* :g:`AB` *with the compass* :math:`\mathrm{op.} : (2C_1)`, for this is to place one of the points at :g:`A`, the other at :g:`B` [*]_ .
+* **VII.** — *To lay off upon a given line, from an indeterminate point of that line or from a determined point, the length contained between the legs of the compass:* :math:`\mathrm{Op.} : (C_2 + C_3)` or :math:`\mathrm{op.} : (C_1 + C_3)`.
 
-.. list-table:: Applications I–VII (Pau 1892 / Paris 1893, fol. ``0021``, p. 5)
-   :header-rows: 1
-   :widths: 8 46 22 8 8 8
+.. [*] It is clear that, to place the first point at :g:`A`, the operation is not the same as that made while keeping this first point at :g:`A` and guiding the second to :g:`B`; we nevertheless designate both by :math:`C_1`. We do not believe there is any inconvenience in this,
+   because we are making only an *ideal* theory of operations. Thus we suppose, since we are not concerned with that question, that all the lines of the figure intersect within the limits of the drawing, that it is indifferent whether these lines meet at a very acute angle, etc.,
+   so that it seems quite sufficient to us to designate by the symbol :math:`C_1` the general operation consisting in placing *one* of the compass points upon *a point*; we shall return to this subject in the course of this work. Moreover, the reader who, after reflection, does not share our view,
+   would only have to designate by :math:`C_1'` the operation consisting in placing the moving point of the compass at a given point while the other is kept fixed.
 
-   * - No.
-     - Elementary Construction
-     - Operation Symbol
-     - :math:`S`
-     - :math:`E`
-     - L / C
-   * - **I**
-     - Trace an arbitrary straight line anywhere on the sheet
-     - :math:`R_2`
-     - 1
-     - 0
-     - 1 / 0
-   * - **II**
-     - Trace an arbitrary straight line passing through one given point :math:`A`
-     - :math:`R_1 + R_2`
-     - 2
-     - 1
-     - 1 / 0
-   * - **III**
-     - Trace the straight line joining two determined points :math:`A` and :math:`B`
-     - :math:`2R_1 + R_2`
-     - 3
-     - 2
-     - 1 / 0
-   * - **IV**
-     - Trace an arbitrary circle (arbitrary center and radius)
-     - :math:`C_3`
-     - 1
-     - 0
-     - 0 / 1
-   * - **V**
-     - Trace a circle of arbitrary radius around a given center :math:`O` (or passing through one given point :math:`A` with arbitrary center)
-     - :math:`C_1 + C_3`
-     - 2
-     - 1
-     - 0 / 1
-   * - **VI**
-     - Take a given length :math:`AB` between the two legs of the compass
-     - :math:`2C_1`
-     - 2
-     - 2
-     - 0 / 0
-   * - **VII**
-     - Lay off a length *already held between the legs of the compass* upon a traced line, from an indeterminate point (:math:`C_2 + C_3`) or from a determined point (:math:`C_1 + C_3`)
-     - :math:`C_2 + C_3` or :math:`C_1 + C_3`
-     - 2
-     - 1
-     - 0 / 1
+   Likewise, since we call :math:`R_1` the operation consisting in bringing the edge of the straightedge into contact with a point, it is evident,
+   from the way it is executed, that the operation consisting in bringing the edge of the straightedge into coincidence with two given points is not exactly twice the operation :math:`R_1`, and one could also designate by :math:`R_1 + R_1'` the operation consisting in passing the edge of the straightedge through two points;
+   yet with a little practice in *Geometrography*, I believe one will come, like me, to recognize that this distinction would be a useless complication.
 
-Notice the exact precision of Applications **V**, **VI**, and **VII** on folio ``0021`` (p. 5):
-
-* **Application V** covers *both* tracing a circle centered at given :math:`O` with arbitrary radius *and* tracing a circle of arbitrary center passing through a single determined point :math:`A` (placing one compass point on :math:`A`, dropping the pivot freely on the blank sheet at cost :math:`0`, and sweeping :math:`C_3`). This dual interpretation of :math:`C_1 + C_3` powers :person:`Gaston Tarry <tarry>`'s :math:`S = 9` parallel (Problem XVII) and the single-circle Thales perpendicular (Problem XX)!
-* **Application VI** (:math:`2C_1`, :math:`S = 2, E = 2`, 0 circles) isolates the act of *capturing* segment :math:`AB` in the divider compass without yet tracing an arc; if one leg remains planted at :math:`A` or :math:`B` to sweep :math:`A(AB)`, the circle adds only :math:`C_3` (:math:`2C_1 + C_3`).
-* **Application VII** isolates laying off an *already captured* compass aperture along a traced line (:math:`C_2 + C_3` from an indeterminate locus point, or :math:`C_1 + C_3` from a determined point, :math:`S = 2, E = 1`, 1 arc).
+   We might perhaps also have assimilated the operations :math:`C_1` and :math:`C_2` and kept for both of them only one same symbol :math:`C_1`,
+   but we did not do so because while *theoretically* :math:`R_1` and :math:`R_1'` merge in effect, :math:`C_1` and :math:`C_2` are *theoretically* different; :math:`C_2`, moreover, occurs much more rarely than the other symbols and generally with a very small coefficient.

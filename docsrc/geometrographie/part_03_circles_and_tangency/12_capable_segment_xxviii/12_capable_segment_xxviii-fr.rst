@@ -9,18 +9,29 @@
 Problème XXVIII : Segment capable d'un angle donné
 ==================================================
 
-.. rubric:: Émile Lemoine — *La Géométrographie* (Texte français de référence, p. 16, fols. ``0032``)
+.. rubric:: Émile Lemoine — *La Géométrographie* (Texte français de référence, p. 16, fol. ``0032``)
 
 .. folio:: 0032
    :page: p. 16
 
-**Problème XXVIII (Euclide III.33 — Sur une droite donnée :g:`AB`, décrire un segment capable d'un angle donné :math:`\angle DCE`).**
-Au lieu de tracer la tangente en :g:`A` puis de lui élever une perpendiculaire, :person:`Lemoine <lemoine>` (**FIG. 2**, p. 16) supprime entièrement la tangente en reportant l'angle *double* :math:`2\angle DCE` sur le cercle :g:`A(AB)` :
+**XXVIII.** — *Construire sur une droite donnée* :g:`AB` *un segment capable d'un angle donné* :g:`EGD`.
 
-1. Tracer :g:`A(AB)` et :g:`B(AB)` se coupant en :g:`P` et :g:`Q`, puis la médiatrice :g:`PQ` (:math:`2R_1 + R_2 + 3C_1 + 2C_3`).
-2. Avec le **même rayon** :math:`AB`, décrire :g:`C(AB)` coupant les côtés de l'angle donné en :g:`D_ang` et :g:`E`, puis reporter l'arc :math:`DE` en :math:`EF` pour obtenir la corde double :math:`DF`.
-3. Porter la corde :math:`DF` de :g:`B` en :g:`D` sur :g:`A(AB)` et tracer :g:`BD` (:math:`2R_1 + R_2`), qui coupe directement la médiatrice :g:`PQ` au centre cherché :g:`O` !
-4. Décrire l'arc capable :g:`O(OA)` sur :g:`AB` : :math:`\mathrm{op.} : (4R_1 + 2R_2 + 11C_1 + 6C_3)`, :math:`S = 23, E = 15` (2 droites, 6 cercles).
+La méthode classique, *conduite sans lignes inutiles*, donne :
+
+:math:`\mathrm{Op.} : (6R_1 + 3R_2 + 10C_1 + 7C_3)` ; simplicité 26 ; exactitude 16 ; 3 droites, 7 cercles.
+
+Voici une construction plus simple (*fig.* 2) :
+
+Je trace :g:`A(AB)`, :g:`B(AB)` qui se coupent en :g:`P` et en :g:`Q` . . . :math:`\mathrm{op.} : (3C_1 + 2C_3)`.
+
+Je trace :g:`C(AB)` qui coupe :g:`CD` en :g:`D`, :g:`CE` en :g:`E` ; je prends :g:`F` sur :g:`C(AB)`
+tel que arc :math:`EF` = arc :math:`ED` . . . :math:`\mathrm{op.} : (3C_1 + 2C_3)`.
+
+Je prends :g:`D` sur :g:`A(AB)` tel que
+arc :math:`BPD` = arc :math:`DEF` ; je trace :g:`BD`, :g:`PQ` se coupant en :g:`O` ; je trace :g:`O(OA)`
+. . . :math:`\mathrm{op.} : (4R_1 + 2R_2 + 5C_1 + 2C_3)`, et l'on a le segment cherché :
+
+:math:`\mathrm{Op.} : (4R_1 + 2R_2 + 11C_1 + 6C_3)` ; simplicité 23 ; exactitude 15 ; 2 droites, 6 cercles.
 
 .. container:: lemoine-plate-pair
 

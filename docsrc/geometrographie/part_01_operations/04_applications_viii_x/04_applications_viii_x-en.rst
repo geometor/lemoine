@@ -6,41 +6,39 @@
 
 .. _lemoine-04_applications_viii_x-en:
 
-Applications VIII–X: Segment Transfer & Equidistant Points
-==========================================================
-
-.. rubric:: Émile Lemoine — *La Géométrographie* (English Translation, p. 6, fols. ``0022``)
+Applications VIII–X
+===================
 
 .. folio:: 0022
    :page: p. 6
 
-On page 6, Lemoine completes the ten fundamental operations with segment transfer (including :math:`n`-fold stepping), the arbitrary circle through two points, and the equidistant point primitive:
-
-**Application VIII — Lay Off a Given Length :math:`AB` on a Traced Line.**
-
-* From an *indeterminate* point of the traced line: capture :math:`AB` (:math:`2C_1`), set one leg on the line (:math:`C_2`), and mark the endpoint by an arc (:math:`C_3`):
+**VIII.** — *To lay off a given length (to be taken with the compass) upon a given line from an indeterminate point of that line or from a determined point of that line:*
 
 .. math::
 
-   \mathrm{Op.} : \left(2C_1 + C_2 + C_3\right), \qquad S = 4, \quad E = 3 \quad (0\text{ lines}, 1\text{ circle}).
+   \mathrm{Op.} : (2C_1 + C_2 + C_3) \quad \text{or} \quad \mathrm{op.} : (3C_1 + C_3).
 
-* From a *determined* point :math:`M` on the traced line: capture :math:`AB` (:math:`2C_1`), set the pivot at :math:`M` (:math:`C_1`), and sweep :math:`M(AB)` (:math:`C_3`): :math:`3C_1 + C_3` (:math:`S = 4, E = 3`).
-* **Remark on :math:`n`-fold Stepping**: To step a length :math:`AB` :math:`n` consecutive times along a traced line *without marking intermediate arcs* (merely pivoting the divider compass along the line) costs :math:`(n + 2)C_1 + C_2` (or :math:`(n + 2)C_1` from a fixed origin); if each intermediate division is marked with a small arc, the symbol becomes :math:`(n + 1)C_1 + C_2 + nC_3`. Here Lemoine contrasts the modern divider compass (:math:`S = 4`) directly against :person:`Euclid <euclid>`'s collapsing-compass transfer in *Elements* I.2–I.3 (:math:`S = 16`, :ref:`concordance-transfer-segment`).
+REMARKS. — When one has to lay off the same length :math:`M` :math:`n` times along a straight line consecutively from :g:`A` to :g:`B`, from :g:`B` to :g:`C`, etc., the construction must be interpreted in two ways, and one will choose whichever suits the case in which one is placed.
 
-**Application IX — Trace an Arbitrary Circle Passing Through Two Given Points :math:`A` and :math:`B`.**
+1° The intermediate points of division are not to be marked.
 
-To locate an arbitrary center equidistant from :math:`A` and :math:`B` without drawing the perpendicular bisector, sweep two equal-radius arcs :math:`A(R)` and :math:`B(R)` (:math:`2C_1 + 2C_3`) meeting at :math:`O`, then sweep :math:`O(R)` (:math:`C_1 + C_3`) with the **same unaltered aperture** :math:`R`:
-
-.. math::
-
-   \mathrm{Op.} : \left(3C_1 + 3C_3\right), \qquad S = 6, \quad E = 3 \quad (0\text{ lines}, 3\text{ circles}).
-
-**Application X — Place a Point :math:`C` Equidistant from Two Given Points :math:`A` and :math:`B`.**
-
-Sweep two equal-radius arcs :math:`A(R)` and :math:`B(R)` with arbitrary sufficient radius :math:`R > AB/2`; either intersection is :math:`C`:
+We shall take :math:`M` between the legs of the compass (which, in practice, will then be dividers), :math:`\mathrm{op.} : (2C_1)`; we shall lay off this length from :g:`A` to :g:`B`; we shall count :math:`\mathrm{op.} : (C_2 + C_1)` or :math:`\mathrm{op.} : (2C_1)` according as :g:`A` is indeterminate on the straight line or determined,
+and not :math:`\mathrm{op.} : (C_2 + C_3)` or :math:`\mathrm{op.} : (C_1 + C_3)`, because, *leaving* one point at :g:`B`, we shall pass to :g:`C` where we shall count :math:`\mathrm{op.} : (C_1)`; then *leaving* one point at :g:`C`, we shall pass to :g:`D` counting :math:`\mathrm{op.} : (C_1)`, etc.; we shall finally have:
 
 .. math::
 
-   \mathrm{Op.} : \left(2C_1 + 2C_3\right), \qquad S = 4, \quad E = 2 \quad (0\text{ lines}, 2\text{ circles}).
+   \mathrm{Op.} : (n + 2)C_1 + C_2 \quad \text{or} \quad \mathrm{op.} : (n + 3)C_1.
 
-If :math:`C` must lie at a *prescribed* distance :math:`l` from both :math:`A` and :math:`B`, capturing :math:`l` adds :math:`2C_1`, yielding :math:`4C_1 + 2C_3` (:math:`S = 6, E = 4`).
+We therefore summarize in :math:`\mathrm{op.} : (C_1)` the two operations :math:`(C_3 + C_1)`, because they are performed here at a single stroke; yet this is not quite the operation :math:`(C_1)` as we defined it—the assimilation seems justifiable to us in view of the question, and it avoids creating a special symbol for this particular case.
+
+2° We mark all the intermediate points of division by transferring the dry point each time to the newly marked point, etc.; there is nothing special to say, and the symbol is:
+
+.. math::
+
+   \mathrm{Op.} : \left[(n + 1)C_1 + C_2 + nC_3\right] \quad \text{or} \quad \mathrm{op.} : \left[(n + 2)C_1 + nC_3\right].
+
+**IX.** — *To draw an arbitrary circle passing through two points* :g:`A` *and* :g:`B`.
+
+I describe the two circumferences :g:`A(AC)`, :g:`B(AC)` of the same arbitrary radius, :g:`AC` being greater than :math:`\frac{AB}{2}`; I draw :g:`C(AC)` :math:`\mathrm{op.} : (3C_1 + 3C_3)`.
+
+**X.** — *To place a point* :g:`C` *at an indeterminate equal distance from two given points* :g:`A` *and* :g:`B`: :math:`\mathrm{Op.} : (2C_1 + 2C_3)`.
