@@ -10,6 +10,7 @@
 :book_subtitle: La Géométrographie, ou Art des constructions géométriques — Émile Lemoine (Pau 1892 / Paris 1893 & Scientia 1902)
 :author: Émile Lemoine
 :year: 1893
+:edition_year: 1902
 :tracks: English: index | French: title-fr
 :excerpt: Lemoine's foundational treatise establishing geometrography—the quantitative measurement of simplicity and exactitude in geometric constructions via five elementary operations across 25 atomic leaves and 11 paired archival plates.
 
