@@ -40,10 +40,10 @@ La Géométrographie
 Table des matières
 ------------------
 
-* :doc:`Partie I : Opérations et notations élémentaires (pp. 1–6) <part_01_operations/index>` — :doc:`Introduction <part_01_operations/01_introduction/01_introduction-fr>`
-* :doc:`Partie II : Constructions fondamentales d'Euclide (Problèmes XI–XXVI, pp. 7–14) <part_02_fundamental_constructions/index>` — :doc:`Problèmes XI–XVI <part_02_fundamental_constructions/05_angles_and_triangles/05_angles_and_triangles-fr>`
-* :doc:`Partie III : Cercles, tangentes, proportions et géométrie projective (Problèmes XXVII–XLVIII, FIGS. 1–9, pp. 15–36) <part_03_circles_and_tangency/index>` — :doc:`Problème XXVII <part_03_circles_and_tangency/11_incircle_xxvii/11_incircle_xxvii-fr>`
-* :doc:`Partie IV : Principes, géométrie moderne du triangle et observations diverses (Problèmes XLIX–LXIII, FIGS. 10–11, pp. 36–66) <part_04_triangle_and_reflections/index>` — :doc:`Principes <part_04_triangle_and_reflections/20_principles_and_rational_division/20_principles_and_rational_division-fr>`
+* :doc:`Partie I : Opérations et notations élémentaires (pp. 1–6) <part_01_operations/index>` — :doc:`Introduction <part_01_operations/01_introduction/fr>`
+* :doc:`Partie II : Constructions fondamentales d'Euclide (Problèmes XI–XXVI, pp. 7–14) <part_02_fundamental_constructions/index>` — :doc:`Problèmes XI–XVI <part_02_fundamental_constructions/05_angles_and_triangles/fr>`
+* :doc:`Partie III : Cercles, tangentes, proportions et géométrie projective (Problèmes XXVII–XLVIII, FIGS. 1–9, pp. 15–36) <part_03_circles_and_tangency/index>` — :doc:`Problème XXVII <part_03_circles_and_tangency/11_incircle_xxvii/fr>`
+* :doc:`Partie IV : Principes, géométrie moderne du triangle et observations diverses (Problèmes XLIX–LXIII, FIGS. 10–11, pp. 36–66) <part_04_triangle_and_reflections/index>` — :doc:`Principes <part_04_triangle_and_reflections/20_principles_and_rational_division/fr>`
 
 Apparat critique
 ----------------
