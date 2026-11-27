@@ -10,7 +10,7 @@
    :alt: Émile Lemoine Medallion
    :class: repo-medallion-hero
 
-**Émile Lemoine** (1840–1912)—co-discoverer of the symmedian point $X(6)$ and Lemoine circle—asked a disarmingly practical question: how many times do you actually set your straightedge and compass in a geometric proof? In *La Géométrographie*, he reduced every ruler-and-compass construction to five elementary operations ($R_1, R_2, C_1, C_2, C_3$), turning simplicity and exactitude into a measurable calculus.
+**Émile Lemoine** (1840–1912)—co-discoverer of the symmedian point :math:`X(6)` and Lemoine circle—asked a disarmingly practical question: how many times do you actually set your straightedge and compass in a geometric proof? In *La Géométrographie*, he reduced every ruler-and-compass construction to five elementary operations (:math:`R_1, R_2, C_1, C_2, C_3`), turning simplicity and exactitude into a measurable calculus.
 
 Books in This Collection
 ------------------------
@@ -42,9 +42,9 @@ Key Features
 
    .. container:: home-feature-card
 
-      **Five Elementary Operations ($R_1, R_2, C_1, C_2, C_3$)**
+      **Five Elementary Operations** (:math:`R_1, R_2, C_1, C_2, C_3`)
 
-      Score every construction by its exact **simplicity** $S$ and **exactitude** $E$, exposing hidden efficiencies—from Gaston Tarry's $S = 9$ parallels to a single-line Golden Section.
+      Score every construction by its exact **simplicity** :math:`S` and **exactitude** :math:`E`, exposing hidden efficiencies—from Gaston Tarry's :math:`S = 9` parallels to a single-line Golden Section.
 
    .. container:: home-feature-card
 
